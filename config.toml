@@ -1,0 +1,4 @@
+baseURL = 'https://kandasamyc.me/'
+languageCode = 'en-us'
+title = 'Kandasamy Chokkalingam'
+theme = 'kandasamyc'
