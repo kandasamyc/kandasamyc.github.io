@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>The CLI and You: A Love Story</title>
+
+		<meta name="description" content="A presentation about the CLI">
+		<meta name="author" content="Kandasamy Kandasamy Chokkalingam">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts/dist/iosevka/iosevka.min.css">
+		<link rel="stylesheet" href="/css/pres/cliandyou/reset.css">
+		<link rel="stylesheet" href="/css/pres/cliandyou/reveal.css">
+		<link rel="stylesheet" href="/css/pres/cliandyou/ksam.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="/js/pres/cliandyou/plugin/highlight/atom-one-dark.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>The CLI and you</h1>
+					<h3>A Love Story</h3>
+					<h3><strike>An Educational Story</strike></h3>
+				</section>
+				<section>
+					<h2>Overview</h2>
+					<p>We'll be making a simple TODO app (very unique)</p>
+
+					<p>We'll introduce new features/commands as we go on</p>
+
+					<p>I've included the scripts in the github repo, but I recommend you try and type it out too</p>
+				</section>
+
+				<section>
+					<h2>Why should you love the CLI?</h2>
+
+						<p class="fragment">It's everywhere</p>
+						<p class="fragment">It's powerful</p>
+						<p class="fragment">It will never leave you</p>
+				</section>
+
+				<section>
+					<h1>Who is using the CLI?</h2>
+					<h1 class="r-fit-text fragment" data-fragment-index="1">everyone<span class="fragment" data-fragment-index="2">*</span></h1>
+
+					<p class="fragment" data-fragment-index="2">*I Think</p>
+				</section>
+
+				<section>
+					<h2>Terminology</h2>
+					<p><b>Kernel</b>: Operating System Core</p>
+					<p><b>Shell</b>: OS's outermost user interface</p>
+					<p><b>Console</b>: Physical Terminal</p>
+					<p><b>Terminal</b>: Text Input/Output Environment</p>
+					<p><b>Terminal Emulator</b>: Text Input/Output Environment provided by some software program</p>
+					<p><b>Command Line Interface</b>: Some sort of text interface where commands are input and executed using <code>Return</code></p>
+				</section>
+
+				<section>
+					<h2>CLI Basics</h2>
+					<p><b>ls</b> lists files in directory</p>
+					<p><b>cd</b> changes directories (.. is the parent directory)</p>
+					<p><b>pwd</b> prints the name of the current directory</p>
+					<p><b><code>CTRL+C</code></b> kills the running command</p>
+					<p><b><code>↑</code></b> Gets the previous command</p>
+					<p><b><code>TAB</code></b> Autocompletes</p>
+				</section>
+
+				<section>
+					<h2>Running Bash Programs</h2>
+					<p>We can run commands one at a time in the CLI</p>
+					<p>We can also put them into executable files to run many</p>
+				</section>
+
+				<section>
+					<h2>Setup</h2>
+					<p>If you haven't already, fork and clone the <a href="https://github.com/kandasamyc/cliandyou">workshop repo</a></p>
+					<p>Change directories into there</p>
+					<p>Each piece of this workshop has a specific folder</p>
+					<p>You should create your own file to work in</p>
+					<p>Each folder will have an answer file too</p>
+				</section>
+
+				<section>
+					<h1>Part 1: Hello, World!</h1>
+				</section>
+
+				<section>
+					<h2><code>echo</code></h2>
+					<p><code>echo</code> prints a given string to standard output</p>
+					<pre><code class="language-bash"> &gt;&gt;&gt; echo "Hello, World!"</code></pre>
+				</section>
+
+				<section>
+					<h2>Out of the CLI, into the file</h2>
+					<p>Let's make a file called <code>part1</code></p>
+					<p>Bash files commonly have no extension but .sh is used sometimes</p>
+					<p>Run this command in the part1 directory</p>
+					<pre><code class="language-bash"> ksam@laptop:~/cliandyou/part1$ touch part1</code></pre>
+					<p><code>touch</code> creates an empty file with the given name in the current directory</p>
+				</section>
+
+				<section>
+					<h2>Out of the CLI, into the file</h2>
+					<p>Open <code>part1</code> in an editor</p>
+
+					<pre><code class="language-bash" data-trim data-line-numbers="1|3">
+							#!/bin/bash
+
+							echo "Hello, World!"
+					</code></pre>
+
+					<p>Line 1 is a <b>shebang</b> that tells the OS what interpreter to use</p>
+					<p><code class="language-bash">#!/usr/bin/env bash</code> is another common one for bash</p>
+				</section>
+
+				<section>
+					<h2>Running bash scripts</h2>
+					<p>There are two ways to run scripts, with just the path or with another command</p>
+					<p>We can type the file's name with a relative or absolute path</p>
+					<pre><code class="language-bash" data-trim data-line-numbers="">
+							ksam@laptop:~/cliandyou/part1$ ./part1
+							ksam@laptop:~/cliandyou/part1$ /path/to/cliandyou/folder/part1/part1
+					</code></pre>
+					<p>Or we can use a shell command like <code>bash</code> or <code>sh</code></p>
+					<pre><code class="language-bash" data-trim data-line-numbers="">
+							ksam@laptop:~/cliandyou/part1$ bash part1
+							ksam@laptop:~/cliandyou/part1$ sh part1
+							ksam@laptop:~/cliandyou/part1$ bash /path/to/cliandyou/folder/part1/part1
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>A Small Issue</h2>
+					<p>If you tried the path method above, it doesn't work (yet)</p>
+					<pre><code>bash: ./part1: Permission denied</code></pre>
+					<p>All files have permissions that dicatate if they can be read, written, or executed by the owner, group, or everyone</p>
+					<pre><code class="language-bash" data-trim>
+							ksam@laptop:~/cliandyou/part1$ ls -l
+							total 1
+							-rw-rw-r-- 1 ksam ksam  35 Nov 25 18:14 part1
+					</code></pre>
+					<p><code>ls -l</code> lists all the files (non-hidden) with more info</p>
+					<p>We can solve this by adding execution permissions</p>
+					<pre><code class="language-bash" data-trim>ksam@laptop:~/cliandyou/part1$ chmod +x</code></pre>
+				</section>
+
+				<section>
+					<h1>Part 2: Conditionals, Functions, and IO</h1>
+				</section>
+
+				<section>
+					<h2>Details, Details</h2>
+					<p>We'll have 4 actions</p>
+					<p>add: Adds a task with a name, due date and category</p>
+					<p>info: lists all tasks that are done, pending or all</p>
+					<p>delete: Removes a task with a given name</p>
+					<p>progress: Moves a task from todo -> pending -> done</p>
+				</section>
+
+				<section>
+					<h2>Positional Parameters</h2>
+					<pre><code class="language-bash">ksam@laptop:~/cliandyou/part2$ part2 add "Get Eggs" "2021-12-02" "shopping"</code></pre>
+					<p>We can get each of these with a <b>Positional Parameter</b> in the form of <code>$number</code></p>
+					<p>Each thing separated by a space counts as its own argument</p>
+					<p>Counting starts from 1, 0 is the command run</p>
+					<pre>
+						<code class="language-bash" data-line-numbers="" data-trim>
+							echo $1 # prints add
+							echo $2 # prints Get Eggs
+							echo $3 # prints 2021-12-02
+							echo $4 # prints shopping
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>If,</h2>
+					<p>If the command is add, print a</p>
+					<pre>
+						<code class="language=bash" data-line-numbers="" data-trim>
+							if [ $1 == "add" ]
+							then
+							    echo "a"
+							fi
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Else if,</h2>
+					<p>Otherwise, check if its any of the other commands and print their first letter</p>
+					<pre>
+						<code class="language-bash" data-line-numbers="" data-trim>
+							if [ $1 == "add" ]; then
+							    echo "a"
+							elif [ $1 == "info" ]; then
+							    echo "i"
+							elif [ $1 == "delete" ]; then
+							    echo "d"
+							elif [ $1 == "progress" ]; then
+							    echo "p"
+							fi
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>else.</h2>
+					<p>Else, print a warning</p>
+					<pre>
+						<code class="language-bash" data-line-numbers="" data-trim>
+							if [ $1 == "add" ]; then
+							    echo "a"
+							elif [ $1 == "info" ]; then
+							    echo "i"
+							elif [ $1 == "delete" ]; then
+							    echo "d"
+							elif [ $1 == "progress" ]; then
+							    echo "p"
+							else
+							    echo "$1 is not a valid command"
+							fi
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Inception</h2>
+					<p>Try not giving a command. What happens?</p>
+					<pre>
+						<code class="language-plaintext" data-trim>
+							./part2test: line 3: [: ==: unary operator expected
+							./part2test: line 5: [: ==: unary operator expected
+							./part2test: line 7: [: ==: unary operator expected
+							./part2test: line 9: [: ==: unary operator expected
+							is not a valid command
+						</code>
+					</pre>
+					<p>There is no such parameter, so bash gets confused</p>
+					<pre class="fragment">
+						<code class="language-bash" data-line-numbers="" data-trim>
+							if [ -n $1 ]; then
+							    if [ $1 == "add" ]; then
+							        echo "a"
+							    elif [ $1 == "info" ]; then
+							        echo "i"
+							    elif [ $1 == "delete" ]; then
+							        echo "d"
+							    elif [ $1 == "progress" ]; then
+							        echo "p"
+							    else
+							        echo "$1 is not a valid command"
+							    fi
+							else
+							    echo "No command given"
+							fi
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Switching It Up</h2>
+					<p>If statements are nice, but a bit messy</p>
+					<p>Switch cases fit our use a bit better</p>
+					<pre class="fragment">
+						<code class="language-bash" data-line-numbers="" data-trim>
+							if [ -n $1 ]; then
+							    case $1 in
+							        "add")
+							             echo "a";;
+							         "info")
+							             echo "i";;
+							          "delete")
+							             echo "d";;
+							          "progress")
+							             echo "p";;
+							          "*")
+							             echo "$1 is not a valid command";;
+							    esac
+							else
+							    echo "No command given"
+							fi
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Everybody loves bash functions</h2>
+					<p>We can write in the if statement, but that's messy</p>
+					<pre class="fragment">
+						<code class="language-bash" data-trim data-line-numbers="1-15|16-32">
+							add () {
+							    echo "a";
+							}
+
+							info () {
+							    echo "i";
+							}
+
+							delete () {
+							    echo "d";
+							}
+
+							progress () {
+							    echo "p";
+							}
+
+							if [ -n $1 ]; then
+							    case $1 in
+							        "add")
+							             add ;;
+							         "info")
+							             info ;;
+							          "delete")
+							             delete ;;
+							          "progress")
+							             progress ;;
+							          "*")
+							             echo "$1 is not a valid command";;
+							    esac
+							else
+							    echo "No command given"
+							fi
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>and their parameters</h2>
+					<p>Let's pass parameters</p>
+					<pre class="fragment">
+						<code class="language-bash" data-trim data-line-numbers="1-15|16-32">
+							add () {
+							    echo $1 $2 $3;
+							}
+
+							info () {
+							    echo $1;
+							}
+
+							delete () {
+							    echo $1;
+							}
+
+							progress () {
+							    echo $1;
+							}
+
+							if [ -n $1 ]; then
+							    case $1 in
+							        "add")
+							             add $2 $3 $4;;
+							         "info")
+							             info $2;;
+							          "delete")
+							             delete $2;;
+							          "progress")
+							             progress $2;;
+							          "*")
+							             echo "$1 is not a valid command";;
+							    esac
+							else
+							    echo "No command given"
+							fi
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h1>Part 3: awk for fun and profit</h1>
+				</section>
+
+				<section>
+					<h2>Details 2: Electric Boogaloo</h2>
+					<p>Let's store the information as a csv file</p>
+				</section>
+
+				<section>
+					<h2>Redirects</h2>
+				</section>
+
+				<section>
+					<h2>Intro to awk</h2>
+				</section>
+
+				<section>
+					<h2>More awk</h2>
+				</section>
+
+				<section>
+					<h2>A little more awk</h2>
+				</section>
+
+				<section>
+					<h2>God Bless Grep</h2>
+				</section>
+
+				<section>
+					<h1>Part 4: We're almost done I swear</h1>
+				</section>
+
+				<section>
+					<h2>Review</h2>
+					<p>We've learned about bash scripting</p>
+					<p>We've made a super simple todo app</p>
+					<p>The CLI loves you</p>
+				</section>
+
+				<section>
+					<h2>Some practical snippets</h2>
+					<pre>
+						<code class="language-bash" data-trim data-line-numbers-"">
+							export HOST_IP="$(ip route |awk '/^default/{print $3}')"
+						</code>
+					</pre>
+					<p class="fragment">Get the ip of the current system with awk</p>
+					<pre>
+						<code class="language-bash" data-trim data-line-numbers-"">
+							alias sd="sudo docker"
+							sd exec -it $(sd ps | awk 'NR == 2 { print $1 }') /bin/bash
+						</code>
+					</pre>
+					<p class="fragment">Launch the nth running docker container</p>
+				</section>
+
+				<section>
+					<h2>Where do we go from here?</h2>
+					<p>Look through more bash syntax</p>
+					<p>Add other features</p>
+					<p>Mess around on your own with the CLI</p>
+				</section>
+
+				<section>
+					<h1>Fin.</h1>
+	 			</section>
+
+			</div>
+
+		</div>
+
+		<script src="/js/pres/cliandyou/reveal.js"></script>
+		<script src="/js/pres/cliandyou/plugin/notes/notes.js"></script>
+		<script src="/js/pres/cliandyou/plugin/search/search.js"></script>
+		<script src="/js/pres/cliandyou/plugin/highlight/highlight.js"></script>
+
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealNotes, RevealSearch, RevealHighlight ]
+			});
+
+		</script>
+<style>
+  .reveal > .slides > section > section {
+    transform-style: flat;
+  }
+</style>
+	</body>
+</html>
