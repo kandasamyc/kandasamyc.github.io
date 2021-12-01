@@ -349,7 +349,6 @@
 							}
 
 							info () {
-							    echo $1;
 							}
 
 							delete () {
@@ -365,7 +364,7 @@
 							        "add")
 							             add $2 $3 $4;;
 							         "info")
-							             info $2;;
+							             info;;
 							          "delete")
 							             delete $2;;
 							          "progress")
@@ -512,7 +511,7 @@
 				<section>
 					<h2>Elementary, my dear Watson!</h2>
 					<p>grep helps us search through a file to find occurrences of characters</p>
-					<pre><code>ksam@laptop:~/cliandyou/part3$ grep -i nice</code></pre>
+					<pre><code>ksam@laptop:~/cliandyou/part3$ grep -i nice lotsoftodos.txt</code></pre>
 				</section>
 
 				<section>
