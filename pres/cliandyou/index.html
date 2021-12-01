@@ -32,8 +32,8 @@
 			<div class="slides">
 				<section>
 					<h1>The CLI and you</h1>
-					<h3>A Love Story</h3>
-					<h3><strike>An Educational Story</strike></h3>
+					<h3><strike>A Love Story</strike></h3>
+					<h3>An Educational Story</h3>
 				</section>
 				<section>
 					<h2>Overview</h2>
@@ -386,27 +386,133 @@
 
 				<section>
 					<h2>Details 2: Electric Boogaloo</h2>
-					<p>Let's store the information as a csv file</p>
+					<p>How should we store data?</p>
+					<p class="fragment" data-fragment-index="1">CSV format</p>
+					<p class="fragment" data-fragment-index="1">We need to store an id, a name, a due date, a category, and a state</p>
+					<pre class="fragment" data-fragment-index="1">
+						<code class="language-plaintext" data-trim data-line-numbers="">
+							1,Get Eggs,2021-12-02,shopping,todo
+							2,Get Milk,2021-12-02,shopping,pending
+						</code>
+					</pre>
+					<p class="fragment" data-fragment-index="1">It'll be in a file in the current directory called todos.txt</p>
 				</section>
 
 				<section>
 					<h2>Redirects</h2>
+					<p>When adding a task, we need to output to the file</p>
+					<p><code>&gt;</code> overwrites, <code>&gt;&gt;</code> appends</p>
+					<p><code>let</code> allows us to do math</p>
+					<pre>
+						<code class="language-bash" data-trim data-line-numbers="">
+							add () {
+							    let taskid+=1
+								echo "$taskid,$1,$2,$3,todo" >> ./todos.txt
+							}
+						</code>
+					</pre>
+					<p>taskid is the current highest taskid</p>
 				</section>
 
 				<section>
 					<h2>Intro to awk</h2>
+					<p>awk is a row and column processor</p>
+					<p>We can define actions to be taken on every row and column to filter, modify, and process them</p>
+					<p>The basic format of an awk command is</p>
+					<pre>
+						<code class="language-plaintext" data-trim>
+							awk -F "separator" ' {action to perform on every row} file-to-act-on.extension'
+						</code>
+					</pre>
 				</section>
 
 				<section>
 					<h2>More awk</h2>
+					<p>In awk, the action defined in the main braces is run on every row</p>
+					<p>You can access each column with $1, $2, $3...</p>
+					<p><code>print</code> will print to console</p>
 				</section>
 
 				<section>
 					<h2>A little more awk</h2>
+					<p>You can pass variables with the <code>-v</code> argument</p>
+					<pre>
+						<code class="language-plaintext" data-trim>
+							awk -v myvar=$1 '{ print myvar }'
+						</code>
+					</pre>
+					<p>This prints the value of <code>$1</code>, whatever it may be</p>
+					<p>We can also write to a file by echoing awk's output and redirecting to a file</p>
+					<pre>
+						<code class="language-plaintext" data-trim>
+							echo "$(awk command)" > file
+						</code>
+					</pre>
+					<p><code>$(command)</code> gets the output of executing said command</p>
 				</section>
 
 				<section>
-					<h2>God Bless Grep</h2>
+					<h2>info</h2>
+					<p>How? <span class="fragment" data-fragment-index="1">printf/formatted printing</code></p>
+					<p class="fragment" data-fragment-index="1">printf allows us to format input (%{space}{type})</p>
+					<p class="fragment" data-fragment-index="1">It auto pads input</p>
+					<pre class="fragment" data-fragment-index="2">
+						<code class="language-bash" data-line-numbers="" data-trim>
+							info () {
+							    echo "All tasks"
+							    echo "$(awk -F "," '{printf("|%1s|%+15s|%12s|%11s|%10s|\n", $1, $2, $3, $4, $5)}' todos.txt)"
+							}
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>delete</h2>
+					<p>How? <span class="fragment" data-fragment-index="1">Filter its id out</span></p>
+					<p class="fragment" data-fragment-index="1"><code>'{ if (condition) { action } }'</code></p>
+					<pre class="fragment" data-fragment-index="2">
+						<code class="language-bash" data-line-numbers="" data-trim>
+							delete () {
+							    echo "$(awk -F "," -v taskid=$1 '{ if ($1 != taskid ) { print }}' todos.txt)" > ./todos.txt
+							}
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>progress</h2>
+					<p>How? <span class="fragment" data-fragment-index="1">Filter by id, and change state based on current one</span></p>
+					<p class="fragment" data-fragment-index="1"><code>'{ if ($1 == taskid) { if (state) {new state} }'</code></p>
+					<pre class="fragment" data-fragment-index="2">
+						<code class="language-bash" data-line-numbers="" data-trim>
+							progress () {
+							    echo "$(awk -F "," -v taskid=$1 '{ {OFS = FS} if ( $1 == taskid ) { \
+							    if ($5 == "todo" ) {\
+							    $5="pending" \
+							    } else if ( $5 == "pending" ) {\
+							    $5="done" }\
+							    };\
+							    print $0}' todos.txt)" > ./todos.txt
+							}
+						</code>
+					</pre>
+					<p class="fragment" data-fragment-index="2"><code>print $0</code> prints the whole line</p>
+					<p class="fragment" data-fragment-index="2"><code>{OFS = FS}</code> prints our separators</p>
+				</section>
+
+				<section>
+					<h2>Detective Work</h2>
+					<p>Say we want to use another, older file</p>
+					<pre><code class="language-bash">ksam@laptop:~/cliandyou/part3$ mv lotsoftodos.txt todos.txt</code></pre>
+					<p>If we run info, and scroll down, we see something strange</p>
+					<pre><code class="language-plaintext">|nice|    well|     this is|  weird.|2021-12-02|</code></pre>
+					<p>How can we easily inspect the file?</p>
+				</section>
+
+				<section>
+					<h2>Elementary, my dear Watson!</h2>
+					<p>grep helps us search through a file to find occurrences of characters</p>
+					<pre><code>ksam@laptop:~/cliandyou/part3$ grep -i nice</code></pre>
 				</section>
 
 				<section>
@@ -448,6 +554,10 @@
 					<h1>Fin.</h1>
 	 			</section>
 
+				<section data-visibility="uncounted">
+					<p>Made with <3 and Reveal.js</p>
+					<p>By Kandasamy Chokkalingam</p>
+				</section>
 			</div>
 
 		</div>
