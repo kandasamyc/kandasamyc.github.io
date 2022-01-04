@@ -84,7 +84,7 @@ paginate = 5
     [[languages.en.menu.main]]
       identifier = "wiki"
       name = "Wiki"
-      url = "/wiki/index"
+      url = "/wiki/index/"
       weight = 4
     [[languages.en.menu.main]]
       identifier = "contact"
