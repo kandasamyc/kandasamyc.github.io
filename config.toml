@@ -1,7 +1,6 @@
 baseURL = 'https://kandasamyc.me/'
 languageCode = 'en-us'
 title = 'Kandasamy Chokkalingam'
-# theme = 'kandasamyc'
 theme = 'terminal'
 paginate = 5
 
@@ -10,7 +9,6 @@ paginate = 5
   tag = 'tags'
 
 [params]
-  startID = 0
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -19,7 +17,7 @@ paginate = 5
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -37,7 +35,7 @@ paginate = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = true
+  #showLastUpdated = true
   enableGitInfo = true
 
   # set a custom favicon (default is a `themeColor` square)
@@ -72,7 +70,24 @@ paginate = 5
       identifier = "about"
       name = "About"
       url = "/about"
+      weight = 1
     [[languages.en.menu.main]]
-      identifier = "projects"
-      name = "Projects"
-      url = "/projects"
+      identifier = "archive"
+      name = "Archive"
+      url = "/archive"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "portfolio"
+      name = "Portfolio"
+      url = "/portfolio"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "wiki"
+      name = "Wiki"
+      url = "/wiki/index"
+      weight = 4
+    [[languages.en.menu.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/contact"
+      weight = 5
