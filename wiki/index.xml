@@ -4476,9 +4476,10 @@ a custom order.&lt;/p>
 &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description>An entry point into the wiki</description><content>&lt;p>This page serves as an entry point to the rest of the Compendium. Below are some
-broad categories that notes may or may not fit into. If you&amp;rsquo;d like more info on
-how the Compendium is organized, check out &lt;a href="https://kandasamyc.me/wiki/20210627222603-organizational_system/">Organizational System&lt;/a>&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description>An entry point into the wiki</description><content>&lt;h2 id="information">Information&lt;/h2>
+&lt;p>This page serves as an entry point to the rest of my Wiki. I use this to store and access notes I take on various topics, classes or readings.&lt;/p>
+&lt;p>If you&amp;rsquo;d like more info on how this is organized, check out &lt;a href="https://kandasamyc.me/wiki/20210627222603-organizational_system/">Organizational System&lt;/a>.&lt;/p>
+&lt;h2 id="index">Index&lt;/h2>
 &lt;ul>
 &lt;li>Organization
 &lt;ul>
@@ -4496,7 +4497,7 @@ how the Compendium is organized, check out &lt;a href="https://kandasamyc.me/wik
 &lt;li>Bash&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Learning
+&lt;li>Courses
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/sans-foundations/">SANS Foundations&lt;/a>&lt;/li>
 &lt;/ul>
