@@ -86,8 +86,3 @@ paginate = 5
       name = "Wiki"
       url = "/wiki/index/"
       weight = 4
-    [[languages.en.menu.main]]
-      identifier = "contact"
-      name = "Contact"
-      url = "/contact"
-      weight = 5
