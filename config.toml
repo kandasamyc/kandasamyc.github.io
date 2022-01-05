@@ -9,6 +9,7 @@ paginate = 5
   tag = 'tags'
 
 [params]
+  indexPortfolio = true
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -17,7 +18,7 @@ paginate = 5
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 5
+  showMenuItems = 4
 
   # show selector to switch language
   showLanguageSelector = false
@@ -69,20 +70,20 @@ paginate = 5
     [[languages.en.menu.main]]
       identifier = "about"
       name = "About"
-      url = "/about"
+      url = "/"
       weight = 1
     [[languages.en.menu.main]]
-      identifier = "archive"
-      name = "Archive"
-      url = "/archive"
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts"
       weight = 2
-    [[languages.en.menu.main]]
-      identifier = "portfolio"
-      name = "Portfolio"
-      url = "/portfolio"
-      weight = 3
     [[languages.en.menu.main]]
       identifier = "wiki"
       name = "Wiki"
       url = "/wiki/index/"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/#contact"
       weight = 4

@@ -1,6 +1,6 @@
 +++
-title = "Beginnings"
-date = "2022-01-03T17:27:29-05:00"
+title = "Education"
+date = "2022-01-05T11:17:56-05:00"
 author = "ksam"
 authorTwitter = "" #do not include @
 cover = ""
@@ -9,5 +9,5 @@ keywords = []
 description = ""
 showFullContent = false
 readingTime = true
-draft = true
+weight = 5
 +++
