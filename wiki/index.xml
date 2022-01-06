@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wikis on Kandasamy Chokkalingam</title><link>https://kandasamyc.me/wiki/</link><description>Recent content in Wikis on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://kandasamyc.me/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
@@ -4476,13 +4476,10 @@ a custom order.&lt;/p>
 &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description>An entry point into the wiki</description><content>&lt;h2 id="information">Information&lt;/h2>
-&lt;p>This page serves as an entry point to the rest of my Wiki. I use this to store and access notes I take on various topics, classes or readings.&lt;/p>
-&lt;p>If you&amp;rsquo;d like more info on how this is organized, check out &lt;a href="https://kandasamyc.me/wiki/20210627222603-organizational_system/">Organizational System&lt;/a>.&lt;/p>
-&lt;h2 id="index">Index&lt;/h2>
-&lt;ul>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description>An entry point into the wiki</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
+&lt;li>&lt;a href="https://kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/links/">Links&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -4520,4 +4517,4 @@ a custom order.&lt;/p>
 programming paradigms.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/haskell-types/">Haskell Types&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Organizational System</title><link>https://kandasamyc.me/wiki/20210627222603-organizational_system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/20210627222603-organizational_system/</guid><description/><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item></channel></rss>
+&lt;/ul></content></item><item><title>Organizational System</title><link>https://kandasamyc.me/wiki/organizational-system/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/organizational-system/</guid><description>How this wiki is organized</description><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item></channel></rss>
