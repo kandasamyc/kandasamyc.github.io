@@ -1,14 +1,14 @@
 +++
-title = "Projects"
-date = "2022-01-05T11:17:49-05:00"
+title = "FIRST Robotics Club"
+date = "2022-01-05T19:11:09-05:00"
 author = "ksam"
 authorTwitter = "" #do not include @
 cover = ""
-tags = []
+tags = ["robotics", "leadership"]
 keywords = []
 description = ""
 showFullContent = false
-readingTime = true
+readingTime = false
 weight = 2
-showMore = true
 +++
+

@@ -1,14 +1,13 @@
 +++
-title = "Experience"
-date = "2022-01-05T11:17:39-05:00"
+title = "Scholaris"
+date = "2022-01-05T19:10:37-05:00"
 author = "ksam"
 authorTwitter = "" #do not include @
 cover = ""
-tags = []
+tags = ["python", "cli"]
 keywords = []
 description = ""
 showFullContent = false
-readingTime = true
-weight = 3
-showMore = true
+readingTime = false
+weight = 4
 +++

@@ -1,14 +1,13 @@
 +++
-title = "Experience"
-date = "2022-01-05T11:17:39-05:00"
+title = "C4 Website"
+date = "2022-01-05T19:10:48-05:00"
 author = "ksam"
 authorTwitter = "" #do not include @
 cover = ""
-tags = []
+tags = ["web-dev", "gatsby", "frontend"]
 keywords = []
 description = ""
 showFullContent = false
-readingTime = true
+readingTime = false
 weight = 3
-showMore = true
 +++
