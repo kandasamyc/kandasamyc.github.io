@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>backend on Kandasamy Chokkalingam</title><link>https://kandasamyc.me/tags/backend/</link><description>Recent content in backend on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 19:10:24 -0500</lastBuildDate><atom:link href="https://kandasamyc.me/tags/backend/index.xml" rel="self" type="application/rss+xml"/><item><title>Scouting Data Ingest</title><link>https://kandasamyc.me/projects/scouting-data-ingest/</link><pubDate>Wed, 05 Jan 2022 19:10:24 -0500</pubDate><guid>https://kandasamyc.me/projects/scouting-data-ingest/</guid><description>Backend Frontend Event Simulator Links</description><content>&lt;h2 id="backend">Backend&lt;/h2>
-&lt;h2 id="frontend">Frontend&lt;/h2>
-&lt;h2 id="event-simulator">Event Simulator&lt;/h2>
-&lt;h3 id="links">Links&lt;/h3></content></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>backend on Kandasamy Chokkalingam</title><link>https://kandasamyc.me/tags/backend/</link><description>Recent content in backend on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 19:10:24 -0500</lastBuildDate><atom:link href="https://kandasamyc.me/tags/backend/index.xml" rel="self" type="application/rss+xml"/><item><title>Scouting Data Ingest</title><link>https://kandasamyc.me/projects/scouting-data-ingest/</link><pubDate>Wed, 05 Jan 2022 19:10:24 -0500</pubDate><guid>https://kandasamyc.me/projects/scouting-data-ingest/</guid><description>Summary Designing and engineering a solution to ingest and analyze robotics data from many sources in real-time Constructed and deployed a Python backend with Pandas and Numpy to AWS EC2 Developed a REST API to interface a web app with a MySQL database hosted with AWS Built a web app interface using Flask and Bulma to view and interact with analyzed data Background In high school, I participated in the FIRST Robotics Competition (FRC).</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Designing and engineering a solution to ingest and analyze robotics data from many sources in real-time&lt;/li>
+&lt;li>Constructed and deployed a Python backend with Pandas and Numpy to AWS EC2&lt;/li>
+&lt;li>Developed a REST API to interface a web app with a MySQL database hosted with AWS&lt;/li>
+&lt;li>Built a web app interface using Flask and Bulma to view and interact with analyzed data&lt;/li>
+&lt;/ul>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>In high school, I participated in the &lt;a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics Competition&lt;/a> (FRC). The competition consists of multiple matches where two alliances of 3 robots, each from different teams, compete. We wanted to collect data on each alliance&amp;rsquo;s and &lt;span class="sidenote">
+&lt;label class="sidenote-label" for="each-teams">each team&amp;#39;s&lt;/label>
+&lt;input class="sidenote-checkbox" type="checkbox" id="each-teams">&lt;/input>
+&lt;span class="sidenote-content">
+While an alliance loses or wins together, alliances are random and vary, so we want to focus on team specific information.
+&lt;/span>
+&lt;/span>
+performance to come up with a better strategy for each match.&lt;/p>
+&lt;p>Our goal was to design a tool to take data collected from our team members scouting matches and from &lt;a href="https://www.thebluealliance.com">The Blue Alliance&lt;/a>, a data source that collection data per match, and validate, store, and perform calculations on it. We wanted to leave analysis to members while still performing calculations of certain metrics to provide other insights.&lt;/p>
+&lt;h2 id="implementation">Implementation&lt;/h2>
+&lt;h3 id="backend">Backend&lt;/h3>
+&lt;p>The backend consists of a python application that is responsible for ingesting the data from multiple sources, validating data from one source against another, calculating common metrics and other performance metrics, and storing it in a external MySQL database. Numpy and Pandas were used to perform calculations and operations on the data and SQLAlchemy (specifically their ORM interface) was used to store and access data.&lt;/p>
+&lt;p>For competitions, the backend is deployed to an AWS EC2 instance, and the database is hosted on AWS RDS.&lt;/p>
+&lt;h3 id="frontend">Frontend&lt;/h3>
+&lt;p>In addition to the backend for data processing, a frontend was built to more easily input data, view data, and manage settings and configuration.&lt;/p>
+&lt;p>Initially, scouts input data into a google form, and data was ingested from the connected sheet. However, we ran into issues with certain form fields not being efficient enough to input to. For example, tallying game pieces scored had to either be manually re-entered or the scout would have to hit small buttons. To fix this, I implemented our own form to improve the scouts' experience.&lt;/p>
+&lt;p>To properly serve the frontend, an API was constructed with Flask and interfaces with the external database. The frontend also includes the capability to view data so that members can quickly look up statistics or other data points to build an effective strategy. Members can also adjust settings directly from the frontend interface as well.&lt;/p>
+&lt;h2 id="links">Links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/team4099/scouting-data-ingest">GitHub&lt;/a>&lt;/li>
+&lt;/ul></content></item></channel></rss>

@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cli on Kandasamy Chokkalingam</title><link>https://kandasamyc.me/tags/cli/</link><description>Recent content in cli on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 19:10:37 -0500</lastBuildDate><atom:link href="https://kandasamyc.me/tags/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>Scholaris</title><link>https://kandasamyc.me/projects/scholaris/</link><pubDate>Wed, 05 Jan 2022 19:10:37 -0500</pubDate><guid>https://kandasamyc.me/projects/scholaris/</guid><description/><content/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cli on Kandasamy Chokkalingam</title><link>https://kandasamyc.me/tags/cli/</link><description>Recent content in cli on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 19:10:37 -0500</lastBuildDate><atom:link href="https://kandasamyc.me/tags/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>Scholaris</title><link>https://kandasamyc.me/projects/scholaris/</link><pubDate>Wed, 05 Jan 2022 19:10:37 -0500</pubDate><guid>https://kandasamyc.me/projects/scholaris/</guid><description>Summary Developed a simple CLI application to get my grade information from an API and calculate different grades Background In my senior year of high school, my school district changed their grade displaying system. The new one was less than ideal and old apps to calculate and display grade information no longer worked. When I found out that the new system had an API, I decided to make my own version.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Developed a simple CLI application to get my grade information from an API and calculate different grades&lt;/li>
+&lt;/ul>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>In my senior year of high school, my school district changed their grade displaying system. The new one was less than ideal and old apps to calculate and display grade information no longer worked. When I found out that the new system had an API, I decided to make my own version.&lt;/p>
+&lt;h2 id="implementation">Implementation&lt;/h2>
+&lt;p>I had just learned about &lt;a href="https://github.com/Textualize/rich">Rich&lt;/a> and wanted to &lt;span class="sidenote">
+&lt;label class="sidenote-label" for="try-it-out">try it out&lt;/label>
+&lt;input class="sidenote-checkbox" type="checkbox" id="try-it-out">&lt;/input>
+&lt;span class="sidenote-content">
+Rich is amazing to use. If you haven't tried it out, I recommend you do!
+&lt;/span>
+&lt;/span>
+so I used that to make the CLI. I used the StudentVue library to get grade data.&lt;/p>
+&lt;p>The main functionality I wanted to implement was modifying the grades of current assignment and being able to add future assignments and see what my grade would be. It was fairly easy to do us and thanks to Rich&amp;rsquo;s color support, I was able to make using it clear.&lt;/p>
+&lt;h2 id="links">Links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/kandasamyc/scholaris">GitHub&lt;/a>&lt;/li>
+&lt;/ul></content></item></channel></rss>
