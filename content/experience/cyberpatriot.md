@@ -12,3 +12,9 @@ showFullContent = false
 readingTime = false
 weight = 4
 +++
+
+## Summary
+
+- Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms
+- Studied industry standard networking security concepts
+- Applied networking security concepts in a competition environment
