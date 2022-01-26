@@ -50,7 +50,10 @@ paginate = 5
   oneHeadingSize = false
 
 [permalinks]
-  posts = "/:filename"
+  posts = "/:slug"
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [languages]
   [languages.en]
