@@ -157,6 +157,17 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>&lt;a href="mailto:contact@kandasamyc.me">Email&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>CMSC216</title><link>https://kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc216/</guid><description>Statements Well Defined Have Meaning Either True or False Logical Operators Negation (not): \(\neg\) or \(\sim\) Conjunction (and): \(\land\) Disjunction (or): \(\lor\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
+&lt;ul>
+&lt;li>Well Defined&lt;/li>
+&lt;li>Have Meaning&lt;/li>
+&lt;li>Either True or False&lt;/li>
+&lt;/ul>
+&lt;h2 id="logical-operators">Logical Operators&lt;/h2>
+&lt;ul>
+&lt;li>Negation (not): \(\neg\) or \(\sim\)&lt;/li>
+&lt;li>Conjunction (and): \(\land\)&lt;/li>
+&lt;li>Disjunction (or): \(\lor\)&lt;/li>
 &lt;/ul></content></item><item><title>MATH246H</title><link>https://kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
 Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
 Order of DEs The highest derivative that appears in the DE.
@@ -4654,7 +4665,7 @@ a custom order.&lt;/p>
 &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H</description><content>&lt;ul>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC216</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
@@ -4692,6 +4703,7 @@ a custom order.&lt;/p>
 &lt;li>Spring 2022
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
