@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://kandasamyc.me/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://kandasamyc.me/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>MATH246H</title><link>https://kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/math246h/</guid><description>Notes from UMD's MATH246H class</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
+&lt;h3 id="definition-of-des">Definition of DEs&lt;/h3>
+&lt;p>Some combination of one or more unknown functions with respect to one or more independent variable and those variables&lt;/p>
+&lt;h3 id="ordinary-des">Ordinary DEs&lt;/h3>
+&lt;p>A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE&lt;/p>
+&lt;h3 id="order-of-des">Order of DEs&lt;/h3>
+&lt;p>The highest derivative that appears in the DE.&lt;/p>
+&lt;h3 id="linearity">Linearity&lt;/h3>
+&lt;p>A DE is linear if there is no function composition on the unknown functions or their derivatives.&lt;/p>
+&lt;h3 id="systems-of-des">Systems of DEs&lt;/h3>
+&lt;ul>
+&lt;li>It is a system of ODEs if there is only one unknown variable. A system that does not satisfy this is a system of PDEs.&lt;/li>
+&lt;li>The order of a system is the highest order of all of its equations.&lt;/li>
+&lt;li>A system is linear if every equation in it is linear.&lt;/li>
+&lt;/ul></content></item><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
@@ -1304,7 +1318,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>&lt;code>finally&lt;/code>&lt;/p>
@@ -1570,7 +1584,7 @@
 &lt;li>Tree with at most two children per element&lt;/li>
 &lt;/ul>
 &lt;h4 id="algorithms">Algorithms&lt;/h4>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Deletion&lt;/p>
@@ -1593,7 +1607,7 @@
 &lt;/ul>
 &lt;h3 id="tree-traversals">Tree Traversals&lt;/h3>
 &lt;h4 id="depth-first">Depth First&lt;/h4>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Preorder&lt;/p>
@@ -1602,7 +1616,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Inorder&lt;/p>
@@ -1611,7 +1625,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Postorder&lt;/p>
@@ -2480,7 +2494,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>SIEM (Both)&lt;/li>
 &lt;li>ELK (Elasticsearch, Logstash, Kibana)&lt;/li>
 &lt;/ul>
-&lt;h3 id="look-into-rsyslog">&lt;!-- raw HTML omitted -->TODO&lt;!-- raw HTML omitted --> Look into Rsyslog&lt;/h3>
+&lt;h3 id="look-into-rsyslog">&lt;span class="org-todo todo TODO">TODO&lt;/span> Look into Rsyslog&lt;/h3>
 &lt;h2 id="email-servers">Email Servers&lt;/h2>
 &lt;ul>
 &lt;li>Process
@@ -2867,7 +2881,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Morality should address issues of caring and empathy and relationships between people rather than only or primarily the rational decisions of solitary moral agents. &lt;!-- raw HTML omitted -->
+&lt;p>Morality should address issues of caring and empathy and relationships between people rather than only or primarily the rational decisions of solitary moral agents. &lt;br />
 &amp;mdash;Virginia Held&lt;/p>
 &lt;/blockquote>
 &lt;ul>
@@ -4509,6 +4523,11 @@ a custom order.&lt;/p>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/inag110/">INAG110&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/hnuh229t/">HNUH229T&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/phys199m/">PHYS199M&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Spring 2022
+&lt;ul>
+&lt;li>&lt;a href="https://kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>

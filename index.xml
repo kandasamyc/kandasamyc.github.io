@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://kandasamyc.me/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 19:11:27 -0500</lastBuildDate><atom:link href="https://kandasamyc.me/index.xml" rel="self" type="application/rss+xml"/><item><title>National Cyber Scholarship Competition</title><link>https://kandasamyc.me/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://kandasamyc.me/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://kandasamyc.me/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kandasamyc.me/index.xml" rel="self" type="application/rss+xml"/><item><title>National Cyber Scholarship Competition</title><link>https://kandasamyc.me/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://kandasamyc.me/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux&lt;/li>
 &lt;li>Learned about various cybersecurity techniques and topics&lt;/li>
@@ -157,6 +157,23 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>&lt;a href="mailto:contact@kandasamyc.me">Email&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>MATH246H</title><link>https://kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
+Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
+Order of DEs The highest derivative that appears in the DE.
+Linearity A DE is linear if there is no function composition on the unknown functions or their derivatives.</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
+&lt;h3 id="definition-of-des">Definition of DEs&lt;/h3>
+&lt;p>Some combination of one or more unknown functions with respect to one or more independent variable and those variables&lt;/p>
+&lt;h3 id="ordinary-des">Ordinary DEs&lt;/h3>
+&lt;p>A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE&lt;/p>
+&lt;h3 id="order-of-des">Order of DEs&lt;/h3>
+&lt;p>The highest derivative that appears in the DE.&lt;/p>
+&lt;h3 id="linearity">Linearity&lt;/h3>
+&lt;p>A DE is linear if there is no function composition on the unknown functions or their derivatives.&lt;/p>
+&lt;h3 id="systems-of-des">Systems of DEs&lt;/h3>
+&lt;ul>
+&lt;li>It is a system of ODEs if there is only one unknown variable. A system that does not satisfy this is a system of PDEs.&lt;/li>
+&lt;li>The order of a system is the highest order of all of its equations.&lt;/li>
+&lt;li>A system is linear if every equation in it is linear.&lt;/li>
 &lt;/ul></content></item><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
@@ -1463,7 +1480,7 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>&lt;code>finally&lt;/code>&lt;/p>
@@ -1729,7 +1746,7 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>Tree with at most two children per element&lt;/li>
 &lt;/ul>
 &lt;h4 id="algorithms">Algorithms&lt;/h4>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Deletion&lt;/p>
@@ -1752,7 +1769,7 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;/ul>
 &lt;h3 id="tree-traversals">Tree Traversals&lt;/h3>
 &lt;h4 id="depth-first">Depth First&lt;/h4>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Preorder&lt;/p>
@@ -1761,7 +1778,7 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Inorder&lt;/p>
@@ -1770,7 +1787,7 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!--list-separator-->
 &lt;ul>
 &lt;li>
 &lt;p>Postorder&lt;/p>
@@ -2639,7 +2656,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>SIEM (Both)&lt;/li>
 &lt;li>ELK (Elasticsearch, Logstash, Kibana)&lt;/li>
 &lt;/ul>
-&lt;h3 id="look-into-rsyslog">&lt;!-- raw HTML omitted -->TODO&lt;!-- raw HTML omitted --> Look into Rsyslog&lt;/h3>
+&lt;h3 id="look-into-rsyslog">&lt;span class="org-todo todo TODO">TODO&lt;/span> Look into Rsyslog&lt;/h3>
 &lt;h2 id="email-servers">Email Servers&lt;/h2>
 &lt;ul>
 &lt;li>Process
@@ -3026,7 +3043,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Morality should address issues of caring and empathy and relationships between people rather than only or primarily the rational decisions of solitary moral agents. &lt;!-- raw HTML omitted -->
+&lt;p>Morality should address issues of caring and empathy and relationships between people rather than only or primarily the rational decisions of solitary moral agents. &lt;br />
 &amp;mdash;Virginia Held&lt;/p>
 &lt;/blockquote>
 &lt;ul>
@@ -4637,7 +4654,7 @@ a custom order.&lt;/p>
 &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M</description><content>&lt;ul>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
@@ -4670,6 +4687,11 @@ a custom order.&lt;/p>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/inag110/">INAG110&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/hnuh229t/">HNUH229T&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/phys199m/">PHYS199M&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Spring 2022
+&lt;ul>
+&lt;li>&lt;a href="https://kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
