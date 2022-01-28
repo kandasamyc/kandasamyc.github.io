@@ -1,0 +1,276 @@
+<!doctype html><html lang=en>
+<head>
+<title>CMSC250 :: Kandasamy Chokkalingam</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Notes from UMD's CMSC250 class">
+<meta name=keywords content="Kandasamy Chokkalingam">
+<meta name=robots content="noodp">
+<link rel=canonical href=https://kandasamyc.me/wiki/cmsc250/>
+<link rel=stylesheet href=https://kandasamyc.me/assets/style.css>
+<link rel=stylesheet href=https://kandasamyc.me/assets/green.css>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=MathJax-script defer src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script>
+<link rel=apple-touch-icon href=https://kandasamyc.me/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=https://kandasamyc.me/img/favicon/green.png>
+<meta name=twitter:card content="summary">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CMSC250">
+<meta property="og:description" content="Notes from UMD's CMSC250 class">
+<meta property="og:url" content="https://kandasamyc.me/wiki/cmsc250/">
+<meta property="og:site_name" content="Kandasamy Chokkalingam">
+<meta property="og:image" content="https://kandasamyc.me/img/favicon/green.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:published_time" content="2022-01-26 00:00:00 +0000 UTC">
+</head>
+<body class=green>
+<div class="container center">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+Kandasamy Chokkalingam
+</div>
+</a>
+</div>
+<div class=menu-trigger>menu</div>
+</div>
+<nav class=menu>
+<ul class="menu__inner menu__inner--desktop">
+<li><a href=/>About</a></li>
+<li><a href=/posts>Posts</a></li>
+<li><a href=/wiki>Wiki</a></li>
+<li><a href=/#contact>Contact</a></li>
+</ul>
+<ul class="menu__inner menu__inner--mobile">
+<li><a href=/>About</a></li>
+<li><a href=/posts>Posts</a></li>
+<li><a href=/wiki>Wiki</a></li>
+<li><a href=/#contact>Contact</a></li>
+</ul>
+</nav>
+</header>
+<div class=content>
+<div class=post>
+<h1 class=post-title>
+<a href=https://kandasamyc.me/wiki/cmsc250/>CMSC250</a></h1>
+<div class=post-meta>
+<span class=post-date>
+2022-01-26
+</span>
+<span class=post-author>:: [ksam]</span>
+</div>
+<div class=post-content><div>
+<h2 id=statements>Statements<a href=#statements class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<ul>
+<li>Well Defined</li>
+<li>Have Meaning</li>
+<li>Not opinions</li>
+<li>Either True or False</li>
+</ul>
+<h3 id=statement-variables>Statement Variables<a href=#statement-variables class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Lower case letters</li>
+</ul>
+<h2 id=basic-logic>Basic Logic<a href=#basic-logic class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=logical-operators>Logical Operators<a href=#logical-operators class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=negation>Negation<a href=#negation class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(\sim\)</li>
+<li>means not</li>
+<li>\(\sim p = \begin{cases} \text{true} & \sim p \ \text{is false} \\ \text{false} & \sim p \ \text{is true}\end{cases}\)</li>
+</ul>
+<h4 id=disjunction>Disjunction<a href=#disjunction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(\lor\)</li>
+<li>means and</li>
+<li>\(p \lor q = \begin{cases} \text{true} & p, q \ \text{or both are true} \\ \text{false} & \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\)</li>
+<li>&ldquo;or&rdquo; in english usually conveys \(\oplus\)</li>
+</ul>
+<h4 id=conjunction>Conjunction<a href=#conjunction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(\land\)</li>
+<li>means and</li>
+<li>\(p \land q = \begin{cases} \text{true} & \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} & p, q \ \text{or both are false}\end{cases}\)</li>
+</ul>
+<h3 id=order-of-operations>Order of Operations<a href=#order-of-operations class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ol>
+<li>Parentheses</li>
+<li>Negation</li>
+<li>Disjunction and Conjunction</li>
+</ol>
+<h3 id=truth-tables>Truth Tables<a href=#truth-tables class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Representation of all possible values of a logical <a href=#statements>statement</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>\(p\)</th>
+<th style=text-align:center>\(q\)</th>
+<th style=text-align:center>\(r\)</th>
+<th style=text-align:center>\(p \lor q\)</th>
+<th style=text-align:center>\(\sim r\)</th>
+<th style=text-align:center>\((p \lor q) \land ( \sim r )\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+</tr>
+<tr>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+</tr>
+<tr>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+</tr>
+<tr>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+</tr>
+<tr>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+</tr>
+<tr>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+</tr>
+<tr>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+</tr>
+<tr>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+</tr>
+</tbody>
+</table>
+<h3 id=logical-equivalence>Logical Equivalence<a href=#logical-equivalence class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>\(p\) and \(q\) are logically equivalent (\(p \equiv q\)) when they have the same logical value for all value combinations</li>
+</ul>
+<h4 id=double-negative>Double Negative<a href=#double-negative class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(p \equiv \sim (\sim p)\)</li>
+</ul>
+<h4 id=de-morgan-s-laws>De Morgan&rsquo;s Laws<a href=#de-morgan-s-laws class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\)</li>
+<li>\(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>\(p\)</th>
+<th style=text-align:center>\(q\)</th>
+<th style=text-align:center>\(\sim p\)</th>
+<th style=text-align:center>\(\sim q\)</th>
+<th style=text-align:center>\(p \lor q\)</th>
+<th style=text-align:center>\(\sim p \land \sim q\)</th>
+<th style=text-align:center>\(\sim(p \lor q)\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+</tr>
+<tr>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+</tr>
+<tr>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+</tr>
+<tr>
+<td style=text-align:center>F</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>F</td>
+<td style=text-align:center>T</td>
+<td style=text-align:center>T</td>
+</tr>
+</tbody>
+</table>
+<h4 id=tautology>Tautology<a href=#tautology class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Always true</li>
+<li>\(\sim p \lor p\)</li>
+</ul>
+<h4 id=contradiction>Contradiction<a href=#contradiction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Always false</li>
+<li>\(\sim p \land p\)</li>
+</ul>
+</div></div>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class="copyright copyright--user">
+<span>©2022 Kandasamy Chokkalingam</span>
+<span>:: Based on <a href=https://twitter.com/panr>panr's</a> Terminal theme</aspan>
+</div>
+</div>
+</footer>
+<script src=https://kandasamyc.me/assets/main.js></script>
+<script src=https://kandasamyc.me/assets/prism.js></script>
+</div>
+</body>
+</html>

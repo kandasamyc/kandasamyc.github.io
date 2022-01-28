@@ -157,17 +157,199 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>&lt;a href="mailto:contact@kandasamyc.me">Email&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>CMSC216</title><link>https://kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc216/</guid><description>Statements Well Defined Have Meaning Either True or False Logical Operators Negation (not): \(\neg\) or \(\sim\) Conjunction (and): \(\land\) Disjunction (or): \(\lor\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
+&lt;/ul></content></item><item><title>CMSC216</title><link>https://kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc216/</guid><description/><content/></item><item><title>CMSC250</title><link>https://kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\sim\) means not \(\sim p = \begin{cases} \text{true} &amp;amp; \sim p \ \text{is false} \\ \text{false} &amp;amp; \sim p \ \text{is true}\end{cases}\) Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Order of Operations Parentheses Negation Disjunction and Conjunction Truth Tables Representation of all possible values of a logical statement \(p\) \(q\) \(r\) \(p \lor q\) \(\sim r\) \((p \lor q) \land ( \sim r )\) T T T T F F T T F T T T T F T T F F T F F T T T F T T T F F F T F T T T F F T F F F F F F F T F Logical Equivalence \(p\) and \(q\) are logically equivalent (\(p \equiv q\)) when they have the same logical value for all value combinations Double Negative \(p \equiv \sim (\sim p)\) De Morgan&amp;rsquo;s Laws \(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\) \(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\) \(p\) \(q\) \(\sim p\) \(\sim q\) \(p \lor q\) \(\sim p \land \sim q\) \(\sim(p \lor q)\) T T F F T F F T F F T T F F F T T F T F F F F T T F T T Tautology Always true \(\sim p \lor p\) Contradiction Always false \(\sim p \land p\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
 &lt;li>Have Meaning&lt;/li>
+&lt;li>Not opinions&lt;/li>
 &lt;li>Either True or False&lt;/li>
 &lt;/ul>
-&lt;h2 id="logical-operators">Logical Operators&lt;/h2>
+&lt;h3 id="statement-variables">Statement Variables&lt;/h3>
 &lt;ul>
-&lt;li>Negation (not): \(\neg\) or \(\sim\)&lt;/li>
-&lt;li>Conjunction (and): \(\land\)&lt;/li>
-&lt;li>Disjunction (or): \(\lor\)&lt;/li>
+&lt;li>Lower case letters&lt;/li>
+&lt;/ul>
+&lt;h2 id="basic-logic">Basic Logic&lt;/h2>
+&lt;h3 id="logical-operators">Logical Operators&lt;/h3>
+&lt;h4 id="negation">Negation&lt;/h4>
+&lt;ul>
+&lt;li>\(\sim\)&lt;/li>
+&lt;li>means not&lt;/li>
+&lt;li>\(\sim p = \begin{cases} \text{true} &amp;amp; \sim p \ \text{is false} \\ \text{false} &amp;amp; \sim p \ \text{is true}\end{cases}\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="disjunction">Disjunction&lt;/h4>
+&lt;ul>
+&lt;li>\(\lor\)&lt;/li>
+&lt;li>means and&lt;/li>
+&lt;li>\(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\)&lt;/li>
+&lt;li>&amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="conjunction">Conjunction&lt;/h4>
+&lt;ul>
+&lt;li>\(\land\)&lt;/li>
+&lt;li>means and&lt;/li>
+&lt;li>\(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\)&lt;/li>
+&lt;/ul>
+&lt;h3 id="order-of-operations">Order of Operations&lt;/h3>
+&lt;ol>
+&lt;li>Parentheses&lt;/li>
+&lt;li>Negation&lt;/li>
+&lt;li>Disjunction and Conjunction&lt;/li>
+&lt;/ol>
+&lt;h3 id="truth-tables">Truth Tables&lt;/h3>
+&lt;ul>
+&lt;li>Representation of all possible values of a logical &lt;a href="#statements">statement&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">\(p\)&lt;/th>
+&lt;th style="text-align:center">\(q\)&lt;/th>
+&lt;th style="text-align:center">\(r\)&lt;/th>
+&lt;th style="text-align:center">\(p \lor q\)&lt;/th>
+&lt;th style="text-align:center">\(\sim r\)&lt;/th>
+&lt;th style="text-align:center">\((p \lor q) \land ( \sim r )\)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="logical-equivalence">Logical Equivalence&lt;/h3>
+&lt;ul>
+&lt;li>\(p\) and \(q\) are logically equivalent (\(p \equiv q\)) when they have the same logical value for all value combinations&lt;/li>
+&lt;/ul>
+&lt;h4 id="double-negative">Double Negative&lt;/h4>
+&lt;ul>
+&lt;li>\(p \equiv \sim (\sim p)\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="de-morgan-s-laws">De Morgan&amp;rsquo;s Laws&lt;/h4>
+&lt;ul>
+&lt;li>\(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\)&lt;/li>
+&lt;li>\(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\)&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">\(p\)&lt;/th>
+&lt;th style="text-align:center">\(q\)&lt;/th>
+&lt;th style="text-align:center">\(\sim p\)&lt;/th>
+&lt;th style="text-align:center">\(\sim q\)&lt;/th>
+&lt;th style="text-align:center">\(p \lor q\)&lt;/th>
+&lt;th style="text-align:center">\(\sim p \land \sim q\)&lt;/th>
+&lt;th style="text-align:center">\(\sim(p \lor q)\)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align:center">T&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="tautology">Tautology&lt;/h4>
+&lt;ul>
+&lt;li>Always true&lt;/li>
+&lt;li>\(\sim p \lor p\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="contradiction">Contradiction&lt;/h4>
+&lt;ul>
+&lt;li>Always false&lt;/li>
+&lt;li>\(\sim p \land p\)&lt;/li>
 &lt;/ul></content></item><item><title>MATH246H</title><link>https://kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
 Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
 Order of DEs The highest derivative that appears in the DE.
@@ -4665,7 +4847,7 @@ a custom order.&lt;/p>
 &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC216</description><content>&lt;ul>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC250</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
@@ -4703,7 +4885,7 @@ a custom order.&lt;/p>
 &lt;li>Spring 2022
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc250/">CMSC250&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
