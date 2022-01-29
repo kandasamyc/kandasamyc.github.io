@@ -205,7 +205,49 @@
 &lt;li>It is a system of ODEs if there is only one unknown variable. A system that does not satisfy this is a system of PDEs.&lt;/li>
 &lt;li>The order of a system is the highest order of all of its equations.&lt;/li>
 &lt;li>A system is linear if every equation in it is linear.&lt;/li>
-&lt;/ul></content></item><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+&lt;/ul>
+&lt;h2 id="linear-equations">Linear Equations&lt;/h2>
+&lt;ul>
+&lt;li>DEs that are &lt;a href="#linearity">linear&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="linear-normal-form">Linear Normal Form&lt;/h3>
+&lt;p>\[\frac{dy}{dt} + \frac{q(t)}{p(t)}y = \frac{r(t)}{p(t)}\]
+From now on, \(a(t) = \frac{q(t)}{p(t)}\) and \(f(t) = \frac{r(t)}{p(t)}\)&lt;/p>
+&lt;h4 id="homogeneous">Homogeneous&lt;/h4>
+&lt;p>\[\frac{dy}{dt} + a(t)y = 0\]
+By analyzing the equation, we see that this means that \(y\) is equal to its derivative. We know that \(e^x\) operates as such and we can conclude that the general solution to a Homogeneous Linear DE is:
+\[y = Ce^{-A(t)}\]
+where \(A(t) = \int a(t)dt\).&lt;/p>
+&lt;h4 id="inhomogeneous">Inhomogeneous&lt;/h4>
+&lt;p>\[\frac{dy}{dt} + a(t)y = f(t)\]
+This isn&amp;rsquo;t quite as nice as the &lt;a href="#homogeneous">homogeneous&lt;/a> version, but we can still solve it.&lt;/p>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Integrating Factor&lt;/p>
+&lt;p>Multiply both sides by \(e^{A(t)}\).
+\[e^{A(t)}\frac{dy}{dt} + a(t)e^{A(t)}y = e^{A(t)}f(t)\]
+The left side is the derivative of \(e^{A(t)}y\)
+\[\frac{d}{dt}(e^{A(t)}y) = e^{A(t)}f(t)\]
+This is integrating factor form. Now we can integrate both sides and solve for \(y\) to get the solution.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>General Solution&lt;/p>
+&lt;p>\[y = e^{-A(t)}\int A(t)f(t)dt + Ce^{-A(t)}\]&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="separable-equations">Separable Equations&lt;/h2>
+&lt;p>Equations that can be written in the form:
+\[\frac{dy}{dt} = g(y)f(t)\]
+We simply multiply both sides by \(dt\) and divide by \(g(y)\) and integrate both sides to solve. The general solution is:
+\[\int \frac{1}{g(y)}dy = \int f(t)dt\]
+Assuming both of these integrals are computable,
+\[G(y) = F(t) + C\]
+Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
+\[y = G^{-1}(F(t) + C)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
