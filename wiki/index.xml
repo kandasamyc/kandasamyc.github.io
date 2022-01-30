@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://kandasamyc.me/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>CMSC216</title><link>https://kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc216/</guid><description>Notes from UMD's CMSC216 class</description><content>&lt;h2 id="basic-c-syntax">Basic C Syntax&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.me/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>Notes from UMD's CMSC216 class</description><content>&lt;h2 id="basic-c-syntax">Basic C Syntax&lt;/h2>
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="643897215" type="checkbox" />
-&lt;label for="643897215">
+&lt;input id="493258671" type="checkbox" />
+&lt;label for="493258671">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -15,7 +15,7 @@
 #include &amp;lt;string.h&amp;gt;
 #define MAX_COLS 20 /* max # of columns to process */
 #define MAX_INPUT 1000&lt;/code>&lt;/pre>
-&lt;/div></content></item><item><title>CMSC250</title><link>https://kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc250/</guid><description>Notes from UMD's CMSC250 class</description><content>&lt;h2 id="statements">Statements&lt;/h2>
+&lt;/div></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Notes from UMD's CMSC250 class</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
 &lt;li>Have Meaning&lt;/li>
@@ -208,7 +208,7 @@
 &lt;ul>
 &lt;li>Always false&lt;/li>
 &lt;li>\(\sim p \land p\)&lt;/li>
-&lt;/ul></content></item><item><title>MATH246H</title><link>https://kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/math246h/</guid><description>Notes from UMD's MATH246H class</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
+&lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Notes from UMD's MATH246H class</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
 &lt;h3 id="definition-of-des">Definition of DEs&lt;/h3>
 &lt;p>Some combination of one or more unknown functions with respect to one or more independent variable and those variables&lt;/p>
 &lt;h3 id="ordinary-des">Ordinary DEs&lt;/h3>
@@ -267,7 +267,7 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 \[y = G^{-1}(F(t) + C)\]&lt;/p>
 &lt;h3 id="autonomous-equations">Autonomous Equations&lt;/h3>
 &lt;p>An equation of the form:
-\[\frac{dy}{dt} = g(y)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+\[\frac{dy}{dt} = g(y)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
@@ -1342,7 +1342,7 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 &lt;li>\(v = \sqrt{\frac{3kT}{m}}\)&lt;/li>
 &lt;li>\(\frac{v_1}{v_2} = \sqrt{\frac{m_2}{m_1}}\)&lt;/li>
 &lt;li>\(f_{n+1} = \frac{(1+g)f_n}{1+gf_n}\)&lt;/li>
-&lt;/ul></content></item><item><title>CMSC132</title><link>https://kandasamyc.me/wiki/cmsc132/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc132/</guid><description>Notes from UMD's CMSC132 class</description><content>&lt;h2 id="cmsc131-review">CMSC131 Review&lt;/h2>
+&lt;/ul></content></item><item><title>CMSC132</title><link>https://www.kandasamyc.me/wiki/cmsc132/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc132/</guid><description>Notes from UMD's CMSC132 class</description><content>&lt;h2 id="cmsc131-review">CMSC131 Review&lt;/h2>
 &lt;h3 id="data-privacy">Data Privacy&lt;/h3>
 &lt;ul>
 &lt;li>Data should be as private as possible&lt;/li>
@@ -2416,7 +2416,7 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 &lt;td>\(O(m/n)\)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></content></item><item><title>Links</title><link>https://kandasamyc.me/wiki/links/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/links/</guid><description>A file that contains link to come back to at a later time</description><content>&lt;h2 id="links">Links&lt;/h2>
+&lt;/table></content></item><item><title>Links</title><link>https://www.kandasamyc.me/wiki/links/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/links/</guid><description>A file that contains link to come back to at a later time</description><content>&lt;h2 id="links">Links&lt;/h2>
 &lt;h3 id="https-github-dot-com-prompt-toolkit-python-prompt-toolkit">&lt;a href="https://github.com/prompt-toolkit/python-prompt-toolkit">https://github.com/prompt-toolkit/python-prompt-toolkit&lt;/a>&lt;/h3>
 &lt;h3 id="https-github-dot-com-softchris-react-book">&lt;a href="https://github.com/softchris/react-book">https://github.com/softchris/react-book&lt;/a>&lt;/h3>
 &lt;h3 id="https-github-dot-com-manimcommunity-manim">&lt;a href="https://github.com/ManimCommunity/manim">https://github.com/ManimCommunity/manim&lt;/a>&lt;/h3>
@@ -2462,7 +2462,7 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 &lt;h3 id="http-learnyouahaskell-dot-com-starting-out">&lt;a href="http://learnyouahaskell.com/starting-out">http://learnyouahaskell.com/starting-out&lt;/a>&lt;/h3>
 &lt;h3 id="http-book-dot-realworldhaskell-dot-org">&lt;a href="http://book.realworldhaskell.org/">http://book.realworldhaskell.org/&lt;/a>&lt;/h3>
 &lt;h3 id="http-htdp-dot-org-2003-09-26-book">&lt;a href="http://htdp.org/2003-09-26/Book/">http://htdp.org/2003-09-26/Book/&lt;/a>&lt;/h3>
-&lt;h3 id="http-dev-dot-stephendiehl-dot-com-hask-ghc">&lt;a href="http://dev.stephendiehl.com/hask/#ghc">http://dev.stephendiehl.com/hask/#ghc&lt;/a>&lt;/h3></content></item><item><title>SANS Foundations</title><link>https://kandasamyc.me/wiki/sans-foundations/</link><pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/sans-foundations/</guid><description>Notes from SANS Foundations</description><content>&lt;h2 id="intro-to-computer-hardware">Intro to Computer Hardware&lt;/h2>
+&lt;h3 id="http-dev-dot-stephendiehl-dot-com-hask-ghc">&lt;a href="http://dev.stephendiehl.com/hask/#ghc">http://dev.stephendiehl.com/hask/#ghc&lt;/a>&lt;/h3></content></item><item><title>SANS Foundations</title><link>https://www.kandasamyc.me/wiki/sans-foundations/</link><pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/sans-foundations/</guid><description>Notes from SANS Foundations</description><content>&lt;h2 id="intro-to-computer-hardware">Intro to Computer Hardware&lt;/h2>
 &lt;h3 id="motherboard">Motherboard&lt;/h3>
 &lt;ul>
 &lt;li>Sizes&lt;/li>
@@ -2522,7 +2522,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>SaaS: Software as a Service, least control, easiest to use&lt;/li>
 &lt;li>IaaS: Infrastructure as a Service, most control, least easy to use, usually using some specific tool&lt;/li>
 &lt;li>PaaS: Platform as a Service: more control, less easy to use, more configuration
-&lt;img src="https://kandasamyc.me/home/ksam/Downloads/SaaSIaaSPaaS.png" alt="">&lt;/li>
+&lt;img src="https://www.kandasamyc.me/home/ksam/Downloads/SaaSIaaSPaaS.png" alt="">&lt;/li>
 &lt;/ul>
 &lt;h3 id="manage">Manage&lt;/h3>
 &lt;h2 id="operating-systems-1">Operating Systems 1&lt;/h2>
@@ -2957,7 +2957,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;h2 id="privilege-escalation-2">Privilege Escalation 2&lt;/h2>
 &lt;h2 id="persistence">Persistence&lt;/h2>
 &lt;h2 id="lateral-movement">Lateral Movement&lt;/h2>
-&lt;h2 id="ex-filtration">Ex filtration&lt;/h2></content></item><item><title>HNUH229T</title><link>https://kandasamyc.me/wiki/hnuh229t/</link><pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/hnuh229t/</guid><description>Notes from UMD's HNUH229T class</description><content>&lt;h2 id="reading-notes">Reading Notes&lt;/h2>
+&lt;h2 id="ex-filtration">Ex filtration&lt;/h2></content></item><item><title>HNUH229T</title><link>https://www.kandasamyc.me/wiki/hnuh229t/</link><pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/hnuh229t/</guid><description>Notes from UMD's HNUH229T class</description><content>&lt;h2 id="reading-notes">Reading Notes&lt;/h2>
 &lt;h3 id="jamieson-s-ethics-and-the-environment-chapter-4">Jamieson&amp;rsquo;s Ethics and the Environment Chapter 4&lt;/h3>
 &lt;h4 id="4-dot-1-moral-theories">4.1 Moral Theories&lt;/h4>
 &lt;ul>
@@ -3381,7 +3381,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;li>What does this mean?&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ol></content></item><item><title>INAG110</title><link>https://kandasamyc.me/wiki/inag110/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/inag110/</guid><description>Notes from UMD's INAG110 class</description><content>&lt;h2 id="textbook-notes">Textbook Notes&lt;/h2>
+&lt;/ol></content></item><item><title>INAG110</title><link>https://www.kandasamyc.me/wiki/inag110/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/inag110/</guid><description>Notes from UMD's INAG110 class</description><content>&lt;h2 id="textbook-notes">Textbook Notes&lt;/h2>
 &lt;h3 id="chapter-1">Chapter 1&lt;/h3>
 &lt;h4 id="communication-defined">Communication Defined&lt;/h4>
 &lt;ul>
@@ -4702,7 +4702,7 @@ Have someone playing devil&amp;rsquo;s advocate&lt;/li>
 &lt;li>Develop creative solutions&lt;/li>
 &lt;li>Evaluate possible solutions&lt;/li>
 &lt;li>Follow up on solutions&lt;/li>
-&lt;/ul></content></item><item><title>Haskell Types</title><link>https://kandasamyc.me/wiki/haskell-types/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/haskell-types/</guid><description>Notes on types in Haskell</description><content>&lt;h2 id="custom-data-types">Custom Data Types&lt;/h2>
+&lt;/ul></content></item><item><title>Haskell Types</title><link>https://www.kandasamyc.me/wiki/haskell-types/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/haskell-types/</guid><description>Notes on types in Haskell</description><content>&lt;h2 id="custom-data-types">Custom Data Types&lt;/h2>
 &lt;p>Defining custom data types is akin to or C++&amp;rsquo;s or Rust&amp;rsquo;s Structs.&lt;/p>
 &lt;p>To define a custom data type use the &lt;code>data&lt;/code> keyword.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> &lt;span style="color:#66d9ef">Argument&lt;/span>
@@ -4745,18 +4745,18 @@ a custom order.&lt;/p>
 &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description>An entry point into the wiki</description><content>&lt;ul>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://www.kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/index/</guid><description>An entry point into the wiki</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/links/">Links&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/links/">Links&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Computer Science
 &lt;ul>
 &lt;li>Languages
 &lt;ul>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/haskell/">Haskell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/haskell/">Haskell&lt;/a>&lt;/li>
 &lt;li>Python&lt;/li>
 &lt;li>Java&lt;/li>
 &lt;li>Javascript&lt;/li>
@@ -4765,7 +4765,7 @@ a custom order.&lt;/p>
 &lt;/li>
 &lt;li>Courses
 &lt;ul>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/sans-foundations/">SANS Foundations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/sans-foundations/">SANS Foundations&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -4774,23 +4774,23 @@ a custom order.&lt;/p>
 &lt;ul>
 &lt;li>Fall 2021
 &lt;ul>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc132/">CMSC132&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/inag110/">INAG110&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/hnuh229t/">HNUH229T&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/phys199m/">PHYS199M&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/cmsc132/">CMSC132&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/inag110/">INAG110&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/hnuh229t/">HNUH229T&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/phys199m/">PHYS199M&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Spring 2022
 &lt;ul>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc250/">CMSC250&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/cmsc250/">CMSC250&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></content></item><item><title>Haskell</title><link>https://kandasamyc.me/wiki/haskell/</link><pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/haskell/</guid><description>Notes on the programming language Haskell</description><content>&lt;p>Haskell is a fully functional language that is used to learn functional
+&lt;/ul></content></item><item><title>Haskell</title><link>https://www.kandasamyc.me/wiki/haskell/</link><pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/haskell/</guid><description>Notes on the programming language Haskell</description><content>&lt;p>Haskell is a fully functional language that is used to learn functional
 programming paradigms.&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kandasamyc.me/wiki/haskell-types/">Haskell Types&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Organizational System</title><link>https://kandasamyc.me/wiki/organizational-system/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/organizational-system/</guid><description>How this wiki is organized</description><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item></channel></rss>
+&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/haskell-types/">Haskell Types&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Organizational System</title><link>https://www.kandasamyc.me/wiki/organizational-system/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/organizational-system/</guid><description>How this wiki is organized</description><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item></channel></rss>
