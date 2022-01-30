@@ -157,7 +157,25 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>&lt;a href="mailto:contact@kandasamyc.me">Email&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>CMSC216</title><link>https://kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc216/</guid><description/><content/></item><item><title>CMSC250</title><link>https://kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\sim\) means not \(\sim p = \begin{cases} \text{true} &amp;amp; \sim p \ \text{is false} \\ \text{false} &amp;amp; \sim p \ \text{is true}\end{cases}\) Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Order of Operations Parentheses Negation Disjunction and Conjunction Truth Tables Representation of all possible values of a logical statement \(p\) \(q\) \(r\) \(p \lor q\) \(\sim r\) \((p \lor q) \land ( \sim r )\) T T T T F F T T F T T T T F T T F F T F F T T T F T T T F F F T F T T T F F T F F F F F F F T F Logical Equivalence \(p\) and \(q\) are logically equivalent (\(p \equiv q\)) when they have the same logical value for all value combinations Double Negative \(p \equiv \sim (\sim p)\) De Morgan&amp;rsquo;s Laws \(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\) \(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\) \(p\) \(q\) \(\sim p\) \(\sim q\) \(p \lor q\) \(\sim p \land \sim q\) \(\sim(p \lor q)\) T T F F T F F T F F T T F F F T T F T F F F F T T F T T Tautology Always true \(\sim p \lor p\) Contradiction Always false \(\sim p \land p\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
+&lt;/ul></content></item><item><title>CMSC216</title><link>https://kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc216/</guid><description>Basic C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
+c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; #define MAX_COLS 20 /* max # of columns to process */ #define MAX_INPUT 1000</description><content>&lt;h2 id="basic-c-syntax">Basic C Syntax&lt;/h2>
+&lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
+&lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
+&lt;div class="collapsable-code">
+&lt;input id="643897215" type="checkbox" />
+&lt;label for="643897215">
+&lt;span class="collapsable-code__language">c&lt;/span>
+&lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-c line-numbers"
+>&lt;code
+>#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#define MAX_COLS 20 /* max # of columns to process */
+#define MAX_INPUT 1000&lt;/code>&lt;/pre>
+&lt;/div></content></item><item><title>CMSC250</title><link>https://kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\sim\) means not \(\sim p = \begin{cases} \text{true} &amp;amp; \sim p \ \text{is false} \\ \text{false} &amp;amp; \sim p \ \text{is true}\end{cases}\) Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Order of Operations Parentheses Negation Disjunction and Conjunction Truth Tables Representation of all possible values of a logical statement \(p\) \(q\) \(r\) \(p \lor q\) \(\sim r\) \((p \lor q) \land ( \sim r )\) T T T T F F T T F T T T T F T T F F T F F T T T F T T T F F F T F T T T F F T F F F F F F F T F Logical Equivalence \(p\) and \(q\) are logically equivalent (\(p \equiv q\)) when they have the same logical value for all value combinations Double Negative \(p \equiv \sim (\sim p)\) De Morgan&amp;rsquo;s Laws \(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\) \(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\) \(p\) \(q\) \(\sim p\) \(\sim q\) \(p \lor q\) \(\sim p \land \sim q\) \(\sim(p \lor q)\) T T F F T F F T F F T T F F F T T F T F F F F T T F T T Tautology Always true \(\sim p \lor p\) Contradiction Always false \(\sim p \land p\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
 &lt;li>Have Meaning&lt;/li>
@@ -409,7 +427,10 @@ We simply multiply both sides by \(dt\) and divide by \(g(y)\) and integrate bot
 Assuming both of these integrals are computable,
 \[G(y) = F(t) + C\]
 Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
-\[y = G^{-1}(F(t) + C)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+\[y = G^{-1}(F(t) + C)\]&lt;/p>
+&lt;h3 id="autonomous-equations">Autonomous Equations&lt;/h3>
+&lt;p>An equation of the form:
+\[\frac{dy}{dt} = g(y)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
@@ -4889,7 +4910,7 @@ a custom order.&lt;/p>
 &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC250</description><content>&lt;ul>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC250 CMSC216</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
@@ -4928,6 +4949,7 @@ a custom order.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc250/">CMSC250&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kandasamyc.me/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
