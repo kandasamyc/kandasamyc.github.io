@@ -68,8 +68,8 @@ Kandasamy Chokkalingam
 <h3 id=preprocessor-directives>Preprocessor Directives<a href=#preprocessor-directives class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <p>Code at the beginning of a file that starts with a #. This is run before compilation.</p>
 <div class=collapsable-code>
-<input id=493258671 type=checkbox>
-<label for=493258671>
+<input id=329154876 type=checkbox checked>
+<label for=329154876>
 <span class=collapsable-code__language>c</span>
 <span class=collapsable-code__title>Preprocessor Directives</span>
 <span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
@@ -80,6 +80,147 @@ Kandasamy Chokkalingam
 #define MAX_COLS 20 /* max # of columns to process */
 #define MAX_INPUT 1000</code></pre>
 </div>
+<p><code>#define</code> defines a constant value, <code>#include</code> includes another file&rsquo;s declarations.</p>
+<h3 id=main-function>Main Function<a href=#main-function class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Returns an int, takes no arguments (so void)</li>
+</ul>
+<div class=collapsable-code>
+<input id=847963152 type=checkbox checked>
+<label for=847963152>
+<span class=collapsable-code__language>c</span>
+<span class=collapsable-code__title>Main Function</span>
+<span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
+</label>
+<pre class="language-c line-numbers"><code>int main(void){
+    /* Some code */
+    return 0;
+}</code></pre>
+</div>
+<h2 id=basic-concepts>Basic Concepts<a href=#basic-concepts class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=environments>Environments<a href=#environments class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=translation-environment>Translation Environment<a href=#translation-environment class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Source code get compiled into object code which then gets linked with other object code by the linker to form a single executable</li>
+</ul>
+<h4 id=execution-environment>Execution Environment<a href=#execution-environment class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning <a href=#main-function>main&rsquo;s</a> error code.</li>
+</ul>
+<h3 id=lexical-rules>Lexical Rules<a href=#lexical-rules class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=trigraphs>Trigraphs<a href=#trigraphs class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>A 3-sequence of a characters that may not be easily typeable</li>
+</ul>
+<h4 id=comments>Comments<a href=#comments class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Begin with <code>/*</code> and end with <code>*/</code></li>
+<li>Can be multiple lines, by not nested
+<ul>
+<li>If they&rsquo;re multiple lines, they get everything on those lines</li>
+</ul>
+</li>
+</ul>
+<h2 id=data>Data<a href=#data class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=integers>Integers<a href=#integers class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=values>Values<a href=#values class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<p><code>short</code> &lt;= <code>int</code> &lt;= <code>long</code></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Signedness</th>
+<th>Max Start</th>
+<th>Min End</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>signed</td>
+<td>-32767</td>
+<td>32767</td>
+</tr>
+<tr>
+<td>unsigned int</td>
+<td>unsigned</td>
+<td>0</td>
+<td>65535</td>
+</tr>
+<tr>
+<td>short int</td>
+<td>unsigned</td>
+<td>-32767</td>
+<td>32767</td>
+</tr>
+<tr>
+<td>unsigned short int</td>
+<td>signed</td>
+<td>0</td>
+<td>65535</td>
+</tr>
+<tr>
+<td>long int</td>
+<td>signed</td>
+<td>-214783647</td>
+<td>2147483647</td>
+</tr>
+<tr>
+<td>unsigned long int</td>
+<td>unsigned</td>
+<td>0</td>
+<td>4294967295</td>
+</tr>
+<tr>
+<td>char</td>
+<td>NA</td>
+<td>0</td>
+<td>127</td>
+</tr>
+<tr>
+<td>signed char</td>
+<td>signed</td>
+<td>-127</td>
+<td>127</td>
+</tr>
+<tr>
+<td>unsigned char</td>
+<td>unsigned</td>
+<td>0</td>
+<td>255</td>
+</tr>
+</tbody>
+</table>
+<h4 id=literals>Literals<a href=#literals class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Decimals</li>
+<li>In octal when starting with a 0</li>
+<li>In hex when starting with an 0x</li>
+<li>Characters literals in single quotes</li>
+</ul>
+<h3 id=enumerated-type>Enumerated Type<a href=#enumerated-type class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=values>Values<a href=#values class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Enums are stored as ints</li>
+<li>The numbers after the name are optional</li>
+</ul>
+<div class=collapsable-code>
+<input id=285143967 type=checkbox>
+<label for=285143967>
+<span class=collapsable-code__language>c</span>
+<span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
+</label>
+<pre class=language-c><code>enum Jar_Type { CUP=8, PINT=16, QUART=32, HALF_GALLON=64, GALLON=128 };</code></pre>
+</div>
+<h3 id=floating-point>Floating-Point<a href=#floating-point class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Have a decimal point <code>3.141</code></li>
+<li>Have an exponent <code>1E10</code></li>
+<li>Or both <code>6.023e23</code></li>
+</ul>
+<h3 id=pointers>Pointers<a href=#pointers class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h3 id=scope>Scope<a href=#scope class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>**</p>
 </div></div>
 </div>
 </div>

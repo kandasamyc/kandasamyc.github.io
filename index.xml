@@ -158,12 +158,13 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>Basic C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
-c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; #define MAX_COLS 20 /* max # of columns to process */ #define MAX_INPUT 1000</description><content>&lt;h2 id="basic-c-syntax">Basic C Syntax&lt;/h2>
+c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; #define MAX_COLS 20 /* max # of columns to process */ #define MAX_INPUT 1000 #define defines a constant value, #include includes another file&amp;rsquo;s declarations.
+Main Function Returns an int, takes no arguments (so void) c Main Function int main(void){ /* Some code */ return 0; } Basic Concepts Environments Translation Environment Source code get compiled into object code which then gets linked with other object code by the linker to form a single executable Execution Environment The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning main&amp;rsquo;s error code.</description><content>&lt;h2 id="basic-c-syntax">Basic C Syntax&lt;/h2>
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="493258671" type="checkbox" />
-&lt;label for="493258671">
+&lt;input id="329154876" type="checkbox" checked />
+&lt;label for="329154876">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -175,7 +176,152 @@ c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdl
 #include &amp;lt;string.h&amp;gt;
 #define MAX_COLS 20 /* max # of columns to process */
 #define MAX_INPUT 1000&lt;/code>&lt;/pre>
-&lt;/div></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\sim\) means not \(\sim p = \begin{cases} \text{true} &amp;amp; \sim p \ \text{is false} \\ \text{false} &amp;amp; \sim p \ \text{is true}\end{cases}\) Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Order of Operations Parentheses Negation Disjunction and Conjunction Truth Tables Representation of all possible values of a logical statement \(p\) \(q\) \(r\) \(p \lor q\) \(\sim r\) \((p \lor q) \land ( \sim r )\) T T T T F F T T F T T T T F T T F F T F F T T T F T T T F F F T F T T T F F T F F F F F F F T F Logical Equivalence \(p\) and \(q\) are logically equivalent (\(p \equiv q\)) when they have the same logical value for all value combinations Double Negative \(p \equiv \sim (\sim p)\) De Morgan&amp;rsquo;s Laws \(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\) \(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\) \(p\) \(q\) \(\sim p\) \(\sim q\) \(p \lor q\) \(\sim p \land \sim q\) \(\sim(p \lor q)\) T T F F T F F T F F T T F F F T T F T F F F F T T F T T Tautology Always true \(\sim p \lor p\) Contradiction Always false \(\sim p \land p\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
+&lt;/div>
+&lt;p>&lt;code>#define&lt;/code> defines a constant value, &lt;code>#include&lt;/code> includes another file&amp;rsquo;s declarations.&lt;/p>
+&lt;h3 id="main-function">Main Function&lt;/h3>
+&lt;ul>
+&lt;li>Returns an int, takes no arguments (so void)&lt;/li>
+&lt;/ul>
+&lt;div class="collapsable-code">
+&lt;input id="847963152" type="checkbox" checked />
+&lt;label for="847963152">
+&lt;span class="collapsable-code__language">c&lt;/span>
+&lt;span class="collapsable-code__title">Main Function&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-c line-numbers"
+>&lt;code
+>int main(void){
+/* Some code */
+return 0;
+}&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="basic-concepts">Basic Concepts&lt;/h2>
+&lt;h3 id="environments">Environments&lt;/h3>
+&lt;h4 id="translation-environment">Translation Environment&lt;/h4>
+&lt;ul>
+&lt;li>Source code get compiled into object code which then gets linked with other object code by the linker to form a single executable&lt;/li>
+&lt;/ul>
+&lt;h4 id="execution-environment">Execution Environment&lt;/h4>
+&lt;ul>
+&lt;li>The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning &lt;a href="#main-function">main&amp;rsquo;s&lt;/a> error code.&lt;/li>
+&lt;/ul>
+&lt;h3 id="lexical-rules">Lexical Rules&lt;/h3>
+&lt;h4 id="trigraphs">Trigraphs&lt;/h4>
+&lt;ul>
+&lt;li>A 3-sequence of a characters that may not be easily typeable&lt;/li>
+&lt;/ul>
+&lt;h4 id="comments">Comments&lt;/h4>
+&lt;ul>
+&lt;li>Begin with &lt;code>/*&lt;/code> and end with &lt;code>*/&lt;/code>&lt;/li>
+&lt;li>Can be multiple lines, by not nested
+&lt;ul>
+&lt;li>If they&amp;rsquo;re multiple lines, they get everything on those lines&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="data">Data&lt;/h2>
+&lt;h3 id="integers">Integers&lt;/h3>
+&lt;h4 id="values">Values&lt;/h4>
+&lt;p>&lt;code>short&lt;/code> &amp;lt;= &lt;code>int&lt;/code> &amp;lt;= &lt;code>long&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Type&lt;/th>
+&lt;th>Signedness&lt;/th>
+&lt;th>Max Start&lt;/th>
+&lt;th>Min End&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>int&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>-32767&lt;/td>
+&lt;td>32767&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>unsigned int&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>65535&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>short int&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>-32767&lt;/td>
+&lt;td>32767&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>unsigned short int&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>65535&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>long int&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>-214783647&lt;/td>
+&lt;td>2147483647&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>unsigned long int&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>4294967295&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>char&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>127&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>signed char&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>-127&lt;/td>
+&lt;td>127&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>unsigned char&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>255&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="literals">Literals&lt;/h4>
+&lt;ul>
+&lt;li>Decimals&lt;/li>
+&lt;li>In octal when starting with a 0&lt;/li>
+&lt;li>In hex when starting with an 0x&lt;/li>
+&lt;li>Characters literals in single quotes&lt;/li>
+&lt;/ul>
+&lt;h3 id="enumerated-type">Enumerated Type&lt;/h3>
+&lt;h4 id="values">Values&lt;/h4>
+&lt;ul>
+&lt;li>Enums are stored as ints&lt;/li>
+&lt;li>The numbers after the name are optional&lt;/li>
+&lt;/ul>
+&lt;div class="collapsable-code">
+&lt;input id="285143967" type="checkbox" />
+&lt;label for="285143967">
+&lt;span class="collapsable-code__language">c&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-c"
+>&lt;code
+>enum Jar_Type { CUP=8, PINT=16, QUART=32, HALF_GALLON=64, GALLON=128 };&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h3 id="floating-point">Floating-Point&lt;/h3>
+&lt;ul>
+&lt;li>Have a decimal point &lt;code>3.141&lt;/code>&lt;/li>
+&lt;li>Have an exponent &lt;code>1E10&lt;/code>&lt;/li>
+&lt;li>Or both &lt;code>6.023e23&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="pointers">Pointers&lt;/h3>
+&lt;h3 id="scope">Scope&lt;/h3>
+&lt;p>**&lt;/p></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\) Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Implication \(p \rightarrow q\) means if antecedent then consequence Implication does not mean causality \(p \to q \equiv \neg p \lor q\) \(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\) Converse</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
 &lt;li>Have Meaning&lt;/li>
@@ -190,9 +336,9 @@ c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdl
 &lt;h3 id="logical-operators">Logical Operators&lt;/h3>
 &lt;h4 id="negation">Negation&lt;/h4>
 &lt;ul>
-&lt;li>\(\sim\)&lt;/li>
+&lt;li>\(\neg\)&lt;/li>
 &lt;li>means not&lt;/li>
-&lt;li>\(\sim p = \begin{cases} \text{true} &amp;amp; \sim p \ \text{is false} \\ \text{false} &amp;amp; \sim p \ \text{is true}\end{cases}\)&lt;/li>
+&lt;li>\(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)&lt;/li>
 &lt;/ul>
 &lt;h4 id="disjunction">Disjunction&lt;/h4>
 &lt;ul>
@@ -206,6 +352,76 @@ c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdl
 &lt;li>\(\land\)&lt;/li>
 &lt;li>means and&lt;/li>
 &lt;li>\(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="implication">Implication&lt;/h4>
+&lt;ul>
+&lt;li>\(p \rightarrow q\)&lt;/li>
+&lt;li>means if antecedent then consequence&lt;/li>
+&lt;li>Implication does not mean causality&lt;/li>
+&lt;li>\(p \to q \equiv \neg p \lor q\)&lt;/li>
+&lt;li>\(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Converse&lt;/p>
+&lt;ul>
+&lt;li>Converse of \(p \to q\) is \(q \to p\)&lt;/li>
+&lt;li>Not equivalent to the implication&lt;/li>
+&lt;li>&lt;a href="#inverse">Inverse&lt;/a> of the &lt;a href="#contrapositive">Contrapositive&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Inverse&lt;/p>
+&lt;ul>
+&lt;li>Inverse of \(p \to q\) is \(\neg p \to \neg q\)&lt;/li>
+&lt;li>Not equivalent to the implication&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Contrapositive&lt;/p>
+&lt;ul>
+&lt;li>Contrapositive \(p \to q\) is \(\neg q \to neg p\)&lt;/li>
+&lt;li>Equivalent to the implication&lt;/li>
+&lt;li>&lt;a href="#inverse">Inverse&lt;/a> of the &lt;a href="#converse">Converse&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Necessary&lt;/p>
+&lt;ul>
+&lt;li>\(q\) is necessary for \(p\)&lt;/li>
+&lt;li>Without something necessary, the statement is false&lt;/li>
+&lt;li>Equivalent to an &lt;a href="#implication">Implication&lt;/a> through the &lt;a href="#contrapositive">Contrapositive&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Sufficient&lt;/p>
+&lt;ul>
+&lt;li>\(p\) is sufficient for \(q\)&lt;/li>
+&lt;li>If I have something sufficient, the statement is true with no other information&lt;/li>
+&lt;li>Equivalent to an &lt;a href="#implication">Implication&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="biconditional">Biconditional&lt;/h4>
+&lt;ul>
+&lt;li>\(p \leftrightarrow q\)&lt;/li>
+&lt;li>means if and only if antecedent then consequence&lt;/li>
+&lt;li>If the meanings of \(p\) and \(q\) make the implication equivalent to its converse&lt;/li>
+&lt;li>\(p \leftrightarrow q \equiv (p \to q) \land (q \to p)\)&lt;/li>
+&lt;li>\(p \leftrightarrow q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or both} \ p \ \text{and} \ q \ \text{are false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false, or } \ p \ \text{is false and} \ q \ \text{is true} \end{cases}\)&lt;/li>
 &lt;/ul>
 &lt;h3 id="order-of-operations">Order of Operations&lt;/h3>
 &lt;ol>
@@ -224,8 +440,8 @@ c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdl
 &lt;th style="text-align:center">\(q\)&lt;/th>
 &lt;th style="text-align:center">\(r\)&lt;/th>
 &lt;th style="text-align:center">\(p \lor q\)&lt;/th>
-&lt;th style="text-align:center">\(\sim r\)&lt;/th>
-&lt;th style="text-align:center">\((p \lor q) \land ( \sim r )\)&lt;/th>
+&lt;th style="text-align:center">\(\neg r\)&lt;/th>
+&lt;th style="text-align:center">\((p \lor q) \land ( \neg r )\)&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -301,23 +517,23 @@ c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdl
 &lt;/ul>
 &lt;h4 id="double-negative">Double Negative&lt;/h4>
 &lt;ul>
-&lt;li>\(p \equiv \sim (\sim p)\)&lt;/li>
+&lt;li>\(p \equiv \neg (\neg p)\)&lt;/li>
 &lt;/ul>
 &lt;h4 id="de-morgan-s-laws">De Morgan&amp;rsquo;s Laws&lt;/h4>
 &lt;ul>
-&lt;li>\(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\)&lt;/li>
-&lt;li>\(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\)&lt;/li>
+&lt;li>\(\neg (p \lor q) \equiv (\neg p) \land (\neg q)\)&lt;/li>
+&lt;li>\(\neg (p \land q) \equiv (\neg p) \lor (\neg q)\)&lt;/li>
 &lt;/ul>
 &lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th style="text-align:center">\(p\)&lt;/th>
 &lt;th style="text-align:center">\(q\)&lt;/th>
-&lt;th style="text-align:center">\(\sim p\)&lt;/th>
-&lt;th style="text-align:center">\(\sim q\)&lt;/th>
+&lt;th style="text-align:center">\(\neg p\)&lt;/th>
+&lt;th style="text-align:center">\(\neg q\)&lt;/th>
 &lt;th style="text-align:center">\(p \lor q\)&lt;/th>
-&lt;th style="text-align:center">\(\sim p \land \sim q\)&lt;/th>
-&lt;th style="text-align:center">\(\sim(p \lor q)\)&lt;/th>
+&lt;th style="text-align:center">\(\neg p \land \neg q\)&lt;/th>
+&lt;th style="text-align:center">\(\neg(p \lor q)\)&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -362,12 +578,12 @@ c Preprocessor Directives #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdl
 &lt;h4 id="tautology">Tautology&lt;/h4>
 &lt;ul>
 &lt;li>Always true&lt;/li>
-&lt;li>\(\sim p \lor p\)&lt;/li>
+&lt;li>\(\neg p \lor p\)&lt;/li>
 &lt;/ul>
 &lt;h4 id="contradiction">Contradiction&lt;/h4>
 &lt;ul>
 &lt;li>Always false&lt;/li>
-&lt;li>\(\sim p \land p\)&lt;/li>
+&lt;li>\(\neg p \land p\)&lt;/li>
 &lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
 Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
 Order of DEs The highest derivative that appears in the DE.

@@ -79,9 +79,9 @@ Kandasamy Chokkalingam
 <h3 id=logical-operators>Logical Operators<a href=#logical-operators class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <h4 id=negation>Negation<a href=#negation class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <ul>
-<li>\(\sim\)</li>
+<li>\(\neg\)</li>
 <li>means not</li>
-<li>\(\sim p = \begin{cases} \text{true} & \sim p \ \text{is false} \\ \text{false} & \sim p \ \text{is true}\end{cases}\)</li>
+<li>\(\neg p = \begin{cases} \text{true} & \neg p \ \text{is false} \\ \text{false} & \neg p \ \text{is true}\end{cases}\)</li>
 </ul>
 <h4 id=disjunction>Disjunction<a href=#disjunction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <ul>
@@ -95,6 +95,71 @@ Kandasamy Chokkalingam
 <li>\(\land\)</li>
 <li>means and</li>
 <li>\(p \land q = \begin{cases} \text{true} & \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} & p, q \ \text{or both are false}\end{cases}\)</li>
+</ul>
+<h4 id=implication>Implication<a href=#implication class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(p \rightarrow q\)</li>
+<li>means if antecedent then consequence</li>
+<li>Implication does not mean causality</li>
+<li>\(p \to q \equiv \neg p \lor q\)</li>
+<li>\(p \to q = \begin{cases} \text{true} & \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} & p \ \text{is true and} \ q \ \text{is false} \end{cases}\)</li>
+</ul>
+<ul>
+<li>
+<p>Converse</p>
+<ul>
+<li>Converse of \(p \to q\) is \(q \to p\)</li>
+<li>Not equivalent to the implication</li>
+<li><a href=#inverse>Inverse</a> of the <a href=#contrapositive>Contrapositive</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Inverse</p>
+<ul>
+<li>Inverse of \(p \to q\) is \(\neg p \to \neg q\)</li>
+<li>Not equivalent to the implication</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Contrapositive</p>
+<ul>
+<li>Contrapositive \(p \to q\) is \(\neg q \to neg p\)</li>
+<li>Equivalent to the implication</li>
+<li><a href=#inverse>Inverse</a> of the <a href=#converse>Converse</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Necessary</p>
+<ul>
+<li>\(q\) is necessary for \(p\)</li>
+<li>Without something necessary, the statement is false</li>
+<li>Equivalent to an <a href=#implication>Implication</a> through the <a href=#contrapositive>Contrapositive</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Sufficient</p>
+<ul>
+<li>\(p\) is sufficient for \(q\)</li>
+<li>If I have something sufficient, the statement is true with no other information</li>
+<li>Equivalent to an <a href=#implication>Implication</a></li>
+</ul>
+</li>
+</ul>
+<h4 id=biconditional>Biconditional<a href=#biconditional class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(p \leftrightarrow q\)</li>
+<li>means if and only if antecedent then consequence</li>
+<li>If the meanings of \(p\) and \(q\) make the implication equivalent to its converse</li>
+<li>\(p \leftrightarrow q \equiv (p \to q) \land (q \to p)\)</li>
+<li>\(p \leftrightarrow q = \begin{cases} \text{true} & \text{both} \ p \ \text{and} \ q \ \text{are true, or both} \ p \ \text{and} \ q \ \text{are false} \\ \text{false} & p \ \text{is true and} \ q \ \text{is false, or } \ p \ \text{is false and} \ q \ \text{is true} \end{cases}\)</li>
 </ul>
 <h3 id=order-of-operations>Order of Operations<a href=#order-of-operations class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <ol>
@@ -113,8 +178,8 @@ Kandasamy Chokkalingam
 <th style=text-align:center>\(q\)</th>
 <th style=text-align:center>\(r\)</th>
 <th style=text-align:center>\(p \lor q\)</th>
-<th style=text-align:center>\(\sim r\)</th>
-<th style=text-align:center>\((p \lor q) \land ( \sim r )\)</th>
+<th style=text-align:center>\(\neg r\)</th>
+<th style=text-align:center>\((p \lor q) \land ( \neg r )\)</th>
 </tr>
 </thead>
 <tbody>
@@ -190,23 +255,23 @@ Kandasamy Chokkalingam
 </ul>
 <h4 id=double-negative>Double Negative<a href=#double-negative class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <ul>
-<li>\(p \equiv \sim (\sim p)\)</li>
+<li>\(p \equiv \neg (\neg p)\)</li>
 </ul>
 <h4 id=de-morgan-s-laws>De Morgan&rsquo;s Laws<a href=#de-morgan-s-laws class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <ul>
-<li>\(\sim (p \lor q) \equiv (\sim p) \land (\sim q)\)</li>
-<li>\(\sim (p \land q) \equiv (\sim p) \lor (\sim q)\)</li>
+<li>\(\neg (p \lor q) \equiv (\neg p) \land (\neg q)\)</li>
+<li>\(\neg (p \land q) \equiv (\neg p) \lor (\neg q)\)</li>
 </ul>
 <table>
 <thead>
 <tr>
 <th style=text-align:center>\(p\)</th>
 <th style=text-align:center>\(q\)</th>
-<th style=text-align:center>\(\sim p\)</th>
-<th style=text-align:center>\(\sim q\)</th>
+<th style=text-align:center>\(\neg p\)</th>
+<th style=text-align:center>\(\neg q\)</th>
 <th style=text-align:center>\(p \lor q\)</th>
-<th style=text-align:center>\(\sim p \land \sim q\)</th>
-<th style=text-align:center>\(\sim(p \lor q)\)</th>
+<th style=text-align:center>\(\neg p \land \neg q\)</th>
+<th style=text-align:center>\(\neg(p \lor q)\)</th>
 </tr>
 </thead>
 <tbody>
@@ -251,12 +316,12 @@ Kandasamy Chokkalingam
 <h4 id=tautology>Tautology<a href=#tautology class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <ul>
 <li>Always true</li>
-<li>\(\sim p \lor p\)</li>
+<li>\(\neg p \lor p\)</li>
 </ul>
 <h4 id=contradiction>Contradiction<a href=#contradiction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <ul>
 <li>Always false</li>
-<li>\(\sim p \land p\)</li>
+<li>\(\neg p \land p\)</li>
 </ul>
 </div></div>
 </div>
