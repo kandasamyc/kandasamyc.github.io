@@ -323,6 +323,107 @@ Kandasamy Chokkalingam
 <li>Always false</li>
 <li>\(\neg p \land p\)</li>
 </ul>
+<h2 id=argument>Argument<a href=#argument class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<ul>
+<li>Consists of premises (hypotheses) and a conclusion</li>
+<li>Arguments can be valid, valid and sound, or neither</li>
+<li>Can have multiple premises but only one conclusion</li>
+</ul>
+<h3 id=validity>Validity<a href=#validity class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Valid when if premises are true, conclusion are also true</li>
+<li>Conclusion must be guaranteed to be true</li>
+</ul>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<div>
+<b>Validity</b>
+</div>
+<hr>
+<p>\[q\]
+\[p \lor q\]
+\[\therefore p \to q\]</p>
+<hr>
+<div>
+<p style=text-align:center;color:rgb(255,255,255,.5);margin-bottom:0;margin-top:0> test </p>
+</div>
+</div>
+<h3 id=soundness>Soundness<a href=#soundness class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Sound when valid and the premises are actually true</li>
+</ul>
+<h3 id=rules-of-inference>Rules of Inference<a href=#rules-of-inference class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=modus-ponens>Modus Ponens<a href=#modus-ponens class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p \to q\]
+\[p\]
+\[\therefore q\]</p>
+</div>
+<h4 id=modus-tollens>Modus Tollens<a href=#modus-tollens class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p \to q\]
+\[\neg q\]
+\[\therefore \neg p\]</p>
+</div>
+<h4 id=generalization>Generalization<a href=#generalization class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p\]
+\[\therefore p \lor q\]</p>
+</div>
+<h4 id=specialization>Specialization<a href=#specialization class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p \land q\]
+\[\therefore p\]</p>
+</div>
+<h4 id=conjunction>Conjunction<a href=#conjunction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p\]
+\[q\]
+\[\therefore p \land q\]</p>
+</div>
+<h4 id=elimination>Elimination<a href=#elimination class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p \lor q\]
+\[\neg p\]
+\[\therefore q\]</p>
+</div>
+<h4 id=transitivity>Transitivity<a href=#transitivity class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p \to q\]
+\[q \to r\]
+\[\therefore p \to r\]</p>
+</div>
+<h4 id=cases>Cases<a href=#cases class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[p \lor q\]
+\[p \leftrightarrow r\]
+\[q \leftrightarrow r\]
+\[\therefore r\]</p>
+</div>
+<h4 id=contradiction>Contradiction<a href=#contradiction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<p>\[\neg p \to c\]
+\[\therefore p\]</p>
+</div>
+<h3 id=solving-arguments>Solving Arguments<a href=#solving-arguments class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<div>
+<b>Prove $(p \land s) \to t$</b>
+</div>
+<hr>
+<ol>
+<li>\(p \lor q\)</li>
+<li>\(q \to r\)</li>
+<li>\((p \land s) \to t\)</li>
+<li>\(\neg r\)</li>
+<li>\(\neg q \to (u \land s)\)</li>
+<li>\(\neg q\) Modus Tollens (2,4)</li>
+<li>\(p\) Elimination (1,6)</li>
+<li>\(u \land s\) Modus Ponens (5,6)</li>
+<li>\(s\) Specialization (8)</li>
+<li>\(p \land s\) And (7,9)</li>
+<li>\(t\) Modus Ponens (3,10)</li>
+</ol>
+</div>
 </div></div>
 </div>
 </div>

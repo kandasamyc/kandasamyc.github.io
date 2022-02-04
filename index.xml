@@ -163,8 +163,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="329154876" type="checkbox" checked />
-&lt;label for="329154876">
+&lt;input id="598742163" type="checkbox" checked />
+&lt;label for="598742163">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +183,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="847963152" type="checkbox" checked />
-&lt;label for="847963152">
+&lt;input id="473891652" type="checkbox" checked />
+&lt;label for="473891652">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -304,8 +304,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="285143967" type="checkbox" />
-&lt;label for="285143967">
+&lt;input id="189467523" type="checkbox" />
+&lt;label for="189467523">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -584,7 +584,108 @@ return 0;
 &lt;ul>
 &lt;li>Always false&lt;/li>
 &lt;li>\(\neg p \land p\)&lt;/li>
-&lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
+&lt;/ul>
+&lt;h2 id="argument">Argument&lt;/h2>
+&lt;ul>
+&lt;li>Consists of premises (hypotheses) and a conclusion&lt;/li>
+&lt;li>Arguments can be valid, valid and sound, or neither&lt;/li>
+&lt;li>Can have multiple premises but only one conclusion&lt;/li>
+&lt;/ul>
+&lt;h3 id="validity">Validity&lt;/h3>
+&lt;ul>
+&lt;li>Valid when if premises are true, conclusion are also true&lt;/li>
+&lt;li>Conclusion must be guaranteed to be true&lt;/li>
+&lt;/ul>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;div>
+&lt;b>Validity&lt;/b>
+&lt;/div>
+&lt;hr>
+&lt;p>\[q\]
+\[p \lor q\]
+\[\therefore p \to q\]&lt;/p>
+&lt;hr>
+&lt;div>
+&lt;p style="text-align:center;color: rgb(255,255,255,0.5);margin-bottom:0;margin-top:0;"> test &lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="soundness">Soundness&lt;/h3>
+&lt;ul>
+&lt;li>Sound when valid and the premises are actually true&lt;/li>
+&lt;/ul>
+&lt;h3 id="rules-of-inference">Rules of Inference&lt;/h3>
+&lt;h4 id="modus-ponens">Modus Ponens&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p \to q\]
+\[p\]
+\[\therefore q\]&lt;/p>
+&lt;/div>
+&lt;h4 id="modus-tollens">Modus Tollens&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p \to q\]
+\[\neg q\]
+\[\therefore \neg p\]&lt;/p>
+&lt;/div>
+&lt;h4 id="generalization">Generalization&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p\]
+\[\therefore p \lor q\]&lt;/p>
+&lt;/div>
+&lt;h4 id="specialization">Specialization&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p \land q\]
+\[\therefore p\]&lt;/p>
+&lt;/div>
+&lt;h4 id="conjunction">Conjunction&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p\]
+\[q\]
+\[\therefore p \land q\]&lt;/p>
+&lt;/div>
+&lt;h4 id="elimination">Elimination&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p \lor q\]
+\[\neg p\]
+\[\therefore q\]&lt;/p>
+&lt;/div>
+&lt;h4 id="transitivity">Transitivity&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p \to q\]
+\[q \to r\]
+\[\therefore p \to r\]&lt;/p>
+&lt;/div>
+&lt;h4 id="cases">Cases&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[p \lor q\]
+\[p \leftrightarrow r\]
+\[q \leftrightarrow r\]
+\[\therefore r\]&lt;/p>
+&lt;/div>
+&lt;h4 id="contradiction">Contradiction&lt;/h4>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;p>\[\neg p \to c\]
+\[\therefore p\]&lt;/p>
+&lt;/div>
+&lt;h3 id="solving-arguments">Solving Arguments&lt;/h3>
+&lt;div class="framed" style="width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem;">
+&lt;div>
+&lt;b>Prove $(p \land s) \to t$&lt;/b>
+&lt;/div>
+&lt;hr>
+&lt;ol>
+&lt;li>\(p \lor q\)&lt;/li>
+&lt;li>\(q \to r\)&lt;/li>
+&lt;li>\((p \land s) \to t\)&lt;/li>
+&lt;li>\(\neg r\)&lt;/li>
+&lt;li>\(\neg q \to (u \land s)\)&lt;/li>
+&lt;li>\(\neg q\) Modus Tollens (2,4)&lt;/li>
+&lt;li>\(p\) Elimination (1,6)&lt;/li>
+&lt;li>\(u \land s\) Modus Ponens (5,6)&lt;/li>
+&lt;li>\(s\) Specialization (8)&lt;/li>
+&lt;li>\(p \land s\) And (7,9)&lt;/li>
+&lt;li>\(t\) Modus Ponens (3,10)&lt;/li>
+&lt;/ol>
+&lt;/div></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
 Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
 Order of DEs The highest derivative that appears in the DE.
 Linearity A DE is linear if there is no function composition on the unknown functions or their derivatives.</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
@@ -646,7 +747,29 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 \[y = G^{-1}(F(t) + C)\]&lt;/p>
 &lt;h3 id="autonomous-equations">Autonomous Equations&lt;/h3>
 &lt;p>An equation of the form:
-\[\frac{dy}{dt} = g(y)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+\[\frac{dy}{dt} = g(y)\]&lt;/p>
+&lt;h2 id="general-theory">General Theory&lt;/h2>
+&lt;h3 id="interior">Interior&lt;/h3>
+&lt;ul>
+&lt;li>If you can draw a rectangle around the point that is entirely container in the set&lt;/li>
+&lt;/ul>
+&lt;h3 id="existence-and-uniqueness-theorem">Existence and Uniqueness Theorem&lt;/h3>
+&lt;p>For the problem \(\frac{dy}{dt} = f(t,y)\), \(y(t_1) = y_1\)&lt;/p>
+&lt;p>If \(f(t,y)\) is a function defined over a set \(S\) in the $ty$-plane such that&lt;/p>
+&lt;ol>
+&lt;li>\(f\) is continuous over \(S\)&lt;/li>
+&lt;li>\(f\) is differentiable with respect to \(y\) over \(S\)&lt;/li>
+&lt;li>\(\partial_yf\) is continuous over \(S\)&lt;/li>
+&lt;/ol>
+&lt;p>Then for every initial time \(t_1\) and initial value \(y_1\) such that \((t_1,y_1)\) is in the interior of \(S\), there is a unique solution to the initial value problem that is defined over the largest time interval that contains the initial time and all points are in \(S\) and is smooth in that interval.&lt;/p>
+&lt;p>Basically, this means that given some differential equation, if it and its first-derivative of \(y\) are continuous, then there is a unique solution to the differential equation.&lt;/p>
+&lt;p>Because there is a unique solution to every one, two solutions can never cross. If they do, that point could be used as an initial point and produce non-unique solutions, which is not allowed.&lt;/p>
+&lt;h2 id="grapical-methods">Grapical Methods&lt;/h2>
+&lt;h3 id="phase-portraits-for-autonomous-equations">Phase Portraits for Autonomous Equations&lt;/h3>
+&lt;p>Given some &lt;a href="#autonomous-equations">autonomous equation&lt;/a>, find the points where it is equal to 0. This is where \(g(y)\) is equal to 0. Place these points on a number line from \(-\infty\) to \(\infty\). Compute the signs for each region on this line. For each region, draw arrows pointing in the direction of signs for each region. For example, for a positive region, arrows would point right.&lt;/p>
+&lt;p>These arrows represent the asymptotic behavior of a solution in that region as \(t\) approaches \(\infty\). As \(t\) approaches \(-\infty\), the solution will follow the opposite direction of the arrows.&lt;/p>
+&lt;p>The points placed to indicate zeroes are hard boundaries. Because of &lt;a href="#existence-and-uniqueness-theorem">Existence and Uniqueness Theorem&lt;/a>, nothing can cross these boundaries. Zeroes where the arrows on both sides point toward it are &lt;strong>stable&lt;/strong>, while those where the arrows on both sides point away from it are &lt;strong>unstable&lt;/strong>, and those where the arrows on both sides have conflicting directs are &lt;strong>semi-stable&lt;/strong>.&lt;/p>
+&lt;p>With this information, we can draw a graph of many possible solutions. Any solution in a given $y$-region of zeroes will follow the trends in the phase portrait. Infinitely many lines can be drawn from the given portrait but none of the lines can cross (that would violate the &lt;a href="#existence-and-uniqueness-theorem">Existence and Uniqueness Theorem&lt;/a>).&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>

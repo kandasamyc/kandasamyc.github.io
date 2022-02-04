@@ -122,6 +122,28 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 <h3 id=autonomous-equations>Autonomous Equations<a href=#autonomous-equations class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <p>An equation of the form:
 \[\frac{dy}{dt} = g(y)\]</p>
+<h2 id=general-theory>General Theory<a href=#general-theory class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=interior>Interior<a href=#interior class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>If you can draw a rectangle around the point that is entirely container in the set</li>
+</ul>
+<h3 id=existence-and-uniqueness-theorem>Existence and Uniqueness Theorem<a href=#existence-and-uniqueness-theorem class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>For the problem \(\frac{dy}{dt} = f(t,y)\), \(y(t_1) = y_1\)</p>
+<p>If \(f(t,y)\) is a function defined over a set \(S\) in the $ty$-plane such that</p>
+<ol>
+<li>\(f\) is continuous over \(S\)</li>
+<li>\(f\) is differentiable with respect to \(y\) over \(S\)</li>
+<li>\(\partial_yf\) is continuous over \(S\)</li>
+</ol>
+<p>Then for every initial time \(t_1\) and initial value \(y_1\) such that \((t_1,y_1)\) is in the interior of \(S\), there is a unique solution to the initial value problem that is defined over the largest time interval that contains the initial time and all points are in \(S\) and is smooth in that interval.</p>
+<p>Basically, this means that given some differential equation, if it and its first-derivative of \(y\) are continuous, then there is a unique solution to the differential equation.</p>
+<p>Because there is a unique solution to every one, two solutions can never cross. If they do, that point could be used as an initial point and produce non-unique solutions, which is not allowed.</p>
+<h2 id=grapical-methods>Grapical Methods<a href=#grapical-methods class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=phase-portraits-for-autonomous-equations>Phase Portraits for Autonomous Equations<a href=#phase-portraits-for-autonomous-equations class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>Given some <a href=#autonomous-equations>autonomous equation</a>, find the points where it is equal to 0. This is where \(g(y)\) is equal to 0. Place these points on a number line from \(-\infty\) to \(\infty\). Compute the signs for each region on this line. For each region, draw arrows pointing in the direction of signs for each region. For example, for a positive region, arrows would point right.</p>
+<p>These arrows represent the asymptotic behavior of a solution in that region as \(t\) approaches \(\infty\). As \(t\) approaches \(-\infty\), the solution will follow the opposite direction of the arrows.</p>
+<p>The points placed to indicate zeroes are hard boundaries. Because of <a href=#existence-and-uniqueness-theorem>Existence and Uniqueness Theorem</a>, nothing can cross these boundaries. Zeroes where the arrows on both sides point toward it are <strong>stable</strong>, while those where the arrows on both sides point away from it are <strong>unstable</strong>, and those where the arrows on both sides have conflicting directs are <strong>semi-stable</strong>.</p>
+<p>With this information, we can draw a graph of many possible solutions. Any solution in a given $y$-region of zeroes will follow the trends in the phase portrait. Infinitely many lines can be drawn from the given portrait but none of the lines can cross (that would violate the <a href=#existence-and-uniqueness-theorem>Existence and Uniqueness Theorem</a>).</p>
 </div></div>
 </div>
 </div>
