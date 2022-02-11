@@ -127,7 +127,7 @@ Kandasamy Chokkalingam
 <li>
 <p>Contrapositive</p>
 <ul>
-<li>Contrapositive \(p \to q\) is \(\neg q \to neg p\)</li>
+<li>Contrapositive \(p \to q\) is \(\neg q \to \neg p\)</li>
 <li>Equivalent to the implication</li>
 <li><a href=#inverse>Inverse</a> of the <a href=#converse>Converse</a></li>
 </ul>
@@ -395,8 +395,8 @@ Kandasamy Chokkalingam
 <h4 id=cases>Cases<a href=#cases class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
 <p>\[p \lor q\]
-\[p \leftrightarrow r\]
-\[q \leftrightarrow r\]
+\[p \to r\]
+\[q \to r\]
 \[\therefore r\]</p>
 </div>
 <h4 id=contradiction>Contradiction<a href=#contradiction class=hanchor arialabel=Anchor>&#8983;</a> </h4>
@@ -407,7 +407,7 @@ Kandasamy Chokkalingam
 <h3 id=solving-arguments>Solving Arguments<a href=#solving-arguments class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
 <div>
-<b>Prove $(p \land s) \to t$</b>
+<b>Example Proof</b>
 </div>
 <hr>
 <ol>
@@ -424,6 +424,72 @@ Kandasamy Chokkalingam
 <li>\(t\) Modus Ponens (3,10)</li>
 </ol>
 </div>
+<h2 id=numbers>Numbers<a href=#numbers class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<ul>
+<li>Numbers are abstract</li>
+<li>Types are the concept, Tokens are the actual things</li>
+<li>Numbers are symbols, representing the abstract entity</li>
+</ul>
+<h3 id=bases>Bases<a href=#bases class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>A base represents the meanings of digits in a number and the range of digits allowed</li>
+</ul>
+<div class=framed style=width:fit-content;margin:auto;padding-left:2.5rem;padding-right:2.5rem>
+<div>
+<b>Definition of a Base</b>
+</div>
+<hr>
+<p>\[\text{For some base}\ x\ \text{and for any number}\ n_x\]
+\[n_x\ \text{is written as a series of digits &mldr;}\ d_3 d_2 d_1 d_0\]
+\[0 \leq d_i \leq x-1\]
+\[n_{10} = \sum_{i=0}^{} d_ix^i\]</p>
+</div>
+<h3 id=base-conversion>Base Conversion<a href=#base-conversion class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=subtraction-method>Subtraction Method<a href=#subtraction-method class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Repeatedly subtract lower powers of the base to convert to, trying to maximize digits before moving to the next</li>
+</ul>
+<h4 id=division-method>Division Method<a href=#division-method class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Repeatedly divide by the base and the remainder for the nth division step is the nth digit</li>
+</ul>
+<h4 id=grouping-method>Grouping Method<a href=#grouping-method class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>To convert from a base \(x\) to a base \(x^n\), collapse \(x\) digits into 1 or vice versa</li>
+</ul>
+<h3 id=properties>Properties<a href=#properties class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h4 id=integers>Integers<a href=#integers class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>A number without a fractional part</li>
+</ul>
+<h4 id=parity>Parity<a href=#parity class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>Whether a number is even or odd or neither. \(x\) is even if there is some integer \(y\) such that \(x=2y\).</li>
+<li>Just because a number is not even, does not make it odd, and vice versa.</li>
+</ul>
+<h4 id=prime>Prime<a href=#prime class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>A number is prime if the only positive divisors of it are 1 and itself</li>
+<li>A number is composite if there are positive integers whose product is the number</li>
+<li>\(x \leq 1\) is neither prime nor composite</li>
+</ul>
+<h4 id=divisibility>Divisibility<a href=#divisibility class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(x\) divides \(y\) if there is some unique integer \(z\) where \(xz=y\)</li>
+<li>If \(x\) divides \(y\), we say \(x \mid y\), but if it does not, we say \(x \nmid y\)</li>
+<li>0 divides everything but nothing divides 0</li>
+</ul>
+<h4 id=modular-arithmetic>Modular Arithmetic<a href=#modular-arithmetic class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<ul>
+<li>\(x\!\!\mod m = r\)</li>
+<li>\(x = km + r\) where \(r\) is positive and less than \(m\) (math definition)</li>
+<li>\(x \equiv r \pmod m\) where the only constraint is that \(m\) is not 0
+<ul>
+<li>\(r\) is \(x\) in the context \(\!\!\pmod m\)</li>
+<li>\(m \mid (x-r)\)</li>
+</ul>
+</li>
+</ul>
 </div></div>
 </div>
 </div>

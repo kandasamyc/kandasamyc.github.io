@@ -68,15 +68,15 @@ Kandasamy Chokkalingam
 <h3 id=preprocessor-directives>Preprocessor Directives<a href=#preprocessor-directives class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <p>Code at the beginning of a file that starts with a #. This is run before compilation.</p>
 <div class=collapsable-code>
-<input id=598742163 type=checkbox checked>
-<label for=598742163>
+<input id=143958276 type=checkbox checked>
+<label for=143958276>
 <span class=collapsable-code__language>c</span>
 <span class=collapsable-code__title>Preprocessor Directives</span>
 <span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
 </label>
-<pre class="language-c line-numbers"><code>#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;string.h&gt;
+<pre class="language-c line-numbers"><code>#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
 #define MAX_COLS 20 /* max # of columns to process */
 #define MAX_INPUT 1000</code></pre>
 </div>
@@ -86,8 +86,8 @@ Kandasamy Chokkalingam
 <li>Returns an int, takes no arguments (so void)</li>
 </ul>
 <div class=collapsable-code>
-<input id=473891652 type=checkbox checked>
-<label for=473891652>
+<input id=391487652 type=checkbox checked>
+<label for=391487652>
 <span class=collapsable-code__language>c</span>
 <span class=collapsable-code__title>Main Function</span>
 <span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
@@ -205,8 +205,8 @@ Kandasamy Chokkalingam
 <li>The numbers after the name are optional</li>
 </ul>
 <div class=collapsable-code>
-<input id=189467523 type=checkbox>
-<label for=189467523>
+<input id=159843627 type=checkbox>
+<label for=159843627>
 <span class=collapsable-code__language>c</span>
 <span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
 </label>
@@ -219,7 +219,35 @@ Kandasamy Chokkalingam
 <li>Or both <code>6.023e23</code></li>
 </ul>
 <h3 id=pointers>Pointers<a href=#pointers class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<h3 id=scope>Scope<a href=#scope class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Every memory location has an address</li>
+<li><strong>Pointer</strong> is another name for address</li>
+<li><strong>Pointer Variable</strong> is a variable whose value is an address of a moeory location</li>
+<li>There are no point constants because we can&rsquo;t predict where memory addresses will be</li>
+<li>To declare a pointer, use the indirection operator before the variable
+<ul>
+<li>The indirection operation gets the value at an address, so therefore the variable stores a pointer to an address with a value of the given type</li>
+<li><code>int *a</code> is an in pointer</li>
+<li>If you declare multiple on the same line, you need a <code>*</code> for each one</li>
+<li>When initializing it on the same line, the value you give goes to the variable itself, not the pointer</li>
+</ul>
+</li>
+</ul>
+<h3 id=string-literals>String Literals<a href=#string-literals class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>C has no string type, but there is a string literal</li>
+<li>A string is a sequence of characters terminated by a <code>NUL</code> byte
+<ul>
+<li>A sequence of zero characters is valid</li>
+</ul>
+</li>
+</ul>
+<h3 id=declaring-arrays>Declaring Arrays<a href=#declaring-arrays class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>Like declaring an int, but with square brackets after the name with a capacity value: <code>int values[20]</code></li>
+</ul>
+<h3 id=typedef><code>Typedef</code><a href=#typedef class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<h2 id=scope>Scope<a href=#scope class=hanchor arialabel=Anchor>&#8983;</a> </h2>
 <p>**</p>
 </div></div>
 </div>

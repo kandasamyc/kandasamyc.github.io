@@ -138,12 +138,48 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 <p>Then for every initial time \(t_1\) and initial value \(y_1\) such that \((t_1,y_1)\) is in the interior of \(S\), there is a unique solution to the initial value problem that is defined over the largest time interval that contains the initial time and all points are in \(S\) and is smooth in that interval.</p>
 <p>Basically, this means that given some differential equation, if it and its first-derivative of \(y\) are continuous, then there is a unique solution to the differential equation.</p>
 <p>Because there is a unique solution to every one, two solutions can never cross. If they do, that point could be used as an initial point and produce non-unique solutions, which is not allowed.</p>
-<h2 id=grapical-methods>Grapical Methods<a href=#grapical-methods class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h2 id=graphical-methods>Graphical Methods<a href=#graphical-methods class=hanchor arialabel=Anchor>&#8983;</a> </h2>
 <h3 id=phase-portraits-for-autonomous-equations>Phase Portraits for Autonomous Equations<a href=#phase-portraits-for-autonomous-equations class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <p>Given some <a href=#autonomous-equations>autonomous equation</a>, find the points where it is equal to 0. This is where \(g(y)\) is equal to 0. Place these points on a number line from \(-\infty\) to \(\infty\). Compute the signs for each region on this line. For each region, draw arrows pointing in the direction of signs for each region. For example, for a positive region, arrows would point right.</p>
 <p>These arrows represent the asymptotic behavior of a solution in that region as \(t\) approaches \(\infty\). As \(t\) approaches \(-\infty\), the solution will follow the opposite direction of the arrows.</p>
 <p>The points placed to indicate zeroes are hard boundaries. Because of <a href=#existence-and-uniqueness-theorem>Existence and Uniqueness Theorem</a>, nothing can cross these boundaries. Zeroes where the arrows on both sides point toward it are <strong>stable</strong>, while those where the arrows on both sides point away from it are <strong>unstable</strong>, and those where the arrows on both sides have conflicting directs are <strong>semi-stable</strong>.</p>
-<p>With this information, we can draw a graph of many possible solutions. Any solution in a given $y$-region of zeroes will follow the trends in the phase portrait. Infinitely many lines can be drawn from the given portrait but none of the lines can cross (that would violate the <a href=#existence-and-uniqueness-theorem>Existence and Uniqueness Theorem</a>).</p>
+<p>With this information, we can draw a graph of many possible solutions. Any solution in a given \(y\) region of zeroes will follow the trends in the phase portrait. Infinitely many lines can be drawn from the given portrait but none of the lines can cross (that would violate the <a href=#existence-and-uniqueness-theorem>Existence and Uniqueness Theorem</a>).</p>
+<h2 id=applications>Applications<a href=#applications class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=tank-problems>Tank Problems<a href=#tank-problems class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>The general rule for these types of problems is:
+\[\frac{dy}{dt} = \text{Rate In} - \text{Rate Out}\]
+For problems that deal with some concentration \(C(t)\) of a certain mass \(S(t)\) in a volume \(V(t)\) and there is some flow \(F(t)\) both in and out
+\[\frac{dS}{dt} = F_{in}C_{in} - F_{out}C_{out}\]
+If the volume stays constant, \(C_{out}\) is a constant, otherwise, it should be rewritten in terms of \(S\) and \(t\) by determining an equation for \(V(t)\) from the difference in \(F_{in}\) and \(F_{out}\).</p>
+<h2 id=numerical-methods>Numerical Methods<a href=#numerical-methods class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=euler-s-method>Euler&rsquo;s Method<a href=#euler-s-method class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>One can use explicit Euler&rsquo;s method to estimate a function \(y\) at \(n\) steps of \(h\) from the initial value.
+\[y_{n+1} = y_n + hf(t_n,y_n)\]</p>
+<h2 id=exact-differential-form>Exact Differential Form<a href=#exact-differential-form class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=formal-work>Formal Work<a href=#formal-work class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>We want a solution to a first order equation in the form:
+\[ \frac{dy}{dx} = f(x,y)\]
+We define some \(H\) to be the integral of the above equation and which defines all possible solutions \(Y\) to the differential equation:
+\[H(x,y) = c\]
+possibly with some initial condition \(Y(x_0)=y_0\). The question then is when can we get such an \(H\)?
+Assume such a \(H\) exists and that \(Y(x)\) is a solution to the differential equation.
+\[H(x,y) = H(x,Y(x))\]
+Then, we take the partials with respect to both \(x\) and \(y\).
+\[\partial_x H(x,Y(x)) + Y'(x)\partial_y H(x,Y(x))\]
+Solving for \(Y'(x)\), gives us:
+\[Y'(x) = \frac{dy}{dx} = - \frac{\partial_x H(x,Y(x))}{\partial_y H(x,Y(x))}\]
+Since \(y=Y(x)\) is a solution and \(\frac{dy}{dx} = f(x,y)\),
+\[f(x,y) = - \frac{\partial_x H(x,y)}{\partial_y H(x,y}\]
+We define some \(M(x,y) = \partial_x H(x,y)\) and some \(N(x,y) = \partial_y H(x,y)\)
+\[f(x,y) = - \frac{M(x,y)}{N(x,y)}\]
+Remember that we need there to be some function \(H(x,y)\) that fits our above work. Some function \(H(x,y)\) exists and the differential form is <strong>exact</strong> if \(\partial_y M(x,y) = \partial_x N(x,y)\).
+If so, we can integrate either \(Mdx\) or \(Ndy\). Doing either gives us:
+\[H(x,y) = g(x,y) + h\]
+where \(g\) is the integral and \(h\) is some function of only the other variable. We then take the derivative of this with respect to the other variable and check it with its partial of \(H\). With that expression, we can solve for \(h\), and thereby for \(H\).</p>
+<h3 id=informal-description>Informal Description<a href=#informal-description class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>Given some differential equation \(\frac{dy}{dt} = f(x,y)\) , we want to know when it has a solution.</p>
+<p>It&rsquo;ll have a solution when we can get into some implicit form \(H(x,y) = c\). If we take the derivative of \(H\), we get some expression equal to \(f(x,y)\). This expression can be rewritten as \(f(x,y) = - \frac{M(x,y)}{N(x,y)}\) where \(M\) is the \(x\) partial of \(H\), and \(N\) is the \(y\) partial.</p>
+<p>According to Euler, we can only have this hold when \(M_y = N_x\), that is, when the second order partials are the same. If they are, we can integrate \(M\) with respect to \(x\) and \(N\) with respect to \(y\) to solve for \(H\).</p>
 </div></div>
 </div>
 </div>
