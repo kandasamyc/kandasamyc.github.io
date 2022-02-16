@@ -2,8 +2,8 @@
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="612537489" type="checkbox" checked />
-&lt;label for="612537489">
+&lt;input id="498276513" type="checkbox" checked />
+&lt;label for="498276513">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -22,8 +22,8 @@
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="894712356" type="checkbox" checked />
-&lt;label for="894712356">
+&lt;input id="583162479" type="checkbox" checked />
+&lt;label for="583162479">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -143,8 +143,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="164983527" type="checkbox" />
-&lt;label for="164983527">
+&lt;input id="652193847" type="checkbox" />
+&lt;label for="652193847">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -776,7 +776,26 @@ where \(g\) is the integral and \(h\) is some function of only the other variabl
 &lt;h3 id="informal-description">Informal Description&lt;/h3>
 &lt;p>Given some differential equation \(\frac{dy}{dt} = f(x,y)\) , we want to know when it has a solution.&lt;/p>
 &lt;p>It&amp;rsquo;ll have a solution when we can get into some implicit form \(H(x,y) = c\). If we take the derivative of \(H\), we get some expression equal to \(f(x,y)\). This expression can be rewritten as \(f(x,y) = - \frac{M(x,y)}{N(x,y)}\) where \(M\) is the \(x\) partial of \(H\), and \(N\) is the \(y\) partial.&lt;/p>
-&lt;p>According to Euler, we can only have this hold when \(M_y = N_x\), that is, when the second order partials are the same. If they are, we can integrate \(M\) with respect to \(x\) and \(N\) with respect to \(y\) to solve for \(H\).&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+&lt;p>According to Euler, we can only have this hold when \(M_y = N_x\), that is, when the second order partials are the same. If they are, we can integrate \(M\) with respect to \(x\) and \(N\) with respect to \(y\) to solve for \(H\).&lt;/p>
+&lt;h3 id="integrating-factor">Integrating Factor&lt;/h3>
+&lt;p>Not all differential equations of the above form are &lt;strong>exact&lt;/strong>. However, this does not mean they are not solveable. Some equations can multiplied through by some integrating factor \(\rho(x,y)\). The solutions to
+\[M(x,y)dx + N(x,y)dy = 0\]
+and
+\[\rho(x,y)M(x,y)dx + \rho(x,y)N(x,y)dy = 0\]
+are the same. From there, since this must be exact, the second-order partials must equal, and so:
+\[\partial_y[\rho(x,y)M(x,y)] = \partial_x[\rho(x,y)N(x,y)]\]
+Applying the chain rule:
+\[\rho_y(x,y)M(x,y) + \rho(x,y)M_y(x,y) = \rho_x(x,y)N(x,y) + \rho(x,y)N_y(x,y)\]
+This is a pretty bad equation, but we can solve it if we set either partial of \(\rho\) to 0. \(\rho\) then becomes a function of only one variable, and if we can write its partial in terms of only that variable, we can find a implicit solution.&lt;/p>
+&lt;p>If we set \(\rho_y\) to 0:&lt;/p>
+&lt;p>\[\rho(x,y)M_y(x,y) = \rho_x(x,y)N(x,y) + \rho(x,y)N_y(x,y)\]
+\[\rho(x,y)M_y(x,y) - \rho(x,y)N_x(x,y) = \rho_x(x,y)N(x,y)\]
+\[\rho(x,y) \frac{M_y(x,y) - N_y(x,y)}{N(x,y)} = \rho_x(x,y)\]&lt;/p>
+&lt;p>Similarly, if we set \(\rho_x\) to 0:&lt;/p>
+&lt;p>\[\rho_y(x,y)M(x,y) + \rho(x,y)M_y(x,y) = \rho(x,y)N_y(x,y)\]
+\[\rho_y(x,y)M(x,y) = \rho(x,y)N_y(x,y) - \rho(x,y)M_y(x,y)\]
+\[\rho_y(x,y) = \rho(x,y) \frac{N_y(x,y) - M_y(x,y)}{M(x,y)}\]&lt;/p>
+&lt;p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>

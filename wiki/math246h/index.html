@@ -180,6 +180,25 @@ where \(g\) is the integral and \(h\) is some function of only the other variabl
 <p>Given some differential equation \(\frac{dy}{dt} = f(x,y)\) , we want to know when it has a solution.</p>
 <p>It&rsquo;ll have a solution when we can get into some implicit form \(H(x,y) = c\). If we take the derivative of \(H\), we get some expression equal to \(f(x,y)\). This expression can be rewritten as \(f(x,y) = - \frac{M(x,y)}{N(x,y)}\) where \(M\) is the \(x\) partial of \(H\), and \(N\) is the \(y\) partial.</p>
 <p>According to Euler, we can only have this hold when \(M_y = N_x\), that is, when the second order partials are the same. If they are, we can integrate \(M\) with respect to \(x\) and \(N\) with respect to \(y\) to solve for \(H\).</p>
+<h3 id=integrating-factor>Integrating Factor<a href=#integrating-factor class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>Not all differential equations of the above form are <strong>exact</strong>. However, this does not mean they are not solveable. Some equations can multiplied through by some integrating factor \(\rho(x,y)\). The solutions to
+\[M(x,y)dx + N(x,y)dy = 0\]
+and
+\[\rho(x,y)M(x,y)dx + \rho(x,y)N(x,y)dy = 0\]
+are the same. From there, since this must be exact, the second-order partials must equal, and so:
+\[\partial_y[\rho(x,y)M(x,y)] = \partial_x[\rho(x,y)N(x,y)]\]
+Applying the chain rule:
+\[\rho_y(x,y)M(x,y) + \rho(x,y)M_y(x,y) = \rho_x(x,y)N(x,y) + \rho(x,y)N_y(x,y)\]
+This is a pretty bad equation, but we can solve it if we set either partial of \(\rho\) to 0. \(\rho\) then becomes a function of only one variable, and if we can write its partial in terms of only that variable, we can find a implicit solution.</p>
+<p>If we set \(\rho_y\) to 0:</p>
+<p>\[\rho(x,y)M_y(x,y) = \rho_x(x,y)N(x,y) + \rho(x,y)N_y(x,y)\]
+\[\rho(x,y)M_y(x,y) - \rho(x,y)N_x(x,y) = \rho_x(x,y)N(x,y)\]
+\[\rho(x,y) \frac{M_y(x,y) - N_y(x,y)}{N(x,y)} = \rho_x(x,y)\]</p>
+<p>Similarly, if we set \(\rho_x\) to 0:</p>
+<p>\[\rho_y(x,y)M(x,y) + \rho(x,y)M_y(x,y) = \rho(x,y)N_y(x,y)\]
+\[\rho_y(x,y)M(x,y) = \rho(x,y)N_y(x,y) - \rho(x,y)M_y(x,y)\]
+\[\rho_y(x,y) = \rho(x,y) \frac{N_y(x,y) - M_y(x,y)}{M(x,y)}\]</p>
+<p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).</p>
 </div></div>
 </div>
 </div>
