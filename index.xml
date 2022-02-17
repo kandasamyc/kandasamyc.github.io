@@ -163,8 +163,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="498276513" type="checkbox" checked />
-&lt;label for="498276513">
+&lt;input id="193465782" type="checkbox" checked />
+&lt;label for="193465782">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +183,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="583162479" type="checkbox" checked />
-&lt;label for="583162479">
+&lt;input id="843619572" type="checkbox" checked />
+&lt;label for="843619572">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -304,8 +304,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="652193847" type="checkbox" />
-&lt;label for="652193847">
+&lt;input id="671398452" type="checkbox" />
+&lt;label for="671398452">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -868,7 +868,7 @@ This is integrating factor form. Now we can integrate both sides and solve for \
 &lt;ul>
 &lt;li>
 &lt;p>General Solution&lt;/p>
-&lt;p>\[y = e^{-A(t)}\int A(t)f(t)dt + Ce^{-A(t)}\]&lt;/p>
+&lt;p>\[y = e^{-A(t)}\int e^{A(t)}f(t)dt + Ce^{-A(t)}\]&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="separable-equations">Separable Equations&lt;/h2>
@@ -952,13 +952,13 @@ Applying the chain rule:
 \[\rho_y(x,y)M(x,y) + \rho(x,y)M_y(x,y) = \rho_x(x,y)N(x,y) + \rho(x,y)N_y(x,y)\]
 This is a pretty bad equation, but we can solve it if we set either partial of \(\rho\) to 0. \(\rho\) then becomes a function of only one variable, and if we can write its partial in terms of only that variable, we can find a implicit solution.&lt;/p>
 &lt;p>If we set \(\rho_y\) to 0:&lt;/p>
-&lt;p>\[\rho(x,y)M_y(x,y) = \rho_x(x,y)N(x,y) + \rho(x,y)N_y(x,y)\]
+&lt;p>\[\rho(x,y)M_y(x,y) = \rho_x(x,y)N(x,y) + \rho(x,y)N_x(x,y)\]
 \[\rho(x,y)M_y(x,y) - \rho(x,y)N_x(x,y) = \rho_x(x,y)N(x,y)\]
-\[\rho(x,y) \frac{M_y(x,y) - N_y(x,y)}{N(x,y)} = \rho_x(x,y)\]&lt;/p>
+\[\rho(x,y) \frac{M_y(x,y) - N_x(x,y)}{N(x,y)} = \rho_x(x,y)\]&lt;/p>
 &lt;p>Similarly, if we set \(\rho_x\) to 0:&lt;/p>
-&lt;p>\[\rho_y(x,y)M(x,y) + \rho(x,y)M_y(x,y) = \rho(x,y)N_y(x,y)\]
-\[\rho_y(x,y)M(x,y) = \rho(x,y)N_y(x,y) - \rho(x,y)M_y(x,y)\]
-\[\rho_y(x,y) = \rho(x,y) \frac{N_y(x,y) - M_y(x,y)}{M(x,y)}\]&lt;/p>
+&lt;p>\[\rho_y(x,y)M(x,y) + \rho(x,y)M_x(x,y) = \rho(x,y)N_y(x,y)\]
+\[\rho_y(x,y)M(x,y) = \rho(x,y)N_x(x,y) - \rho(x,y)M_y(x,y)\]
+\[\rho_y(x,y) = \rho(x,y) \frac{N_x(x,y) - M_y(x,y)}{M(x,y)}\]&lt;/p>
 &lt;p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
