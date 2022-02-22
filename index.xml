@@ -163,8 +163,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="195872643" type="checkbox" checked />
-&lt;label for="195872643">
+&lt;input id="198356247" type="checkbox" checked />
+&lt;label for="198356247">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +183,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="931628754" type="checkbox" checked />
-&lt;label for="931628754">
+&lt;input id="974361582" type="checkbox" checked />
+&lt;label for="974361582">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -304,8 +304,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="456127983" type="checkbox" />
-&lt;label for="456127983">
+&lt;input id="651329784" type="checkbox" />
+&lt;label for="651329784">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -634,10 +634,6 @@ return 0;
 &lt;p>\[q\]
 \[p \lor q\]
 \[\therefore p \to q\]&lt;/p>
-&lt;hr>
-&lt;div>
-&lt;p style="text-align:center;color: rgb(255,255,255,0.5);margin-bottom:0;margin-top:0;"> test &lt;/p>
-&lt;/div>
 &lt;/div>
 &lt;h3 id="soundness">Soundness&lt;/h3>
 &lt;ul>
@@ -823,8 +819,36 @@ return 0;
 &lt;/ul>
 &lt;h4 id="negation">Negation&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="#for-all">For All&lt;/a> becomes &lt;a href="#exists">Exists&lt;/a> and vice versa&lt;/li>
-&lt;li>Negate the predicate&lt;/li>
+&lt;li>&lt;a href="#for-all">For All&lt;/a> becomes &lt;a href="#exists">Exists&lt;/a> and vice versa
+&lt;ul>
+&lt;li>If there are multiple quantifiers, flip all of them&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Negate the predicate
+&lt;ul>
+&lt;li>Make sure to include the equals case (negating \(\lt\) becomes \(\geq\))&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="implications">Implications&lt;/h3>
+&lt;ul>
+&lt;li>When using &lt;a href="#implication">implications&lt;/a> in the predicate with a quantifier, the quantifier doesn&amp;rsquo;t change for the &lt;a href="#contrapositive">Contrapositive&lt;/a>, &lt;a href="#converse">Converse&lt;/a>, or &lt;a href="#inverse">Inverse&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="proofs">Proofs&lt;/h2>
+&lt;h3 id="necessary-information">Necessary Information&lt;/h3>
+&lt;ul>
+&lt;li>When proving an existential statement:
+&lt;ul>
+&lt;li>To prove true, you need one example to be true&lt;/li>
+&lt;li>To prove false, you need all examples to be false&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>When proving an universal statement:
+&lt;ul>
+&lt;li>To prove true, you need all examples to be true&lt;/li>
+&lt;li>To prove false, you need one example to be false&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
 Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
 Order of DEs The highest derivative that appears in the DE.
@@ -964,7 +988,18 @@ This is a pretty bad equation, but we can solve it if we set either partial of \
 &lt;p>\[\rho_y(x,y)M(x,y) + \rho(x,y)M_x(x,y) = \rho(x,y)N_y(x,y)\]
 \[\rho_y(x,y)M(x,y) = \rho(x,y)N_x(x,y) - \rho(x,y)M_y(x,y)\]
 \[\rho_y(x,y) = \rho(x,y) \frac{N_x(x,y) - M_y(x,y)}{M(x,y)}\]&lt;/p>
-&lt;p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+&lt;p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).&lt;/p>
+&lt;h2 id="higher-order-linear-differential-equations">Higher Order Linear Differential Equations&lt;/h2>
+&lt;p>Every \(n^th\) order linear DE can be written in the form:
+\[\frac{d^ny}{dt^n}+a_1(t)\frac{d^{n-1}y}{dt^{n-1}}+&amp;hellip;+a_{n-1}(t)\frac{dy}{dt}+a_n(t)y=f(t)\]&lt;/p>
+&lt;p>The functions \(a_1(t)&amp;hellip;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be &lt;strong>constant coefficient&lt;/strong>.&lt;/p>
+&lt;p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be &lt;strong>homogeneous&lt;/strong>. Otherwise, it is said to be &lt;strong>inhomogeneous&lt;/strong>&lt;/p>
+&lt;p>To get a specific solution for an \(n^th\) order equation, we need \(n\) initial conditions because repeated derivatives lose more and more information:
+\[Y(t_1)=y_0, Y^{(1)}(t_1)=y_1, &amp;hellip;, Y^{(n-1)}(t_1)=y_{n-1}\]&lt;/p>
+&lt;p>We can also defined a differential operator \(\mathbb{L}\) that is:
+\[\mathbb{L} = D^n+D^{n-1}a_1(t) + &amp;hellip; + D^1a_{n-1}(t) + a_n(t)\]
+where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{L}\) function-agnostic. Therefore, our initial equation can be written as:
+\[\mathbb{L}y = f(t)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>

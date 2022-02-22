@@ -199,6 +199,17 @@ This is a pretty bad equation, but we can solve it if we set either partial of \
 \[\rho_y(x,y)M(x,y) = \rho(x,y)N_x(x,y) - \rho(x,y)M_y(x,y)\]
 \[\rho_y(x,y) = \rho(x,y) \frac{N_x(x,y) - M_y(x,y)}{M(x,y)}\]</p>
 <p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).</p>
+<h2 id=higher-order-linear-differential-equations>Higher Order Linear Differential Equations<a href=#higher-order-linear-differential-equations class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Every \(n^th\) order linear DE can be written in the form:
+\[\frac{d^ny}{dt^n}+a_1(t)\frac{d^{n-1}y}{dt^{n-1}}+&mldr;+a_{n-1}(t)\frac{dy}{dt}+a_n(t)y=f(t)\]</p>
+<p>The functions \(a_1(t)&mldr;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be <strong>constant coefficient</strong>.</p>
+<p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be <strong>homogeneous</strong>. Otherwise, it is said to be <strong>inhomogeneous</strong></p>
+<p>To get a specific solution for an \(n^th\) order equation, we need \(n\) initial conditions because repeated derivatives lose more and more information:
+\[Y(t_1)=y_0, Y^{(1)}(t_1)=y_1, &mldr;, Y^{(n-1)}(t_1)=y_{n-1}\]</p>
+<p>We can also defined a differential operator \(\mathbb{L}\) that is:
+\[\mathbb{L} = D^n+D^{n-1}a_1(t) + &mldr; + D^1a_{n-1}(t) + a_n(t)\]
+where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{L}\) function-agnostic. Therefore, our initial equation can be written as:
+\[\mathbb{L}y = f(t)\]</p>
 </div></div>
 </div>
 </div>

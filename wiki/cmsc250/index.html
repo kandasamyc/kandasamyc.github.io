@@ -344,10 +344,6 @@ Kandasamy Chokkalingam
 <p>\[q\]
 \[p \lor q\]
 \[\therefore p \to q\]</p>
-<hr>
-<div>
-<p style=text-align:center;color:rgb(255,255,255,.5);margin-bottom:0;margin-top:0> test </p>
-</div>
 </div>
 <h3 id=soundness>Soundness<a href=#soundness class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <ul>
@@ -533,8 +529,36 @@ Kandasamy Chokkalingam
 </ul>
 <h4 id=negation>Negation<a href=#negation class=hanchor arialabel=Anchor>&#8983;</a> </h4>
 <ul>
-<li><a href=#for-all>For All</a> becomes <a href=#exists>Exists</a> and vice versa</li>
-<li>Negate the predicate</li>
+<li><a href=#for-all>For All</a> becomes <a href=#exists>Exists</a> and vice versa
+<ul>
+<li>If there are multiple quantifiers, flip all of them</li>
+</ul>
+</li>
+<li>Negate the predicate
+<ul>
+<li>Make sure to include the equals case (negating \(\lt\) becomes \(\geq\))</li>
+</ul>
+</li>
+</ul>
+<h3 id=implications>Implications<a href=#implications class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>When using <a href=#implication>implications</a> in the predicate with a quantifier, the quantifier doesn&rsquo;t change for the <a href=#contrapositive>Contrapositive</a>, <a href=#converse>Converse</a>, or <a href=#inverse>Inverse</a></li>
+</ul>
+<h2 id=proofs>Proofs<a href=#proofs class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=necessary-information>Necessary Information<a href=#necessary-information class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<ul>
+<li>When proving an existential statement:
+<ul>
+<li>To prove true, you need one example to be true</li>
+<li>To prove false, you need all examples to be false</li>
+</ul>
+</li>
+<li>When proving an universal statement:
+<ul>
+<li>To prove true, you need all examples to be true</li>
+<li>To prove false, you need one example to be false</li>
+</ul>
+</li>
 </ul>
 </div></div>
 </div>
