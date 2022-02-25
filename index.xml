@@ -163,8 +163,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="721396458" type="checkbox" checked />
-&lt;label for="721396458">
+&lt;input id="184732596" type="checkbox" checked />
+&lt;label for="184732596">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +183,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="874291653" type="checkbox" checked />
-&lt;label for="874291653">
+&lt;input id="968315427" type="checkbox" checked />
+&lt;label for="968315427">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -304,8 +304,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="273456198" type="checkbox" />
-&lt;label for="273456198">
+&lt;input id="386514927" type="checkbox" />
+&lt;label for="386514927">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -349,7 +349,8 @@ return 0;
 &lt;/ul>
 &lt;h3 id="typedef">&lt;code>Typedef&lt;/code>&lt;/h3>
 &lt;h2 id="scope">Scope&lt;/h2>
-&lt;p>**&lt;/p></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\) Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Implication \(p \rightarrow q\) means if antecedent then consequence Implication does not mean causality \(p \to q \equiv \neg p \lor q\) \(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\) Converse</description><content>&lt;h2 id="statements">Statements&lt;/h2>
+&lt;p>**&lt;/p></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)
+Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Implication \(p \rightarrow q\) means if antecedent then consequence Implication does not mean causality \(p \to q \equiv \neg p \lor q\) \(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
 &lt;li>Have Meaning&lt;/li>
@@ -366,8 +367,8 @@ return 0;
 &lt;ul>
 &lt;li>\(\neg\)&lt;/li>
 &lt;li>means not&lt;/li>
-&lt;li>\(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)&lt;/li>
 &lt;/ul>
+&lt;p>\(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)&lt;/p>
 &lt;h4 id="disjunction">Disjunction&lt;/h4>
 &lt;ul>
 &lt;li>\(\lor\)&lt;/li>
@@ -387,8 +388,8 @@ return 0;
 &lt;li>means if antecedent then consequence&lt;/li>
 &lt;li>Implication does not mean causality&lt;/li>
 &lt;li>\(p \to q \equiv \neg p \lor q\)&lt;/li>
-&lt;li>\(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)&lt;/li>
 &lt;/ul>
+&lt;p>\(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)&lt;/p>
 &lt;!--list-separator-->
 &lt;ul>
 &lt;li>
@@ -869,6 +870,11 @@ return 0;
 &lt;li>Methods
 &lt;ul>
 &lt;li>Prove the contrapositive&lt;/li>
+&lt;li>Proof by contradiction
+&lt;ul>
+&lt;li>Assume the assumption is false and show it leads to a contradiction&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1027,16 +1033,65 @@ This is a pretty bad equation, but we can solve it if we set either partial of \
 \[\rho_y(x,y) = \rho(x,y) \frac{N_x(x,y) - M_y(x,y)}{M(x,y)}\]&lt;/p>
 &lt;p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).&lt;/p>
 &lt;h2 id="higher-order-linear-differential-equations">Higher Order Linear Differential Equations&lt;/h2>
+&lt;h3 id="definition-and-terminology">Definition and Terminology&lt;/h3>
 &lt;p>Every \(n^th\) order linear DE can be written in the form:
 \[\frac{d^ny}{dt^n}+a_1(t)\frac{d^{n-1}y}{dt^{n-1}}+&amp;hellip;+a_{n-1}(t)\frac{dy}{dt}+a_n(t)y=f(t)\]&lt;/p>
-&lt;p>The functions \(a_1(t)&amp;hellip;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be &lt;strong>constant coefficient&lt;/strong>.&lt;/p>
-&lt;p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be &lt;strong>homogeneous&lt;/strong>. Otherwise, it is said to be &lt;strong>inhomogeneous&lt;/strong>&lt;/p>
 &lt;p>To get a specific solution for an \(n^th\) order equation, we need \(n\) initial conditions because repeated derivatives lose more and more information:
 \[Y(t_1)=y_0, Y^{(1)}(t_1)=y_1, &amp;hellip;, Y^{(n-1)}(t_1)=y_{n-1}\]&lt;/p>
-&lt;p>We can also defined a differential operator \(\mathbb{L}\) that is:
+&lt;h4 id="coefficient-functions">Coefficient Functions&lt;/h4>
+&lt;p>The functions \(a_1(t)&amp;hellip;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be &lt;strong>constant coefficient&lt;/strong>.&lt;/p>
+&lt;h4 id="forcing-functions">Forcing Functions&lt;/h4>
+&lt;p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be &lt;strong>homogeneous&lt;/strong>. Otherwise, it is said to be &lt;strong>inhomogeneous&lt;/strong>&lt;/p>
+&lt;h3 id="linear-differential-operator">Linear Differential Operator&lt;/h3>
+&lt;p>We can also define a differential operator \(\mathbb{L}\) that is:
 \[\mathbb{L} = D^n+D^{n-1}a_1(t) + &amp;hellip; + D^1a_{n-1}(t) + a_n(t)\]
 where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{L}\) function-agnostic. Therefore, our initial equation can be written as:
-\[\mathbb{L}y = f(t)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+\[\mathbb{L}y = f(t)\]
+\(\mathbb{L}\) is linear, meaning applying it to a linear combination of functions is the same as applying it to each one. That is:
+\[\mathbb{L}(c_1y_1+c_2y_2) = \mathbb{L}c_1y_1 + \mathbb{L}c_2y_2\]&lt;/p>
+&lt;h3 id="superposition-principle">Superposition Principle&lt;/h3>
+&lt;p>Given some \(n^th\) order linear homogeneous differential equation, there are generally \(n\) solutions \(Y_1(t), Y_2(t) &amp;hellip; Y_{n-1}(t)\). If each of these are solutions, then any linear combination of them are. This is because \(\mathbb{L}\) is linear.&lt;/p>
+&lt;h3 id="wronskian">Wronskian&lt;/h3>
+&lt;p>We can check if some set of possible solutions \(Y_1(t),Y_2(t)&amp;hellip;Y_{n-1}(t)\) are independent over some interval if the Wronskian is not 0.
+\[\mathbb{W} = \det \begin{vmatrix} Y_1(t) &amp;amp; Y_2(t) &amp;amp; &amp;hellip; &amp;amp; Y_n(t) \\ Y^(1)_1(t) &amp;amp; Y^(1)_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^(1)_n(t) \\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ Y^{(n-1)}_1(t) &amp;amp; Y^{(n-1)}_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^{(n-1)}_n(t) \end{vmatrix}\]
+Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.&lt;/p></content></item><item><title>The Beginning</title><link>https://www.kandasamyc.me/000/</link><pubDate>Mon, 03 Jan 2022 17:27:29 -0500</pubDate><guid>https://www.kandasamyc.me/000/</guid><description>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off writing this Definitely did not mean to put this out early January post, but here we finally are, at the beginning.</description><content>&lt;p>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off &lt;span class="sidenote">
+&lt;label class="sidenote-label" for="writing-this">writing this&lt;/label>
+&lt;input class="sidenote-checkbox" type="checkbox" id="writing-this">&lt;/input>
+&lt;span class="sidenote-content">
+Definitely did not mean to put this out early January
+&lt;/span>
+&lt;/span>
+post, but here we finally are, at the beginning. So, in the interest of a writing a good beginning, I&amp;rsquo;d like to talk about how I got here, and what exactly here is.&lt;/p>
+&lt;h2 id="who">Who?&lt;/h2>
+&lt;p>&lt;a href="https://www.kandasamyc.me/">Me&lt;/a>. This one doesn&amp;rsquo;t really need a lot of explanation.&lt;/p>
+&lt;h2 id="what">What?&lt;/h2>
+&lt;p>A post on a topic that interests me. This could be anything from a &lt;a href="https://www.kandasamyc.me/tags/thoughtpice">thoughtpiece&lt;/a> to a cool solution I&amp;rsquo;ve found to a problem I&amp;rsquo;ve been having. Most posts will revolve around software development, Linux, and cybersecurity.&lt;/p>
+&lt;h2 id="when">When?&lt;/h2>
+&lt;p>Hopefully every once every 3 days. This is my first time trying to do these sort of posts, so we&amp;rsquo;ll see how long this lasts.&lt;/p>
+&lt;h2 id="where">Where?&lt;/h2>
+&lt;p>&lt;a href="https://www.kandasamyc.me/posts">Here&lt;/a>.&lt;/p>
+&lt;h2 id="why">Why?&lt;/h2>
+&lt;p>Now this is bit more of a fun question. I&amp;rsquo;m doing for a few reasons: to share knowledge, to practice, and why not?&lt;/p>
+&lt;h3 id="sharing-knowledge">Sharing Knowledge&lt;/h3>
+&lt;p>I have learned &lt;em>so&lt;/em> much from sites like StackOverflow and other forums. Sometimes the only place I&amp;rsquo;ve been able to find answers are long dead forum posts from years ago or on someone&amp;rsquo;s personal website where they mention off-hand the exact information I need. They&amp;rsquo;ve been the saving grace of hours of work or research I&amp;rsquo;ve done to solve a specific bug or setup issue.&lt;/p>
+&lt;p>One of my goals in writing these posts and sharing this information is to give back. It&amp;rsquo;s to be there just in case someone runs into the same bug or setup issue.&lt;/p>
+&lt;h3 id="practice">Practice&lt;/h3>
+&lt;p>Probably the biggest reason I&amp;rsquo;m doing this is to work on writing things up. I was working on a project, and when it came time to share instructions and other information with other people, I found it wasn&amp;rsquo;t easy to succinctly and accurately write everything up. I remembered an anecdote I saw a screenshot of:&lt;/p>
+&lt;blockquote>
+&lt;p>There was an experiment a professor did. I think it was pottery students. He did an experiment of “quality” vs “quantity”. One half of the class he told; you have to make as many pots as possible. Good pots, bad pots, whatever. The more pots you make, the higher your grade.&lt;/p>
+&lt;p>The other half of the class were told, “you can make only one pot”. But that pot had to be perfect. The quality had to be high; the highest quality pot would get the best mark.&lt;/p>
+&lt;p>But when it came to the grading, they noticed something weird.&lt;/p>
+&lt;p>All the best quality pots were in the ‘quantity’ group.&lt;/p>
+&lt;p>The guys who were literally churning out pots, trying to make as many as possible, not concentrating on the quality. But every pot they made, made them better at making pots. By the end of the month (I think it was a month) - they had some pretty awesome pots coming out, because they enjoying finding all the ways and all the things they could do to make all their pots. Where as the ‘quality’ guys had spent their time reading up on pots, and technique, and researching and planning; which was all great but they’d had no further practice at actually making pots.&lt;/p>
+&lt;/blockquote>
+&lt;p>I think this idea of repeatedly making things without worrying too much about their perfectness is a great one. That&amp;rsquo;s why I wanted to write these posts: to get practice writing things up and expressing ideas precisely and accurately.&lt;/p>
+&lt;h3 id="why-not">Why not?&lt;/h3>
+&lt;p>The final reason why I wanted to write these posts is just that: because I wanted to. It&amp;rsquo;s something I&amp;rsquo;ve been thinking about and so I started to do it. That&amp;rsquo;s it.&lt;/p>
+&lt;h2 id="how">How?&lt;/h2>
+&lt;p>That&amp;rsquo;s a question I haven&amp;rsquo;t quite answered yet. I don&amp;rsquo;t have a process to write these, only a rough plan. It&amp;rsquo;s something I plan to work on as I go. If I knew how to do it already, where would be the fun in trying to figure it out?&lt;/p>
+&lt;p>So, I plan to just do that. We&amp;rsquo;ll see how it goes!&lt;/p>
+&lt;p>Until the next beginning,&lt;br>
+ksam&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>

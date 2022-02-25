@@ -2,8 +2,8 @@
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="721396458" type="checkbox" checked />
-&lt;label for="721396458">
+&lt;input id="184732596" type="checkbox" checked />
+&lt;label for="184732596">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -22,8 +22,8 @@
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="874291653" type="checkbox" checked />
-&lt;label for="874291653">
+&lt;input id="968315427" type="checkbox" checked />
+&lt;label for="968315427">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -143,8 +143,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="273456198" type="checkbox" />
-&lt;label for="273456198">
+&lt;input id="386514927" type="checkbox" />
+&lt;label for="386514927">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -205,8 +205,8 @@ return 0;
 &lt;ul>
 &lt;li>\(\neg\)&lt;/li>
 &lt;li>means not&lt;/li>
-&lt;li>\(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)&lt;/li>
 &lt;/ul>
+&lt;p>\(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)&lt;/p>
 &lt;h4 id="disjunction">Disjunction&lt;/h4>
 &lt;ul>
 &lt;li>\(\lor\)&lt;/li>
@@ -226,8 +226,8 @@ return 0;
 &lt;li>means if antecedent then consequence&lt;/li>
 &lt;li>Implication does not mean causality&lt;/li>
 &lt;li>\(p \to q \equiv \neg p \lor q\)&lt;/li>
-&lt;li>\(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)&lt;/li>
 &lt;/ul>
+&lt;p>\(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)&lt;/p>
 &lt;!--list-separator-->
 &lt;ul>
 &lt;li>
@@ -708,6 +708,11 @@ return 0;
 &lt;li>Methods
 &lt;ul>
 &lt;li>Prove the contrapositive&lt;/li>
+&lt;li>Proof by contradiction
+&lt;ul>
+&lt;li>Assume the assumption is false and show it leads to a contradiction&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -863,16 +868,28 @@ This is a pretty bad equation, but we can solve it if we set either partial of \
 \[\rho_y(x,y) = \rho(x,y) \frac{N_x(x,y) - M_y(x,y)}{M(x,y)}\]&lt;/p>
 &lt;p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).&lt;/p>
 &lt;h2 id="higher-order-linear-differential-equations">Higher Order Linear Differential Equations&lt;/h2>
+&lt;h3 id="definition-and-terminology">Definition and Terminology&lt;/h3>
 &lt;p>Every \(n^th\) order linear DE can be written in the form:
 \[\frac{d^ny}{dt^n}+a_1(t)\frac{d^{n-1}y}{dt^{n-1}}+&amp;hellip;+a_{n-1}(t)\frac{dy}{dt}+a_n(t)y=f(t)\]&lt;/p>
-&lt;p>The functions \(a_1(t)&amp;hellip;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be &lt;strong>constant coefficient&lt;/strong>.&lt;/p>
-&lt;p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be &lt;strong>homogeneous&lt;/strong>. Otherwise, it is said to be &lt;strong>inhomogeneous&lt;/strong>&lt;/p>
 &lt;p>To get a specific solution for an \(n^th\) order equation, we need \(n\) initial conditions because repeated derivatives lose more and more information:
 \[Y(t_1)=y_0, Y^{(1)}(t_1)=y_1, &amp;hellip;, Y^{(n-1)}(t_1)=y_{n-1}\]&lt;/p>
-&lt;p>We can also defined a differential operator \(\mathbb{L}\) that is:
+&lt;h4 id="coefficient-functions">Coefficient Functions&lt;/h4>
+&lt;p>The functions \(a_1(t)&amp;hellip;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be &lt;strong>constant coefficient&lt;/strong>.&lt;/p>
+&lt;h4 id="forcing-functions">Forcing Functions&lt;/h4>
+&lt;p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be &lt;strong>homogeneous&lt;/strong>. Otherwise, it is said to be &lt;strong>inhomogeneous&lt;/strong>&lt;/p>
+&lt;h3 id="linear-differential-operator">Linear Differential Operator&lt;/h3>
+&lt;p>We can also define a differential operator \(\mathbb{L}\) that is:
 \[\mathbb{L} = D^n+D^{n-1}a_1(t) + &amp;hellip; + D^1a_{n-1}(t) + a_n(t)\]
 where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{L}\) function-agnostic. Therefore, our initial equation can be written as:
-\[\mathbb{L}y = f(t)\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+\[\mathbb{L}y = f(t)\]
+\(\mathbb{L}\) is linear, meaning applying it to a linear combination of functions is the same as applying it to each one. That is:
+\[\mathbb{L}(c_1y_1+c_2y_2) = \mathbb{L}c_1y_1 + \mathbb{L}c_2y_2\]&lt;/p>
+&lt;h3 id="superposition-principle">Superposition Principle&lt;/h3>
+&lt;p>Given some \(n^th\) order linear homogeneous differential equation, there are generally \(n\) solutions \(Y_1(t), Y_2(t) &amp;hellip; Y_{n-1}(t)\). If each of these are solutions, then any linear combination of them are. This is because \(\mathbb{L}\) is linear.&lt;/p>
+&lt;h3 id="wronskian">Wronskian&lt;/h3>
+&lt;p>We can check if some set of possible solutions \(Y_1(t),Y_2(t)&amp;hellip;Y_{n-1}(t)\) are independent over some interval if the Wronskian is not 0.
+\[\mathbb{W} = \det \begin{vmatrix} Y_1(t) &amp;amp; Y_2(t) &amp;amp; &amp;hellip; &amp;amp; Y_n(t) \\ Y^(1)_1(t) &amp;amp; Y^(1)_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^(1)_n(t) \\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ Y^{(n-1)}_1(t) &amp;amp; Y^{(n-1)}_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^{(n-1)}_n(t) \end{vmatrix}\]
+Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>

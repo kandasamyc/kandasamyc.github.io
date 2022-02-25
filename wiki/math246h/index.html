@@ -200,16 +200,28 @@ This is a pretty bad equation, but we can solve it if we set either partial of \
 \[\rho_y(x,y) = \rho(x,y) \frac{N_x(x,y) - M_y(x,y)}{M(x,y)}\]</p>
 <p>From here, you can solve for \(\rho\), and then solve \(H\) where both partial components are multiplied by \(\rho\).</p>
 <h2 id=higher-order-linear-differential-equations>Higher Order Linear Differential Equations<a href=#higher-order-linear-differential-equations class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<h3 id=definition-and-terminology>Definition and Terminology<a href=#definition-and-terminology class=hanchor arialabel=Anchor>&#8983;</a> </h3>
 <p>Every \(n^th\) order linear DE can be written in the form:
 \[\frac{d^ny}{dt^n}+a_1(t)\frac{d^{n-1}y}{dt^{n-1}}+&mldr;+a_{n-1}(t)\frac{dy}{dt}+a_n(t)y=f(t)\]</p>
-<p>The functions \(a_1(t)&mldr;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be <strong>constant coefficient</strong>.</p>
-<p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be <strong>homogeneous</strong>. Otherwise, it is said to be <strong>inhomogeneous</strong></p>
 <p>To get a specific solution for an \(n^th\) order equation, we need \(n\) initial conditions because repeated derivatives lose more and more information:
 \[Y(t_1)=y_0, Y^{(1)}(t_1)=y_1, &mldr;, Y^{(n-1)}(t_1)=y_{n-1}\]</p>
-<p>We can also defined a differential operator \(\mathbb{L}\) that is:
+<h4 id=coefficient-functions>Coefficient Functions<a href=#coefficient-functions class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<p>The functions \(a_1(t)&mldr;a_n(t)\) are called coefficient functions. When all of the coefficient functions do not vary with \(t\), the equation is said to be <strong>constant coefficient</strong>.</p>
+<h4 id=forcing-functions>Forcing Functions<a href=#forcing-functions class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<p>The function \(f(t)\) is called the forcing function. When the forcing function is 0, then the equation is said to be <strong>homogeneous</strong>. Otherwise, it is said to be <strong>inhomogeneous</strong></p>
+<h3 id=linear-differential-operator>Linear Differential Operator<a href=#linear-differential-operator class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>We can also define a differential operator \(\mathbb{L}\) that is:
 \[\mathbb{L} = D^n+D^{n-1}a_1(t) + &mldr; + D^1a_{n-1}(t) + a_n(t)\]
 where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{L}\) function-agnostic. Therefore, our initial equation can be written as:
-\[\mathbb{L}y = f(t)\]</p>
+\[\mathbb{L}y = f(t)\]
+\(\mathbb{L}\) is linear, meaning applying it to a linear combination of functions is the same as applying it to each one. That is:
+\[\mathbb{L}(c_1y_1+c_2y_2) = \mathbb{L}c_1y_1 + \mathbb{L}c_2y_2\]</p>
+<h3 id=superposition-principle>Superposition Principle<a href=#superposition-principle class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>Given some \(n^th\) order linear homogeneous differential equation, there are generally \(n\) solutions \(Y_1(t), Y_2(t) &mldr; Y_{n-1}(t)\). If each of these are solutions, then any linear combination of them are. This is because \(\mathbb{L}\) is linear.</p>
+<h3 id=wronskian>Wronskian<a href=#wronskian class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>We can check if some set of possible solutions \(Y_1(t),Y_2(t)&mldr;Y_{n-1}(t)\) are independent over some interval if the Wronskian is not 0.
+\[\mathbb{W} = \det \begin{vmatrix} Y_1(t) & Y_2(t) & &mldr; & Y_n(t) \\ Y^(1)_1(t) & Y^(1)_2(t) & &mldr; & Y^(1)_n(t) \\ \vdots & \vdots & \ddots & \vdots \\ Y^{(n-1)}_1(t) & Y^{(n-1)}_2(t) & &mldr; & Y^{(n-1)}_n(t) \end{vmatrix}\]
+Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.</p>
 </div></div>
 </div>
 </div>
