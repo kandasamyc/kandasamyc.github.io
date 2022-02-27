@@ -2,8 +2,8 @@
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="184732596" type="checkbox" checked />
-&lt;label for="184732596">
+&lt;input id="243581769" type="checkbox" checked />
+&lt;label for="243581769">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -22,8 +22,8 @@
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="968315427" type="checkbox" checked />
-&lt;label for="968315427">
+&lt;input id="462157389" type="checkbox" checked />
+&lt;label for="462157389">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -143,8 +143,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="386514927" type="checkbox" />
-&lt;label for="386514927">
+&lt;input id="187236594" type="checkbox" />
+&lt;label for="187236594">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -889,7 +889,18 @@ where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{
 &lt;h3 id="wronskian">Wronskian&lt;/h3>
 &lt;p>We can check if some set of possible solutions \(Y_1(t),Y_2(t)&amp;hellip;Y_{n-1}(t)\) are independent over some interval if the Wronskian is not 0.
 \[\mathbb{W} = \det \begin{vmatrix} Y_1(t) &amp;amp; Y_2(t) &amp;amp; &amp;hellip; &amp;amp; Y_n(t) \\ Y^(1)_1(t) &amp;amp; Y^(1)_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^(1)_n(t) \\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ Y^{(n-1)}_1(t) &amp;amp; Y^{(n-1)}_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^{(n-1)}_n(t) \end{vmatrix}\]
-Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.&lt;/p>
+&lt;h3 id="characteristic-polynomial">Characteristic Polynomial&lt;/h3>
+&lt;p>Expressing \(\mathbb{L}\) as a function of \(D\), we have:
+\[p(D)\]
+The characteristic polynomial is the function \(p(z)\), where \(z\) is some variable. Every root of this polynomial corresponds to a solution of \(\mathbb{L}y=0\).&lt;/p>
+&lt;h4 id="distinct-real-roots">Distinct Real Roots&lt;/h4>
+&lt;p>A root \(r\) corresponds to the solution \(e^{rt}\) if the root is distinct.&lt;/p>
+&lt;h4 id="repeated-real-roots">Repeated Real Roots&lt;/h4>
+&lt;p>A root \(r\) with multiplicity \(m\) corresponds to the solutions \(e^{rt}, te^{rt}, \dots, t^{m-1}e^{rt}\).&lt;/p>
+&lt;h4 id="complex-roots">Complex Roots&lt;/h4>
+&lt;p>A root \(r \pm is\) corresponds to the solutions \(e^{rt}cos(st)\) and \(e^{rt}sin(st)\)&lt;/p>
+&lt;p>If it has multiplicity m, then it corresponds to the solutions \(e^{rt}cos(st), te^{rt}cos(st), \dots, t^{m-1}e^{rt}cos(st)\) and \(e^{rt}sin(st), te^{rt}sin(st), \dots, t^{m-1}e^{rt}sin(st)\)&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>

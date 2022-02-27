@@ -222,6 +222,17 @@ where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{
 <p>We can check if some set of possible solutions \(Y_1(t),Y_2(t)&mldr;Y_{n-1}(t)\) are independent over some interval if the Wronskian is not 0.
 \[\mathbb{W} = \det \begin{vmatrix} Y_1(t) & Y_2(t) & &mldr; & Y_n(t) \\ Y^(1)_1(t) & Y^(1)_2(t) & &mldr; & Y^(1)_n(t) \\ \vdots & \vdots & \ddots & \vdots \\ Y^{(n-1)}_1(t) & Y^{(n-1)}_2(t) & &mldr; & Y^{(n-1)}_n(t) \end{vmatrix}\]
 Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.</p>
+<h3 id=characteristic-polynomial>Characteristic Polynomial<a href=#characteristic-polynomial class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>Expressing \(\mathbb{L}\) as a function of \(D\), we have:
+\[p(D)\]
+The characteristic polynomial is the function \(p(z)\), where \(z\) is some variable. Every root of this polynomial corresponds to a solution of \(\mathbb{L}y=0\).</p>
+<h4 id=distinct-real-roots>Distinct Real Roots<a href=#distinct-real-roots class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<p>A root \(r\) corresponds to the solution \(e^{rt}\) if the root is distinct.</p>
+<h4 id=repeated-real-roots>Repeated Real Roots<a href=#repeated-real-roots class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<p>A root \(r\) with multiplicity \(m\) corresponds to the solutions \(e^{rt}, te^{rt}, \dots, t^{m-1}e^{rt}\).</p>
+<h4 id=complex-roots>Complex Roots<a href=#complex-roots class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<p>A root \(r \pm is\) corresponds to the solutions \(e^{rt}cos(st)\) and \(e^{rt}sin(st)\)</p>
+<p>If it has multiplicity m, then it corresponds to the solutions \(e^{rt}cos(st), te^{rt}cos(st), \dots, t^{m-1}e^{rt}cos(st)\) and \(e^{rt}sin(st), te^{rt}sin(st), \dots, t^{m-1}e^{rt}sin(st)\)</p>
 </div></div>
 </div>
 </div>
