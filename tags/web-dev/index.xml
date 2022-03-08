@@ -21,19 +21,19 @@ performance to come up with a better strategy for each match.&lt;/p>
 &lt;p>For competitions, the backend is deployed to an AWS EC2 instance, and the database is hosted on AWS RDS.&lt;/p>
 &lt;h3 id="frontend">Frontend&lt;/h3>
 &lt;p>In addition to the backend for data processing, a frontend was built to more easily input data, view data, and manage settings and configuration.&lt;/p>
-&lt;p>Initially, scouts input data into a google form, and data was ingested from the connected sheet. However, we ran into issues with certain form fields not being efficient enough to input to. For example, tallying game pieces scored had to either be manually re-entered or the scout would have to hit small buttons. To fix this, I implemented our own form to improve the scouts' experience.&lt;/p>
+&lt;p>Initially, scouts input data into a google form, and data was ingested from the connected sheet. However, we ran into issues with certain form fields not being efficient enough to input to. For example, tallying game pieces scored had to either be manually re-entered or the scout would have to hit small buttons. To fix this, I implemented our own form to improve the scouts&amp;rsquo; experience.&lt;/p>
 &lt;p>To properly serve the frontend, an API was constructed with Flask and interfaces with the external database. The frontend also includes the capability to view data so that members can quickly look up statistics or other data points to build an effective strategy. Members can also adjust settings directly from the frontend interface as well.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/team4099/scouting-data-ingest">GitHub&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.me/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.me/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users' energy consumption and compare it to global trends.
+&lt;/ul></content></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.me/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.me/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.
 Implementation We used React to develop the web app and various libraries including React-Router to add other functionality.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours&lt;/li>
 &lt;li>Created and developed a ReactJS web app along with testing and developing a Flask backend&lt;/li>
 &lt;/ul>
 &lt;h2 id="background">Background&lt;/h2>
-&lt;p>I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users' energy consumption and compare it to global trends.&lt;/p>
+&lt;p>I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.&lt;/p>
 &lt;h2 id="implementation">Implementation&lt;/h2>
 &lt;p>We used React to develop the web app and various libraries including React-Router to add other functionality. We then deployed it to AWS EC2 using a Flask server.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>

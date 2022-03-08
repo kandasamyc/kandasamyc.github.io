@@ -33,7 +33,7 @@ performance to come up with a better strategy for each match.&lt;/p>
 &lt;p>For competitions, the backend is deployed to an AWS EC2 instance, and the database is hosted on AWS RDS.&lt;/p>
 &lt;h3 id="frontend">Frontend&lt;/h3>
 &lt;p>In addition to the backend for data processing, a frontend was built to more easily input data, view data, and manage settings and configuration.&lt;/p>
-&lt;p>Initially, scouts input data into a google form, and data was ingested from the connected sheet. However, we ran into issues with certain form fields not being efficient enough to input to. For example, tallying game pieces scored had to either be manually re-entered or the scout would have to hit small buttons. To fix this, I implemented our own form to improve the scouts' experience.&lt;/p>
+&lt;p>Initially, scouts input data into a google form, and data was ingested from the connected sheet. However, we ran into issues with certain form fields not being efficient enough to input to. For example, tallying game pieces scored had to either be manually re-entered or the scout would have to hit small buttons. To fix this, I implemented our own form to improve the scouts&amp;rsquo; experience.&lt;/p>
 &lt;p>To properly serve the frontend, an API was constructed with Flask and interfaces with the external database. The frontend also includes the capability to view data so that members can quickly look up statistics or other data points to build an effective strategy. Members can also adjust settings directly from the frontend interface as well.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
@@ -56,14 +56,14 @@ In my free time, I enjoy biking and listening to good music. I happen to spend a
 &lt;li>&lt;a href="https://www.kandasamyc.me/files/umd-research-paper.pdf">Paper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.me/files/umd-research-presentation.pdf">Presentation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.me/files/umd-research-poster.pdf">Poster&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Projects</title><link>https://www.kandasamyc.me/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/projects/</guid><description/><content/></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.me/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.me/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users' energy consumption and compare it to global trends.
+&lt;/ul></content></item><item><title>Projects</title><link>https://www.kandasamyc.me/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/projects/</guid><description/><content/></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.me/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.me/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.
 Implementation We used React to develop the web app and various libraries including React-Router to add other functionality.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours&lt;/li>
 &lt;li>Created and developed a ReactJS web app along with testing and developing a Flask backend&lt;/li>
 &lt;/ul>
 &lt;h2 id="background">Background&lt;/h2>
-&lt;p>I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users' energy consumption and compare it to global trends.&lt;/p>
+&lt;p>I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.&lt;/p>
 &lt;h2 id="implementation">Implementation&lt;/h2>
 &lt;p>We used React to develop the web app and various libraries including React-Router to add other functionality. We then deployed it to AWS EC2 using a Flask server.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
@@ -157,14 +157,14 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>&lt;a href="mailto:contact@kandasamyc.me">Email&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>Basic C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
+&lt;/ul></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
 c Preprocessor Directives #include &amp;amp;lt;stdio.h&amp;amp;gt; #include &amp;amp;lt;stdlib.h&amp;amp;gt; #include &amp;amp;lt;string.h&amp;amp;gt; #define MAX_COLS 20 /* max # of columns to process */ #define MAX_INPUT 1000 #define defines a constant value, #include includes another file&amp;rsquo;s declarations.
-Main Function Returns an int, takes no arguments (so void) c Main Function int main(void){ /* Some code */ return 0; } Basic Concepts Environments Translation Environment Source code get compiled into object code which then gets linked with other object code by the linker to form a single executable Execution Environment The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning main&amp;rsquo;s error code.</description><content>&lt;h2 id="basic-c-syntax">Basic C Syntax&lt;/h2>
+Main Function Returns an int, takes no arguments (so void) c Main Function int main(void){ /* Some code */ return 0; } Prototypes The first function &amp;ldquo;declaration&amp;rdquo; No body Placed at the top to allow the compiler to do proper type checking Basic Concepts Environments Translation Environment Source code get compiled into object code Which then gets linked with other object code by the linker to form a single executable Execution Environment The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning main&amp;rsquo;s error code.</description><content>&lt;h2 id="c-syntax">C Syntax&lt;/h2>
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="243581769" type="checkbox" checked />
-&lt;label for="243581769">
+&lt;input id="584967231" type="checkbox" checked />
+&lt;label for="584967231">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +183,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="462157389" type="checkbox" checked />
-&lt;label for="462157389">
+&lt;input id="291864573" type="checkbox" checked />
+&lt;label for="291864573">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -196,11 +196,18 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 return 0;
 }&lt;/code>&lt;/pre>
 &lt;/div>
+&lt;h3 id="prototypes">Prototypes&lt;/h3>
+&lt;ul>
+&lt;li>The first function &amp;ldquo;declaration&amp;rdquo;&lt;/li>
+&lt;li>No body&lt;/li>
+&lt;li>Placed at the top to allow the compiler to do proper type checking&lt;/li>
+&lt;/ul>
 &lt;h2 id="basic-concepts">Basic Concepts&lt;/h2>
 &lt;h3 id="environments">Environments&lt;/h3>
 &lt;h4 id="translation-environment">Translation Environment&lt;/h4>
 &lt;ul>
-&lt;li>Source code get compiled into object code which then gets linked with other object code by the linker to form a single executable&lt;/li>
+&lt;li>Source code get compiled into object code&lt;/li>
+&lt;li>Which then gets linked with other object code by the linker to form a single executable&lt;/li>
 &lt;/ul>
 &lt;h4 id="execution-environment">Execution Environment&lt;/h4>
 &lt;ul>
@@ -220,6 +227,77 @@ return 0;
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
+&lt;h3 id="declaration">Declaration&lt;/h3>
+&lt;ul>
+&lt;li>A declaration causes memory to be reserved for the variable&lt;/li>
+&lt;li>There is no extra instantiation&lt;/li>
+&lt;li>If variables are uninitialized they&amp;rsquo;ll just have garbage values&lt;/li>
+&lt;/ul>
+&lt;h3 id="expression-and-assignment">Expression and assignment&lt;/h3>
+&lt;ul>
+&lt;li>Assignment returns the value the variable was assigned&lt;/li>
+&lt;li>An expression can be a simple statement, its just not useful unless it has a side effect&lt;/li>
+&lt;/ul>
+&lt;h4 id="side-effect">Side Effect&lt;/h4>
+&lt;ul>
+&lt;li>A change in program state&lt;/li>
+&lt;/ul>
+&lt;h3 id="booleans-in-c">Booleans in C&lt;/h3>
+&lt;ul>
+&lt;li>There is no boolean type, 0 is false, non-zero is true&lt;/li>
+&lt;/ul>
+&lt;h3 id="arithmetic-conversion">Arithmetic Conversion&lt;/h3>
+&lt;ul>
+&lt;li>Both &lt;code>char&lt;/code> and &lt;code>short&lt;/code> types are promoted to &lt;code>int&lt;/code> types when doing math&lt;/li>
+&lt;li>If arithmetic operations are performed with different &lt;code>int&lt;/code> types, the smaller type is promoted to be the higher type&lt;/li>
+&lt;/ul>
+&lt;h2 id="standard-library">Standard Library&lt;/h2>
+&lt;h3 id="stdio">stdio&lt;/h3>
+&lt;h4 id="printf">printf&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>printf&lt;/code> takes in a character string with 0 or more format specifiers, if any are present, it also takes in that many other values after the string&lt;/li>
+&lt;li>They contain escape sequences, format specifiers, and normal characters&lt;/li>
+&lt;li>Format specifiers include
+&lt;ul>
+&lt;li>%d for integers&lt;/li>
+&lt;li>%f for floats&lt;/li>
+&lt;li>%c for characters&lt;/li>
+&lt;li>%u for unsigned int decimal&lt;/li>
+&lt;li>%x for unsigned int hex&lt;/li>
+&lt;li>%o for unsigned int octal&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Padding can be done by adding the number of spaces to pad by before the specifier (&amp;quot;%4d&amp;quot;)
+&lt;ul>
+&lt;li>You can fill with 0s instead by adding a 0 beforehand (&amp;quot;%04d&amp;quot;)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="scanf">scanf&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>scanf&lt;/code> takes in a character string with 0 or more format specifiers, if any are present, it also takes in that many other variable pointers after the string&lt;/li>
+&lt;li>It takes in format specifiers and reads each one into its corresponding variable&lt;/li>
+&lt;li>If too few variables are put in, scanf will wait&lt;/li>
+&lt;li>It too many variables are put in, they will remain in the input&lt;/li>
+&lt;li>If the last data in the input has been read, scanf returns a special &lt;code>EOF&lt;/code> value&lt;/li>
+&lt;li>Format specifiers include
+&lt;ul>
+&lt;li>%d for integers&lt;/li>
+&lt;li>%f for floats&lt;/li>
+&lt;li>%c for characters&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="feof">feof&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>feof(stdin)&lt;/code> will be true if the &lt;strong>previous&lt;/strong> try to read didn&amp;rsquo;t work because there was no more data&lt;/li>
+&lt;li>You must try to read something for &lt;code>feof&lt;/code> to work&lt;/li>
+&lt;/ul>
+&lt;h3 id="assert">assert&lt;/h3>
+&lt;ul>
+&lt;li>If &lt;code>assert()&lt;/code> argument is false, it will kill the program&lt;/li>
+&lt;/ul>
+&lt;h3 id="stddef">stddef&lt;/h3>
 &lt;h2 id="data">Data&lt;/h2>
 &lt;h3 id="integers">Integers&lt;/h3>
 &lt;h4 id="values">Values&lt;/h4>
@@ -297,6 +375,7 @@ return 0;
 &lt;li>In hex when starting with an 0x&lt;/li>
 &lt;li>Characters literals in single quotes&lt;/li>
 &lt;/ul>
+&lt;h4 id="promotion">Promotion&lt;/h4>
 &lt;h3 id="enumerated-type">Enumerated Type&lt;/h3>
 &lt;h4 id="values">Values&lt;/h4>
 &lt;ul>
@@ -304,8 +383,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="187236594" type="checkbox" />
-&lt;label for="187236594">
+&lt;input id="319874526" type="checkbox" />
+&lt;label for="319874526">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -334,7 +413,7 @@ return 0;
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="string-literals">String Literals&lt;/h3>
+&lt;h3 id="string">String&lt;/h3>
 &lt;ul>
 &lt;li>C has no string type, but there is a string literal&lt;/li>
 &lt;li>A string is a sequence of characters terminated by a &lt;code>NUL&lt;/code> byte
@@ -343,13 +422,174 @@ return 0;
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="declaring-arrays">Declaring Arrays&lt;/h3>
+&lt;h3 id="arrays">Arrays&lt;/h3>
+&lt;h4 id="declaration">Declaration&lt;/h4>
 &lt;ul>
-&lt;li>Like declaring an int, but with square brackets after the name with a capacity value: &lt;code>int values[20]&lt;/code>&lt;/li>
+&lt;li>Like declaring any variable, but with square brackets after the name with a capacity value: &lt;code>int values[20]&lt;/code>&lt;/li>
+&lt;li>Array sizes must be constants at compile time, so literals or &lt;a href="#preprocessor-directives">symbolic constants&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="initialization">Initialization&lt;/h4>
+&lt;ul>
+&lt;li>You can&amp;rsquo;t assign variables to each other or compare entire arrays&lt;/li>
+&lt;li>You can initialize an array when you declare it by setting it equal to values in curly braces: &lt;code>int values[20] = {1,2,3}&lt;/code>
+&lt;ul>
+&lt;li>This sets the first 3 items to 1,2, and 3 respectively and fills the others with 0&lt;/li>
+&lt;li>If you pass fewer, it fills the rest with 0s, but you need at least 1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="behavior">Behavior&lt;/h4>
+&lt;ul>
+&lt;li>Array parameters don&amp;rsquo;t take sizes (at least for one-dimensional arrays)&lt;/li>
+&lt;li>Arrays are passed by value but act like they&amp;rsquo;re passed by reference, because of &lt;a href="#pointers">Pointers&lt;/a>&lt;/li>
+&lt;li>Arrays don&amp;rsquo;t keep track of their length&lt;/li>
+&lt;li>Accessing an invalid index won&amp;rsquo;t be an error itself but can cause one by accessing or changing memory its not supposed to&lt;/li>
 &lt;/ul>
 &lt;h3 id="typedef">&lt;code>Typedef&lt;/code>&lt;/h3>
-&lt;h2 id="scope">Scope&lt;/h2>
-&lt;p>**&lt;/p></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)
+&lt;h3 id="scope">Scope&lt;/h3>
+&lt;h4 id="block-scope">Block Scope&lt;/h4>
+&lt;ul>
+&lt;li>Exists within the block&lt;/li>
+&lt;li>Have &lt;a href="#no-linkage">No Linkage&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="file-scope">File Scope&lt;/h4>
+&lt;ul>
+&lt;li>Exists within the whole file&lt;/li>
+&lt;li>Have &lt;a href="#external-linkage">External Linkage&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="shadowing">Shadowing&lt;/h4>
+&lt;ul>
+&lt;li>The variable with the narrowest scope will shadow the other(s)&lt;/li>
+&lt;/ul>
+&lt;h3 id="linkage">Linkage&lt;/h3>
+&lt;ul>
+&lt;li>Determines if multiple instances of the same identifier refer to the same thing or not&lt;/li>
+&lt;/ul>
+&lt;h4 id="no-linkage">No Linkage&lt;/h4>
+&lt;ul>
+&lt;li>All occurrences are different&lt;/li>
+&lt;/ul>
+&lt;h4 id="internal-linkage">Internal Linkage&lt;/h4>
+&lt;ul>
+&lt;li>All occurrences in a given file are the same&lt;/li>
+&lt;/ul>
+&lt;h4 id="external-linkage">External Linkage&lt;/h4>
+&lt;ul>
+&lt;li>All occurrences are the same&lt;/li>
+&lt;/ul>
+&lt;h4 id="changing-linkage">Changing Linkage&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>extern&lt;/code> will change a &lt;a href="#block-scope">Block Scope&lt;/a> variable from no linkage to external&lt;/li>
+&lt;li>&lt;code>static&lt;/code> will change a &lt;a href="#file-scope">File Scope&lt;/a> variable from external linkage to internal&lt;/li>
+&lt;/ul>
+&lt;h3 id="storage">Storage&lt;/h3>
+&lt;ul>
+&lt;li>Determines the lifetime of the memory of the variable while the program is executing&lt;/li>
+&lt;li>It&amp;rsquo;s still accessible only from within its &lt;a href="#scope">Scope&lt;/a>, but controls when the value&amp;rsquo;s memory gets destroyed&lt;/li>
+&lt;/ul>
+&lt;h3 id="const">const&lt;/h3>
+&lt;h3 id="structures">Structures&lt;/h3>
+&lt;h3 id="unions">Unions&lt;/h3>
+&lt;p>**&lt;/p>
+&lt;h2 id="operators">Operators&lt;/h2>
+&lt;h3 id="unary">Unary&lt;/h3>
+&lt;h4 id="negation">Negation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>-&lt;/code>&lt;/li>
+&lt;li>flips the sign&lt;/li>
+&lt;/ul>
+&lt;h4 id="increment-decrement">Increment/Decrement&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>++&lt;/code> / &lt;code>--&lt;/code>&lt;/li>
+&lt;li>Increments/Decrements by 1&lt;/li>
+&lt;li>Before the expression computes before substituing the expression&lt;/li>
+&lt;li>After expression changes the variable after substitution, so the existing value is used.&lt;/li>
+&lt;/ul>
+&lt;h4 id="size">Size&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>sizeof&lt;/code>&lt;/li>
+&lt;li>Gets the size in &lt;code>size_t&lt;/code> of a given value&lt;/li>
+&lt;/ul>
+&lt;h4 id="comma">Comma&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>expr1,exp2&lt;/code>&lt;/li>
+&lt;li>Evaluates its first operand and then the right one, producing the right&amp;rsquo;s output as its own&lt;/li>
+&lt;/ul>
+&lt;h4 id="indirection">Indirection&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>*&lt;/code>&lt;/li>
+&lt;li>Gets the value at the given address&lt;/li>
+&lt;/ul>
+&lt;h4 id="address">Address&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>&amp;amp;&lt;/code>&lt;/li>
+&lt;li>Gets the address a given value is stored at&lt;/li>
+&lt;/ul>
+&lt;h3 id="logical">Logical&lt;/h3>
+&lt;ul>
+&lt;li>Both &lt;code>&amp;amp;&amp;amp;&lt;/code> and &lt;code>||&lt;/code> use short circuit evaluation&lt;/li>
+&lt;/ul>
+&lt;h3 id="bitshifts">Bitshifts&lt;/h3>
+&lt;h4 id="left-shift">Left Shift&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>value &amp;lt;&amp;lt; n&lt;/code>&lt;/li>
+&lt;li>shifts &lt;code>value&lt;/code>&amp;rsquo;s bits left by &lt;code>n&lt;/code> positions
+&lt;ul>
+&lt;li>Rightmost bits get 0, leftmost bits get discarded&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="right-shift">Right Shift&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>value &amp;gt;&amp;gt; n&lt;/code>&lt;/li>
+&lt;li>shifts &lt;code>value&lt;/code>&amp;rsquo;s bits right by &lt;code>n&lt;/code> positions
+&lt;ul>
+&lt;li>If unsigned, the leftmost bits get 0&lt;/li>
+&lt;li>If signed, whether the leftmost bits get 0 or 1 is implementation dependent&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="bitwise">Bitwise&lt;/h3>
+&lt;ul>
+&lt;li>And (&lt;code>&amp;amp;&lt;/code>): Ands two bits&lt;/li>
+&lt;li>Or (&lt;code>|&lt;/code>): Ors two bits&lt;/li>
+&lt;li>Xor (&lt;code>^&lt;/code>): Xors two bits&lt;/li>
+&lt;li>Complement (&lt;code>~&lt;/code>): Negates 1 bit&lt;/li>
+&lt;/ul>
+&lt;h4 id="masking">Masking&lt;/h4>
+&lt;ul>
+&lt;li>We can construct masks to select only certain bits from multiple of them&lt;/li>
+&lt;/ul>
+&lt;h3 id="rvalues-and-lvalues">rvalues and lvalues&lt;/h3>
+&lt;ul>
+&lt;li>rvalues can appear on the right hand side of an assignment&lt;/li>
+&lt;li>lvalues can appear on the left hand side of an assignment&lt;/li>
+&lt;/ul>
+&lt;h3 id="evaluation">Evaluation&lt;/h3>
+&lt;ul>
+&lt;li>Order of evaluation goes first by precedence, then associativity, and finally unspecified as long as &lt;code>&amp;amp;&amp;amp;&lt;/code>, &lt;code>||&lt;/code>, &lt;code>()&lt;/code>, &lt;code>?:&lt;/code>, and &lt;code>,&lt;/code> work&lt;/li>
+&lt;/ul>
+&lt;h4 id="precedence">Precedence&lt;/h4>
+&lt;ul>
+&lt;li>Order of given operators&lt;/li>
+&lt;/ul>
+&lt;h4 id="associativity">Associativity&lt;/h4>
+&lt;ul>
+&lt;li>Whether to operate left to right or left to right&lt;/li>
+&lt;/ul>
+&lt;h2 id="pointers">Pointers&lt;/h2>
+&lt;ul>
+&lt;li>A pointer is a variable that holds the address of something in memory&lt;/li>
+&lt;li>Pointers can be &lt;a href="#rvalues-and-lvalues">rvalues and lvalues&lt;/a> but addresses can only be rvalues&lt;/li>
+&lt;li>Pointer declarations must be initialized&lt;/li>
+&lt;li>Functions can return a pointer but you must ensure the variable will not be destroyed after the function leaves&lt;/li>
+&lt;/ul>
+&lt;h3 id="null-pointer">NULL Pointer&lt;/h3>
+&lt;ul>
+&lt;li>Special values that pointer can have that doesn&amp;rsquo;t point anywhere&lt;/li>
+&lt;li>Defined in &lt;a href="#stddef">stddef&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="functions">Functions&lt;/h2></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)
 Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Implication \(p \rightarrow q\) means if antecedent then consequence Implication does not mean causality \(p \to q \equiv \neg p \lor q\) \(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
@@ -892,7 +1132,46 @@ Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; 
 \[x^2 = 2(2k^2 + 2k) + 1\]
 \[(\exists p \in \mathbb{Z})[p = 2k^2+2k] \ \text{by closure}\]
 \[x^2 = 2p + 1 \Rightarrow x^2 \ \text{is odd}\]&lt;/p>
-&lt;/div></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
+&lt;/div>
+&lt;h2 id="sets">Sets&lt;/h2>
+&lt;p>A collection of unordered and unique things&lt;/p>
+&lt;h3 id="partitions">Partitions&lt;/h3>
+&lt;ul>
+&lt;li>A set of mutually distinct sets that when unioned contain all the elements in a given set.&lt;/li>
+&lt;li>The nil set is not allowed&lt;/li>
+&lt;/ul>
+&lt;h3 id="power-sets">Power Sets&lt;/h3>
+&lt;ul>
+&lt;li>\(\mathcal{P}(A)\) represents the set of all subsets of \(A\).&lt;/li>
+&lt;li>\(\lvert \mathcal{P}(A) \rvert = 2 ^{\lvert A \rvert}\)&lt;/li>
+&lt;li>Two things that will always be in a power set is the \(\emptyset\) and the set itself&lt;/li>
+&lt;/ul>
+&lt;h3 id="cartesian-product">Cartesian Product&lt;/h3>
+&lt;ul>
+&lt;li>Set of all ordered pairs between two sets&lt;/li>
+&lt;li>\(A \times B = \{(a,b) \vert a \in A \land b \in B\}\)&lt;/li>
+&lt;/ul>
+&lt;h3 id="relations">Relations&lt;/h3>
+&lt;ul>
+&lt;li>Some subset of the cartesian product of two sets&lt;/li>
+&lt;li>Defines a relation between the sets by giving the pairs for which the relation is true&lt;/li>
+&lt;/ul>
+&lt;h4 id="reflexivity">Reflexivity&lt;/h4>
+&lt;ul>
+&lt;li>A relation \(X \subseteq A \times A\) is reflexive if \((\forall x \in A)[(x,x) \in X]\), that is, every element in the domain must satisfy the relation with itself&lt;/li>
+&lt;/ul>
+&lt;h4 id="symmetry">Symmetry&lt;/h4>
+&lt;ul>
+&lt;li>A relation \(X \subseteq A \times A\) is symmetric if \((\forall x,y \in A)[(x,y) \in X \Rightarrow (y,x) \in X]\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="transitivity-relation">Transitivity Relation&lt;/h4>
+&lt;ul>
+&lt;li>A relation \(X \subseteq A \times A\) is transitive if \((\forall x,y,z \in A)[((x,y) \in X \land (y,z)) \in X \Rightarrow (x,z) \in X]\)&lt;/li>
+&lt;/ul>
+&lt;h3 id="functions">Functions&lt;/h3>
+&lt;ul>
+&lt;li>Something that maps elements of one set to element of another&lt;/li>
+&lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
 Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
 Order of DEs The highest derivative that appears in the DE.
 Linearity A DE is linear if there is no function composition on the unknown functions or their derivatives.</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
@@ -998,9 +1277,9 @@ possibly with some initial condition \(Y(x_0)=y_0\). The question then is when c
 Assume such a \(H\) exists and that \(Y(x)\) is a solution to the differential equation.
 \[H(x,y) = H(x,Y(x))\]
 Then, we take the partials with respect to both \(x\) and \(y\).
-\[\partial_x H(x,Y(x)) + Y'(x)\partial_y H(x,Y(x))\]
-Solving for \(Y'(x)\), gives us:
-\[Y'(x) = \frac{dy}{dx} = - \frac{\partial_x H(x,Y(x))}{\partial_y H(x,Y(x))}\]
+\[\partial_x H(x,Y(x)) + Y&amp;rsquo;(x)\partial_y H(x,Y(x))\]
+Solving for \(Y&amp;rsquo;(x)\), gives us:
+\[Y&amp;rsquo;(x) = \frac{dy}{dx} = - \frac{\partial_x H(x,Y(x))}{\partial_y H(x,Y(x))}\]
 Since \(y=Y(x)\) is a solution and \(\frac{dy}{dx} = f(x,y)\),
 \[f(x,y) = - \frac{\partial_x H(x,y)}{\partial_y H(x,y}\]
 We define some \(M(x,y) = \partial_x H(x,y)\) and some \(N(x,y) = \partial_y H(x,y)\)
@@ -1055,8 +1334,11 @@ where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{
 &lt;p>We can check if some set of possible solutions \(Y_1(t),Y_2(t)&amp;hellip;Y_{n-1}(t)\) are independent over some interval if the Wronskian is not 0.
 \[\mathbb{W} = \det \begin{vmatrix} Y_1(t) &amp;amp; Y_2(t) &amp;amp; &amp;hellip; &amp;amp; Y_n(t) \\ Y^(1)_1(t) &amp;amp; Y^(1)_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^(1)_n(t) \\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ Y^{(n-1)}_1(t) &amp;amp; Y^{(n-1)}_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^{(n-1)}_n(t) \end{vmatrix}\]
 Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.&lt;/p>
+&lt;h2 id="homogenous-higher-order-linear-des">Homogenous Higher-Order Linear DEs&lt;/h2>
+&lt;p>These are &lt;a href="#homogeneous">Homogeneous&lt;/a>, &lt;a href="#linear-equations">Linear Equations&lt;/a>.&lt;/p>
 &lt;h3 id="characteristic-polynomial">Characteristic Polynomial&lt;/h3>
-&lt;p>Expressing \(\mathbb{L}\) as a function of \(D\), we have:
+&lt;p>This applies to homogenous, constant coefficient linear differential equations.
+Expressing \(\mathbb{L}\) as a function of \(D\), we have:
 \[p(D)\]
 The characteristic polynomial is the function \(p(z)\), where \(z\) is some variable. Every root of this polynomial corresponds to a solution of \(\mathbb{L}y=0\).&lt;/p>
 &lt;h4 id="distinct-real-roots">Distinct Real Roots&lt;/h4>
@@ -1065,7 +1347,46 @@ The characteristic polynomial is the function \(p(z)\), where \(z\) is some vari
 &lt;p>A root \(r\) with multiplicity \(m\) corresponds to the solutions \(e^{rt}, te^{rt}, \dots, t^{m-1}e^{rt}\).&lt;/p>
 &lt;h4 id="complex-roots">Complex Roots&lt;/h4>
 &lt;p>A root \(r \pm is\) corresponds to the solutions \(e^{rt}cos(st)\) and \(e^{rt}sin(st)\)&lt;/p>
-&lt;p>If it has multiplicity m, then it corresponds to the solutions \(e^{rt}cos(st), te^{rt}cos(st), \dots, t^{m-1}e^{rt}cos(st)\) and \(e^{rt}sin(st), te^{rt}sin(st), \dots, t^{m-1}e^{rt}sin(st)\)&lt;/p></content></item><item><title>The Beginning</title><link>https://www.kandasamyc.me/000/</link><pubDate>Mon, 03 Jan 2022 17:27:29 -0500</pubDate><guid>https://www.kandasamyc.me/000/</guid><description>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off writing this Definitely did not mean to put this out early January post, but here we finally are, at the beginning.</description><content>&lt;p>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off &lt;span class="sidenote">
+&lt;p>If it has multiplicity m, then it corresponds to the solutions \(e^{rt}cos(st), te^{rt}cos(st), \dots, t^{m-1}e^{rt}cos(st)\) and \(e^{rt}sin(st), te^{rt}sin(st), \dots, t^{m-1}e^{rt}sin(st)\)&lt;/p>
+&lt;h2 id="nonhomogeneous-higher-order-linear-des">Nonhomogeneous Higher-Order Linear DEs&lt;/h2>
+&lt;p>These are &lt;a href="#homogeneous">Nonhomogeneous&lt;/a>, &lt;a href="#linear-equations">Linear Equations&lt;/a>.&lt;/p>
+&lt;h3 id="general-theory">General Theory&lt;/h3>
+&lt;p>Since the &lt;a href="#linear-differential-operator">linear differential operator&lt;/a> is linear, a linear combination of functions applied to it is the same as apply \(\mathbb{L}\) individually. We can exploit this fact to solve nonhomogeneous DEs.&lt;/p>
+&lt;p>If \(Y_P(t)\) is a solution to some nonhomogeneous DE \(\mathbb{L}(t)y = f(t)\) and \(Y_H(t)\) is a solution to the associated homogeneous equation \(\mathbb{L}(t)y = 0\), then \(Y(t) = Y_H(t)+Y_P(t)\) is also a solution of \(\mathbb{L}(t)y = f(t)\). This is because applying \(\mathbb{L}(t)\) individually makes the \(Y_H(t)\) component zero, which the \(Y_P(t)\) component is still \(f(t)\)&lt;/p>
+&lt;p>Note that \(Y(t)\) differs from \(Y_P(t)\) in that it is a general solution to the DE. \(Y_P(t)\) is only a particular one. Therefore, to find a general solution, we need a homogeneous solution (which we know how to calculate) and a particular solution (Finding Particular Solutions).&lt;/p>
+&lt;h3 id="finding-particular-solutions">Finding Particular Solutions&lt;/h3>
+&lt;h4 id="characteristic-form">Characteristic Form&lt;/h4>
+&lt;p>\[f(t) = (\alpha_0t^d + \alpha_1t^{d-1} + \dots + \alpha_d)e^{\mu t}cos(\nu t) + (\beta_0t^d + \beta_1t^{d-1} + \dots + \beta_d)e^{\mu t}sin(\nu t)\]
+where \(d\) is a nonnegative integer, \(\alpha_0 \dots \alpha_d\) and \(\beta_0 \dots \beta_d\) are real coefficients, and \(\mu\) \(\nu\) are other real numbers. Assume that either \(\alpha_0 \neq 0\) or \(\nu\beta_0 \neq 0\). This ensures that there is always a nonzero \(t_d\) term (the \(\nu\) comes into the latter term because \(sin(0)\) is always 0).&lt;/p>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Degree&lt;/p>
+&lt;p>This is the nonnegative integer \(d\). When \(d \neq 0\) then \(f(t)\) has positive degree.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Characteristic&lt;/p>
+&lt;p>This is the complex number \(\mu + i\nu\). When \(\nu = 0\), \(f(t)\) has real characteristic form, otherwise it has complex characteristic form.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Multiplicity&lt;/p>
+&lt;p>This the multiplicity of the &lt;a href="#characteristic">characteristic&lt;/a> as a root of the associated &lt;a href="#characteristic-polynomial">characteristic polynomial&lt;/a> \(p(z)\). It is 0 if it is not a root.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="undetermined-coefficients">Undetermined Coefficients&lt;/h4>
+&lt;p>The particular solution has the form:
+\[Y_P(t) = (A_0t^{m+d} + A_1t^{m+d-1} + \dots + A_dt^{m})e^{\mu t}cos(\nu t) + (B_0t^{m+d} + B_1t^{m+d-1} + \dots + B_dt^m)e^{\mu t}sin(\nu t)\]&lt;/p>
+&lt;ol>
+&lt;li>Construct \(Y_P(t)\) using the above formula and combine like terms&lt;/li>
+&lt;li>Plug that into \(\mathbb{L}Y_P(t) = f(t)\) and match the terms on either side (partial fraction decomposition style)&lt;/li>
+&lt;li>Solve the system for the unknowns&lt;/li>
+&lt;/ol></content></item><item><title>The Beginning</title><link>https://www.kandasamyc.me/000/</link><pubDate>Mon, 03 Jan 2022 17:27:29 -0500</pubDate><guid>https://www.kandasamyc.me/000/</guid><description>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off writing this Definitely did not mean to put this out early January post, but here we finally are, at the beginning.</description><content>&lt;p>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off &lt;span class="sidenote">
 &lt;label class="sidenote-label" for="writing-this">writing this&lt;/label>
 &lt;input class="sidenote-checkbox" type="checkbox" id="writing-this">&lt;/input>
 &lt;span class="sidenote-content">
@@ -1934,7 +2255,7 @@ ksam&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kanda
 &lt;li>Security was becoming more and more stringent and important&lt;/li>
 &lt;li>&lt;a href="#leslie-groves">Leslie Groves&lt;/a> wanted a new site for the project
 &lt;ul>
-&lt;li>He met &lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> and wanted to make him its' lead&lt;/li>
+&lt;li>He met &lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> and wanted to make him its&amp;rsquo; lead&lt;/li>
 &lt;li>He was a good choice in some ways but not really in others: mainly his left-wing ties&lt;/li>
 &lt;li>Also, everyone else who was good was busy or not american&lt;/li>
 &lt;li>In addition, he thought Oppie was a legendary leader&lt;/li>
@@ -3604,56 +3925,68 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;h2 id="programming-2">Programming 2&lt;/h2>
 &lt;h2 id="programming-3">Programming 3&lt;/h2>
 &lt;p>TCP Connection&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#f92672">import&lt;/span> socket
-client_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_STREAM)
-client_socket&lt;span style="color:#f92672">.&lt;/span>connect((&lt;span style="color:#e6db74">&amp;#39;127.0.0.1&amp;#39;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
-client_socket&lt;span style="color:#f92672">.&lt;/span>send(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Do you want to play a game?&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>)
-received &lt;span style="color:#f92672">=&lt;/span> client_socket&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">1024&lt;/span>)
-print(received)
-client_socket&lt;span style="color:#f92672">.&lt;/span>close()
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>TCP Server&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#f92672">import&lt;/span> socket
-server_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_STREAM)
-server_socket&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
-server_socket&lt;span style="color:#f92672">.&lt;/span>listen(&lt;span style="color:#ae81ff">10&lt;/span>)
-&lt;span style="color:#66d9ef">while&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span>:
-conn, addr &lt;span style="color:#f92672">=&lt;/span> server_socket&lt;span style="color:#f92672">.&lt;/span>accept()
-conn&lt;span style="color:#f92672">.&lt;/span>send(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Do you want to play a game?&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>)
-received &lt;span style="color:#f92672">=&lt;/span> conn&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">1024&lt;/span>)
-print(received)
-server_socket&lt;span style="color:#f92672">.&lt;/span>close()
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>UDP Socket&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#f92672">import&lt;/span> socket
-client_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_DGRAM)
-client_socket&lt;span style="color:#f92672">.&lt;/span>sendto(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;UDP is connectionless...&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, (&lt;span style="color:#e6db74">&amp;#34;127.0.0.1&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>UDP Server&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#f92672">import&lt;/span> socket
-server_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_DGRAM)
-server_socket&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
-&lt;span style="color:#66d9ef">while&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span>:
-data, addr &lt;span style="color:#f92672">=&lt;/span> server_socket&lt;span style="color:#f92672">.&lt;/span>recvfrom(&lt;span style="color:#ae81ff">1024&lt;/span>)
-print(data)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Threaded TCP Server&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#f92672">import&lt;/span> socket
-&lt;span style="color:#f92672">import&lt;/span> _thread
-&lt;span style="color:#75715e"># Thread handler&lt;/span>
-&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">handler&lt;/span>(client_sock, address):
-client_sock&lt;span style="color:#f92672">.&lt;/span>send(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Do you want to play a game?&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>)
-data &lt;span style="color:#f92672">=&lt;/span> client_sock&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">1024&lt;/span>)
-print(repr(address) &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#e6db74">&amp;#34; said: &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> data&lt;span style="color:#f92672">.&lt;/span>decode())
-client_sock&lt;span style="color:#f92672">.&lt;/span>close()
-print(repr(address) &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#e6db74">&amp;#34; connection ended.&amp;#34;&lt;/span>)
-&lt;span style="color:#75715e"># Set up our server&lt;/span>
-server_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_STREAM)
-server_socket&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
-server_socket&lt;span style="color:#f92672">.&lt;/span>listen(&lt;span style="color:#ae81ff">10&lt;/span>)
-&lt;span style="color:#75715e"># Run the server with threads&lt;/span>
-&lt;span style="color:#66d9ef">while&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span>:
-print(&lt;span style="color:#e6db74">&amp;#34;Server listening for connections...&amp;#34;&lt;/span>)
-client_sock, address &lt;span style="color:#f92672">=&lt;/span> server_socket&lt;span style="color:#f92672">.&lt;/span>accept()
-print(&lt;span style="color:#e6db74">&amp;#34;Connection from: &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> repr(address))
-_thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (client_sock, address))
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="programming-4">Programming 4&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>client_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_STREAM)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>client_socket&lt;span style="color:#f92672">.&lt;/span>connect((&lt;span style="color:#e6db74">&amp;#39;127.0.0.1&amp;#39;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>client_socket&lt;span style="color:#f92672">.&lt;/span>send(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Do you want to play a game?&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>received &lt;span style="color:#f92672">=&lt;/span> client_socket&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">1024&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(received)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>client_socket&lt;span style="color:#f92672">.&lt;/span>close()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>TCP Server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_STREAM)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket&lt;span style="color:#f92672">.&lt;/span>listen(&lt;span style="color:#ae81ff">10&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">while&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> conn, addr &lt;span style="color:#f92672">=&lt;/span> server_socket&lt;span style="color:#f92672">.&lt;/span>accept()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> conn&lt;span style="color:#f92672">.&lt;/span>send(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Do you want to play a game?&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> received &lt;span style="color:#f92672">=&lt;/span> conn&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">1024&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(received)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket&lt;span style="color:#f92672">.&lt;/span>close()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>UDP Socket&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>client_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_DGRAM)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>client_socket&lt;span style="color:#f92672">.&lt;/span>sendto(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;UDP is connectionless...&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, (&lt;span style="color:#e6db74">&amp;#34;127.0.0.1&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>UDP Server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_DGRAM)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">while&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> data, addr &lt;span style="color:#f92672">=&lt;/span> server_socket&lt;span style="color:#f92672">.&lt;/span>recvfrom(&lt;span style="color:#ae81ff">1024&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(data)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Threaded TCP Server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> _thread
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Thread handler&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">handler&lt;/span>(client_sock, address):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> client_sock&lt;span style="color:#f92672">.&lt;/span>send(&lt;span style="color:#e6db74">b&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Do you want to play a game?&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> data &lt;span style="color:#f92672">=&lt;/span> client_sock&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">1024&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(repr(address) &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#e6db74">&amp;#34; said: &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> data&lt;span style="color:#f92672">.&lt;/span>decode())
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> client_sock&lt;span style="color:#f92672">.&lt;/span>close()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(repr(address) &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#e6db74">&amp;#34; connection ended.&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Set up our server&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket &lt;span style="color:#f92672">=&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_STREAM)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">1337&lt;/span>))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server_socket&lt;span style="color:#f92672">.&lt;/span>listen(&lt;span style="color:#ae81ff">10&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Run the server with threads&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">while&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;Server listening for connections...&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> client_sock, address &lt;span style="color:#f92672">=&lt;/span> server_socket&lt;span style="color:#f92672">.&lt;/span>accept()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;Connection from: &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> repr(address))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (client_sock, address))
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="programming-4">Programming 4&lt;/h2>
 &lt;h2 id="programming-5">Programming 5&lt;/h2>
 &lt;h2 id="programming-6">Programming 6&lt;/h2>
 &lt;ul>
@@ -3676,28 +4009,30 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;/ul>
 &lt;h2 id="mysql-database-admin">MySQL Database Admin&lt;/h2>
 &lt;p>Creating a Table&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sql" data-lang="sql">&lt;span style="color:#66d9ef">CREATE&lt;/span> &lt;span style="color:#66d9ef">TABLE&lt;/span> &lt;span style="color:#f92672">`&lt;/span>customers&lt;span style="color:#f92672">`&lt;/span> (
-&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span> mediumint(&lt;span style="color:#ae81ff">8&lt;/span>) unsigned &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span> auto_increment,
-&lt;span style="color:#f92672">`&lt;/span>firstName&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
-&lt;span style="color:#f92672">`&lt;/span>lastName&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
-&lt;span style="color:#f92672">`&lt;/span>address&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
-&lt;span style="color:#f92672">`&lt;/span>city&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>),
-&lt;span style="color:#f92672">`&lt;/span>country&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">100&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
-&lt;span style="color:#66d9ef">PRIMARY&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>)
-) AUTO_INCREMENT&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;span style="color:#66d9ef">CREATE&lt;/span> &lt;span style="color:#66d9ef">TABLE&lt;/span> &lt;span style="color:#f92672">`&lt;/span>orders&lt;span style="color:#f92672">`&lt;/span> (
-&lt;span style="color:#f92672">`&lt;/span>orderId&lt;span style="color:#f92672">`&lt;/span> mediumint(&lt;span style="color:#ae81ff">8&lt;/span>) unsigned &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span> auto_increment,
-&lt;span style="color:#f92672">`&lt;/span>date&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>),
-&lt;span style="color:#f92672">`&lt;/span>currency&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
-&lt;span style="color:#f92672">`&lt;/span>total&lt;span style="color:#f92672">`&lt;/span> mediumint &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
-&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span> mediumint unsigned &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
-&lt;span style="color:#66d9ef">PRIMARY&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>orderId&lt;span style="color:#f92672">`&lt;/span>),
-&lt;span style="color:#66d9ef">FOREIGN&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>) &lt;span style="color:#66d9ef">REFERENCES&lt;/span> customers(&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>)
-) AUTO_INCREMENT&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Inserting Values&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sql" data-lang="sql">&lt;span style="color:#66d9ef">INSERT&lt;/span> &lt;span style="color:#66d9ef">INTO&lt;/span> &lt;span style="color:#f92672">`&lt;/span>customers&lt;span style="color:#f92672">`&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>firstName&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>lastName&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>address&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>city&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>country&lt;span style="color:#f92672">`&lt;/span>) &lt;span style="color:#66d9ef">VALUES&lt;/span> (&lt;span style="color:#e6db74">&amp;#34;Ursa&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Vasquez&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 878, 8416 Nullam St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Worcester&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United States&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Quyn&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Meyer&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 670, 7155 Tincidunt St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Price&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Canada&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Orli&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Klein&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;4981 Gravida St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Barrow-in-Furness&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Tallulah&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Hines&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;6279 Pellentesque Street&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Omaha&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United States&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Joel&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Ross&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 842, 4634 Egestas Avenue&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Clovenfords&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Charlotte&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Ramos&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;794-1654 A Rd.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Akron&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United States&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Dennis&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Avery&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 506, 4804 Molestie Avenue&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Matlock&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Igor&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Malone&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;6627 Porttitor Rd.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Irvine&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Connor&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Witt&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;5979 Vel St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Tain&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Karen&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Marquez&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Ap #524-1173 Metus. Road&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Annapolis Royal&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Canada&amp;#34;&lt;/span>);
-&lt;span style="color:#66d9ef">INSERT&lt;/span> &lt;span style="color:#66d9ef">INTO&lt;/span> &lt;span style="color:#f92672">`&lt;/span>orders&lt;span style="color:#f92672">`&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>date&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>currency&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>total&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>) &lt;span style="color:#66d9ef">VALUES&lt;/span> (&lt;span style="color:#e6db74">&amp;#34;2020-11-14&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">111&lt;/span>,&lt;span style="color:#ae81ff">6&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-07-07&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">958&lt;/span>,&lt;span style="color:#ae81ff">4&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2021-02-18&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">721&lt;/span>,&lt;span style="color:#ae81ff">2&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-05-25&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">834&lt;/span>,&lt;span style="color:#ae81ff">4&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-07-10&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">47&lt;/span>,&lt;span style="color:#ae81ff">1&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2021-02-27&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">587&lt;/span>,&lt;span style="color:#ae81ff">4&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2021-03-04&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">198&lt;/span>,&lt;span style="color:#ae81ff">10&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-09-03&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">200&lt;/span>,&lt;span style="color:#ae81ff">3&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-11-17&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">726&lt;/span>,&lt;span style="color:#ae81ff">3&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-12-29&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">200&lt;/span>,&lt;span style="color:#ae81ff">5&lt;/span>);
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="windows-overview">Windows Overview&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">CREATE&lt;/span> &lt;span style="color:#66d9ef">TABLE&lt;/span> &lt;span style="color:#f92672">`&lt;/span>customers&lt;span style="color:#f92672">`&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span> mediumint(&lt;span style="color:#ae81ff">8&lt;/span>) unsigned &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span> auto_increment,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>firstName&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>lastName&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>address&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>city&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>country&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">100&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">PRIMARY&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>) AUTO_INCREMENT&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">CREATE&lt;/span> &lt;span style="color:#66d9ef">TABLE&lt;/span> &lt;span style="color:#f92672">`&lt;/span>orders&lt;span style="color:#f92672">`&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>orderId&lt;span style="color:#f92672">`&lt;/span> mediumint(&lt;span style="color:#ae81ff">8&lt;/span>) unsigned &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span> auto_increment,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>date&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>currency&lt;span style="color:#f92672">`&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>total&lt;span style="color:#f92672">`&lt;/span> mediumint &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span> mediumint unsigned &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">PRIMARY&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>orderId&lt;span style="color:#f92672">`&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">FOREIGN&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>) &lt;span style="color:#66d9ef">REFERENCES&lt;/span> customers(&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>) AUTO_INCREMENT&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Inserting Values&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">INSERT&lt;/span> &lt;span style="color:#66d9ef">INTO&lt;/span> &lt;span style="color:#f92672">`&lt;/span>customers&lt;span style="color:#f92672">`&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>firstName&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>lastName&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>address&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>city&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>country&lt;span style="color:#f92672">`&lt;/span>) &lt;span style="color:#66d9ef">VALUES&lt;/span> (&lt;span style="color:#e6db74">&amp;#34;Ursa&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Vasquez&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 878, 8416 Nullam St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Worcester&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United States&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Quyn&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Meyer&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 670, 7155 Tincidunt St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Price&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Canada&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Orli&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Klein&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;4981 Gravida St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Barrow-in-Furness&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Tallulah&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Hines&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;6279 Pellentesque Street&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Omaha&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United States&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Joel&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Ross&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 842, 4634 Egestas Avenue&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Clovenfords&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Charlotte&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Ramos&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;794-1654 A Rd.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Akron&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United States&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Dennis&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Avery&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;P.O. Box 506, 4804 Molestie Avenue&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Matlock&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Igor&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Malone&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;6627 Porttitor Rd.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Irvine&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Connor&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Witt&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;5979 Vel St.&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Tain&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;United Kingdom&amp;#34;&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;Karen&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Marquez&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Ap #524-1173 Metus. Road&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Annapolis Royal&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Canada&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">INSERT&lt;/span> &lt;span style="color:#66d9ef">INTO&lt;/span> &lt;span style="color:#f92672">`&lt;/span>orders&lt;span style="color:#f92672">`&lt;/span> (&lt;span style="color:#f92672">`&lt;/span>date&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>currency&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>total&lt;span style="color:#f92672">`&lt;/span>,&lt;span style="color:#f92672">`&lt;/span>customerId&lt;span style="color:#f92672">`&lt;/span>) &lt;span style="color:#66d9ef">VALUES&lt;/span> (&lt;span style="color:#e6db74">&amp;#34;2020-11-14&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">111&lt;/span>,&lt;span style="color:#ae81ff">6&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-07-07&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">958&lt;/span>,&lt;span style="color:#ae81ff">4&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2021-02-18&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">721&lt;/span>,&lt;span style="color:#ae81ff">2&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-05-25&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">834&lt;/span>,&lt;span style="color:#ae81ff">4&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-07-10&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">47&lt;/span>,&lt;span style="color:#ae81ff">1&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2021-02-27&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">587&lt;/span>,&lt;span style="color:#ae81ff">4&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2021-03-04&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">198&lt;/span>,&lt;span style="color:#ae81ff">10&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-09-03&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">200&lt;/span>,&lt;span style="color:#ae81ff">3&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-11-17&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;£&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">726&lt;/span>,&lt;span style="color:#ae81ff">3&lt;/span>),(&lt;span style="color:#e6db74">&amp;#34;2020-12-29&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;$&amp;#34;&lt;/span>,&lt;span style="color:#ae81ff">200&lt;/span>,&lt;span style="color:#ae81ff">5&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="windows-overview">Windows Overview&lt;/h2>
 &lt;ul>
 &lt;li>The registry is a database of settings&lt;/li>
 &lt;li>Very powerful and can absolutely destroy things&lt;/li>
@@ -4051,7 +4386,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;h4 id="1-terminology">1 - Terminology&lt;/h4>
 &lt;ul>
 &lt;li>We started with Greenhouse effect, which was true, but not clear because there&amp;rsquo;s a natural component too and it&amp;rsquo;s not the only issue&lt;/li>
-&lt;li>Next we used global warming, which understand there multiple issues but higher temps aren&amp;rsquo;t the main problem (even if they don&amp;rsquo;t' seem like one) &amp;mdash; the imbalance is, plus temps may go down in the end&lt;/li>
+&lt;li>Next we used global warming, which understand there multiple issues but higher temps aren&amp;rsquo;t the main problem (even if they don&amp;rsquo;t&amp;rsquo; seem like one) &amp;mdash; the imbalance is, plus temps may go down in the end&lt;/li>
 &lt;li>Now we&amp;rsquo;re at climate change &amp;mdash; the fact that the climate itself is going off balance&lt;/li>
 &lt;/ul>
 &lt;h4 id="2-climate-science">2 - Climate Science&lt;/h4>
@@ -4717,7 +5052,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;li>Affliative Language
 &lt;ul>
 &lt;li>Affliative Language suggestions relationships between people&lt;/li>
-&lt;li>Using such affliative language to show they';re apart of some group is called convergence&lt;/li>
+&lt;li>Using such affliative language to show they&amp;rsquo;;re apart of some group is called convergence&lt;/li>
 &lt;li>Using such language to show they&amp;rsquo;re not a part of some group is called divergence&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -5017,7 +5352,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;/li>
 &lt;li>Be emotionally intelligent
 &lt;ul>
-&lt;li>&lt;strong>Emotional Intelligence&lt;/strong> is a person&amp;rsquo;s ability to deal with others' and their own emotions&lt;/li>
+&lt;li>&lt;strong>Emotional Intelligence&lt;/strong> is a person&amp;rsquo;s ability to deal with others&amp;rsquo; and their own emotions&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Self-awareness&lt;/li>
@@ -5050,7 +5385,7 @@ _thread&lt;span style="color:#f92672">.&lt;/span>start_new_thread(handler, (clie
 &lt;li>You might do it on purpose or on accident&lt;/li>
 &lt;li>People manage their identity to different extents
 &lt;ul>
-&lt;li>&lt;strong>High self-monitors&lt;/strong> watch their own behavior and others', while &lt;strong>low self-monitors&lt;/strong> do not regulate their own behaviors&lt;/li>
+&lt;li>&lt;strong>High self-monitors&lt;/strong> watch their own behavior and others&amp;rsquo;, while &lt;strong>low self-monitors&lt;/strong> do not regulate their own behaviors&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Your roles influence your identity&lt;/li>
@@ -5542,9 +5877,9 @@ To define a custom data type use the data keyword.
 data TypeConstructor = ValueConstructor Argument deriving (Typeclass) The TypeConstructor is the name of the type, and use it when writing a type declaration or signature. The ValueConstructor is the keyword to use when constructing a instance of that type. There can be any number of Argument where each is the name of some actual type.</description><content>&lt;h2 id="custom-data-types">Custom Data Types&lt;/h2>
 &lt;p>Defining custom data types is akin to or C++&amp;rsquo;s or Rust&amp;rsquo;s Structs.&lt;/p>
 &lt;p>To define a custom data type use the &lt;code>data&lt;/code> keyword.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> &lt;span style="color:#66d9ef">Argument&lt;/span>
-&lt;span style="color:#66d9ef">deriving&lt;/span> (&lt;span style="color:#66d9ef">Typeclass&lt;/span>)
-&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> &lt;span style="color:#66d9ef">Argument&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">deriving&lt;/span> (&lt;span style="color:#66d9ef">Typeclass&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>The &lt;code>TypeConstructor&lt;/code> is the name of the type, and use it when writing a type
 declaration or signature.&lt;/li>
 &lt;li>The &lt;code>ValueConstructor&lt;/code> is the keyword to use when constructing a instance of
@@ -5568,21 +5903,21 @@ like &lt;a href="#custom-data-types">Custom Data Types&lt;/a> do.&lt;/p>
 creating &lt;a href="#custom-data-types">Custom Data Types&lt;/a> and having to write individual accessor methods for
 each field, Haskell provides record syntax that will automatically create them
 for you.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> {
-&lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">::&lt;/span> &lt;span style="color:#66d9ef">ArgumentType&lt;/span>,
-&lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">::&lt;/span> &lt;span style="color:#66d9ef">ArgumentType2&lt;/span>
-} &lt;span style="color:#66d9ef">deriving&lt;/span> (&lt;span style="color:#66d9ef">Typeclass&lt;/span>)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>With this syntax the functions &lt;code>ArgumentName&lt;/code> and &lt;code>ArgumentName2&lt;/code>, with types of
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">::&lt;/span> &lt;span style="color:#66d9ef">ArgumentType&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">::&lt;/span> &lt;span style="color:#66d9ef">ArgumentType2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">deriving&lt;/span> (&lt;span style="color:#66d9ef">Typeclass&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>With this syntax the functions &lt;code>ArgumentName&lt;/code> and &lt;code>ArgumentName2&lt;/code>, with types of
 &lt;code>TypeConstructor -&amp;gt; ArgumentType&lt;/code> and &lt;code>TypeConstructor -&amp;gt; ArgumentType2&lt;/code>
 respectively, will be created.&lt;/p>
 &lt;p>The normal syntax for creating a value of the type still applies, but with
 record syntax, you can also alternatively specify field name and value pairs in
 a custom order.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="color:#a6e22e">value&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> {
-&lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
-&lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
-}
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://www.kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC250 CMSC216</description><content>&lt;ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">value&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://www.kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC250 CMSC216</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
 &lt;li>&lt;a href="https://www.kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>

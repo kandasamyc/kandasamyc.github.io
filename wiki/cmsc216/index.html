@@ -1,7 +1,6 @@
 <!doctype html><html lang=en>
 <head>
-<title>CMSC216 :: Kandasamy Chokkalingam</title>
-<meta charset=utf-8>
+<title>CMSC216 :: Kandasamy Chokkalingam</title><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content="Notes from UMD's CMSC216 class">
 <meta name=keywords content="Kandasamy Chokkalingam">
@@ -24,8 +23,7 @@
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 <meta property="article:published_time" content="2022-01-26 00:00:00 +0000 UTC">
-</head>
-<body class=green>
+</head><body class=green>
 <div class="container center">
 <header class=header>
 <div class=header__inner>
@@ -33,43 +31,22 @@
 <a href=/>
 <div class=logo>
 Kandasamy Chokkalingam
-</div>
-</a>
-</div>
-<div class=menu-trigger>menu</div>
-</div>
-<nav class=menu>
+</div></a>
+</div><div class=menu-trigger>menu</div></div><nav class=menu>
 <ul class="menu__inner menu__inner--desktop">
-<li><a href=/>About</a></li>
-<li><a href=/posts>Posts</a></li>
-<li><a href=/wiki>Wiki</a></li>
-<li><a href=/#contact>Contact</a></li>
-</ul>
-<ul class="menu__inner menu__inner--mobile">
-<li><a href=/>About</a></li>
-<li><a href=/posts>Posts</a></li>
-<li><a href=/wiki>Wiki</a></li>
-<li><a href=/#contact>Contact</a></li>
-</ul>
-</nav>
-</header>
-<div class=content>
+<li><a href=/>About</a></li><li><a href=/posts>Posts</a></li><li><a href=/wiki>Wiki</a></li><li><a href=/#contact>Contact</a></li></ul><ul class="menu__inner menu__inner--mobile">
+<li><a href=/>About</a></li><li><a href=/posts>Posts</a></li><li><a href=/wiki>Wiki</a></li><li><a href=/#contact>Contact</a></li></ul></nav></header><div class=content>
 <div class=post>
 <h1 class=post-title>
-<a href=https://www.kandasamyc.me/wiki/cmsc216/>CMSC216</a></h1>
-<div class=post-meta>
+<a href=https://www.kandasamyc.me/wiki/cmsc216/>CMSC216</a></h1><div class=post-meta>
 <span class=post-date>
 2022-01-26
 </span>
 <span class=post-author>:: [ksam]</span>
-</div>
-<div class=post-content><div>
-<h2 id=basic-c-syntax>Basic C Syntax<a href=#basic-c-syntax class=hanchor arialabel=Anchor>&#8983;</a> </h2>
-<h3 id=preprocessor-directives>Preprocessor Directives<a href=#preprocessor-directives class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<p>Code at the beginning of a file that starts with a #. This is run before compilation.</p>
-<div class=collapsable-code>
-<input id=243581769 type=checkbox checked>
-<label for=243581769>
+</div><div class=post-content><div>
+<h2 id=c-syntax>C Syntax<a href=#c-syntax class=hanchor arialabel=Anchor>&#8983;</a> </h2><h3 id=preprocessor-directives>Preprocessor Directives<a href=#preprocessor-directives class=hanchor arialabel=Anchor>&#8983;</a> </h3><p>Code at the beginning of a file that starts with a #. This is run before compilation.</p><div class=collapsable-code>
+<input id=584967231 type=checkbox checked>
+<label for=584967231>
 <span class=collapsable-code__language>c</span>
 <span class=collapsable-code__title>Preprocessor Directives</span>
 <span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
@@ -78,16 +55,10 @@ Kandasamy Chokkalingam
 #include &amp;lt;stdlib.h&amp;gt;
 #include &amp;lt;string.h&amp;gt;
 #define MAX_COLS 20 /* max # of columns to process */
-#define MAX_INPUT 1000</code></pre>
-</div>
-<p><code>#define</code> defines a constant value, <code>#include</code> includes another file&rsquo;s declarations.</p>
-<h3 id=main-function>Main Function<a href=#main-function class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<ul>
-<li>Returns an int, takes no arguments (so void)</li>
-</ul>
-<div class=collapsable-code>
-<input id=462157389 type=checkbox checked>
-<label for=462157389>
+#define MAX_INPUT 1000</code></pre></div><p><code>#define</code> defines a constant value, <code>#include</code> includes another file&rsquo;s declarations.</p><h3 id=main-function>Main Function<a href=#main-function class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Returns an int, takes no arguments (so void)</li></ul><div class=collapsable-code>
+<input id=291864573 type=checkbox checked>
+<label for=291864573>
 <span class=collapsable-code__language>c</span>
 <span class=collapsable-code__title>Main Function</span>
 <span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
@@ -95,173 +66,96 @@ Kandasamy Chokkalingam
 <pre class="language-c line-numbers"><code>int main(void){
     /* Some code */
     return 0;
-}</code></pre>
-</div>
-<h2 id=basic-concepts>Basic Concepts<a href=#basic-concepts class=hanchor arialabel=Anchor>&#8983;</a> </h2>
-<h3 id=environments>Environments<a href=#environments class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<h4 id=translation-environment>Translation Environment<a href=#translation-environment class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+}</code></pre></div><h3 id=prototypes>Prototypes<a href=#prototypes class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>The first function &ldquo;declaration&rdquo;</li><li>No body</li><li>Placed at the top to allow the compiler to do proper type checking</li></ul><h2 id=basic-concepts>Basic Concepts<a href=#basic-concepts class=hanchor arialabel=Anchor>&#8983;</a> </h2><h3 id=environments>Environments<a href=#environments class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=translation-environment>Translation Environment<a href=#translation-environment class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Source code get compiled into object code</li><li>Which then gets linked with other object code by the linker to form a single executable</li></ul><h4 id=execution-environment>Execution Environment<a href=#execution-environment class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning <a href=#main-function>main&rsquo;s</a> error code.</li></ul><h3 id=lexical-rules>Lexical Rules<a href=#lexical-rules class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=trigraphs>Trigraphs<a href=#trigraphs class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>A 3-sequence of a characters that may not be easily typeable</li></ul><h4 id=comments>Comments<a href=#comments class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Begin with <code>/*</code> and end with <code>*/</code></li><li>Can be multiple lines, by not nested
 <ul>
-<li>Source code get compiled into object code which then gets linked with other object code by the linker to form a single executable</li>
-</ul>
-<h4 id=execution-environment>Execution Environment<a href=#execution-environment class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<li>If they&rsquo;re multiple lines, they get everything on those lines</li></ul></li></ul><h3 id=declaration>Declaration<a href=#declaration class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>A declaration causes memory to be reserved for the variable</li><li>There is no extra instantiation</li><li>If variables are uninitialized they&rsquo;ll just have garbage values</li></ul><h3 id=expression-and-assignment>Expression and assignment<a href=#expression-and-assignment class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Assignment returns the value the variable was assigned</li><li>An expression can be a simple statement, its just not useful unless it has a side effect</li></ul><h4 id=side-effect>Side Effect<a href=#side-effect class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>A change in program state</li></ul><h3 id=booleans-in-c>Booleans in C<a href=#booleans-in-c class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>There is no boolean type, 0 is false, non-zero is true</li></ul><h3 id=arithmetic-conversion>Arithmetic Conversion<a href=#arithmetic-conversion class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Both <code>char</code> and <code>short</code> types are promoted to <code>int</code> types when doing math</li><li>If arithmetic operations are performed with different <code>int</code> types, the smaller type is promoted to be the higher type</li></ul><h2 id=standard-library>Standard Library<a href=#standard-library class=hanchor arialabel=Anchor>&#8983;</a> </h2><h3 id=stdio>stdio<a href=#stdio class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=printf>printf<a href=#printf class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>printf</code> takes in a character string with 0 or more format specifiers, if any are present, it also takes in that many other values after the string</li><li>They contain escape sequences, format specifiers, and normal characters</li><li>Format specifiers include
 <ul>
-<li>The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning <a href=#main-function>main&rsquo;s</a> error code.</li>
-</ul>
-<h3 id=lexical-rules>Lexical Rules<a href=#lexical-rules class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<h4 id=trigraphs>Trigraphs<a href=#trigraphs class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<li>%d for integers</li><li>%f for floats</li><li>%c for characters</li><li>%u for unsigned int decimal</li><li>%x for unsigned int hex</li><li>%o for unsigned int octal</li></ul></li><li>Padding can be done by adding the number of spaces to pad by before the specifier ("%4d")
 <ul>
-<li>A 3-sequence of a characters that may not be easily typeable</li>
-</ul>
-<h4 id=comments>Comments<a href=#comments class=hanchor arialabel=Anchor>&#8983;</a> </h4>
+<li>You can fill with 0s instead by adding a 0 beforehand ("%04d")</li></ul></li></ul><h4 id=scanf>scanf<a href=#scanf class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>scanf</code> takes in a character string with 0 or more format specifiers, if any are present, it also takes in that many other variable pointers after the string</li><li>It takes in format specifiers and reads each one into its corresponding variable</li><li>If too few variables are put in, scanf will wait</li><li>It too many variables are put in, they will remain in the input</li><li>If the last data in the input has been read, scanf returns a special <code>EOF</code> value</li><li>Format specifiers include
 <ul>
-<li>Begin with <code>/*</code> and end with <code>*/</code></li>
-<li>Can be multiple lines, by not nested
-<ul>
-<li>If they&rsquo;re multiple lines, they get everything on those lines</li>
-</ul>
-</li>
-</ul>
-<h2 id=data>Data<a href=#data class=hanchor arialabel=Anchor>&#8983;</a> </h2>
-<h3 id=integers>Integers<a href=#integers class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<h4 id=values>Values<a href=#values class=hanchor arialabel=Anchor>&#8983;</a> </h4>
-<p><code>short</code> &lt;= <code>int</code> &lt;= <code>long</code></p>
-<table>
+<li>%d for integers</li><li>%f for floats</li><li>%c for characters</li></ul></li></ul><h4 id=feof>feof<a href=#feof class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>feof(stdin)</code> will be true if the <strong>previous</strong> try to read didn&rsquo;t work because there was no more data</li><li>You must try to read something for <code>feof</code> to work</li></ul><h3 id=assert>assert<a href=#assert class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>If <code>assert()</code> argument is false, it will kill the program</li></ul><h3 id=stddef>stddef<a href=#stddef class=hanchor arialabel=Anchor>&#8983;</a> </h3><h2 id=data>Data<a href=#data class=hanchor arialabel=Anchor>&#8983;</a> </h2><h3 id=integers>Integers<a href=#integers class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=values>Values<a href=#values class=hanchor arialabel=Anchor>&#8983;</a> </h4><p><code>short</code> &lt;= <code>int</code> &lt;= <code>long</code></p><table>
 <thead>
 <tr>
-<th>Type</th>
-<th>Signedness</th>
-<th>Max Start</th>
-<th>Min End</th>
-</tr>
-</thead>
-<tbody>
+<th>Type</th><th>Signedness</th><th>Max Start</th><th>Min End</th></tr></thead><tbody>
 <tr>
-<td>int</td>
-<td>signed</td>
-<td>-32767</td>
-<td>32767</td>
-</tr>
-<tr>
-<td>unsigned int</td>
-<td>unsigned</td>
-<td>0</td>
-<td>65535</td>
-</tr>
-<tr>
-<td>short int</td>
-<td>unsigned</td>
-<td>-32767</td>
-<td>32767</td>
-</tr>
-<tr>
-<td>unsigned short int</td>
-<td>signed</td>
-<td>0</td>
-<td>65535</td>
-</tr>
-<tr>
-<td>long int</td>
-<td>signed</td>
-<td>-214783647</td>
-<td>2147483647</td>
-</tr>
-<tr>
-<td>unsigned long int</td>
-<td>unsigned</td>
-<td>0</td>
-<td>4294967295</td>
-</tr>
-<tr>
-<td>char</td>
-<td>NA</td>
-<td>0</td>
-<td>127</td>
-</tr>
-<tr>
-<td>signed char</td>
-<td>signed</td>
-<td>-127</td>
-<td>127</td>
-</tr>
-<tr>
-<td>unsigned char</td>
-<td>unsigned</td>
-<td>0</td>
-<td>255</td>
-</tr>
-</tbody>
-</table>
-<h4 id=literals>Literals<a href=#literals class=hanchor arialabel=Anchor>&#8983;</a> </h4>
-<ul>
-<li>Decimals</li>
-<li>In octal when starting with a 0</li>
-<li>In hex when starting with an 0x</li>
-<li>Characters literals in single quotes</li>
-</ul>
-<h3 id=enumerated-type>Enumerated Type<a href=#enumerated-type class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<h4 id=values>Values<a href=#values class=hanchor arialabel=Anchor>&#8983;</a> </h4>
-<ul>
-<li>Enums are stored as ints</li>
-<li>The numbers after the name are optional</li>
-</ul>
-<div class=collapsable-code>
-<input id=187236594 type=checkbox>
-<label for=187236594>
+<td>int</td><td>signed</td><td>-32767</td><td>32767</td></tr><tr>
+<td>unsigned int</td><td>unsigned</td><td>0</td><td>65535</td></tr><tr>
+<td>short int</td><td>unsigned</td><td>-32767</td><td>32767</td></tr><tr>
+<td>unsigned short int</td><td>signed</td><td>0</td><td>65535</td></tr><tr>
+<td>long int</td><td>signed</td><td>-214783647</td><td>2147483647</td></tr><tr>
+<td>unsigned long int</td><td>unsigned</td><td>0</td><td>4294967295</td></tr><tr>
+<td>char</td><td>NA</td><td>0</td><td>127</td></tr><tr>
+<td>signed char</td><td>signed</td><td>-127</td><td>127</td></tr><tr>
+<td>unsigned char</td><td>unsigned</td><td>0</td><td>255</td></tr></tbody></table><h4 id=literals>Literals<a href=#literals class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Decimals</li><li>In octal when starting with a 0</li><li>In hex when starting with an 0x</li><li>Characters literals in single quotes</li></ul><h4 id=promotion>Promotion<a href=#promotion class=hanchor arialabel=Anchor>&#8983;</a> </h4><h3 id=enumerated-type>Enumerated Type<a href=#enumerated-type class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=values>Values<a href=#values class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Enums are stored as ints</li><li>The numbers after the name are optional</li></ul><div class=collapsable-code>
+<input id=319874526 type=checkbox>
+<label for=319874526>
 <span class=collapsable-code__language>c</span>
 <span class=collapsable-code__toggle data-label-expand=△ data-label-collapse=▽></span>
 </label>
-<pre class=language-c><code>enum Jar_Type { CUP=8, PINT=16, QUART=32, HALF_GALLON=64, GALLON=128 };</code></pre>
-</div>
-<h3 id=floating-point>Floating-Point<a href=#floating-point class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<pre class=language-c><code>enum Jar_Type { CUP=8, PINT=16, QUART=32, HALF_GALLON=64, GALLON=128 };</code></pre></div><h3 id=floating-point>Floating-Point<a href=#floating-point class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Have a decimal point <code>3.141</code></li><li>Have an exponent <code>1E10</code></li><li>Or both <code>6.023e23</code></li></ul><h3 id=pointers>Pointers<a href=#pointers class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Every memory location has an address</li><li><strong>Pointer</strong> is another name for address</li><li><strong>Pointer Variable</strong> is a variable whose value is an address of a moeory location</li><li>There are no point constants because we can&rsquo;t predict where memory addresses will be</li><li>To declare a pointer, use the indirection operator before the variable
 <ul>
-<li>Have a decimal point <code>3.141</code></li>
-<li>Have an exponent <code>1E10</code></li>
-<li>Or both <code>6.023e23</code></li>
-</ul>
-<h3 id=pointers>Pointers<a href=#pointers class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<li>The indirection operation gets the value at an address, so therefore the variable stores a pointer to an address with a value of the given type</li><li><code>int *a</code> is an in pointer</li><li>If you declare multiple on the same line, you need a <code>*</code> for each one</li><li>When initializing it on the same line, the value you give goes to the variable itself, not the pointer</li></ul></li></ul><h3 id=string>String<a href=#string class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>C has no string type, but there is a string literal</li><li>A string is a sequence of characters terminated by a <code>NUL</code> byte
 <ul>
-<li>Every memory location has an address</li>
-<li><strong>Pointer</strong> is another name for address</li>
-<li><strong>Pointer Variable</strong> is a variable whose value is an address of a moeory location</li>
-<li>There are no point constants because we can&rsquo;t predict where memory addresses will be</li>
-<li>To declare a pointer, use the indirection operator before the variable
+<li>A sequence of zero characters is valid</li></ul></li></ul><h3 id=arrays>Arrays<a href=#arrays class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=declaration>Declaration<a href=#declaration class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Like declaring any variable, but with square brackets after the name with a capacity value: <code>int values[20]</code></li><li>Array sizes must be constants at compile time, so literals or <a href=#preprocessor-directives>symbolic constants</a></li></ul><h4 id=initialization>Initialization<a href=#initialization class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>You can&rsquo;t assign variables to each other or compare entire arrays</li><li>You can initialize an array when you declare it by setting it equal to values in curly braces: <code>int values[20] = {1,2,3}</code>
 <ul>
-<li>The indirection operation gets the value at an address, so therefore the variable stores a pointer to an address with a value of the given type</li>
-<li><code>int *a</code> is an in pointer</li>
-<li>If you declare multiple on the same line, you need a <code>*</code> for each one</li>
-<li>When initializing it on the same line, the value you give goes to the variable itself, not the pointer</li>
-</ul>
-</li>
-</ul>
-<h3 id=string-literals>String Literals<a href=#string-literals class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<li>This sets the first 3 items to 1,2, and 3 respectively and fills the others with 0</li><li>If you pass fewer, it fills the rest with 0s, but you need at least 1</li></ul></li></ul><h4 id=behavior>Behavior<a href=#behavior class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Array parameters don&rsquo;t take sizes (at least for one-dimensional arrays)</li><li>Arrays are passed by value but act like they&rsquo;re passed by reference, because of <a href=#pointers>Pointers</a></li><li>Arrays don&rsquo;t keep track of their length</li><li>Accessing an invalid index won&rsquo;t be an error itself but can cause one by accessing or changing memory its not supposed to</li></ul><h3 id=typedef><code>Typedef</code><a href=#typedef class=hanchor arialabel=Anchor>&#8983;</a> </h3><h3 id=scope>Scope<a href=#scope class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=block-scope>Block Scope<a href=#block-scope class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Exists within the block</li><li>Have <a href=#no-linkage>No Linkage</a></li></ul><h4 id=file-scope>File Scope<a href=#file-scope class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Exists within the whole file</li><li>Have <a href=#external-linkage>External Linkage</a></li></ul><h4 id=shadowing>Shadowing<a href=#shadowing class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>The variable with the narrowest scope will shadow the other(s)</li></ul><h3 id=linkage>Linkage<a href=#linkage class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Determines if multiple instances of the same identifier refer to the same thing or not</li></ul><h4 id=no-linkage>No Linkage<a href=#no-linkage class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>All occurrences are different</li></ul><h4 id=internal-linkage>Internal Linkage<a href=#internal-linkage class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>All occurrences in a given file are the same</li></ul><h4 id=external-linkage>External Linkage<a href=#external-linkage class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>All occurrences are the same</li></ul><h4 id=changing-linkage>Changing Linkage<a href=#changing-linkage class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>extern</code> will change a <a href=#block-scope>Block Scope</a> variable from no linkage to external</li><li><code>static</code> will change a <a href=#file-scope>File Scope</a> variable from external linkage to internal</li></ul><h3 id=storage>Storage<a href=#storage class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Determines the lifetime of the memory of the variable while the program is executing</li><li>It&rsquo;s still accessible only from within its <a href=#scope>Scope</a>, but controls when the value&rsquo;s memory gets destroyed</li></ul><h3 id=const>const<a href=#const class=hanchor arialabel=Anchor>&#8983;</a> </h3><h3 id=structures>Structures<a href=#structures class=hanchor arialabel=Anchor>&#8983;</a> </h3><h3 id=unions>Unions<a href=#unions class=hanchor arialabel=Anchor>&#8983;</a> </h3><p>**</p><h2 id=operators>Operators<a href=#operators class=hanchor arialabel=Anchor>&#8983;</a> </h2><h3 id=unary>Unary<a href=#unary class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=negation>Negation<a href=#negation class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>-</code></li><li>flips the sign</li></ul><h4 id=increment-decrement>Increment/Decrement<a href=#increment-decrement class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>++</code> / <code>--</code></li><li>Increments/Decrements by 1</li><li>Before the expression computes before substituing the expression</li><li>After expression changes the variable after substitution, so the existing value is used.</li></ul><h4 id=size>Size<a href=#size class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>sizeof</code></li><li>Gets the size in <code>size_t</code> of a given value</li></ul><h4 id=comma>Comma<a href=#comma class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>expr1,exp2</code></li><li>Evaluates its first operand and then the right one, producing the right&rsquo;s output as its own</li></ul><h4 id=indirection>Indirection<a href=#indirection class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>*</code></li><li>Gets the value at the given address</li></ul><h4 id=address>Address<a href=#address class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>&</code></li><li>Gets the address a given value is stored at</li></ul><h3 id=logical>Logical<a href=#logical class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Both <code>&&</code> and <code>||</code> use short circuit evaluation</li></ul><h3 id=bitshifts>Bitshifts<a href=#bitshifts class=hanchor arialabel=Anchor>&#8983;</a> </h3><h4 id=left-shift>Left Shift<a href=#left-shift class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>value &lt;&lt; n</code></li><li>shifts <code>value</code>&rsquo;s bits left by <code>n</code> positions
 <ul>
-<li>C has no string type, but there is a string literal</li>
-<li>A string is a sequence of characters terminated by a <code>NUL</code> byte
+<li>Rightmost bits get 0, leftmost bits get discarded</li></ul></li></ul><h4 id=right-shift>Right Shift<a href=#right-shift class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li><code>value >> n</code></li><li>shifts <code>value</code>&rsquo;s bits right by <code>n</code> positions
 <ul>
-<li>A sequence of zero characters is valid</li>
-</ul>
-</li>
-</ul>
-<h3 id=declaring-arrays>Declaring Arrays<a href=#declaring-arrays class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<ul>
-<li>Like declaring an int, but with square brackets after the name with a capacity value: <code>int values[20]</code></li>
-</ul>
-<h3 id=typedef><code>Typedef</code><a href=#typedef class=hanchor arialabel=Anchor>&#8983;</a> </h3>
-<h2 id=scope>Scope<a href=#scope class=hanchor arialabel=Anchor>&#8983;</a> </h2>
-<p>**</p>
-</div></div>
-</div>
-</div>
-<footer class=footer>
+<li>If unsigned, the leftmost bits get 0</li><li>If signed, whether the leftmost bits get 0 or 1 is implementation dependent</li></ul></li></ul><h3 id=bitwise>Bitwise<a href=#bitwise class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>And (<code>&</code>): Ands two bits</li><li>Or (<code>|</code>): Ors two bits</li><li>Xor (<code>^</code>): Xors two bits</li><li>Complement (<code>~</code>): Negates 1 bit</li></ul><h4 id=masking>Masking<a href=#masking class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>We can construct masks to select only certain bits from multiple of them</li></ul><h3 id=rvalues-and-lvalues>rvalues and lvalues<a href=#rvalues-and-lvalues class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>rvalues can appear on the right hand side of an assignment</li><li>lvalues can appear on the left hand side of an assignment</li></ul><h3 id=evaluation>Evaluation<a href=#evaluation class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Order of evaluation goes first by precedence, then associativity, and finally unspecified as long as <code>&&</code>, <code>||</code>, <code>()</code>, <code>?:</code>, and <code>,</code> work</li></ul><h4 id=precedence>Precedence<a href=#precedence class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Order of given operators</li></ul><h4 id=associativity>Associativity<a href=#associativity class=hanchor arialabel=Anchor>&#8983;</a> </h4><ul>
+<li>Whether to operate left to right or left to right</li></ul><h2 id=pointers>Pointers<a href=#pointers class=hanchor arialabel=Anchor>&#8983;</a> </h2><ul>
+<li>A pointer is a variable that holds the address of something in memory</li><li>Pointers can be <a href=#rvalues-and-lvalues>rvalues and lvalues</a> but addresses can only be rvalues</li><li>Pointer declarations must be initialized</li><li>Functions can return a pointer but you must ensure the variable will not be destroyed after the function leaves</li></ul><h3 id=null-pointer>NULL Pointer<a href=#null-pointer class=hanchor arialabel=Anchor>&#8983;</a> </h3><ul>
+<li>Special values that pointer can have that doesn&rsquo;t point anywhere</li><li>Defined in <a href=#stddef>stddef</a></li></ul><h2 id=functions>Functions<a href=#functions class=hanchor arialabel=Anchor>&#8983;</a> </h2></div></div></div></div><footer class=footer>
 <div class=footer__inner>
 <div class="copyright copyright--user">
 <span>©2022 Kandasamy Chokkalingam</span>
 <span>:: Based on <a href=https://twitter.com/panr>panr's</a> Terminal theme</aspan>
-</div>
-</div>
-</footer>
-<script src=https://www.kandasamyc.me/assets/main.js></script>
+</div></div></footer><script src=https://www.kandasamyc.me/assets/main.js></script>
 <script src=https://www.kandasamyc.me/assets/prism.js></script>
-</div>
-</body>
-</html>
+</div></body></html>

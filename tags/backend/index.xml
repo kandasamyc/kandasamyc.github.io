@@ -21,7 +21,7 @@ performance to come up with a better strategy for each match.&lt;/p>
 &lt;p>For competitions, the backend is deployed to an AWS EC2 instance, and the database is hosted on AWS RDS.&lt;/p>
 &lt;h3 id="frontend">Frontend&lt;/h3>
 &lt;p>In addition to the backend for data processing, a frontend was built to more easily input data, view data, and manage settings and configuration.&lt;/p>
-&lt;p>Initially, scouts input data into a google form, and data was ingested from the connected sheet. However, we ran into issues with certain form fields not being efficient enough to input to. For example, tallying game pieces scored had to either be manually re-entered or the scout would have to hit small buttons. To fix this, I implemented our own form to improve the scouts' experience.&lt;/p>
+&lt;p>Initially, scouts input data into a google form, and data was ingested from the connected sheet. However, we ran into issues with certain form fields not being efficient enough to input to. For example, tallying game pieces scored had to either be manually re-entered or the scout would have to hit small buttons. To fix this, I implemented our own form to improve the scouts&amp;rsquo; experience.&lt;/p>
 &lt;p>To properly serve the frontend, an API was constructed with Flask and interfaces with the external database. The frontend also includes the capability to view data so that members can quickly look up statistics or other data points to build an effective strategy. Members can also adjust settings directly from the frontend interface as well.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
