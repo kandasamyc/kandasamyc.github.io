@@ -2,8 +2,8 @@
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="584967231" type="checkbox" checked />
-&lt;label for="584967231">
+&lt;input id="793456218" type="checkbox" checked />
+&lt;label for="793456218">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -22,8 +22,8 @@
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="291864573" type="checkbox" checked />
-&lt;label for="291864573">
+&lt;input id="365471892" type="checkbox" checked />
+&lt;label for="365471892">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -222,8 +222,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="319874526" type="checkbox" />
-&lt;label for="319874526">
+&lt;input id="159782643" type="checkbox" />
+&lt;label for="159782643">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -1009,6 +1009,37 @@ return 0;
 &lt;h3 id="functions">Functions&lt;/h3>
 &lt;ul>
 &lt;li>Something that maps elements of one set to element of another&lt;/li>
+&lt;/ul>
+&lt;h4 id="surjective">Surjective&lt;/h4>
+&lt;ul>
+&lt;li>All elements in the codomain can be mapped to by some element of the domain&lt;/li>
+&lt;li>At least/onto&lt;/li>
+&lt;li>\((\forall y \in Y)(\exists x \in X)[y=f(x)]\) for some function \(f: X \mapsto Y\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="injective">Injective&lt;/h4>
+&lt;ul>
+&lt;li>Any element mapped to by the function has one and only one correspding element in the domain&lt;/li>
+&lt;li>At most/one-to-one&lt;/li>
+&lt;li>\((\forall x_1,x_2 \in X)[(f(x_1) = f(x_2)) \Rightarrow x_1 = x_2]\) for some function \(f: X \mapsto Y\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="bijective">Bijective&lt;/h4>
+&lt;ul>
+&lt;li>Both &lt;a href="#surjective">Surjective&lt;/a> and &lt;a href="#injective">Injective&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="countability">Countability&lt;/h3>
+&lt;ul>
+&lt;li>Whether the number of elements in a set is countable&lt;/li>
+&lt;li>A set is countable is there is a one-to-one function from the positive naturals to it&lt;/li>
+&lt;li>A set does not have to finite to be countable, there just needs to be a concrete way to get the &amp;ldquo;next&amp;rdquo; element
+&lt;ul>
+&lt;li>Really, all there needs to be is some fundamental unit&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="set-proofs">Set Proofs&lt;/h3>
+&lt;ul>
+&lt;li>Set Proofs are universal, so disproving just requires a concrete example&lt;/li>
+&lt;li>Its hard to prove emptiness&lt;/li>
 &lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Notes from UMD's MATH246H class</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
 &lt;h3 id="definition-of-des">Definition of DEs&lt;/h3>
 &lt;p>Some combination of one or more unknown functions with respect to one or more independent variable and those variables&lt;/p>
@@ -1221,7 +1252,19 @@ where \(d\) is a nonnegative integer, \(\alpha_0 \dots \alpha_d\) and \(\beta_0 
 &lt;li>Construct \(Y_P(t)\) using the above formula and combine like terms&lt;/li>
 &lt;li>Plug that into \(\mathbb{L}Y_P(t) = f(t)\) and match the terms on either side (partial fraction decomposition style)&lt;/li>
 &lt;li>Solve the system for the unknowns&lt;/li>
-&lt;/ol></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+&lt;/ol>
+&lt;h4 id="key-identities">Key Identities&lt;/h4>
+&lt;ol>
+&lt;li>Write down the Key Identity \(\mathbb{L}(e^{zt}) = p(z)e^{zt}\) and its derivatives with respect to \(z\) up through the \(m+d\) derivative&lt;/li>
+&lt;li>Evaluate each one at \(z=\mu + i\nu\)&lt;/li>
+&lt;li>Solve for the coefficients of the linear combination of the evaluations whose real part is equal to the forcing function&lt;/li>
+&lt;/ol>
+&lt;p>The derivatives of the Key Identity follow Pascal&amp;rsquo;s triangle:
+\[\mathbb{L}(e^{zt}) = p(z)e^{zt}\]
+\[\mathbb{L}(te^{zt}) = p&amp;rsquo;(z)e^{zt} + p(z)te^{zt}\]
+\[\mathbb{L}(t^2e^{zt}) = p&amp;rsquo;&amp;rsquo;(z)e^{zt} + 2p&amp;rsquo;(z)te^{zt} + p(z)t^2e^{zt}\]
+Generally, the \(n^{th}\) derivative is:
+\[\mathbb{L}(t^ne^{zt}) = p^{(n)}(z)e^{zt} + c_1p^{(n-1)}(z)te^{zt} + \dots + c_{n-1}p^{(1)}(z)t^{n-1}e^{zt} + p(z)t^ne^{zt}\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
