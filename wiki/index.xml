@@ -2,8 +2,8 @@
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="793456218" type="checkbox" checked />
-&lt;label for="793456218">
+&lt;input id="413729865" type="checkbox" checked />
+&lt;label for="413729865">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -22,8 +22,8 @@
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="365471892" type="checkbox" checked />
-&lt;label for="365471892">
+&lt;input id="236984571" type="checkbox" checked />
+&lt;label for="236984571">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -222,8 +222,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="159782643" type="checkbox" />
-&lt;label for="159782643">
+&lt;input id="528379461" type="checkbox" />
+&lt;label for="528379461">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -1040,6 +1040,20 @@ return 0;
 &lt;ul>
 &lt;li>Set Proofs are universal, so disproving just requires a concrete example&lt;/li>
 &lt;li>Its hard to prove emptiness&lt;/li>
+&lt;/ul>
+&lt;h2 id="induction">Induction&lt;/h2>
+&lt;h3 id="weak-induction">Weak Induction&lt;/h3>
+&lt;ul>
+&lt;li>Start with a base case&lt;/li>
+&lt;li>Assume that it works for some \(k\)&lt;/li>
+&lt;li>Prove that if it works for \(k\), it works for \(k+1\) possibly by using \(k\) to show \(k+1\) is true&lt;/li>
+&lt;/ul>
+&lt;h3 id="strong-induction">Strong Induction&lt;/h3>
+&lt;ul>
+&lt;li>Very similar to &lt;a href="#weak-induction">Weak Induction&lt;/a>, but when \(k+1\) depends on more than just \(k\)&lt;/li>
+&lt;li>Start with a base case or multiple&lt;/li>
+&lt;li>Assume that it works for multiple \(k\)&lt;/li>
+&lt;li>Prove that if it works for those \(k\), then it works for \(k+1\) possible by using those cases to show \(k+1\) is true&lt;/li>
 &lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Notes from UMD's MATH246H class</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
 &lt;h3 id="definition-of-des">Definition of DEs&lt;/h3>
 &lt;p>Some combination of one or more unknown functions with respect to one or more independent variable and those variables&lt;/p>
@@ -1264,7 +1278,20 @@ where \(d\) is a nonnegative integer, \(\alpha_0 \dots \alpha_d\) and \(\beta_0 
 \[\mathbb{L}(te^{zt}) = p&amp;rsquo;(z)e^{zt} + p(z)te^{zt}\]
 \[\mathbb{L}(t^2e^{zt}) = p&amp;rsquo;&amp;rsquo;(z)e^{zt} + 2p&amp;rsquo;(z)te^{zt} + p(z)t^2e^{zt}\]
 Generally, the \(n^{th}\) derivative is:
-\[\mathbb{L}(t^ne^{zt}) = p^{(n)}(z)e^{zt} + c_1p^{(n-1)}(z)te^{zt} + \dots + c_{n-1}p^{(1)}(z)t^{n-1}e^{zt} + p(z)t^ne^{zt}\]&lt;/p></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+\[\mathbb{L}(t^ne^{zt}) = p^{(n)}(z)e^{zt} + c_1p^{(n-1)}(z)te^{zt} + \dots + c_{n-1}p^{(1)}(z)t^{n-1}e^{zt} + p(z)t^ne^{zt}\]&lt;/p>
+&lt;h4 id="variation-of-parameters">Variation of Parameters&lt;/h4>
+&lt;p>Both &lt;a href="#undetermined-coefficients">Undetermined Coefficients&lt;/a> and &lt;a href="#key-identities">Key Identities&lt;/a> only work for constant coefficient equations. Variation of Parameters works for equation with variable coefficient equations as well.&lt;/p>
+&lt;p>First, let&amp;rsquo;s examine the second order case and then generalize.&lt;/p>
+&lt;ol>
+&lt;li>We seek a solution to the equation \(y&amp;rsquo;&amp;rsquo; + a_1(t)y&amp;rsquo; + a_2(t)y = f(t)\) of the form:
+\[y = u_1(t)Y_1(t) + u_2(t)Y_2(t)\]&lt;/li>
+&lt;li>We write down a system of linear equations to solve:
+\[u&amp;rsquo;_1(t)Y_1(t) + u&amp;rsquo;_2(t)Y_2(t) = 0\]
+\[u&amp;rsquo;_1(t)Y&amp;rsquo;_1(t) + u&amp;rsquo;_2(t)Y&amp;rsquo;_2(t) = f(t)\]&lt;/li>
+&lt;li>Solve the system for expressions for \(u&amp;rsquo;_1(t)\) and \(u&amp;rsquo;_2(t)\).&lt;/li>
+&lt;li>Evaluate the expressions to find \(u_{1P}(t)\) and \(u_{2P}(t)\) and therefore \(u_1(t) = u_{1P} + c_1\) and \(u_2(t) = u_{2P}(t) + c_2\)&lt;/li>
+&lt;li>The general solution is therefore \(u_1(t)Y_1(t) + u_2(t)Y_2(t)\) and using the initial values, you can solve for \(c_1\) and \(c_2\)&lt;/li>
+&lt;/ol></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
