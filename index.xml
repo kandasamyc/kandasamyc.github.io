@@ -163,8 +163,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="924671385" type="checkbox" checked />
-&lt;label for="924671385">
+&lt;input id="298713456" type="checkbox" checked />
+&lt;label for="298713456">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +183,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="834752196" type="checkbox" checked />
-&lt;label for="834752196">
+&lt;input id="375981624" type="checkbox" checked />
+&lt;label for="375981624">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -383,8 +383,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="935174286" type="checkbox" />
-&lt;label for="935174286">
+&lt;input id="751239648" type="checkbox" />
+&lt;label for="751239648">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -1679,7 +1679,54 @@ Generally, the \(n^{th}\) derivative is:
 &lt;h2 id="first-order-systems-of-odes">First-Order Systems of ODEs&lt;/h2>
 &lt;h3 id="matrix-forms">Matrix Forms&lt;/h3>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>Say we have some system of first order equations with dimension \(n\):
+\[\begin{matrix} \frac{dx_1}{dt} = a_{11}(t)x_1 + a_{12}(t)x_2 + \dots + a_{1n}(t)x_n + f_1(t)\\ \frac{dx_2}{dt} = a_{21}(t)x_1 + a_{22}(t)x_2 + \dots + a_{2n}(t)x_n + f_2(t)\\ \vdots \\ \frac{dx_2}{dt} = a_{n1}(t)x_1 + a_{n2}(t)x_2 + \dots + a_{nn}(t)x_n + f_n(t)\end{matrix}\]&lt;/li>
+&lt;li>We can rewrite this more compactly as:
+\[\frac{d{\bf x}}{dt} = {\bf A}(t){\bf x} + {\bf f}(t)\]&lt;/li>
+&lt;li>We can specify an initial condition with:
+\[{\bf x}(t_I) = {\bf x}&amp;rsquo;\]&lt;/li>
+&lt;/ul>
+&lt;h3 id="fundamental-matrices">Fundamental Matrices&lt;/h3>
+&lt;ul>
+&lt;li>If \({\bf x}_1(t), {\bf x}_2(t), \dotsb, {\bf x}_n(t)\) are solutions, then the fundamental matrix for the system is:&lt;/li>
+&lt;/ul>
+&lt;p>\[\Psi(t) = ({\bf x}_1(t) \quad {\bf x}_2(t) \quad \dotsb \quad {\bf x}_n(t))\]&lt;/p>
+&lt;ul>
+&lt;li>\(\Psi&amp;rsquo; = A(t)\Psi\), in fact a general solution of the system is \({\bf x}(t) = \Psi(t){\bf c}\)&lt;/li>
+&lt;/ul>
+&lt;h3 id="natural-fundamental-matrices">Natural Fundamental Matrices&lt;/h3>
+&lt;ul>
+&lt;li>Using the fact that a &lt;a href="#fundamental-matrices">Fundamental Matrix&lt;/a> is a general solution, the natural fundamental matrix is the solution to the corresponding IVP
+\[\Phi(t) = \Psi(t)\Psi(t_I)^-1\]
+\[\Phi&amp;rsquo; = {\bf A}(t)\Phi, \quad \Phi(t_I) = I\]&lt;/li>
+&lt;/ul>
+&lt;h3 id="eigen-methods">Eigen Methods&lt;/h3>
+&lt;h4 id="eigenvalue">Eigenvalue&lt;/h4>
+&lt;ul>
+&lt;li>To find the eigenvalues for a matrix \({\bf A}\) solve the polynomial:
+\[p_{\bf A}(z) = det({\bf A}-z{\bf I}) = z^2 - tr({\bf A}) + det({\bf A})\]&lt;/li>
+&lt;/ul>
+&lt;h4 id="eigenvector">Eigenvector&lt;/h4>
+&lt;ul>
+&lt;li>To find the eigenvectors for a given eigenvalue \(\lambda\) and a matrix \({\bf A}\), find the values of the vector \({\bf v}\) such that:
+\[({\bf A} - \lambda{\bf I}){\bf v} = 0\]&lt;/li>
+&lt;li>By the Cayley-Hamilton Theorem, for a 2x2 matrix, any nonzero column of \({\bf A}-\lambda_1{\bf I}\) is an eigenvector for \(\lambda_2\) and any nonzero column of \({\bf A}-\lambda_2{\bf I}\) is an eigenvector for \(\lambda_2\)
+&lt;ul>
+&lt;li>For eigenvalues that are complex conjugates of each other, this method works, but it also holds that if \(\lambda_1\) and \(\lambda_2\) are complex conjugates and \({\bf v}_1\) is the eigenvector association with \(\lambda_1\), then an eigenvector associated with \(\lambda_2\) is the complex conjugate of \({\bf v}_1\)&lt;/li>
+&lt;li>This method works for an eigenvalue with a multiplicity greater than 1 as well&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="eigensolutions">Eigensolutions&lt;/h4>
+&lt;ul>
+&lt;li>If \((\lambda, {\bf v})\) is an eigenpair for \({\bf A}\), then a solution is \(x^{\lambda t}{\bf v}\)&lt;/li>
+&lt;li>If \(\lambda\) is not real, then two solutions are \(Re(e^{\lambda t}{\bf v})\) and \(Im(e^{\lambda t}{\bf v})\)&lt;/li>
+&lt;li>If \(\lambda\) is the only eigenvalue for \({\bf A}\), then two solutions exists: \({\bf x}_1(t) = e^{\lambda t}{\bf v}\) and \({\bf x}_2(t) = e^{\lambda t}{\bf w} + te^{\lambda t}({\bf A}-\lambda{\bf I}){\bf w}\) where \({\bf w}\) is any vector that is not a scalar multiple of \({\bf v}\)
+&lt;ul>
+&lt;li>The easiest way to get \({\bf w}\) is to make an entry in \({\bf v}\) 0&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>\(e^{t{\bf A}}\) is a natural fundamental matrix and therefore \(e^{t{\bf A}} = \Psi(t)\Psi(0)^{-1}\)&lt;/li>
 &lt;/ul></content></item><item><title>The Beginning</title><link>https://www.kandasamyc.me/000/</link><pubDate>Mon, 03 Jan 2022 17:27:29 -0500</pubDate><guid>https://www.kandasamyc.me/000/</guid><description>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off writing this Definitely did not mean to put this out early January post, but here we finally are, at the beginning.</description><content>&lt;p>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off &lt;span class="sidenote">
 &lt;label class="sidenote-label" for="writing-this">writing this&lt;/label>
 &lt;input class="sidenote-checkbox" type="checkbox" id="writing-this">&lt;/input>
