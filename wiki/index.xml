@@ -2,8 +2,8 @@
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="413729865" type="checkbox" checked />
-&lt;label for="413729865">
+&lt;input id="924671385" type="checkbox" checked />
+&lt;label for="924671385">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -22,8 +22,8 @@
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="236984571" type="checkbox" checked />
-&lt;label for="236984571">
+&lt;input id="834752196" type="checkbox" checked />
+&lt;label for="834752196">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -222,8 +222,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="528379461" type="checkbox" />
-&lt;label for="528379461">
+&lt;input id="935174286" type="checkbox" />
+&lt;label for="935174286">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -428,7 +428,97 @@ return 0;
 &lt;li>Special values that pointer can have that doesn&amp;rsquo;t point anywhere&lt;/li>
 &lt;li>Defined in &lt;a href="#stddef">stddef&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="functions">Functions&lt;/h2></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Notes from UMD's CMSC250 class</description><content>&lt;h2 id="statements">Statements&lt;/h2>
+&lt;h2 id="make">Make&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>make&lt;/code> autobuilds programs by using separate compilation to efficiently only build what&amp;rsquo;s needed using a user defined dependency hierarchy&lt;/li>
+&lt;li>A Makefile has multiple rules
+&lt;ul>
+&lt;li>A rule consits of a target, a dependency list, and a set of actions&lt;/li>
+&lt;li>The target is the name/identifier of the rule and it can specifically be built with &lt;code>make target&lt;/code>&lt;/li>
+&lt;li>The dependency list follows the target and a colon and an update to any of these dependency files will cause the target&amp;rsquo;s action(s) to run&lt;/li>
+&lt;li>Each action line follows a target line and starts with a tab character. Each action line is run when the target needs to be rebuilt&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>A dependency will cause the target to be rebuilt if its newer than the target&lt;/li>
+&lt;li>An error in a given action line will cause the action lines following it to not run unless the action line starts with a &lt;code>-&lt;/code> which will allow actions lines following to continue to run even if the current one fails&lt;/li>
+&lt;li>Comments start with a &lt;code>#&lt;/code> and lines can be broken onto following ones with a &lt;code>\&lt;/code>&lt;/li>
+&lt;li>Makefiles provide macros that represent a predefined value defined at the start of the makefile and repeatedly used within it
+&lt;ul>
+&lt;li>They&amp;rsquo;re defined with &lt;code>name=value&lt;/code> and used with &lt;code>$(name)&lt;/code>&lt;/li>
+&lt;li>&lt;code>CC&lt;/code> is the name for the c compiler, and &lt;code>CFLAGS&lt;/code> is the name for options to use with the compiler&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Makefiles often have targets that aren&amp;rsquo;t true files, like &lt;code>all&lt;/code> and &lt;code>clean&lt;/code>, which are phony targets&lt;/li>
+&lt;/ul>
+&lt;h2 id="dynamic-memory-allocation">Dynamic Memory Allocation&lt;/h2>
+&lt;ul>
+&lt;li>Most data in C is stored on the stack, but sometimes we want to store dynamic variables whose size we can&amp;rsquo;t predict at compile time&lt;/li>
+&lt;li>Dynamic memory allocation allows us to request memory to use while the program is running&lt;/li>
+&lt;/ul>
+&lt;h3 id="malloc">&lt;code>malloc&lt;/code>&lt;/h3>
+&lt;ul>
+&lt;li>malloc allocates space of the given size and returns a pointer to it, without intializing the memory&lt;/li>
+&lt;li>returns NULL if error&lt;/li>
+&lt;/ul>
+&lt;h3 id="free">&lt;code>free&lt;/code>&lt;/h3>
+&lt;ul>
+&lt;li>free releases the memory at the pointer&lt;/li>
+&lt;li>the pointer must point to the start of dynamically allocated memory&lt;/li>
+&lt;li>you must free all memory dynamically allocated if you want to avoid leaks&lt;/li>
+&lt;li>free does nothing other than release memory&lt;/li>
+&lt;li>free(NULL) does nothing&lt;/li>
+&lt;/ul>
+&lt;h3 id="calloc">&lt;code>calloc&lt;/code>&lt;/h3>
+&lt;ul>
+&lt;li>calloc allocates spaces to store &lt;code>num&lt;/code> things of each &lt;code>size&lt;/code> and initializes all the memory to 0&lt;/li>
+&lt;li>returns NULL if an error&lt;/li>
+&lt;/ul>
+&lt;h3 id="realloc">&lt;code>realloc&lt;/code>&lt;/h3>
+&lt;ul>
+&lt;li>reallocates dynamically allocated memory at &lt;code>ptr&lt;/code> with &lt;code>new_size&lt;/code>&lt;/li>
+&lt;li>Copies space over to the new space if it can&amp;rsquo;t be done in the same current space&lt;/li>
+&lt;/ul>
+&lt;h2 id="structures-and-pointers">Structures &amp;amp; Pointers&lt;/h2>
+&lt;ul>
+&lt;li>Structures can be self-referential by containing a pointer to its structure tag&lt;/li>
+&lt;li>Structures can contain each other by using a partial struct declaration (just &lt;code>struct name&lt;/code>), declaring the other struct, and then fully defining the partially defined struct&lt;/li>
+&lt;/ul>
+&lt;h2 id="strings">Strings&lt;/h2>
+&lt;ul>
+&lt;li>Strings are character arrays with a terminating &lt;code>NUL&lt;/code> byte (which does not count for its length)&lt;/li>
+&lt;li>&lt;code>strlen(char const *string)&lt;/code> returns the length of the string without its terminating &lt;code>NUL&lt;/code> byte
+&lt;ul>
+&lt;li>it returns an unsigned int so a combination of its return values can never be negative&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Unrestricted functions
+&lt;ul>
+&lt;li>&lt;code>strcpy(char *dst, char const *src)&lt;/code> copies the string from src into dst&lt;/li>
+&lt;li>&lt;code>strcat(char *dst, char const *src)&lt;/code> copies the string in src to the end of dst&lt;/li>
+&lt;li>&lt;code>strcmp(char const *s1, char const *s2)&lt;/code> compares two strings lexicographically&lt;/li>
+&lt;li>These functions assume a &lt;code>NUL&lt;/code> byte exists and will run until it is found, which may not always be the case&lt;/li>
+&lt;li>An equivalent version of each of the functions exists (&lt;code>strncpy&lt;/code>, &lt;code>strncat&lt;/code>, &lt;code>strncmp&lt;/code>) that take an extra length parameter and only go up until there&lt;/li>
+&lt;li>&lt;code>strchr(char const *str, int ch)&lt;/code> searches for a character from the left&lt;/li>
+&lt;li>&lt;code>strrchr(char const *str, int char)&lt;/code> searches for a character from the right&lt;/li>
+&lt;li>&lt;code>strpbrk(char const *str, char const *group)&lt;/code> searches for a group of characters from the left&lt;/li>
+&lt;li>&lt;code>strstr(char const *s1, char const *s2)&lt;/code> searches for a substring&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="command-line-arguments">Command Line Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>main(int argc, char *argv[])&lt;/code> is a valid declaration for main
+&lt;ul>
+&lt;li>&lt;code>argc&lt;/code> is the number of arguments when called, including the name&lt;/li>
+&lt;li>&lt;code>argv&lt;/code> is that list, with the first being the name, and &lt;code>argv[argc]&lt;/code> being NULL&lt;/li>
+&lt;li>It&amp;rsquo;s also possible for main to take a third parameter &lt;code>char *envp[]&lt;/code>, which is an array of strings in the form &lt;code>KEYWORD=VALUE&lt;/code> for all environment variables&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-preprocessor">The Preprocessor&lt;/h2>
+&lt;h2 id="process-control">Process Control&lt;/h2>
+&lt;h2 id="i-o">I/O&lt;/h2>
+&lt;h2 id="assembly">Assembly&lt;/h2></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Notes from UMD's CMSC250 class</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
 &lt;li>Have Meaning&lt;/li>
@@ -1054,6 +1144,82 @@ return 0;
 &lt;li>Start with a base case or multiple&lt;/li>
 &lt;li>Assume that it works for multiple \(k\)&lt;/li>
 &lt;li>Prove that if it works for those \(k\), then it works for \(k+1\) possible by using those cases to show \(k+1\) is true&lt;/li>
+&lt;/ul>
+&lt;h3 id="structural-induction">Structural Induction&lt;/h3>
+&lt;ul>
+&lt;li>Very similar to &lt;a href="#strong-induction">Strong Induction&lt;/a>, but works with non-linear sequences
+&lt;ul>
+&lt;li>There is more than one direct children from any given element&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Given some set, and some method for generating children from elements in the set, prove some condition holds.&lt;/li>
+&lt;li>Start with a base case&lt;/li>
+&lt;li>Assume it works for some element \(e\) in the set&lt;/li>
+&lt;li>Prove that if it works for \(e\), then it works for the children of \(e\) which are also in the set&lt;/li>
+&lt;/ul>
+&lt;h2 id="combinatorics">Combinatorics&lt;/h2>
+&lt;h3 id="theory">Theory&lt;/h3>
+&lt;h3 id="factorials">Factorials&lt;/h3>
+&lt;ul>
+&lt;li>\(n!\) is \(n\cdot(n-1)\cdot(n-2)\dots2\cdot1\)&lt;/li>
+&lt;li>It represents the number of ways to order \(n\) elements&lt;/li>
+&lt;/ul>
+&lt;h3 id="permutations">Permutations&lt;/h3>
+&lt;ul>
+&lt;li>\(P(n,k)\) is the number of ways to order \(k\) elements from a set of \(n\) elements&lt;/li>
+&lt;li>\(P(n,k) = \frac{n!}{(n-k)!}\)&lt;/li>
+&lt;li>This is different from &lt;a href="#factorials">Factorials&lt;/a> because the set of elements to pick from can be bigger than the number of elements we actually want to pick
+&lt;ul>
+&lt;li>Note that when \(k=n\), we simply have the factorials formula because the denominator becomes 1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="combinations">Combinations&lt;/h3>
+&lt;ul>
+&lt;li>\({n \choose k}\) is the number of way to pick \(k\) elements from a set of \(n\) elements&lt;/li>
+&lt;li>\({n \choose k} = \frac{n!}{k!(n-k)!}\)&lt;/li>
+&lt;li>This is simply the &lt;a href="#permutations">Permutations&lt;/a> formula with an extra \(k!\) term to account for the ways we can order \(k\) elements that are all the same (but are all only one combination)&lt;/li>
+&lt;/ul>
+&lt;h3 id="stars-and-bars">Stars and Bars&lt;/h3>
+&lt;ul>
+&lt;li>Say I want to pick \(n\) elements from \(k\) groups. I can list all elements in \(n\) stars. I can use \(k-1\) dividers (bars) to separate the \(n\) stars into \(k\) groups. By choosing which elements are the bars, I can find all possible ways to pick \(n\) elements from \(k\) groups.&lt;/li>
+&lt;li>The formula is \({n+(k-1) \choose (k-1)}\)&lt;/li>
+&lt;/ul>
+&lt;h3 id="relative-orderings">Relative Orderings&lt;/h3>
+&lt;ul>
+&lt;li>A slight variation on &lt;a href="#combinations">Combinations&lt;/a>, is finding all relative orderings of a given permuation&lt;/li>
+&lt;li>If the picked list is circular, then I may want to find all possible relative orderings (where the start of a sequence is doesn&amp;rsquo;t matter)&lt;/li>
+&lt;li>To do so, simply divide by the total number of elements in the circular list&lt;/li>
+&lt;/ul>
+&lt;h2 id="probability">Probability&lt;/h2>
+&lt;h3 id="theory">Theory&lt;/h3>
+&lt;h4 id="addition-rule">Addition Rule&lt;/h4>
+&lt;ul>
+&lt;li>The probability of event A or event B occurring, assuming A and B are disjoint, is \(P(A) + P(B)\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="multiplication-rule">Multiplication Rule&lt;/h4>
+&lt;ul>
+&lt;li>Given two independent events, the probability of both occuring is \(P(A)P(B)\)&lt;/li>
+&lt;/ul>
+&lt;h4 id="inclusion-exclusion-principle">Inclusion-Exclusion Principle&lt;/h4>
+&lt;ul>
+&lt;li>The &lt;a href="#addition-rule">Addition Rule&lt;/a> requires events be disjoint, but what if they aren&amp;rsquo;t?&lt;/li>
+&lt;li>Add the two probability then subtract their intersection to prevent double-counting&lt;/li>
+&lt;li>\(P(A) + P(B) - P(A \cap B)\)&lt;/li>
+&lt;li>This can be extended to more events as the sign of the intersection levels flip as more terms are in the intersection&lt;/li>
+&lt;/ul>
+&lt;h3 id="expected-value">Expected Value&lt;/h3>
+&lt;ul>
+&lt;li>The expected value of a sample space is the probability that any given event occurs multiplied the event&amp;rsquo;s value&lt;/li>
+&lt;li>\(\sum_{i=0}^{n} a_ip_i\) for a sample space with \(n\) elements&lt;/li>
+&lt;/ul>
+&lt;h3 id="conditional-probability">Conditional Probability&lt;/h3>
+&lt;ul>
+&lt;li>Conditional probability represents the probability that an event occurs given that some other event has already occurred&lt;/li>
+&lt;/ul>
+&lt;h4 id="bayes-theorem">Bayes Theorem&lt;/h4>
+&lt;ul>
+&lt;li>\(P(B \mid A) = \frac{P(A \mid B)P(B)}{P(A)} = \frac{P(A \mid B)P(B)}{P(A \mid B)P(B) + P(A \mid B^c)P(B^c)}\)&lt;/li>
 &lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Notes from UMD's MATH246H class</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
 &lt;h3 id="definition-of-des">Definition of DEs&lt;/h3>
 &lt;p>Some combination of one or more unknown functions with respect to one or more independent variable and those variables&lt;/p>
@@ -1291,7 +1457,65 @@ Generally, the \(n^{th}\) derivative is:
 &lt;li>Solve the system for expressions for \(u&amp;rsquo;_1(t)\) and \(u&amp;rsquo;_2(t)\).&lt;/li>
 &lt;li>Evaluate the expressions to find \(u_{1P}(t)\) and \(u_{2P}(t)\) and therefore \(u_1(t) = u_{1P} + c_1\) and \(u_2(t) = u_{2P}(t) + c_2\)&lt;/li>
 &lt;li>The general solution is therefore \(u_1(t)Y_1(t) + u_2(t)Y_2(t)\) and using the initial values, you can solve for \(c_1\) and \(c_2\)&lt;/li>
-&lt;/ol></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+&lt;/ol>
+&lt;h3 id="laplace-transforms">Laplace Transforms&lt;/h3>
+&lt;p>The Laplace transform turns a differential equation with constant coefficients into a algebraic equation.&lt;/p>
+&lt;p>To solve an IVP, we apply the Laplace transform to the initial problem, solve the transformed equation, and apply the inverse Laplace transform to find the solution&lt;/p>
+&lt;h4 id="definition">Definition&lt;/h4>
+&lt;p>The Laplace transform of a function \(f(t)\) is:&lt;/p>
+&lt;p>\[\mathcal{L}[f](s) = \int_0^\infty e^{-st}f(t) dt\]&lt;/p>
+&lt;p>We can evaluate this by saying that:&lt;/p>
+&lt;p>\[\mathcal{L}[f](s) = \lim_{T \to \infty} \int_0^T e^{-st}f(t) dt\]&lt;/p>
+&lt;h4 id="properties">Properties&lt;/h4>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Linearity&lt;/p>
+&lt;p>\(\mathcal{L}[f+g](s) = \mathcal{L}[f](s) + \mathcal{L}[g](s)\) and \(\mathcal{L}[cf](s) = c\mathcal{L}[f](s)\)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Exponentials and Translation&lt;/p>
+&lt;p>An exponential in \(t\) becomes a translation in \(s\) and vice versa. That is:&lt;/p>
+&lt;p>\[\mathcal{L}[e^{at}f](s) = \mathcal{L}[f](s-a)\]&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Derivatives and Multiplication&lt;/p>
+&lt;p>A derivative with respect to \(t\) becomes a multiplication by \(s\). That is:&lt;/p>
+&lt;p>\[\mathcal{L}[f&amp;rsquo;](s) = s\mathcal{L}[f](s) - f(0)\]&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="usage">Usage&lt;/h4>
+&lt;ol>
+&lt;li>Given an IVP \(\mathbb{L}y = f(t)\), apply the Laplace transform to get \(\mathcal{L}[\mathbb{L}y](s) = \mathcal{L}[f](s)\)&lt;/li>
+&lt;li>Solve for \(Y(s)\)&lt;/li>
+&lt;li>Apply the inverse Laplace transform: \(\mathcal{L}^{-1}[Y](s)\)&lt;/li>
+&lt;/ol>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Piecewise Functions&lt;/p>
+&lt;p>Say we have a forcing function \(f(t)\) that is piecewise:
+\[f(t) = \begin{cases} f_0(t) \quad &amp;amp;1 \leq t \lt c\\ 0 \quad &amp;amp;t \geq c\end{cases}\]&lt;/p>
+&lt;p>How do we apply the Laplace tranform? We can use the Heaviside Function \(u(t)\) to rewrite the piecewise function as a regular function. The Heaviside function is defined as:
+\[u(t-c) = \begin{cases} 0 \quad &amp;amp;t \lt 0\\ 1 \quad &amp;amp;t \geq c\end{cases}\]&lt;/p>
+&lt;p>Therefore, we can rewrite our piecewise function as intervals multiplied by the heaviside function with an appropriate \(c\), and turn off the previous interval by subtracting from the next heaviside function.&lt;/p>
+&lt;p>\[f(t) = f_0(t) + u(t-c)h(t)\]&lt;/p>
+&lt;p>Where \(h(t) = 1-f_0(t)\). However, note that to apply the Laplace Transform, the rule specifies that the form must be \(u(t-c)h(t-c)\). Therefore, we rewrite our forcing term as:&lt;/p>
+&lt;p>\[f(t) = f_0(t) + u(t-c)j(t-c)\]&lt;/p>
+&lt;p>where \(j(t) = h(t+c)\). This does not affect the expression of the forcing function but correctly determines how we apply the Laplace transform to it.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="first-order-systems-of-odes">First-Order Systems of ODEs&lt;/h2>
+&lt;h3 id="matrix-forms">Matrix Forms&lt;/h3>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Notes from UMD's PHYS199M class</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
