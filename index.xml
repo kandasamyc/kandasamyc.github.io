@@ -163,8 +163,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="298713456" type="checkbox" checked />
-&lt;label for="298713456">
+&lt;input id="149735682" type="checkbox" checked />
+&lt;label for="149735682">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +183,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="375981624" type="checkbox" checked />
-&lt;label for="375981624">
+&lt;input id="673549821" type="checkbox" checked />
+&lt;label for="673549821">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -383,8 +383,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="751239648" type="checkbox" />
-&lt;label for="751239648">
+&lt;input id="421356987" type="checkbox" />
+&lt;label for="421356987">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -606,7 +606,12 @@ return 0;
 &lt;li>Makefiles provide macros that represent a predefined value defined at the start of the makefile and repeatedly used within it
 &lt;ul>
 &lt;li>They&amp;rsquo;re defined with &lt;code>name=value&lt;/code> and used with &lt;code>$(name)&lt;/code>&lt;/li>
-&lt;li>&lt;code>CC&lt;/code> is the name for the c compiler, and &lt;code>CFLAGS&lt;/code> is the name for options to use with the compiler&lt;/li>
+&lt;li>&lt;code>CC&lt;/code> is the name for the c compiler, and &lt;code>CFLAGS&lt;/code> is the name for options to use with the compiler
+&lt;ul>
+&lt;li>Use these to allow for ease of addition and reading&lt;/li>
+&lt;li>Also you don&amp;rsquo;t need &lt;code>CFLAGS&lt;/code> when linking&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Makefiles often have targets that aren&amp;rsquo;t true files, like &lt;code>all&lt;/code> and &lt;code>clean&lt;/code>, which are phony targets&lt;/li>
@@ -643,6 +648,7 @@ return 0;
 &lt;ul>
 &lt;li>Structures can be self-referential by containing a pointer to its structure tag&lt;/li>
 &lt;li>Structures can contain each other by using a partial struct declaration (just &lt;code>struct name&lt;/code>), declaring the other struct, and then fully defining the partially defined struct&lt;/li>
+&lt;li>Function pointers dont need to be deferenced to be called, nor do they need to be set to the address of the function name (the function name itself suffices)&lt;/li>
 &lt;/ul>
 &lt;h2 id="strings">Strings&lt;/h2>
 &lt;ul>
@@ -677,9 +683,375 @@ return 0;
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="the-preprocessor">The Preprocessor&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>#define&lt;/code> defines a constant and the value to replace it with&lt;/li>
+&lt;li>Double underscored symbols are already predefined&lt;/li>
+&lt;li>&lt;code>#define&lt;/code> also defines a macro, which is the same thing but it takes parameters
+&lt;ul>
+&lt;li>When defining a macro, wrap the result and uses of the parameters in parentheses&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Macros do complete textual replacement, so statements with side effects may get executed more than once&lt;/li>
+&lt;li>Macro substitution is not done in function calls&lt;/li>
+&lt;li>Macros can invoke each other&lt;/li>
+&lt;li>Conditional compilation
+&lt;ul>
+&lt;li>&lt;code>#if cond&lt;/code> will only include the code if cond is true
+&lt;ul>
+&lt;li>you need an &lt;code>#endif&lt;/code>, and optionally an &lt;code>#elif&lt;/code> and a &lt;code>#else&lt;/code> if wanted&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>defined(NAME)&lt;/code> checks if the following symbol is defined&lt;/li>
+&lt;li>Nested inclusion
+&lt;ul>
+&lt;li>Give each headerfile its own symbol, which will only include it once no matter who many times &lt;code>#include&lt;/code> is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>#undef NAME&lt;/code> undefines name&lt;/li>
+&lt;li>-D to the compiler will define a symbol&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="process-control">Process Control&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Kernel&lt;/strong>: The layer of the OS that is always running and serves as the hardware interface&lt;/li>
+&lt;li>Not all programs have privileges, so if they want to do important things they must ask the OS to do it for them through a system call&lt;/li>
+&lt;li>Process Table: stores info about each process, page table stores info about each process, and file table stores info abotu files&lt;/li>
+&lt;li>Process can be in the states: new, ready, waiting, running, terminated&lt;/li>
+&lt;li>&lt;strong>Signals&lt;/strong>: A message to a process to notify it of en event
+&lt;ul>
+&lt;li>The &lt;code>kill()&lt;/code> system call sends messages, not always &lt;code>SIGKILL&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Including &lt;code>&amp;lt;err.h&amp;gt;&lt;/code> gives you functions that properly print errors
+&lt;ul>
+&lt;li>&lt;code>err()&lt;/code> prints a given error string and the library explanations and quits&lt;/li>
+&lt;li>&lt;code>errx()&lt;/code> prints a given error string and quits&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>fork()&lt;/code>
+&lt;ul>
+&lt;li>Creates a new process and returns a &lt;code>pid_t&lt;/code>, which is 0 for the child, &amp;gt;0 (child pid) for the parent, and -1 for an error&lt;/li>
+&lt;li>Most things are inherited&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>wait()&lt;/code>
+&lt;ul>
+&lt;li>Reaps the next finishing direct child process from the process table&lt;/li>
+&lt;li>Passing in a pointer to an int will give you a status&lt;/li>
+&lt;li>Using macros like &lt;code>WIFEXITED&lt;/code> and &lt;code>WEXITSTATUS&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>exec()&lt;/code>
+&lt;ul>
+&lt;li>Runs the given programs, and never returns, and the new program replaces the process&lt;/li>
+&lt;li>If error, returns -1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>:ID: 43947200-ddd3-4794-b144-db11f2fa7dc4&lt;/p>
+&lt;h2 id="system-level-i-o">System-Level I/O&lt;/h2>
+&lt;ul>
+&lt;li>File Descriptors
+&lt;ul>
+&lt;li>A process-level object that is associated with a given file&lt;/li>
+&lt;li>STDIN is fd 0, STDOUT is fd 1, and STDERR is fd 2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>open(const char *filename, int flags, int mode (optional))&lt;/code>
+&lt;ul>
+&lt;li>Opens a file, returning a file descriptor&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="i-o">I/O&lt;/h2>
-&lt;h2 id="assembly">Assembly&lt;/h2></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)
+&lt;h2 id="assembly">Assembly&lt;/h2>
+&lt;h3 id="registers">Registers&lt;/h3>
+&lt;ul>
+&lt;li>4 bytes&lt;/li>
+&lt;li>Names start with a $&lt;/li>
+&lt;li>General purpose registers are &lt;code>$t0&lt;/code> through &lt;code>$t9&lt;/code>&lt;/li>
+&lt;li>Using a register in parentheses, like &lt;code>($t0)&lt;/code>, means use the address that the register stores
+&lt;ul>
+&lt;li>Putting a constant before the opening parentheses offsets the address stored by the given amount&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Register spilling is when we have too many values to keep only in registers&lt;/li>
+&lt;/ul>
+&lt;h3 id="system-calls">System Calls&lt;/h3>
+&lt;ul>
+&lt;li>Asks the OS to do something&lt;/li>
+&lt;li>Done in MIPS by loading a syscall code in &lt;code>$v0&lt;/code>, arguments into &lt;code>$a0&lt;/code> through &lt;code>$a3&lt;/code>, and then the &lt;code>syscall&lt;/code> instruction&lt;/li>
+&lt;/ul>
+&lt;h4 id="syscall-codes">Syscall Codes&lt;/h4>
+&lt;ul>
+&lt;li>exit
+&lt;ul>
+&lt;li>code: 10&lt;/li>
+&lt;li>arguments: none&lt;/li>
+&lt;li>return value: none&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>print_int
+&lt;ul>
+&lt;li>code: 1&lt;/li>
+&lt;li>arguments: &lt;code>$a0&lt;/code> - the integer to print&lt;/li>
+&lt;li>return value: none&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>print_char
+&lt;ul>
+&lt;li>code: 11&lt;/li>
+&lt;li>arguments: &lt;code>$a0&lt;/code> - address of string to print&lt;/li>
+&lt;li>return value: none&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>read_int
+&lt;ul>
+&lt;li>code: 5&lt;/li>
+&lt;li>arguments: none&lt;/li>
+&lt;li>return value: &lt;code>$v0&lt;/code> - the integer read&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>read_char
+&lt;ul>
+&lt;li>code: 12&lt;/li>
+&lt;li>arguments: none&lt;/li>
+&lt;li>return value; &lt;code>$a0&lt;/code> - the character read&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="directives">Directives&lt;/h3>
+&lt;ul>
+&lt;li>They tell the assembler something about how to assemble the program&lt;/li>
+&lt;li>&lt;code>.text&lt;/code> says that what comes after goes into the text segment&lt;/li>
+&lt;li>&lt;code>.data&lt;/code> says that what comes after goes into the data segment&lt;/li>
+&lt;li>&lt;code>.word&lt;/code> says stores what follows on the current line to successive memory locations as ints&lt;/li>
+&lt;li>&lt;code>.asciiz&lt;/code> says store the contents of the following double-quoted string as a null terminated string&lt;/li>
+&lt;/ul>
+&lt;h3 id="instructions">Instructions&lt;/h3>
+&lt;ul>
+&lt;li>A command to run that consists of 3-4 letter code, and then 2-3 registers
+&lt;ul>
+&lt;li>The first register is always where to put the result&lt;/li>
+&lt;li>The third operand can be a literal&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="labels">Labels&lt;/h3>
+&lt;ul>
+&lt;li>A human-readable alias for a memory address of an instruction/data item&lt;/li>
+&lt;/ul>
+&lt;h3 id="functions-in-assembly">Functions in Assembly&lt;/h3>
+&lt;ul>
+&lt;li>Store how to get back, jump there, jump back, reset&lt;/li>
+&lt;/ul>
+&lt;h4 id="stack-frame">Stack Frame&lt;/h4>
+&lt;ul>
+&lt;li>A set of data that stores information about a called function&lt;/li>
+&lt;li>&lt;code>$fp&lt;/code> points to the first word in the current stack frame&lt;/li>
+&lt;li>&lt;code>$sp&lt;/code> points the first free location just past the stack&lt;/li>
+&lt;li>When growing the stack, make sure to leave space for local variables + 8 for &lt;code>$fp&lt;/code> and &lt;code>$sp&lt;/code>&lt;/li>
+&lt;li>Make sure to reload registers that you need after a function call&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Prologue&lt;/p>
+&lt;div class="collapsable-code">
+&lt;input id="781625439" type="checkbox" checked />
+&lt;label for="781625439">
+&lt;span class="collapsable-code__language">nasm&lt;/span>
+&lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-nasm line-numbers"
+>&lt;code
+> sub $sp, $sp, 8
+sw $ra, 8($sp)
+sw $fp, 4($sp)
+add $fp, $sp, 8
+&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Epilogue&lt;/p>
+&lt;div class="collapsable-code">
+&lt;input id="369781425" type="checkbox" checked />
+&lt;label for="369781425">
+&lt;span class="collapsable-code__language">nasm&lt;/span>
+&lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-nasm line-numbers"
+>&lt;code
+> lw $ra, 8($sp)
+lw $fp, 4($sp)
+add $sp, $sp, 8
+jr $ra
+&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Parameters + Return Value + Local Variables&lt;/p>
+&lt;div class="collapsable-code">
+&lt;input id="598124367" type="checkbox" checked />
+&lt;label for="598124367">
+&lt;span class="collapsable-code__language">nasm&lt;/span>
+&lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-nasm line-numbers"
+>&lt;code
+> main: li $sp, 0x7ffffffc # init sp
+li $t0, 1
+sw $t0, ($sp) # put the argument on the stack
+sub $sp, $sp, 4 # grow the stack
+jal f # call the function
+add $sp, $sp, 4 # pop the arg off
+mov $t1, $v0 # get the return value
+mov $a0, $t0 # print it
+mov $v0, 1
+syscall
+mov $v0, 10 # exit
+syscall
+f: sub $sp, $sp, 12 # grow the stack
+sw $ra, 12($sp) # store the ra
+sw $fp, 8($sp) # store the fp
+add $fp, $sp, 12 # set the new fp
+lw $t0, 4($fp) # load the argument
+add $t0, $t0, 1
+sw $t0, 4($sp) # store it as a local variable
+mov $v0, $t0 # set the return value
+lw $ra, 8($sp) # get the return address
+lw $fp, 4($sp) # get the old frame pointer
+add $sp, $sp, 12 # decrement the stack
+jr $ra # go back
+&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="concurrency">Concurrency&lt;/h2>
+&lt;ul>
+&lt;li>If it can be active at multiple places, it&amp;rsquo;s concurrent&lt;/li>
+&lt;li>Threads are part of the same program and can share data&lt;/li>
+&lt;li>To use pthreads in C, use &lt;code>-l&lt;/code> with gcc&lt;/li>
+&lt;/ul>
+&lt;h3 id="threads">Threads&lt;/h3>
+&lt;ul>
+&lt;li>Threads share heap memory, global and static memory, files, and a virtual address space but have their own thread id, runtime stack, and other important registers (stack pointer, etc.)
+&lt;ul>
+&lt;li>This means they share global variables, static local variables, and dynamically allocated data&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="int-pthread-create--pthread-t-tid-pthread-attr-t-attr-void--func----void--void-arg">&lt;code>int pthread_create(pthread_t *tid, pthread_attr_t *attr, void *(*func)(void *), void *arg)&lt;/code>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>tid&lt;/code> is a pointer that will be filled in with an id&lt;/li>
+&lt;li>&lt;code>attr&lt;/code> is &lt;code>NULL&lt;/code>&lt;/li>
+&lt;li>&lt;code>func&lt;/code> is the function to execute&lt;/li>
+&lt;li>&lt;code>arg&lt;/code> passes an argument&lt;/li>
+&lt;li>0 on success, nonzero on erro&lt;/li>
+&lt;/ul>
+&lt;h4 id="pthread-t-pthread-self--void">&lt;code>pthread_t pthread_self(void)&lt;/code>&lt;/h4>
+&lt;ul>
+&lt;li>Get&amp;rsquo;s own thread id&lt;/li>
+&lt;/ul>
+&lt;h4 id="void-pthread-exit--void-retval">&lt;code>void pthread_exit(void *retval)&lt;/code>&lt;/h4>
+&lt;ul>
+&lt;li>Terminates the calling thread, which returns the &lt;code>retval&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h4 id="int-pthread-cancel--pthread-t-tid">&lt;code>int pthread_cancel(pthread_t tid)&lt;/code>&lt;/h4>
+&lt;ul>
+&lt;li>Terminates the thread with the given &lt;code>tid&lt;/code>&lt;/li>
+&lt;li>Returns 0 on success, nonzero on error&lt;/li>
+&lt;/ul>
+&lt;h4 id="int-pthread-join--pthread-t-tid-void-retval">&lt;code>int pthread_join(pthread_t tid, void **retval)&lt;/code>&lt;/h4>
+&lt;ul>
+&lt;li>Reaps the given thread and frees its memory usage&lt;/li>
+&lt;li>Blocks until termination (if already terminated, instant)&lt;/li>
+&lt;li>Returns 0 on success, nonzero on error
+&lt;ul>
+&lt;li>If success, &lt;code>*retval&lt;/code> gets the return value&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="synchronization">Synchronization&lt;/h3>
+&lt;ul>
+&lt;li>Force concurrent operations to happen in some relative order&lt;/li>
+&lt;li>Code that modifies a shared variable is a critical section&lt;/li>
+&lt;/ul>
+&lt;h4 id="atomicity">Atomicity&lt;/h4>
+&lt;ul>
+&lt;li>When something starts running by one thread and is not interrupted until it finishes&lt;/li>
+&lt;/ul>
+&lt;h4 id="semaphore">Semaphore&lt;/h4>
+&lt;ul>
+&lt;li>A special integer counter&lt;/li>
+&lt;li>If counter is 0, threads must wait&lt;/li>
+&lt;li>If counter is nonzero, threads process and counter is decremented&lt;/li>
+&lt;li>Once a thread is done, it tells the semaphore, which then increments the counter&lt;/li>
+&lt;li>If a counter becomes nonzero while threads are waiting on it to do so, one of the threads will be picked to run&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>int sem_init(sem_t *sem, 0, unsigned int value)&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Intializes the semaphore given to &lt;code>value&lt;/code>&lt;/li>
+&lt;li>0 on success, nonzero on error&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Wait&lt;/p>
+&lt;ul>
+&lt;li>The &lt;code>P&lt;/code> operation&lt;/li>
+&lt;li>Blocks if counter is 0&lt;/li>
+&lt;li>Returns if counter is positive&lt;/li>
+&lt;li>&lt;a href="#atomicity">Atomic&lt;/a> operation&lt;/li>
+&lt;li>&lt;code>int sem_wait(sem_t *sem)&lt;/code>
+&lt;ul>
+&lt;li>0 on success, nonzero on error&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Post&lt;/p>
+&lt;ul>
+&lt;li>The &lt;code>V&lt;/code> operation&lt;/li>
+&lt;li>Increments the counter&lt;/li>
+&lt;li>Unblocks a random waiting thread if threads are waiting&lt;/li>
+&lt;li>&lt;a href="#atomicity">Atomic&lt;/a> operation&lt;/li>
+&lt;li>&lt;code>int sem_post(sem_t *sem)&lt;/code>
+&lt;ul>
+&lt;li>0 on success, nonzero on error&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="mutual-exclusion">Mutual Exclusion&lt;/h4>
+&lt;ul>
+&lt;li>Only allow a certain number of threads to execute a block of code&lt;/li>
+&lt;/ul>
+&lt;h4 id="condition-synchronization">Condition Synchronization&lt;/h4>
+&lt;ul>
+&lt;li>Control the relative order of actions performed by different threads based on some condition&lt;/li>
+&lt;li>&lt;code>sem_wait&lt;/code> and &lt;code>sem_post&lt;/code> are usually in different threads&lt;/li>
+&lt;/ul></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)
 Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Implication \(p \rightarrow q\) means if antecedent then consequence Implication does not mean causality \(p \to q \equiv \neg p \lor q\) \(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
@@ -1727,6 +2099,238 @@ Generally, the \(n^{th}\) derivative is:
 &lt;/ul>
 &lt;/li>
 &lt;li>\(e^{t{\bf A}}\) is a natural fundamental matrix and therefore \(e^{t{\bf A}} = \Psi(t)\Psi(0)^{-1}\)&lt;/li>
+&lt;/ul>
+&lt;h3 id="linear-planar-systems">Linear Planar Systems&lt;/h3>
+&lt;h4 id="general-theory">General Theory&lt;/h4>
+&lt;p>A homogenous linear planar system has the form:
+\[\frac{d}{dt}\begin{pmatrix}x \\ y\end{pmatrix} = {\bf A}\begin{pmatrix}x \\y\end{pmatrix}\]
+This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
+&lt;p>If the matrix \({\bf A}\) has a real eigenpair \((\lambda, {\bf v})\), then it has a solution \({\bf x}(t) = ce^{\lambda t}{\bf v}\). If \(\lambda \gt 0\), then \({\bf x} = c{\bf v}\) has 3 orbits, the stationary point when \(c=0\), and the other two half lines moving away from it. If \(\lambda \lt 0\), then it has 3 orbits, the stationary point when \(c=0\) and the other two half lines moving toward it. If \(\lambda = 0\), then every point is a stationary point.&lt;/p>
+&lt;h4 id="two-real-eigenvalues">Two Real Eigenvalues&lt;/h4>
+&lt;ul>
+&lt;li>Two real eigenpairs are need to sketch&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Saddle&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda_1 \lt 0 \lt \lambda 2\)&lt;/li>
+&lt;/ul>
+&lt;figure class="center" >
+&lt;img src="https://www.kandasamyc.me/img/math246h-saddle.png" />
+&lt;figcaption class="center" >Saddle&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Nodal Sink&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda_1 \lt \lambda_2 \lt 0\)&lt;/li>
+&lt;/ul>
+&lt;figure class="center" >
+&lt;img src="https://www.kandasamyc.me/img/math246h-nodal-sink.png" />
+&lt;figcaption class="center" >Nodal Sink&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Nodal Source&lt;/p>
+&lt;ul>
+&lt;li>\(0 \lt \lambda_1 \lt \lambda_2\)&lt;/li>
+&lt;/ul>
+&lt;figure class="center" >
+&lt;img src="https://www.kandasamyc.me/img/math246h-nodal-source.png" />
+&lt;figcaption class="center" >Nodal Source&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Spinal Sink&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda_1 \lt \lambda_2 = 0\)&lt;/li>
+&lt;/ul>
+&lt;figure class="center" >
+&lt;img src="https://www.kandasamyc.me/img/math246h-spinal-sink.png" />
+&lt;figcaption class="center" >Spinal Sink&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Spinal Source&lt;/p>
+&lt;ul>
+&lt;li>\(0 = \lambda_1 \lt \lambda_2\)&lt;/li>
+&lt;/ul>
+&lt;figure class="center" >
+&lt;img src="https://www.kandasamyc.me/img/math246h-spinal-source.png" />
+&lt;figcaption class="center" >Spinal Source&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="one-real-eigenvalue">One Real Eigenvalue&lt;/h4>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Radial Sink&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda \lt 0\) and \({\bf A} = c{\bf I}\)&lt;/li>
+&lt;/ul>
+&lt;figure class="center" >
+&lt;img src="https://www.kandasamyc.me/img/math246h-radial-sink.png" />
+&lt;figcaption class="center" >Radial Sink&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Radial Source&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda \gt 0\) and \({\bf A} = c{\bf I}\)&lt;/li>
+&lt;/ul>
+&lt;figure class="center" >
+&lt;img src="https://www.kandasamyc.me/img/math246h-radial-source.png" />
+&lt;figcaption class="center" >Radial Source&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Null&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda = 0\) and \({\bf A} = c{\bf I}\)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Twist Sink&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda \lt 0\) and \({\bf A} \neq c{\bf I}\)&lt;/li>
+&lt;li>Clockwise if \(a_{21} \lt 0\), Counterclockwise if \(a_{21} \gt 0\)&lt;/li>
+&lt;/ul>
+&lt;div style="display:flex; justify-content:space-around;">
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-twist-sink-cw.png" />
+&lt;figcaption class="center" >Clockwise Twist Sink&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-twist-sink-cc.png" />
+&lt;figcaption class="center" >Counterclockwise Twist Sink&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Twist Source&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda \gt 0\) and \({\bf A} \neq c{\bf I}\)&lt;/li>
+&lt;li>Clockwise if \(a_{21} \lt 0\), Counterclockwise if \(a_{21} \gt 0\)&lt;/li>
+&lt;/ul>
+&lt;div style="display:flex; justify-content:space-around;">
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-twist-source-cw.png" />
+&lt;figcaption class="center" >Clockwise Twist Source&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-twist-source-cc.png" />
+&lt;figcaption class="center" >Counterclockwise Twist Source&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Shear&lt;/p>
+&lt;ul>
+&lt;li>\(\lambda = 0\) and \({\bf A} \neq c{\bf I}\)&lt;/li>
+&lt;li>Clockwise if \(a_{21} \lt 0\), Counterclockwise if \(a_{21} \gt 0\)&lt;/li>
+&lt;/ul>
+&lt;div style="display:flex; justify-content:space-around;">
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-shear-cw.png" />
+&lt;figcaption class="center" >Clockwise Shear&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-shear-cc.png" />
+&lt;figcaption class="center" >Counterclockwise Shear&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="complex-conjugate-pair-of-eigenvalues">Complex Conjugate Pair of Eigenvalues&lt;/h4>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Spiral Sink&lt;/p>
+&lt;ul>
+&lt;li>\(\text{Re}(\lambda) \lt 0\)&lt;/li>
+&lt;li>Clockwise if \(a_{21} \lt 0\), Counterclockwise if \(a_{21} \gt 0\)&lt;/li>
+&lt;/ul>
+&lt;div style="display:flex; justify-content:space-around;">
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cw.png" />
+&lt;figcaption class="center" >Clockwise Spiral Sink&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cc.png" />
+&lt;figcaption class="center" >Counterclockwise Spiral Sink&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Spiral Source&lt;/p>
+&lt;ul>
+&lt;li>\(\text{Re}(\lambda) \gt 0\)&lt;/li>
+&lt;li>Clockwise if \(a_{21} \lt 0\), Counterclockwise if \(a_{21} \gt 0\)&lt;/li>
+&lt;/ul>
+&lt;div style="display:flex; justify-content:space-around;">
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cw.png" />
+&lt;figcaption class="center" >Clockwise Spiral Source&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cc.png" />
+&lt;figcaption class="center" >Counterclockwise Twist Source&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>Center&lt;/p>
+&lt;ul>
+&lt;li>\(\text{Re}(\lambda) = 0\)&lt;/li>
+&lt;li>Clockwise if \(a_{21} \lt 0\), Counterclockwise if \(a_{21} \gt 0\)&lt;/li>
+&lt;/ul>
+&lt;div style="display:flex; justify-content:space-around;">
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-center-cw.png" />
+&lt;figcaption class="center" >Clockwise Center&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="display:inline-block;">
+&lt;img src="https://www.kandasamyc.me/img/math246h-center-cc.png" />
+&lt;figcaption class="center" >Counterclockwise Center&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/li>
 &lt;/ul></content></item><item><title>The Beginning</title><link>https://www.kandasamyc.me/000/</link><pubDate>Mon, 03 Jan 2022 17:27:29 -0500</pubDate><guid>https://www.kandasamyc.me/000/</guid><description>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off writing this Definitely did not mean to put this out early January post, but here we finally are, at the beginning.</description><content>&lt;p>The end of any piece is the easiest to write, I think. At least conceptually, the end has the clearest goal to accomplish: to wind up the threads and give a satisfying resolution. The beginning, on the other hand? Much harder. I&amp;rsquo;ve spent way too long putting off &lt;span class="sidenote">
 &lt;label class="sidenote-label" for="writing-this">writing this&lt;/label>
 &lt;input class="sidenote-checkbox" type="checkbox" id="writing-this">&lt;/input>
