@@ -58,7 +58,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Kandasamy Chokkalingam"
-    subtitle = ""
+    subtitle = "My Personal Website"
     keywords = "Kandasamy Chokkalingam"
     copyright = "©2022 Kandasamy Chokkalingam"
     menuMore = "Show more"
