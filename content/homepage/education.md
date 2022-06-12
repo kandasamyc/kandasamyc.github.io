@@ -16,7 +16,12 @@ weight = 5
 
 *B.S. Computer Science* | Aug 2021 --- May 2025
 
+- 4.0 GPA
 - President's Scholar in the Honors College
+- Relevant Courses:
+  + CMSC216: Introduction to Computer Systems
+  + CMSC250: Discrete Structures
+  + CMSC132: Object-Oriented Programming II
 
 ## Poolesville High School
 

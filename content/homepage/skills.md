@@ -16,6 +16,7 @@ In no particular order:
 
 - Python
 - Java
+- C
 - LaTeX
 - Linux
 - ROS
