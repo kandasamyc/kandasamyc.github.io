@@ -132,10 +132,11 @@ so I used that to make the CLI. I used the StudentVue library to get grade data.
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/kandasamyc/scholaris">GitHub&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>Skills</title><link>https://www.kandasamyc.me/homepage/skills/</link><pubDate>Wed, 05 Jan 2022 16:57:52 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/skills/</guid><description>In no particular order:
-Python Java LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
+Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
 &lt;li>Java&lt;/li>
+&lt;li>C&lt;/li>
 &lt;li>LaTeX&lt;/li>
 &lt;li>Linux&lt;/li>
 &lt;li>ROS&lt;/li>
@@ -145,10 +146,18 @@ Python Java LaTeX Linux ROS Machine Learning Web Development (Hugo, React, Tailw
 &lt;li>3D Rendering&lt;/li>
 &lt;li>Problem Solving&lt;/li>
 &lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.me/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/education/</guid><description>University of Maryland B.S. Computer Science | Aug 2021 &amp;mdash; May 2025
-President&amp;rsquo;s Scholar in the Honors College Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
+4.0 GPA President&amp;rsquo;s Scholar in the Honors College Relevant Courses: CMSC216: Introduction to Computer Systems CMSC250: Discrete Structures CMSC132: Object-Oriented Programming II Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
 &lt;p>&lt;em>B.S. Computer Science&lt;/em> | Aug 2021 &amp;mdash; May 2025&lt;/p>
 &lt;ul>
+&lt;li>4.0 GPA&lt;/li>
 &lt;li>President&amp;rsquo;s Scholar in the Honors College&lt;/li>
+&lt;li>Relevant Courses:
+&lt;ul>
+&lt;li>CMSC216: Introduction to Computer Systems&lt;/li>
+&lt;li>CMSC250: Discrete Structures&lt;/li>
+&lt;li>CMSC132: Object-Oriented Programming II&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="poolesville-high-school">Poolesville High School&lt;/h2>
 &lt;p>&lt;em>SMCS Magnet Program&lt;/em> | Aug 2017 &amp;mdash; May 2021&lt;/p></content></item><item><title>Contact</title><link>https://www.kandasamyc.me/homepage/contact/</link><pubDate>Wed, 05 Jan 2022 11:18:07 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/contact/</guid><description>If you have any comments, questions, or just want to send me a message, I&amp;rsquo;d love to hear from you!
@@ -163,8 +172,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="682593174" type="checkbox" checked />
-&lt;label for="682593174">
+&lt;input id="487392165" type="checkbox" checked />
+&lt;label for="487392165">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -183,8 +192,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="469758321" type="checkbox" checked />
-&lt;label for="469758321">
+&lt;input id="651983427" type="checkbox" checked />
+&lt;label for="651983427">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -383,8 +392,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="592368147" type="checkbox" />
-&lt;label for="592368147">
+&lt;input id="364257981" type="checkbox" />
+&lt;label for="364257981">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -859,8 +868,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="793528461" type="checkbox" checked />
-&lt;label for="793528461">
+&lt;input id="963578412" type="checkbox" checked />
+&lt;label for="963578412">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -880,8 +889,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="785364921" type="checkbox" checked />
-&lt;label for="785364921">
+&lt;input id="726435819" type="checkbox" checked />
+&lt;label for="726435819">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -901,8 +910,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="951467382" type="checkbox" checked />
-&lt;label for="951467382">
+&lt;input id="983165472" type="checkbox" checked />
+&lt;label for="983165472">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -4526,7 +4535,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="http-learnyouahaskell-dot-com-starting-out">&lt;a href="http://learnyouahaskell.com/starting-out">http://learnyouahaskell.com/starting-out&lt;/a>&lt;/h3>
 &lt;h3 id="http-book-dot-realworldhaskell-dot-org">&lt;a href="http://book.realworldhaskell.org/">http://book.realworldhaskell.org/&lt;/a>&lt;/h3>
 &lt;h3 id="http-htdp-dot-org-2003-09-26-book">&lt;a href="http://htdp.org/2003-09-26/Book/">http://htdp.org/2003-09-26/Book/&lt;/a>&lt;/h3>
-&lt;h3 id="http-dev-dot-stephendiehl-dot-com-hask-ghc">&lt;a href="http://dev.stephendiehl.com/hask/#ghc">http://dev.stephendiehl.com/hask/#ghc&lt;/a>&lt;/h3></content></item><item><title>SANS Foundations</title><link>https://www.kandasamyc.me/wiki/sans-foundations/</link><pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/sans-foundations/</guid><description>Intro to Computer Hardware Motherboard Sizes Sockets Buses CPU RAM Storage GPU Input USB 1 - Transfer Speed: 1.5 Mbit/s USB 2 - Transfer Speed: 480 Mbit/s USB 3 - Transfer Speed: 4 Gbit/s (You can usually tell if a port is USB 3 compatible because the port will be coloured blue) USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.</description><content>&lt;h2 id="intro-to-computer-hardware">Intro to Computer Hardware&lt;/h2>
+&lt;h3 id="http-dev-dot-stephendiehl-dot-com-hask-ghc">&lt;a href="http://dev.stephendiehl.com/hask/#ghc">http://dev.stephendiehl.com/hask/#ghc&lt;/a>&lt;/h3></content></item><item><title>SANS Foundations</title><link>https://www.kandasamyc.me/wiki/sans-foundations/</link><pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/sans-foundations/</guid><description>Intro to Computer Hardware Motherboard Sizes Sockets Buses CPU RAM Storage GPU Input USB 1 - Transfer Speed: 1.5 Mbit/s USB 2 - Transfer Speed: 480 Mbit/s USB 3 - Transfer Speed: 4 Gbit/s (You can usually tell if a port is USB 3 compatible because the port will be coloured blue) USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 compatible because the port will be coloured teal)</description><content>&lt;h2 id="intro-to-computer-hardware">Intro to Computer Hardware&lt;/h2>
 &lt;h3 id="motherboard">Motherboard&lt;/h3>
 &lt;ul>
 &lt;li>Sizes&lt;/li>
@@ -5035,7 +5044,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;h2 id="privilege-escalation-2">Privilege Escalation 2&lt;/h2>
 &lt;h2 id="persistence">Persistence&lt;/h2>
 &lt;h2 id="lateral-movement">Lateral Movement&lt;/h2>
-&lt;h2 id="ex-filtration">Ex filtration&lt;/h2></content></item><item><title>HNUH229T</title><link>https://www.kandasamyc.me/wiki/hnuh229t/</link><pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/hnuh229t/</guid><description>Reading Notes Jamieson&amp;rsquo;s Ethics and the Environment Chapter 4 4.1 Moral Theories Two fields of normative ethics Moral theory What categories or types of things/acts/practices are correct Practical Ethics Is a specific thing/act/practice morally correct Moral theories consider acts from different viewpoints Each theory must explain the situation fully It is natural to have multiple, they aren&amp;rsquo;t absolute truths 4.</description><content>&lt;h2 id="reading-notes">Reading Notes&lt;/h2>
+&lt;h2 id="ex-filtration">Ex filtration&lt;/h2></content></item><item><title>HNUH229T</title><link>https://www.kandasamyc.me/wiki/hnuh229t/</link><pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/hnuh229t/</guid><description>Reading Notes Jamieson&amp;rsquo;s Ethics and the Environment Chapter 4 4.1 Moral Theories Two fields of normative ethics Moral theory What categories or types of things/acts/practices are correct Practical Ethics Is a specific thing/act/practice morally correct Moral theories consider acts from different viewpoints Each theory must explain the situation fully It is natural to have multiple, they aren&amp;rsquo;t absolute truths 4.2 Consequentialism This is the family of theories that holds that acts are morally based solely on their consequences Consequentialism has been around for a while All consequences of an action matter, even those that affect others An issue they face is determining which actions directly lead to what consequences More importantly, they must consider what truly constitutes an action versus a consequence If a consequence is an inevitable outcome of an action, then the action itself may take on a value (lying vs.</description><content>&lt;h2 id="reading-notes">Reading Notes&lt;/h2>
 &lt;h3 id="jamieson-s-ethics-and-the-environment-chapter-4">Jamieson&amp;rsquo;s Ethics and the Environment Chapter 4&lt;/h3>
 &lt;h4 id="4-dot-1-moral-theories">4.1 Moral Theories&lt;/h4>
 &lt;ul>
@@ -5459,7 +5468,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>What does this mean?&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ol></content></item><item><title>INAG110</title><link>https://www.kandasamyc.me/wiki/inag110/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/inag110/</guid><description>Textbook Notes Chapter 1 Communication Defined Communication is the process of creating meaning through symbolic interaction. The symbols in communication are arbitrary and can be anything. Communication is a continuous process and depends on past context. Context and previous communication form the basis for communication in the present. Once something is said, it can&amp;rsquo;t be unsaid. Communication requires more than one person to make any sense.</description><content>&lt;h2 id="textbook-notes">Textbook Notes&lt;/h2>
+&lt;/ol></content></item><item><title>INAG110</title><link>https://www.kandasamyc.me/wiki/inag110/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/inag110/</guid><description>Textbook Notes Chapter 1 Communication Defined Communication is the process of creating meaning through symbolic interaction. The symbols in communication are arbitrary and can be anything. Communication is a continuous process and depends on past context. Context and previous communication form the basis for communication in the present. Once something is said, it can&amp;rsquo;t be unsaid. Communication requires more than one person to make any sense. Similarly, communication changes depending on who is communicating.</description><content>&lt;h2 id="textbook-notes">Textbook Notes&lt;/h2>
 &lt;h3 id="chapter-1">Chapter 1&lt;/h3>
 &lt;h4 id="communication-defined">Communication Defined&lt;/h4>
 &lt;ul>

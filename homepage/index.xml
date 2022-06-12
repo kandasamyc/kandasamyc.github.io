@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homepages on Kandasamy Chokkalingam</title><link>https://www.kandasamyc.me/homepage/</link><description>Recent content in Homepages on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 16:57:52 -0500</lastBuildDate><atom:link href="https://www.kandasamyc.me/homepage/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://www.kandasamyc.me/homepage/about/</link><pubDate>Wed, 05 Jan 2022 12:51:31 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/about/</guid><description>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.
 In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.</description><content>&lt;p>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.&lt;/p>
 &lt;p>In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.&lt;/p></content></item><item><title>Projects</title><link>https://www.kandasamyc.me/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/projects/</guid><description/><content/></item><item><title>Experience</title><link>https://www.kandasamyc.me/homepage/experience/</link><pubDate>Wed, 05 Jan 2022 11:17:39 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/experience/</guid><description/><content/></item><item><title>Skills</title><link>https://www.kandasamyc.me/homepage/skills/</link><pubDate>Wed, 05 Jan 2022 16:57:52 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/skills/</guid><description>In no particular order:
-Python Java LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
+Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
 &lt;li>Java&lt;/li>
+&lt;li>C&lt;/li>
 &lt;li>LaTeX&lt;/li>
 &lt;li>Linux&lt;/li>
 &lt;li>ROS&lt;/li>
@@ -14,10 +15,18 @@ Python Java LaTeX Linux ROS Machine Learning Web Development (Hugo, React, Tailw
 &lt;li>3D Rendering&lt;/li>
 &lt;li>Problem Solving&lt;/li>
 &lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.me/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/education/</guid><description>University of Maryland B.S. Computer Science | Aug 2021 &amp;mdash; May 2025
-President&amp;rsquo;s Scholar in the Honors College Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
+4.0 GPA President&amp;rsquo;s Scholar in the Honors College Relevant Courses: CMSC216: Introduction to Computer Systems CMSC250: Discrete Structures CMSC132: Object-Oriented Programming II Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
 &lt;p>&lt;em>B.S. Computer Science&lt;/em> | Aug 2021 &amp;mdash; May 2025&lt;/p>
 &lt;ul>
+&lt;li>4.0 GPA&lt;/li>
 &lt;li>President&amp;rsquo;s Scholar in the Honors College&lt;/li>
+&lt;li>Relevant Courses:
+&lt;ul>
+&lt;li>CMSC216: Introduction to Computer Systems&lt;/li>
+&lt;li>CMSC250: Discrete Structures&lt;/li>
+&lt;li>CMSC132: Object-Oriented Programming II&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="poolesville-high-school">Poolesville High School&lt;/h2>
 &lt;p>&lt;em>SMCS Magnet Program&lt;/em> | Aug 2017 &amp;mdash; May 2021&lt;/p></content></item><item><title>Contact</title><link>https://www.kandasamyc.me/homepage/contact/</link><pubDate>Wed, 05 Jan 2022 11:18:07 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/contact/</guid><description>If you have any comments, questions, or just want to send me a message, I&amp;rsquo;d love to hear from you!
