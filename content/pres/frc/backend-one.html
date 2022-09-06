@@ -144,7 +144,7 @@
 			<h2>Formatting, Docstrings, Multiline Strings</h2>
 
 			<pre>
-				<code data-trim data-line-numbers="2-5|8-13|14|15|34-36|">
+				<code data-trim data-line-numbers="2-5|8-13|14|15|23-32|44-46|">
 class Robot:
     """
     A class that represents a generic FRC robot. This class provides an interface
@@ -166,9 +166,19 @@ class Robot:
         self.speed = speed
         self.weight = weight
 
-    def robot_info(self) -> None:
+    def robot_info(self, weight_limit) -> None:
+        """
+        Checks to see if robot is under weight limit, 
+        robot is not tippy, and prints out all subsystems.
+  
+        Parameters:
+          weight_limit: Threshold to compare Robot weight against
+ 
+        Returns:
+          Nothing
+        """
         print(name)
-        if weight > 120:
+        if weight > weight_limit:
             print("Robot is too heavy!")
 
         if speed > 5 and weight * speed > balance_momentum:
