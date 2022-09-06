@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.me/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Mon, 13 Jun 2022 23:06:00 -0500</lastBuildDate><atom:link href="https://www.kandasamyc.me/index.xml" rel="self" type="application/rss+xml"/><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.me/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.me/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.me/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.me/index.xml" rel="self" type="application/rss+xml"/><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.me/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.me/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux&lt;/li>
 &lt;li>Learned about various cybersecurity techniques and topics&lt;/li>
@@ -166,66 +166,61 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;li>&lt;a href="mailto:contact@kandasamyc.me">Email&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>The Beginning</title><link>https://www.kandasamyc.me/000/</link><pubDate>Mon, 13 Jun 2022 23:06:00 -0500</pubDate><guid>https://www.kandasamyc.me/000/</guid><description>Prologue The end. In my opinion, that&amp;rsquo;s the easiest part of a piece to write. You&amp;rsquo;ve already figured out where you&amp;rsquo;re going and you&amp;rsquo;re already halfway there. The beginning, however? That&amp;rsquo;s where the challenge comes in.
-With a beginning, you make your first decision. You set a starting point that frames the rest of the story. It&amp;rsquo;s a monumental milestone that, at least for me, carries a significant amount of weight behind it.</description><content>&lt;h2 id="prologue">Prologue&lt;/h2>
-&lt;p>The end. In my opinion, that&amp;rsquo;s the easiest part of a piece to write. You&amp;rsquo;ve already figured out where you&amp;rsquo;re going and you&amp;rsquo;re already halfway there. The beginning, however? That&amp;rsquo;s where the challenge comes in.&lt;/p>
-&lt;p>With a beginning, you make your first decision. You set a starting point that frames the rest of the story. It&amp;rsquo;s a monumental milestone that, at least for me, carries a significant amount of weight behind it.&lt;/p>
-&lt;p>I&amp;rsquo;ve written this beginning &lt;span class="sidenote">
-&lt;label class="sidenote-label" for="times">more than&lt;/label>
-&lt;input class="sidenote-checkbox" type="checkbox" id="times">&lt;/input>
-&lt;span class="sidenote-content">
-Just how many times and how long its taken is something we'll gloss over
-&lt;/span>
-&lt;/span>
-a couple of times. I&amp;rsquo;ve actually even published a version of this already. But all of those versions felt just a little bit off, so this time I&amp;rsquo;m taking a slightly different approach &amp;mdash; I&amp;rsquo;m going to take my own advice.&lt;/p>
-&lt;h2 id="the-beginning-for-real-this-time">The Beginning (for real this time)&lt;/h2>
-&lt;p>Welcome to my first &lt;span class="sidenote">
-&lt;label class="sidenote-label" for="post">post&lt;/label>
-&lt;input class="sidenote-checkbox" type="checkbox" id="post">&lt;/input>
-&lt;span class="sidenote-content">
-Is this a blog? What even &lt;i>makes&lt;/i> a blog?
-&lt;/span>
-&lt;/span>
-! These posts will cover on a topic that interests me. This could be anything from a &lt;a href="https://www.kandasamyc.me/tags/thoughtpice">thoughtpiece&lt;/a> to a cool solution I&amp;rsquo;ve found to a problem I&amp;rsquo;ve been having. Most posts will revolve around software development, Linux, and cybersecurity. I&amp;rsquo;ll try post one every week, but let&amp;rsquo;s just say we&amp;rsquo;ll see how that goes.&lt;/p>
-&lt;p>Now we turn to a bit more of a fun question: why?&lt;/p>
-&lt;h2 id="the-middle">The Middle&lt;/h2>
-&lt;p>I want to do this for a couple of reasons:&lt;/p>
-&lt;h3 id="open-knowledge">Open Knowledge&lt;/h3>
-&lt;p>I have learned &lt;em>so&lt;/em> much from sites like StackOverflow and other forums. Sometimes the only place I&amp;rsquo;ve been able to find answers are long dead forum posts from years ago or on someone&amp;rsquo;s personal website where they mention off-hand the exact information I need. They&amp;rsquo;ve been the saving grace of hours of work or research I&amp;rsquo;ve done to solve a specific bug or setup issue.&lt;/p>
-&lt;p>One of my goals in writing these posts and sharing this information is to give back. It&amp;rsquo;s to be there just in case someone runs into the same bug or setup issue.&lt;/p>
-&lt;h3 id="lots-of-pots">Lots of Pots&lt;/h3>
-&lt;p>A while ago, I came across this &lt;span class="sidenote">
-&lt;label class="sidenote-label" for="story">story&lt;/label>
-&lt;input class="sidenote-checkbox" type="checkbox" id="story">&lt;/input>
-&lt;span class="sidenote-content">
-Is it a good story? Yes. Is it from a tumblr screenshot? Maybe.
-&lt;/span>
-&lt;/span>
-:&lt;/p>
-&lt;blockquote>
-&lt;p>There was an experiment a professor did. I think it was pottery students. He did an experiment of “quality” vs “quantity”. One half of the class he told; you have to make as many pots as possible. Good pots, bad pots, whatever. The more pots you make, the higher your grade.&lt;/p>
-&lt;p>The other half of the class were told, “you can make only one pot”. But that pot had to be perfect. The quality had to be high; the highest quality pot would get the best mark.&lt;/p>
-&lt;p>But when it came to the grading, they noticed something weird.&lt;/p>
-&lt;p>All the best quality pots were in the ‘quantity’ group.&lt;/p>
-&lt;p>The guys who were literally churning out pots, trying to make as many as possible, not concentrating on the quality. But every pot they made, made them better at making pots. By the end of the month (I think it was a month) - they had some pretty awesome pots coming out, because they enjoying finding all the ways and all the things they could do to make all their pots. Where as the ‘quality’ guys had spent their time reading up on pots, and technique, and researching and planning; which was all great but they’d had no further practice at actually making pots.&lt;/p>
-&lt;/blockquote>
-&lt;p>As cheesy as it sounds, it&amp;rsquo;s stuck with me since. I find that it&amp;rsquo;s a good thing to keep in mind &amp;mdash; that you can only really get better by first being worse. These posts are my effort at being worse. I want to be good effectively and clearly communicating. I can&amp;rsquo;t get good at doing that without actually doing it first.&lt;/p>
-&lt;h3 id="why-not">Why not?&lt;/h3>
-&lt;p>The final reason why I wanted to write these posts is just that: because I wanted to. It&amp;rsquo;s something I&amp;rsquo;ve been thinking about and seen some absolutely stunning examples of it, so I started to do it. That&amp;rsquo;s it.&lt;/p>
-&lt;h2 id="the-end">The End&lt;/h2>
-&lt;p>So there it is: the end of the beginning. I&amp;rsquo;m excited to see where this goes from here &amp;mdash; I&amp;rsquo;ve got no clue myself. I plan to figure it out as I go. Besides, if I already knew how to do it, what would be the fun in this?&lt;/p>
-&lt;p>With that being said, here&amp;rsquo;s to more beginnings and the infinite possibilities they bring.&lt;/p>
-&lt;p>until the next one,&lt;br>
-ksam&lt;/p>
-&lt;p>&lt;strong>P.S.&lt;/strong>
-If you&amp;rsquo;ve got any feedback, comments, or suggestions, I&amp;rsquo;d love to hear from you. Feel free to &lt;a href="https://www.kandasamyc.me/contact">contact me&lt;/a>! If you&amp;rsquo;d like to learn more about me and what I&amp;rsquo;ve done, then check out the &lt;a href="https://www.kandasamyc.me/">home page&lt;/a>&lt;/p></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
+&lt;/ul></content></item><item><title>CMSC330</title><link>https://www.kandasamyc.me/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc330/</guid><description>Ruby Characteristics console output is done with the keyword puts Dynamic and Latent typing Typing Dynamic Typing Types checked at runtime Static Typing Types checked at compile time Manifest Typing Type is explicitly labeled Associated with variable Latent Typing Type is implicitly labeled Associated with value</description><content>&lt;h2 id="ruby">Ruby&lt;/h2>
+&lt;h3 id="characteristics">Characteristics&lt;/h3>
+&lt;ul>
+&lt;li>console output is done with the keyword &lt;code>puts&lt;/code>&lt;/li>
+&lt;li>Dynamic and Latent typing&lt;/li>
+&lt;/ul>
+&lt;h3 id="typing">Typing&lt;/h3>
+&lt;h4 id="dynamic-typing">Dynamic Typing&lt;/h4>
+&lt;ul>
+&lt;li>Types checked at runtime&lt;/li>
+&lt;/ul>
+&lt;h4 id="static-typing">Static Typing&lt;/h4>
+&lt;ul>
+&lt;li>Types checked at compile time&lt;/li>
+&lt;/ul>
+&lt;h4 id="manifest-typing">Manifest Typing&lt;/h4>
+&lt;ul>
+&lt;li>Type is explicitly labeled&lt;/li>
+&lt;li>Associated with variable&lt;/li>
+&lt;/ul>
+&lt;h4 id="latent-typing">Latent Typing&lt;/h4>
+&lt;ul>
+&lt;li>Type is implicitly labeled&lt;/li>
+&lt;li>Associated with value&lt;/li>
+&lt;/ul></content></item><item><title>MATH410</title><link>https://www.kandasamyc.me/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math410/</guid><description>Sep 02 A subset \(S\) of \(\R\) is dense if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)
+Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)
+\(a \lt \frac{m}{n} \lt b\)
+\(na \lt m \lt nb\)
+\(nb-na \gt 1 \Rightarrow a-b \gt \frac{1}{n}\)
+By a thm, \(\exists m \in \Z \ni nb-1 \le m \lt nb\)
+Let a &amp;lt; b be two reals since b-a &amp;gt; 0 by AP ∃ n ∈ \N ∋ 1\m &amp;lt; b-a implies 1 &amp;lt; nb - na ⇒ na &amp;gt; nb-1</description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
+&lt;p>A subset \(S\) of \(\R\) is &lt;strong>dense&lt;/strong> if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)&lt;/p>
+&lt;p>Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)&lt;/p>
+&lt;p>\(a \lt \frac{m}{n} \lt b\)&lt;/p>
+&lt;p>\(na \lt m \lt nb\)&lt;/p>
+&lt;p>\(nb-na \gt 1 \Rightarrow a-b \gt \frac{1}{n}\)&lt;/p>
+&lt;p>By a thm, \(\exists m \in \Z \ni nb-1 \le m \lt nb\)&lt;/p>
+&lt;p>Let a &amp;lt; b be two reals since b-a &amp;gt; 0 by AP ∃ n ∈ \N ∋ 1\m &amp;lt; b-a implies 1 &amp;lt; nb - na ⇒ na &amp;gt; nb-1&lt;/p>
+&lt;p>For irrational proof, use addition&lt;/p>
+&lt;p>&amp;ndash;&lt;/p>
+&lt;p>Let \(\epsilon\) be positive
+By AP there is a natural number N st. \(1/N \lt \epsilon\)
+If \(n \ge N\) then \(\abs{1\n - 0} = 1\n \le 1\N \le epislon\)&lt;/p>
+&lt;p>Basic strucut - epislon positive, ap shows some big N less than episolon number exists, If n ≥ N, then start with abs and redo the simplicifaction to show all steps anre great than before, and finallyit&amp;rsquo;s less than epislon&lt;/p>
+&lt;p>diverge - AP to show there is some number for which the function is always positive and therefore, there is always a number greater&lt;/p>
+&lt;p>Let M &amp;gt; 0, By AP ∃ n ∈ Naturals such that N &amp;gt; max (4,M)
+If n &amp;gt;gt N then n^2 03n = n(n-3) &amp;gt; n(4-3) ≥ N &amp;gt; M
+this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
 c Preprocessor Directives #include &amp;amp;lt;stdio.h&amp;amp;gt; #include &amp;amp;lt;stdlib.h&amp;amp;gt; #include &amp;amp;lt;string.h&amp;amp;gt; #define MAX_COLS 20 /* max # of columns to process */ #define MAX_INPUT 1000 #define defines a constant value, #include includes another file&amp;rsquo;s declarations.
 Main Function Returns an int, takes no arguments (so void) c Main Function int main(void){ /* Some code */ return 0; } Prototypes The first function &amp;ldquo;declaration&amp;rdquo; No body Placed at the top to allow the compiler to do proper type checking Basic Concepts Environments Translation Environment Source code get compiled into object code Which then gets linked with other object code by the linker to form a single executable Execution Environment The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning main&amp;rsquo;s error code.</description><content>&lt;h2 id="c-syntax">C Syntax&lt;/h2>
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="269714538" type="checkbox" checked />
-&lt;label for="269714538">
+&lt;input id="832694715" type="checkbox" checked />
+&lt;label for="832694715">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -244,8 +239,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="568421397" type="checkbox" checked />
-&lt;label for="568421397">
+&lt;input id="354678291" type="checkbox" checked />
+&lt;label for="354678291">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -444,8 +439,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="615389274" type="checkbox" />
-&lt;label for="615389274">
+&lt;input id="581436279" type="checkbox" />
+&lt;label for="581436279">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -920,8 +915,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="736514892" type="checkbox" checked />
-&lt;label for="736514892">
+&lt;input id="796425138" type="checkbox" checked />
+&lt;label for="796425138">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -941,8 +936,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="239617584" type="checkbox" checked />
-&lt;label for="239617584">
+&lt;input id="129456378" type="checkbox" checked />
+&lt;label for="129456378">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -962,8 +957,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="876941523" type="checkbox" checked />
-&lt;label for="876941523">
+&lt;input id="842937615" type="checkbox" checked />
+&lt;label for="842937615">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>

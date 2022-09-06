@@ -1,9 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.me/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>Notes from UMD's CMSC216 class</description><content>&lt;h2 id="c-syntax">C Syntax&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.me/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.me/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>CMSC330</title><link>https://www.kandasamyc.me/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc330/</guid><description>Notes from UMD's CMSC330 class</description><content>&lt;h2 id="ruby">Ruby&lt;/h2>
+&lt;h3 id="characteristics">Characteristics&lt;/h3>
+&lt;ul>
+&lt;li>console output is done with the keyword &lt;code>puts&lt;/code>&lt;/li>
+&lt;li>Dynamic and Latent typing&lt;/li>
+&lt;/ul>
+&lt;h3 id="typing">Typing&lt;/h3>
+&lt;h4 id="dynamic-typing">Dynamic Typing&lt;/h4>
+&lt;ul>
+&lt;li>Types checked at runtime&lt;/li>
+&lt;/ul>
+&lt;h4 id="static-typing">Static Typing&lt;/h4>
+&lt;ul>
+&lt;li>Types checked at compile time&lt;/li>
+&lt;/ul>
+&lt;h4 id="manifest-typing">Manifest Typing&lt;/h4>
+&lt;ul>
+&lt;li>Type is explicitly labeled&lt;/li>
+&lt;li>Associated with variable&lt;/li>
+&lt;/ul>
+&lt;h4 id="latent-typing">Latent Typing&lt;/h4>
+&lt;ul>
+&lt;li>Type is implicitly labeled&lt;/li>
+&lt;li>Associated with value&lt;/li>
+&lt;/ul></content></item><item><title>MATH410</title><link>https://www.kandasamyc.me/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math410/</guid><description>Notes from UMD's MATH410 class</description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
+&lt;p>A subset \(S\) of \(\R\) is &lt;strong>dense&lt;/strong> if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)&lt;/p>
+&lt;p>Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)&lt;/p>
+&lt;p>\(a \lt \frac{m}{n} \lt b\)&lt;/p>
+&lt;p>\(na \lt m \lt nb\)&lt;/p>
+&lt;p>\(nb-na \gt 1 \Rightarrow a-b \gt \frac{1}{n}\)&lt;/p>
+&lt;p>By a thm, \(\exists m \in \Z \ni nb-1 \le m \lt nb\)&lt;/p>
+&lt;p>Let a &amp;lt; b be two reals since b-a &amp;gt; 0 by AP ∃ n ∈ \N ∋ 1\m &amp;lt; b-a implies 1 &amp;lt; nb - na ⇒ na &amp;gt; nb-1&lt;/p>
+&lt;p>For irrational proof, use addition&lt;/p>
+&lt;p>&amp;ndash;&lt;/p>
+&lt;p>Let \(\epsilon\) be positive
+By AP there is a natural number N st. \(1/N \lt \epsilon\)
+If \(n \ge N\) then \(\abs{1\n - 0} = 1\n \le 1\N \le epislon\)&lt;/p>
+&lt;p>Basic strucut - epislon positive, ap shows some big N less than episolon number exists, If n ≥ N, then start with abs and redo the simplicifaction to show all steps anre great than before, and finallyit&amp;rsquo;s less than epislon&lt;/p>
+&lt;p>diverge - AP to show there is some number for which the function is always positive and therefore, there is always a number greater&lt;/p>
+&lt;p>Let M &amp;gt; 0, By AP ∃ n ∈ Naturals such that N &amp;gt; max (4,M)
+If n &amp;gt;gt N then n^2 03n = n(n-3) &amp;gt; n(4-3) ≥ N &amp;gt; M
+this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>Notes from UMD's CMSC216 class</description><content>&lt;h2 id="c-syntax">C Syntax&lt;/h2>
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="269714538" type="checkbox" checked />
-&lt;label for="269714538">
+&lt;input id="832694715" type="checkbox" checked />
+&lt;label for="832694715">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -22,8 +63,8 @@
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="568421397" type="checkbox" checked />
-&lt;label for="568421397">
+&lt;input id="354678291" type="checkbox" checked />
+&lt;label for="354678291">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -222,8 +263,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="615389274" type="checkbox" />
-&lt;label for="615389274">
+&lt;input id="581436279" type="checkbox" />
+&lt;label for="581436279">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -698,8 +739,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="736514892" type="checkbox" checked />
-&lt;label for="736514892">
+&lt;input id="796425138" type="checkbox" checked />
+&lt;label for="796425138">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -719,8 +760,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="239617584" type="checkbox" checked />
-&lt;label for="239617584">
+&lt;input id="129456378" type="checkbox" checked />
+&lt;label for="129456378">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -740,8 +781,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="876941523" type="checkbox" checked />
-&lt;label for="876941523">
+&lt;input id="842937615" type="checkbox" checked />
+&lt;label for="842937615">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
