@@ -1,4 +1,4 @@
-baseURL = 'https://www.kandasamyc.me/'
+baseURL = 'https://www.kandasamyc.com/'
 languageCode = 'en-us'
 title = 'Kandasamy Chokkalingam'
 theme = 'terminal'
