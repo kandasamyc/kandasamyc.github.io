@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.me/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.me/index.xml" rel="self" type="application/rss+xml"/><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.me/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.me/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.com/index.xml" rel="self" type="application/rss+xml"/><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.com/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.com/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux&lt;/li>
 &lt;li>Learned about various cybersecurity techniques and topics&lt;/li>
@@ -10,7 +10,7 @@
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://api.badgr.io/public/assertions/T_WiBIzrR3KVHfw6_uNGDQ?identity__email=kck.choks%40gmail.com">Badgr&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Scouting Data Ingest</title><link>https://www.kandasamyc.me/projects/scouting-data-ingest/</link><pubDate>Wed, 05 Jan 2022 19:10:24 -0500</pubDate><guid>https://www.kandasamyc.me/projects/scouting-data-ingest/</guid><description>Summary Designing and engineering a solution to ingest and analyze robotics data from many sources in real-time Constructed and deployed a Python backend with Pandas and Numpy to AWS EC2 Developed a REST API to interface a web app with a MySQL database hosted with AWS Built a web app interface using Flask and Bulma to view and interact with analyzed data Background In high school, I participated in the FIRST Robotics Competition (FRC).</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></content></item><item><title>Scouting Data Ingest</title><link>https://www.kandasamyc.com/projects/scouting-data-ingest/</link><pubDate>Wed, 05 Jan 2022 19:10:24 -0500</pubDate><guid>https://www.kandasamyc.com/projects/scouting-data-ingest/</guid><description>Summary Designing and engineering a solution to ingest and analyze robotics data from many sources in real-time Constructed and deployed a Python backend with Pandas and Numpy to AWS EC2 Developed a REST API to interface a web app with a MySQL database hosted with AWS Built a web app interface using Flask and Bulma to view and interact with analyzed data Background In high school, I participated in the FIRST Robotics Competition (FRC).</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Designing and engineering a solution to ingest and analyze robotics data from many sources in real-time&lt;/li>
 &lt;li>Constructed and deployed a Python backend with Pandas and Numpy to AWS EC2&lt;/li>
@@ -38,9 +38,9 @@ performance to come up with a better strategy for each match.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/team4099/scouting-data-ingest">GitHub&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>About</title><link>https://www.kandasamyc.me/homepage/about/</link><pubDate>Wed, 05 Jan 2022 12:51:31 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/about/</guid><description>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.
+&lt;/ul></content></item><item><title>About</title><link>https://www.kandasamyc.com/homepage/about/</link><pubDate>Wed, 05 Jan 2022 12:51:31 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/about/</guid><description>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.
 In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.</description><content>&lt;p>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.&lt;/p>
-&lt;p>In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.&lt;/p></content></item><item><title>UMD Research Internship</title><link>https://www.kandasamyc.me/experience/2020-umd-research/</link><pubDate>Wed, 05 Jan 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.me/experience/2020-umd-research/</guid><description>Summary Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch Developed an implementation of reinforcement learning algorithms in Python with PyTorch Worked with a team to study the use of reinforcement learning in other game variants Research Over the summer of 2020, I interned under Dr. William Gasarch at the University of Maryland. Despite being a high school student, I worked with others in the REU-CAAR program on combinatorics and machine learning.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.&lt;/p></content></item><item><title>UMD Research Internship</title><link>https://www.kandasamyc.com/experience/2020-umd-research/</link><pubDate>Wed, 05 Jan 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2020-umd-research/</guid><description>Summary Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch Developed an implementation of reinforcement learning algorithms in Python with PyTorch Worked with a team to study the use of reinforcement learning in other game variants Research Over the summer of 2020, I interned under Dr. William Gasarch at the University of Maryland. Despite being a high school student, I worked with others in the REU-CAAR program on combinatorics and machine learning.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch&lt;/li>
 &lt;li>Developed an implementation of reinforcement learning algorithms in Python with PyTorch&lt;/li>
@@ -53,10 +53,10 @@ In my free time, I enjoy biking and listening to good music. I happen to spend a
 &lt;p>After performing the tests, I analyzed the results. Using XeTeX, I wrote a paper describing my research, methods, results, and conclusions. I created plots and figures using matplotlib. I also created a presentation and poster, both in LaTeX, using Beamer. This was my first project using LaTeX and I really enjoyed it. Despite a bit of a steep learning curve and setup, it produced professional and clean looking results and I didn&amp;rsquo;t have to worry about formatting as much. I presented the presentation to my school in January of 2021, and my poster at ScienceMontgomery, where I was awarded an Honorable Mention in the CS category.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.me/files/umd-research-paper.pdf">Paper&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/files/umd-research-presentation.pdf">Presentation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/files/umd-research-poster.pdf">Poster&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Projects</title><link>https://www.kandasamyc.me/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/projects/</guid><description/><content/></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.me/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.me/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.
+&lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-paper.pdf">Paper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-presentation.pdf">Presentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-poster.pdf">Poster&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Projects</title><link>https://www.kandasamyc.com/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/projects/</guid><description/><content/></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.com/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.com/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.
 Implementation We used React to develop the web app and various libraries including React-Router to add other functionality.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours&lt;/li>
@@ -69,7 +69,7 @@ Implementation We used React to develop the web app and various libraries includ
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/hophacks2021bolt/hophacks2021bolt.github.io">GitHub&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>FIRST Robotics Club</title><link>https://www.kandasamyc.me/experience/frc/</link><pubDate>Wed, 05 Jan 2022 19:11:09 -0500</pubDate><guid>https://www.kandasamyc.me/experience/frc/</guid><description>Summary Junior Captain (2018-2019), Mechanical Lead (2019-2020), Captain (2020-2021) Led 50+ person team Developed software to control a holonomic drive base and other systems on a robot Developed a scouting data analysis platform to aid in strategy decisions and predictions Background I was a part of my high school&amp;rsquo;s FIRST Robotics Competition team for all 4 years in high school. I loved participating and was on leadership for 3 years working to make the team better.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></content></item><item><title>FIRST Robotics Club</title><link>https://www.kandasamyc.com/experience/frc/</link><pubDate>Wed, 05 Jan 2022 19:11:09 -0500</pubDate><guid>https://www.kandasamyc.com/experience/frc/</guid><description>Summary Junior Captain (2018-2019), Mechanical Lead (2019-2020), Captain (2020-2021) Led 50+ person team Developed software to control a holonomic drive base and other systems on a robot Developed a scouting data analysis platform to aid in strategy decisions and predictions Background I was a part of my high school&amp;rsquo;s FIRST Robotics Competition team for all 4 years in high school. I loved participating and was on leadership for 3 years working to make the team better.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Junior Captain (2018-2019), Mechanical Lead (2019-2020), Captain (2020-2021)&lt;/li>
 &lt;li>Led 50+ person team&lt;/li>
@@ -82,7 +82,7 @@ Implementation We used React to develop the web app and various libraries includ
 &lt;h3 id="mechanical-engineering-and-design">Mechanical Engineering and Design&lt;/h3>
 &lt;p>In my freshman year I helped produce and manufacture parts for the robot. I used various shop tools to measure, cut, and assemble parts made of wood, metal, and polycarbonate. In my sophomore year, I helped to design a robot from scratch using Onshape, which is professional CAD software. Along with other members, I designed an accurate representation of our robot in CAD and iterated on the design as needed. To aid assembly, we produced drawings from CAD using the software, along with using CAM software to generate instructions for our CNC mill.&lt;/p>
 &lt;h3 id="software-development">Software Development&lt;/h3>
-&lt;p>In my senior year, I joined the programming subteam. That year, we switched to a holonomic drivebase, and, along with other members, we developed software to properly control it using an game controller. I also worked on a &lt;a href="https://www.kandasamyc.me/projects/scouting-data-ingest">project&lt;/a> to aid scouts during competition.&lt;/p>
+&lt;p>In my senior year, I joined the programming subteam. That year, we switched to a holonomic drivebase, and, along with other members, we developed software to properly control it using an game controller. I also worked on a &lt;a href="https://www.kandasamyc.com/projects/scouting-data-ingest">project&lt;/a> to aid scouts during competition.&lt;/p>
 &lt;h3 id="development-of-outreach-programs">Development of Outreach Programs&lt;/h3>
 &lt;p>I also led the development of three different outreach programs.&lt;/p>
 &lt;p>One program was targeted at local girl scout troops. Based on badge requirements, I developed a curriculum to help them get badges for robotics at different levels. I based the curriculum off othe VEX Robotics Competition parts we had and led camp sessions.&lt;/p>
@@ -91,9 +91,9 @@ Implementation We used React to develop the web app and various libraries includ
 &lt;h3 id="3d-modeling">3D Modeling&lt;/h3>
 &lt;p>Another project I worked on was creating renders of the CAD model of our robot. I exported the CAD model into Blender, and spent time learning how to create realistic renders of the robot. I&amp;rsquo;ve included a few of my favorite renders below.&lt;/p>
 &lt;p>
-&lt;img src="https://www.kandasamyc.me/img/frc-merlin.png" alt="Merline, our 2021 robot" class="center" style="border-radius: 8px;" />
-&lt;img src="https://www.kandasamyc.me/img/frc-intake.png" alt="An intake" class="center" style="border-radius: 8px;" />
-&lt;/p></content></item><item><title>C4 Website</title><link>https://www.kandasamyc.me/projects/c4-website/</link><pubDate>Wed, 05 Jan 2022 19:10:48 -0500</pubDate><guid>https://www.kandasamyc.me/projects/c4-website/</guid><description>Summary Developed a website using Gatsby to provide information for the C4 Club Background In high school, I was a part of the Combating Childhood Cancer Club (C4). Although we already had a website in Jekyll, I wanted to improve it by creating a more updated version using Gatsby. I wanted it to be easily maintainable and usable, even without much knowledge about web development.
+&lt;img src="https://www.kandasamyc.com/img/frc-merlin.png" alt="Merline, our 2021 robot" class="center" style="border-radius: 8px;" />
+&lt;img src="https://www.kandasamyc.com/img/frc-intake.png" alt="An intake" class="center" style="border-radius: 8px;" />
+&lt;/p></content></item><item><title>C4 Website</title><link>https://www.kandasamyc.com/projects/c4-website/</link><pubDate>Wed, 05 Jan 2022 19:10:48 -0500</pubDate><guid>https://www.kandasamyc.com/projects/c4-website/</guid><description>Summary Developed a website using Gatsby to provide information for the C4 Club Background In high school, I was a part of the Combating Childhood Cancer Club (C4). Although we already had a website in Jekyll, I wanted to improve it by creating a more updated version using Gatsby. I wanted it to be easily maintainable and usable, even without much knowledge about web development.
 Implementation I picked Gatsby for a few reasons.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Developed a website using Gatsby to provide information for the C4 Club&lt;/li>
@@ -107,12 +107,12 @@ Implementation I picked Gatsby for a few reasons.</description><content>&lt;h2 i
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/C4org/C4org.github.io">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.c4org.github.io">Website&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Experience</title><link>https://www.kandasamyc.me/homepage/experience/</link><pubDate>Wed, 05 Jan 2022 11:17:39 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/experience/</guid><description/><content/></item><item><title>CyberPatriot Competition</title><link>https://www.kandasamyc.me/experience/cyberpatriot/</link><pubDate>Wed, 05 Jan 2022 19:11:16 -0500</pubDate><guid>https://www.kandasamyc.me/experience/cyberpatriot/</guid><description>Summary Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms Studied industry standard networking security concepts Applied networking security concepts in a competition environment</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></content></item><item><title>Experience</title><link>https://www.kandasamyc.com/homepage/experience/</link><pubDate>Wed, 05 Jan 2022 11:17:39 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/experience/</guid><description/><content/></item><item><title>CyberPatriot Competition</title><link>https://www.kandasamyc.com/experience/cyberpatriot/</link><pubDate>Wed, 05 Jan 2022 19:11:16 -0500</pubDate><guid>https://www.kandasamyc.com/experience/cyberpatriot/</guid><description>Summary Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms Studied industry standard networking security concepts Applied networking security concepts in a competition environment</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms&lt;/li>
 &lt;li>Studied industry standard networking security concepts&lt;/li>
 &lt;li>Applied networking security concepts in a competition environment&lt;/li>
-&lt;/ul></content></item><item><title>Scholaris</title><link>https://www.kandasamyc.me/projects/scholaris/</link><pubDate>Wed, 05 Jan 2022 19:10:37 -0500</pubDate><guid>https://www.kandasamyc.me/projects/scholaris/</guid><description>Summary Developed a simple CLI application to get my grade information from an API and calculate different grades Background In my senior year of high school, my school district changed their grade displaying system. The new one was less than ideal and old apps to calculate and display grade information no longer worked. When I found out that the new system had an API, I decided to make my own version.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></content></item><item><title>Scholaris</title><link>https://www.kandasamyc.com/projects/scholaris/</link><pubDate>Wed, 05 Jan 2022 19:10:37 -0500</pubDate><guid>https://www.kandasamyc.com/projects/scholaris/</guid><description>Summary Developed a simple CLI application to get my grade information from an API and calculate different grades Background In my senior year of high school, my school district changed their grade displaying system. The new one was less than ideal and old apps to calculate and display grade information no longer worked. When I found out that the new system had an API, I decided to make my own version.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Developed a simple CLI application to get my grade information from an API and calculate different grades&lt;/li>
 &lt;/ul>
@@ -131,7 +131,7 @@ so I used that to make the CLI. I used the StudentVue library to get grade data.
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/kandasamyc/scholaris">GitHub&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Skills</title><link>https://www.kandasamyc.me/homepage/skills/</link><pubDate>Wed, 05 Jan 2022 16:57:52 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/skills/</guid><description>In no particular order:
+&lt;/ul></content></item><item><title>Skills</title><link>https://www.kandasamyc.com/homepage/skills/</link><pubDate>Wed, 05 Jan 2022 16:57:52 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/skills/</guid><description>In no particular order:
 Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
@@ -145,7 +145,7 @@ Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, Tai
 &lt;li>Engineering and Fabrication&lt;/li>
 &lt;li>3D Rendering&lt;/li>
 &lt;li>Problem Solving&lt;/li>
-&lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.me/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/education/</guid><description>University of Maryland B.S. Computer Science | Aug 2021 &amp;mdash; May 2025
+&lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.com/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/education/</guid><description>University of Maryland B.S. Computer Science | Aug 2021 &amp;mdash; May 2025
 4.0 GPA President&amp;rsquo;s Scholar in the Honors College Relevant Courses: CMSC216: Introduction to Computer Systems CMSC250: Discrete Structures CMSC132: Object-Oriented Programming II Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
 &lt;p>&lt;em>B.S. Computer Science&lt;/em> | Aug 2021 &amp;mdash; May 2025&lt;/p>
 &lt;ul>
@@ -160,13 +160,13 @@ Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, Tai
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="poolesville-high-school">Poolesville High School&lt;/h2>
-&lt;p>&lt;em>SMCS Magnet Program&lt;/em> | Aug 2017 &amp;mdash; May 2021&lt;/p></content></item><item><title>Contact</title><link>https://www.kandasamyc.me/homepage/contact/</link><pubDate>Wed, 05 Jan 2022 11:18:07 -0500</pubDate><guid>https://www.kandasamyc.me/homepage/contact/</guid><description>If you have any comments, questions, or just want to send me a message, I&amp;rsquo;d love to hear from you!
+&lt;p>&lt;em>SMCS Magnet Program&lt;/em> | Aug 2017 &amp;mdash; May 2021&lt;/p></content></item><item><title>Contact</title><link>https://www.kandasamyc.com/homepage/contact/</link><pubDate>Wed, 05 Jan 2022 11:18:07 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/contact/</guid><description>If you have any comments, questions, or just want to send me a message, I&amp;rsquo;d love to hear from you!
 Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, questions, or just want to send me a message, I&amp;rsquo;d love to hear from you!&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="mailto:contact@kandasamyc.me">Email&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/kandasamyc">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://linkedin.com/in/kandasamyc">LinkedIn&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>CMSC330</title><link>https://www.kandasamyc.me/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc330/</guid><description>Ruby Characteristics console output is done with the keyword puts Dynamic and Latent typing Typing Dynamic Typing Types checked at runtime Static Typing Types checked at compile time Manifest Typing Type is explicitly labeled Associated with variable Latent Typing Type is implicitly labeled Associated with value</description><content>&lt;h2 id="ruby">Ruby&lt;/h2>
+&lt;/ul></content></item><item><title>CMSC330</title><link>https://www.kandasamyc.com/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc330/</guid><description>Ruby Characteristics console output is done with the keyword puts Dynamic and Latent typing Typing Dynamic Typing Types checked at runtime Static Typing Types checked at compile time Manifest Typing Type is explicitly labeled Associated with variable Latent Typing Type is implicitly labeled Associated with value</description><content>&lt;h2 id="ruby">Ruby&lt;/h2>
 &lt;h3 id="characteristics">Characteristics&lt;/h3>
 &lt;ul>
 &lt;li>console output is done with the keyword &lt;code>puts&lt;/code>&lt;/li>
@@ -190,7 +190,7 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;ul>
 &lt;li>Type is implicitly labeled&lt;/li>
 &lt;li>Associated with value&lt;/li>
-&lt;/ul></content></item><item><title>MATH410</title><link>https://www.kandasamyc.me/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math410/</guid><description>Sep 02 A subset \(S\) of \(\R\) is dense if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)
+&lt;/ul></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Sep 02 A subset \(S\) of \(\R\) is dense if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)
 Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)
 \(a \lt \frac{m}{n} \lt b\)
 \(na \lt m \lt nb\)
@@ -213,14 +213,14 @@ If \(n \ge N\) then \(\abs{1\n - 0} = 1\n \le 1\N \le epislon\)&lt;/p>
 &lt;p>diverge - AP to show there is some number for which the function is always positive and therefore, there is always a number greater&lt;/p>
 &lt;p>Let M &amp;gt; 0, By AP ∃ n ∈ Naturals such that N &amp;gt; max (4,M)
 If n &amp;gt;gt N then n^2 03n = n(n-3) &amp;gt; n(4-3) ≥ N &amp;gt; M
-this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.me/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc216/</guid><description>C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
+this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><link>https://www.kandasamyc.com/wiki/cmsc216/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc216/</guid><description>C Syntax Preprocessor Directives Code at the beginning of a file that starts with a #. This is run before compilation.
 c Preprocessor Directives #include &amp;amp;lt;stdio.h&amp;amp;gt; #include &amp;amp;lt;stdlib.h&amp;amp;gt; #include &amp;amp;lt;string.h&amp;amp;gt; #define MAX_COLS 20 /* max # of columns to process */ #define MAX_INPUT 1000 #define defines a constant value, #include includes another file&amp;rsquo;s declarations.
 Main Function Returns an int, takes no arguments (so void) c Main Function int main(void){ /* Some code */ return 0; } Prototypes The first function &amp;ldquo;declaration&amp;rdquo; No body Placed at the top to allow the compiler to do proper type checking Basic Concepts Environments Translation Environment Source code get compiled into object code Which then gets linked with other object code by the linker to form a single executable Execution Environment The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning main&amp;rsquo;s error code.</description><content>&lt;h2 id="c-syntax">C Syntax&lt;/h2>
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="394658127" type="checkbox" checked />
-&lt;label for="394658127">
+&lt;input id="438152769" type="checkbox" checked />
+&lt;label for="438152769">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -239,8 +239,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="146375928" type="checkbox" checked />
-&lt;label for="146375928">
+&lt;input id="681729354" type="checkbox" checked />
+&lt;label for="681729354">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -439,8 +439,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="582931674" type="checkbox" />
-&lt;label for="582931674">
+&lt;input id="294815763" type="checkbox" />
+&lt;label for="294815763">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -915,8 +915,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="867425913" type="checkbox" checked />
-&lt;label for="867425913">
+&lt;input id="812674539" type="checkbox" checked />
+&lt;label for="812674539">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -936,8 +936,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="152987463" type="checkbox" checked />
-&lt;label for="152987463">
+&lt;input id="214659837" type="checkbox" checked />
+&lt;label for="214659837">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -957,8 +957,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="563197248" type="checkbox" checked />
-&lt;label for="563197248">
+&lt;input id="361298754" type="checkbox" checked />
+&lt;label for="361298754">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1107,7 +1107,7 @@ jr $ra # go back
 &lt;ul>
 &lt;li>Control the relative order of actions performed by different threads based on some condition&lt;/li>
 &lt;li>&lt;code>sem_wait&lt;/code> and &lt;code>sem_post&lt;/code> are usually in different threads&lt;/li>
-&lt;/ul></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.me/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)
+&lt;/ul></content></item><item><title>CMSC250</title><link>https://www.kandasamyc.com/wiki/cmsc250/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc250/</guid><description>Statements Well Defined Have Meaning Not opinions Either True or False Statement Variables Lower case letters Basic Logic Logical Operators Negation \(\neg\) means not \(\neg p = \begin{cases} \text{true} &amp;amp; \neg p \ \text{is false} \\ \text{false} &amp;amp; \neg p \ \text{is true}\end{cases}\)
 Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; p, q \ \text{or both are true} \\ \text{false} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are false}\end{cases}\) &amp;ldquo;or&amp;rdquo; in english usually conveys \(\oplus\) Conjunction \(\land\) means and \(p \land q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true} \\ \text{false} &amp;amp; p, q \ \text{or both are false}\end{cases}\) Implication \(p \rightarrow q\) means if antecedent then consequence Implication does not mean causality \(p \to q \equiv \neg p \lor q\) \(p \to q = \begin{cases} \text{true} &amp;amp; \text{both} \ p \ \text{and} \ q \ \text{are true, or} \ p \ \text{is false} \\ \text{false} &amp;amp; p \ \text{is true and} \ q \ \text{is false} \end{cases}\)</description><content>&lt;h2 id="statements">Statements&lt;/h2>
 &lt;ul>
 &lt;li>Well Defined&lt;/li>
@@ -1810,7 +1810,7 @@ Disjunction \(\lor\) means and \(p \lor q = \begin{cases} \text{true} &amp;amp; 
 &lt;h4 id="bayes-theorem">Bayes Theorem&lt;/h4>
 &lt;ul>
 &lt;li>\(P(B \mid A) = \frac{P(A \mid B)P(B)}{P(A)} = \frac{P(A \mid B)P(B)}{P(A \mid B)P(B) + P(A \mid B^c)P(B^c)}\)&lt;/li>
-&lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.me/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
+&lt;/ul></content></item><item><title>MATH246H</title><link>https://www.kandasamyc.com/wiki/math246h/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math246h/</guid><description>Definitions and Terminology of Differential Equations Definition of DEs Some combination of one or more unknown functions with respect to one or more independent variable and those variables
 Ordinary DEs A DE where there is only one unknown variable. A DE that is not ordinary is a partial DE
 Order of DEs The highest derivative that appears in the DE.
 Linearity A DE is linear if there is no function composition on the unknown functions or their derivatives.</description><content>&lt;h2 id="definitions-and-terminology-of-differential-equations">Definitions and Terminology of Differential Equations&lt;/h2>
@@ -2174,7 +2174,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(\lambda_1 \lt 0 \lt \lambda 2\)&lt;/li>
 &lt;/ul>
 &lt;figure class="center" >
-&lt;img src="https://www.kandasamyc.me/img/math246h-saddle.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-saddle.png" />
 &lt;figcaption class="center" >Saddle&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2187,7 +2187,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(\lambda_1 \lt \lambda_2 \lt 0\)&lt;/li>
 &lt;/ul>
 &lt;figure class="center" >
-&lt;img src="https://www.kandasamyc.me/img/math246h-nodal-sink.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-nodal-sink.png" />
 &lt;figcaption class="center" >Nodal Sink&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2200,7 +2200,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(0 \lt \lambda_1 \lt \lambda_2\)&lt;/li>
 &lt;/ul>
 &lt;figure class="center" >
-&lt;img src="https://www.kandasamyc.me/img/math246h-nodal-source.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-nodal-source.png" />
 &lt;figcaption class="center" >Nodal Source&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2213,7 +2213,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(\lambda_1 \lt \lambda_2 = 0\)&lt;/li>
 &lt;/ul>
 &lt;figure class="center" >
-&lt;img src="https://www.kandasamyc.me/img/math246h-spinal-sink.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-spinal-sink.png" />
 &lt;figcaption class="center" >Spinal Sink&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2226,7 +2226,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(0 = \lambda_1 \lt \lambda_2\)&lt;/li>
 &lt;/ul>
 &lt;figure class="center" >
-&lt;img src="https://www.kandasamyc.me/img/math246h-spinal-source.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-spinal-source.png" />
 &lt;figcaption class="center" >Spinal Source&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2240,7 +2240,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(\lambda \lt 0\) and \({\bf A} = c{\bf I}\)&lt;/li>
 &lt;/ul>
 &lt;figure class="center" >
-&lt;img src="https://www.kandasamyc.me/img/math246h-radial-sink.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-radial-sink.png" />
 &lt;figcaption class="center" >Radial Sink&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2253,7 +2253,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(\lambda \gt 0\) and \({\bf A} = c{\bf I}\)&lt;/li>
 &lt;/ul>
 &lt;figure class="center" >
-&lt;img src="https://www.kandasamyc.me/img/math246h-radial-source.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-radial-source.png" />
 &lt;figcaption class="center" >Radial Source&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2277,11 +2277,11 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;div style="display:flex; justify-content:space-around;">
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-twist-sink-cw.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-twist-sink-cw.png" />
 &lt;figcaption class="center" >Clockwise Twist Sink&lt;/figcaption>
 &lt;/figure>
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-twist-sink-cc.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-twist-sink-cc.png" />
 &lt;figcaption class="center" >Counterclockwise Twist Sink&lt;/figcaption>
 &lt;/figure>
 &lt;/div>
@@ -2297,11 +2297,11 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;div style="display:flex; justify-content:space-around;">
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-twist-source-cw.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-twist-source-cw.png" />
 &lt;figcaption class="center" >Clockwise Twist Source&lt;/figcaption>
 &lt;/figure>
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-twist-source-cc.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-twist-source-cc.png" />
 &lt;figcaption class="center" >Counterclockwise Twist Source&lt;/figcaption>
 &lt;/figure>
 &lt;/div>
@@ -2317,11 +2317,11 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;div style="display:flex; justify-content:space-around;">
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-shear-cw.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-shear-cw.png" />
 &lt;figcaption class="center" >Clockwise Shear&lt;/figcaption>
 &lt;/figure>
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-shear-cc.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-shear-cc.png" />
 &lt;figcaption class="center" >Counterclockwise Shear&lt;/figcaption>
 &lt;/figure>
 &lt;/div>
@@ -2338,11 +2338,11 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;div style="display:flex; justify-content:space-around;">
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cw.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-spiral-sink-cw.png" />
 &lt;figcaption class="center" >Clockwise Spiral Sink&lt;/figcaption>
 &lt;/figure>
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cc.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-spiral-sink-cc.png" />
 &lt;figcaption class="center" >Counterclockwise Spiral Sink&lt;/figcaption>
 &lt;/figure>
 &lt;/div>
@@ -2358,11 +2358,11 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;div style="display:flex; justify-content:space-around;">
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cw.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-spiral-sink-cw.png" />
 &lt;figcaption class="center" >Clockwise Spiral Source&lt;/figcaption>
 &lt;/figure>
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-spiral-sink-cc.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-spiral-sink-cc.png" />
 &lt;figcaption class="center" >Counterclockwise Twist Source&lt;/figcaption>
 &lt;/figure>
 &lt;/div>
@@ -2378,16 +2378,16 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;div style="display:flex; justify-content:space-around;">
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-center-cw.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-center-cw.png" />
 &lt;figcaption class="center" >Clockwise Center&lt;/figcaption>
 &lt;/figure>
 &lt;figure style="display:inline-block;">
-&lt;img src="https://www.kandasamyc.me/img/math246h-center-cc.png" />
+&lt;img src="https://www.kandasamyc.com/img/math246h-center-cc.png" />
 &lt;figcaption class="center" >Counterclockwise Center&lt;/figcaption>
 &lt;/figure>
 &lt;/div>
 &lt;/li>
-&lt;/ul></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.me/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
+&lt;/ul></content></item><item><title>PHYS199M</title><link>https://www.kandasamyc.com/wiki/phys199m/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/phys199m/</guid><description>Scientific Discoveries Conservation Laws - 1895 Mass, Charge, Energy X-Rays Discovered in November 1895 Discovered by Wilhelm Röntgen Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been Radioactivity Discovered in 1896 Discovered by Antoine Henri Becquerel Discovered by researching X-Rays and accidentally found radioactivity Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead Marie Curie discovered it was ionizing and based on the amount of elementals uranium/thorium Pierre Curie showed that it carried energy Pierre Curie also discovered that there were 3 types: positive, negative, and neutral The Electron Discovered in 1897 Discovered by J.</description><content>&lt;h2 id="scientific-discoveries">Scientific Discoveries&lt;/h2>
 &lt;h3 id="conservation-laws-1895">Conservation Laws - 1895&lt;/h3>
 &lt;ul>
 &lt;li>Mass, Charge, Energy&lt;/li>
@@ -3462,7 +3462,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(v = \sqrt{\frac{3kT}{m}}\)&lt;/li>
 &lt;li>\(\frac{v_1}{v_2} = \sqrt{\frac{m_2}{m_1}}\)&lt;/li>
 &lt;li>\(f_{n+1} = \frac{(1+g)f_n}{1+gf_n}\)&lt;/li>
-&lt;/ul></content></item><item><title>CMSC132</title><link>https://www.kandasamyc.me/wiki/cmsc132/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/cmsc132/</guid><description>CMSC131 Review Data Privacy Data should be as private as possible Instead of getters and setters, write methods that use the class&amp;rsquo;s data in the class itself Object Copying Reference Copy Simply copy reference, same object fast, but not a real copy Shallow Copy Copy the object, but not any objects it refers to middling, and a somewhat decent copy Deep Copy Copy the object and everything it ever refers to Slow, but deep Initialization Initialization Blocks Block of code in a class but not in a method used to initialize static or nonstatic fields of the class Can contain complex initialization including loops Executed once per object Static Initialization Blocks Block of code in a class but not in a method used to initialize static or nonstatic fields of the class Can contain complex initialization including loops Executed once per ckass Enumerated Types Fixed set of values Have the methods values(), valueOf(), and compareTo() Comparable Interface Requires the compareTo() method Returns a value that represents their comparison A.</description><content>&lt;h2 id="cmsc131-review">CMSC131 Review&lt;/h2>
+&lt;/ul></content></item><item><title>CMSC132</title><link>https://www.kandasamyc.com/wiki/cmsc132/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc132/</guid><description>CMSC131 Review Data Privacy Data should be as private as possible Instead of getters and setters, write methods that use the class&amp;rsquo;s data in the class itself Object Copying Reference Copy Simply copy reference, same object fast, but not a real copy Shallow Copy Copy the object, but not any objects it refers to middling, and a somewhat decent copy Deep Copy Copy the object and everything it ever refers to Slow, but deep Initialization Initialization Blocks Block of code in a class but not in a method used to initialize static or nonstatic fields of the class Can contain complex initialization including loops Executed once per object Static Initialization Blocks Block of code in a class but not in a method used to initialize static or nonstatic fields of the class Can contain complex initialization including loops Executed once per ckass Enumerated Types Fixed set of values Have the methods values(), valueOf(), and compareTo() Comparable Interface Requires the compareTo() method Returns a value that represents their comparison A.</description><content>&lt;h2 id="cmsc131-review">CMSC131 Review&lt;/h2>
 &lt;h3 id="data-privacy">Data Privacy&lt;/h3>
 &lt;ul>
 &lt;li>Data should be as private as possible&lt;/li>
@@ -4536,7 +4536,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>\(O(m/n)\)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></content></item><item><title>Links</title><link>https://www.kandasamyc.me/wiki/links/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/links/</guid><description>Links https://github.com/prompt-toolkit/python-prompt-toolkit https://github.com/softchris/react-book https://github.com/ManimCommunity/manim https://github.com/hoffstadt/DearPyGui/wiki/Examples https://github.com/hiradary/reoverlay https://github.com/apsdehal/awesome-ctf#readme https://github.com/Kiloreux/awesome-robotics#readme https://github.com/Siddharth11/Colorful#readme https://github.com/MechanicalSoup/MechanicalSoup https://pandoc.org/demos.html# https://drive.google.com/file/d/1zyr7xA1rwvtzf-Yy7yjGSLcv7BKGaZqU/view https://github.com/jab/bidict https://github.com/peterbrittain/asciimatics https://github.com/omry/omegaconf https://docs.python.org/3/library/asyncio-subprocess.html https://github.com/jpadilla/pyjwt https://trio.readthedocs.io/en/stable/tutorial.html#before-you-begin https://github.com/boppreh/keyboard https://github.com/mikeorr/Unipath https://github.com/boppreh/mouse https://github.com/lincolnloop/python-qrcode https://github.com/emcconville/wand https://www.structlog.org/en/stable/ https://github.com/emcconville/wand https://github.com/nucleic/enaml https://github.com/ChrisKnott/Eel http://www.gigamonkeys.com/book/ https://www.defmacro.org/ramblings/lisp.html https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.join.html https://www.datasciencemadesimple.com/concatenate-two-columns-dataframe-pandas-python-2/ http://www.gigamonkeys.com/book/ https://github.com/alphapapa/org-super-agenda https://kirang.in/post/emacs-as-email-client-with-offlineimap-and-mu4e-on-osx/ http://cachestocaches.com/2017/3/complete-guide-email-emacs-using-mu-and-/ https://greenteapress.com/wp/think-c/ https://ptgmedia.pearsoncmg.com/images/9780321714114/samplepages/0321714113.pdf https://www.tquelch.com/posts/emacs-config/ https://www.soitflows.xyz/posts/my-doom-emacs-configuration/#org-mode-backends https://writingcooperative.com/zettelkasten-its-like-gtd-for-writing-and-here-s-why-you-should-consider-it-7dddf02be394 https://www.orgroam.com/manual.html#Note%5F002dtaking-Workflows https://www.nateliason.com/blog/roam https://blas.com/smart-notes/ http://learnyouahaskell.com/starting-out http://book.realworldhaskell.org/ http://htdp.org/2003-09-26/Book/ http://dev.stephendiehl.com/hask/#ghc</description><content>&lt;h2 id="links">Links&lt;/h2>
+&lt;/table></content></item><item><title>Links</title><link>https://www.kandasamyc.com/wiki/links/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/links/</guid><description>Links https://github.com/prompt-toolkit/python-prompt-toolkit https://github.com/softchris/react-book https://github.com/ManimCommunity/manim https://github.com/hoffstadt/DearPyGui/wiki/Examples https://github.com/hiradary/reoverlay https://github.com/apsdehal/awesome-ctf#readme https://github.com/Kiloreux/awesome-robotics#readme https://github.com/Siddharth11/Colorful#readme https://github.com/MechanicalSoup/MechanicalSoup https://pandoc.org/demos.html# https://drive.google.com/file/d/1zyr7xA1rwvtzf-Yy7yjGSLcv7BKGaZqU/view https://github.com/jab/bidict https://github.com/peterbrittain/asciimatics https://github.com/omry/omegaconf https://docs.python.org/3/library/asyncio-subprocess.html https://github.com/jpadilla/pyjwt https://trio.readthedocs.io/en/stable/tutorial.html#before-you-begin https://github.com/boppreh/keyboard https://github.com/mikeorr/Unipath https://github.com/boppreh/mouse https://github.com/lincolnloop/python-qrcode https://github.com/emcconville/wand https://www.structlog.org/en/stable/ https://github.com/emcconville/wand https://github.com/nucleic/enaml https://github.com/ChrisKnott/Eel http://www.gigamonkeys.com/book/ https://www.defmacro.org/ramblings/lisp.html https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.join.html https://www.datasciencemadesimple.com/concatenate-two-columns-dataframe-pandas-python-2/ http://www.gigamonkeys.com/book/ https://github.com/alphapapa/org-super-agenda https://kirang.in/post/emacs-as-email-client-with-offlineimap-and-mu4e-on-osx/ http://cachestocaches.com/2017/3/complete-guide-email-emacs-using-mu-and-/ https://greenteapress.com/wp/think-c/ https://ptgmedia.pearsoncmg.com/images/9780321714114/samplepages/0321714113.pdf https://www.tquelch.com/posts/emacs-config/ https://www.soitflows.xyz/posts/my-doom-emacs-configuration/#org-mode-backends https://writingcooperative.com/zettelkasten-its-like-gtd-for-writing-and-here-s-why-you-should-consider-it-7dddf02be394 https://www.orgroam.com/manual.html#Note%5F002dtaking-Workflows https://www.nateliason.com/blog/roam https://blas.com/smart-notes/ http://learnyouahaskell.com/starting-out http://book.realworldhaskell.org/ http://htdp.org/2003-09-26/Book/ http://dev.stephendiehl.com/hask/#ghc</description><content>&lt;h2 id="links">Links&lt;/h2>
 &lt;h3 id="https-github-dot-com-prompt-toolkit-python-prompt-toolkit">&lt;a href="https://github.com/prompt-toolkit/python-prompt-toolkit">https://github.com/prompt-toolkit/python-prompt-toolkit&lt;/a>&lt;/h3>
 &lt;h3 id="https-github-dot-com-softchris-react-book">&lt;a href="https://github.com/softchris/react-book">https://github.com/softchris/react-book&lt;/a>&lt;/h3>
 &lt;h3 id="https-github-dot-com-manimcommunity-manim">&lt;a href="https://github.com/ManimCommunity/manim">https://github.com/ManimCommunity/manim&lt;/a>&lt;/h3>
@@ -4582,7 +4582,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="http-learnyouahaskell-dot-com-starting-out">&lt;a href="http://learnyouahaskell.com/starting-out">http://learnyouahaskell.com/starting-out&lt;/a>&lt;/h3>
 &lt;h3 id="http-book-dot-realworldhaskell-dot-org">&lt;a href="http://book.realworldhaskell.org/">http://book.realworldhaskell.org/&lt;/a>&lt;/h3>
 &lt;h3 id="http-htdp-dot-org-2003-09-26-book">&lt;a href="http://htdp.org/2003-09-26/Book/">http://htdp.org/2003-09-26/Book/&lt;/a>&lt;/h3>
-&lt;h3 id="http-dev-dot-stephendiehl-dot-com-hask-ghc">&lt;a href="http://dev.stephendiehl.com/hask/#ghc">http://dev.stephendiehl.com/hask/#ghc&lt;/a>&lt;/h3></content></item><item><title>SANS Foundations</title><link>https://www.kandasamyc.me/wiki/sans-foundations/</link><pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/sans-foundations/</guid><description>Intro to Computer Hardware Motherboard Sizes Sockets Buses CPU RAM Storage GPU Input USB 1 - Transfer Speed: 1.5 Mbit/s USB 2 - Transfer Speed: 480 Mbit/s USB 3 - Transfer Speed: 4 Gbit/s (You can usually tell if a port is USB 3 compatible because the port will be coloured blue) USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 compatible because the port will be coloured teal)</description><content>&lt;h2 id="intro-to-computer-hardware">Intro to Computer Hardware&lt;/h2>
+&lt;h3 id="http-dev-dot-stephendiehl-dot-com-hask-ghc">&lt;a href="http://dev.stephendiehl.com/hask/#ghc">http://dev.stephendiehl.com/hask/#ghc&lt;/a>&lt;/h3></content></item><item><title>SANS Foundations</title><link>https://www.kandasamyc.com/wiki/sans-foundations/</link><pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/sans-foundations/</guid><description>Intro to Computer Hardware Motherboard Sizes Sockets Buses CPU RAM Storage GPU Input USB 1 - Transfer Speed: 1.5 Mbit/s USB 2 - Transfer Speed: 480 Mbit/s USB 3 - Transfer Speed: 4 Gbit/s (You can usually tell if a port is USB 3 compatible because the port will be coloured blue) USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 compatible because the port will be coloured teal)</description><content>&lt;h2 id="intro-to-computer-hardware">Intro to Computer Hardware&lt;/h2>
 &lt;h3 id="motherboard">Motherboard&lt;/h3>
 &lt;ul>
 &lt;li>Sizes&lt;/li>
@@ -4642,7 +4642,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>SaaS: Software as a Service, least control, easiest to use&lt;/li>
 &lt;li>IaaS: Infrastructure as a Service, most control, least easy to use, usually using some specific tool&lt;/li>
 &lt;li>PaaS: Platform as a Service: more control, less easy to use, more configuration
-&lt;img src="https://www.kandasamyc.me/home/ksam/Downloads/SaaSIaaSPaaS.png" alt="">&lt;/li>
+&lt;img src="https://www.kandasamyc.com/home/ksam/Downloads/SaaSIaaSPaaS.png" alt="">&lt;/li>
 &lt;/ul>
 &lt;h3 id="manage">Manage&lt;/h3>
 &lt;h2 id="operating-systems-1">Operating Systems 1&lt;/h2>
@@ -5091,7 +5091,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;h2 id="privilege-escalation-2">Privilege Escalation 2&lt;/h2>
 &lt;h2 id="persistence">Persistence&lt;/h2>
 &lt;h2 id="lateral-movement">Lateral Movement&lt;/h2>
-&lt;h2 id="ex-filtration">Ex filtration&lt;/h2></content></item><item><title>HNUH229T</title><link>https://www.kandasamyc.me/wiki/hnuh229t/</link><pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/hnuh229t/</guid><description>Reading Notes Jamieson&amp;rsquo;s Ethics and the Environment Chapter 4 4.1 Moral Theories Two fields of normative ethics Moral theory What categories or types of things/acts/practices are correct Practical Ethics Is a specific thing/act/practice morally correct Moral theories consider acts from different viewpoints Each theory must explain the situation fully It is natural to have multiple, they aren&amp;rsquo;t absolute truths 4.2 Consequentialism This is the family of theories that holds that acts are morally based solely on their consequences Consequentialism has been around for a while All consequences of an action matter, even those that affect others An issue they face is determining which actions directly lead to what consequences More importantly, they must consider what truly constitutes an action versus a consequence If a consequence is an inevitable outcome of an action, then the action itself may take on a value (lying vs.</description><content>&lt;h2 id="reading-notes">Reading Notes&lt;/h2>
+&lt;h2 id="ex-filtration">Ex filtration&lt;/h2></content></item><item><title>HNUH229T</title><link>https://www.kandasamyc.com/wiki/hnuh229t/</link><pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/hnuh229t/</guid><description>Reading Notes Jamieson&amp;rsquo;s Ethics and the Environment Chapter 4 4.1 Moral Theories Two fields of normative ethics Moral theory What categories or types of things/acts/practices are correct Practical Ethics Is a specific thing/act/practice morally correct Moral theories consider acts from different viewpoints Each theory must explain the situation fully It is natural to have multiple, they aren&amp;rsquo;t absolute truths 4.2 Consequentialism This is the family of theories that holds that acts are morally based solely on their consequences Consequentialism has been around for a while All consequences of an action matter, even those that affect others An issue they face is determining which actions directly lead to what consequences More importantly, they must consider what truly constitutes an action versus a consequence If a consequence is an inevitable outcome of an action, then the action itself may take on a value (lying vs.</description><content>&lt;h2 id="reading-notes">Reading Notes&lt;/h2>
 &lt;h3 id="jamieson-s-ethics-and-the-environment-chapter-4">Jamieson&amp;rsquo;s Ethics and the Environment Chapter 4&lt;/h3>
 &lt;h4 id="4-dot-1-moral-theories">4.1 Moral Theories&lt;/h4>
 &lt;ul>
@@ -5515,7 +5515,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>What does this mean?&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ol></content></item><item><title>INAG110</title><link>https://www.kandasamyc.me/wiki/inag110/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/inag110/</guid><description>Textbook Notes Chapter 1 Communication Defined Communication is the process of creating meaning through symbolic interaction. The symbols in communication are arbitrary and can be anything. Communication is a continuous process and depends on past context. Context and previous communication form the basis for communication in the present. Once something is said, it can&amp;rsquo;t be unsaid. Communication requires more than one person to make any sense. Similarly, communication changes depending on who is communicating.</description><content>&lt;h2 id="textbook-notes">Textbook Notes&lt;/h2>
+&lt;/ol></content></item><item><title>INAG110</title><link>https://www.kandasamyc.com/wiki/inag110/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/inag110/</guid><description>Textbook Notes Chapter 1 Communication Defined Communication is the process of creating meaning through symbolic interaction. The symbols in communication are arbitrary and can be anything. Communication is a continuous process and depends on past context. Context and previous communication form the basis for communication in the present. Once something is said, it can&amp;rsquo;t be unsaid. Communication requires more than one person to make any sense. Similarly, communication changes depending on who is communicating.</description><content>&lt;h2 id="textbook-notes">Textbook Notes&lt;/h2>
 &lt;h3 id="chapter-1">Chapter 1&lt;/h3>
 &lt;h4 id="communication-defined">Communication Defined&lt;/h4>
 &lt;ul>
@@ -6836,7 +6836,7 @@ Have someone playing devil&amp;rsquo;s advocate&lt;/li>
 &lt;li>Develop creative solutions&lt;/li>
 &lt;li>Evaluate possible solutions&lt;/li>
 &lt;li>Follow up on solutions&lt;/li>
-&lt;/ul></content></item><item><title>Haskell Types</title><link>https://www.kandasamyc.me/wiki/haskell-types/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/haskell-types/</guid><description>Custom Data Types Defining custom data types is akin to or C++&amp;rsquo;s or Rust&amp;rsquo;s Structs.
+&lt;/ul></content></item><item><title>Haskell Types</title><link>https://www.kandasamyc.com/wiki/haskell-types/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/haskell-types/</guid><description>Custom Data Types Defining custom data types is akin to or C++&amp;rsquo;s or Rust&amp;rsquo;s Structs.
 To define a custom data type use the data keyword.
 data TypeConstructor = ValueConstructor Argument deriving (Typeclass) The TypeConstructor is the name of the type, and use it when writing a type declaration or signature. The ValueConstructor is the keyword to use when constructing a instance of that type. There can be any number of Argument where each is the name of some actual type.</description><content>&lt;h2 id="custom-data-types">Custom Data Types&lt;/h2>
 &lt;p>Defining custom data types is akin to or C++&amp;rsquo;s or Rust&amp;rsquo;s Structs.&lt;/p>
@@ -6881,18 +6881,18 @@ a custom order.&lt;/p>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">ArgumentName2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val,
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">ArgumentName&lt;/span> &lt;span style="color:#f92672">=&lt;/span> val2
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://www.kandasamyc.me/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC250 CMSC216</description><content>&lt;ul>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="parameterized-types">Parameterized Types&lt;/h2></content></item><item><title>Index</title><link>https://www.kandasamyc.com/wiki/index/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/index/</guid><description> Organization Organizational System Links Computer Science Languages Haskell Python Java Javascript Bash Courses SANS Foundations UMD Fall 2021 CMSC132 INAG110 HNUH229T PHYS199M Spring 2022 MATH246H CMSC250 CMSC216</description><content>&lt;ul>
 &lt;li>Organization
 &lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/links/">Links&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/organizational-system/">Organizational System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/links/">Links&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Computer Science
 &lt;ul>
 &lt;li>Languages
 &lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/haskell/">Haskell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/haskell/">Haskell&lt;/a>&lt;/li>
 &lt;li>Python&lt;/li>
 &lt;li>Java&lt;/li>
 &lt;li>Javascript&lt;/li>
@@ -6901,7 +6901,7 @@ a custom order.&lt;/p>
 &lt;/li>
 &lt;li>Courses
 &lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/sans-foundations/">SANS Foundations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/sans-foundations/">SANS Foundations&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -6910,24 +6910,24 @@ a custom order.&lt;/p>
 &lt;ul>
 &lt;li>Fall 2021
 &lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/cmsc132/">CMSC132&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/inag110/">INAG110&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/hnuh229t/">HNUH229T&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/phys199m/">PHYS199M&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/">CMSC132&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/inag110/">INAG110&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/hnuh229t/">HNUH229T&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/">PHYS199M&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Spring 2022
 &lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/cmsc250/">CMSC250&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc250/">CMSC250&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></content></item><item><title>Haskell</title><link>https://www.kandasamyc.me/wiki/haskell/</link><pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/haskell/</guid><description>Haskell is a fully functional language that is used to learn functional programming paradigms.
+&lt;/ul></content></item><item><title>Haskell</title><link>https://www.kandasamyc.com/wiki/haskell/</link><pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/haskell/</guid><description>Haskell is a fully functional language that is used to learn functional programming paradigms.
 Haskell Types</description><content>&lt;p>Haskell is a fully functional language that is used to learn functional
 programming paradigms.&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.me/wiki/haskell-types/">Haskell Types&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Organizational System</title><link>https://www.kandasamyc.me/wiki/organizational-system/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/wiki/organizational-system/</guid><description>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.</description><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item><item><title>Archive</title><link>https://www.kandasamyc.me/archive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.me/archive/</guid><description/><content/></item></channel></rss>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/haskell-types/">Haskell Types&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Organizational System</title><link>https://www.kandasamyc.com/wiki/organizational-system/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/organizational-system/</guid><description>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.</description><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item><item><title>Archive</title><link>https://www.kandasamyc.com/archive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/archive/</guid><description/><content/></item></channel></rss>
