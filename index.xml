@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.com/index.xml" rel="self" type="application/rss+xml"/><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.com/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.com/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Sun, 20 Nov 2022 19:11:27 -0500</lastBuildDate><atom:link href="https://www.kandasamyc.com/index.xml" rel="self" type="application/rss+xml"/><item><title>SWE Internship @ Thomson Reuters</title><link>https://www.kandasamyc.com/experience/2022-thomson-reuters/</link><pubDate>Sun, 20 Nov 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2022-thomson-reuters/</guid><description>Summary Worked at Thomson Reuters&amp;rsquo; Minneapolis office over the summer on Checkpoint, mainly with Java and Javascript Debugged a 25+ years old Java codebase to solve a critical CIAM login security issue Researched and independently producing solutions to assigned tasks in large Git/TFVC repositories Implemented custom JS protocol to migrate analytics’ data for 20,000+ users on the fly Continuing on as a part-time intern during the school year</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Worked at Thomson Reuters&amp;rsquo; Minneapolis office over the summer on Checkpoint, mainly with Java and Javascript&lt;/li>
+&lt;li>Debugged a 25+ years old Java codebase to solve a critical CIAM login security issue&lt;/li>
+&lt;li>Researched and independently producing solutions to assigned tasks in large Git/TFVC repositories&lt;/li>
+&lt;li>Implemented custom JS protocol to migrate analytics’ data for 20,000+ users on the fly&lt;/li>
+&lt;li>Continuing on as a part-time intern during the school year&lt;/li>
+&lt;/ul></content></item><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.com/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.com/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux&lt;/li>
 &lt;li>Learned about various cybersecurity techniques and topics&lt;/li>
@@ -38,9 +45,11 @@ performance to come up with a better strategy for each match.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/team4099/scouting-data-ingest">GitHub&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>About</title><link>https://www.kandasamyc.com/homepage/about/</link><pubDate>Wed, 05 Jan 2022 12:51:31 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/about/</guid><description>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.
-In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.</description><content>&lt;p>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.&lt;/p>
-&lt;p>In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.&lt;/p></content></item><item><title>UMD Research Internship</title><link>https://www.kandasamyc.com/experience/2020-umd-research/</link><pubDate>Wed, 05 Jan 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2020-umd-research/</guid><description>Summary Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch Developed an implementation of reinforcement learning algorithms in Python with PyTorch Worked with a team to study the use of reinforcement learning in other game variants Research Over the summer of 2020, I interned under Dr. William Gasarch at the University of Maryland. Despite being a high school student, I worked with others in the REU-CAAR program on combinatorics and machine learning.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></content></item><item><title>About</title><link>https://www.kandasamyc.com/homepage/about/</link><pubDate>Wed, 05 Jan 2022 12:51:31 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/about/</guid><description>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and programming languages.
+In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.
+You can find my resume here.</description><content>&lt;p>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and programming languages.&lt;/p>
+&lt;p>In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.&lt;/p>
+&lt;p>You can find my resume &lt;a href="https://www.kandasamyc.com/files/resume.pdf">here&lt;/a>.&lt;/p></content></item><item><title>UMD Research Internship</title><link>https://www.kandasamyc.com/experience/2020-umd-research/</link><pubDate>Wed, 05 Jan 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2020-umd-research/</guid><description>Summary Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch Developed an implementation of reinforcement learning algorithms in Python with PyTorch Worked with a team to study the use of reinforcement learning in other game variants Research Over the summer of 2020, I interned under Dr. William Gasarch at the University of Maryland. Despite being a high school student, I worked with others in the REU-CAAR program on combinatorics and machine learning.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch&lt;/li>
 &lt;li>Developed an implementation of reinforcement learning algorithms in Python with PyTorch&lt;/li>
@@ -56,7 +65,7 @@ In my free time, I enjoy biking and listening to good music. I happen to spend a
 &lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-paper.pdf">Paper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-presentation.pdf">Presentation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-poster.pdf">Poster&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Projects</title><link>https://www.kandasamyc.com/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/projects/</guid><description/><content/></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.com/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.com/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.
+&lt;/ul></content></item><item><title>Experience</title><link>https://www.kandasamyc.com/homepage/experience/</link><pubDate>Wed, 05 Jan 2022 11:17:39 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/experience/</guid><description/><content/></item><item><title>Hop Hacks Hackathon</title><link>https://www.kandasamyc.com/projects/hop-hacks/</link><pubDate>Tue, 19 Oct 2021 00:00:00 -0500</pubDate><guid>https://www.kandasamyc.com/projects/hop-hacks/</guid><description>Summary Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours Created and developed a ReactJS web app along with testing and developing a Flask backend Background I participated in the HopHacks Hackathon with two other people and we decided to make a web app to estimate users&amp;rsquo; energy consumption and compare it to global trends.
 Implementation We used React to develop the web app and various libraries including React-Router to add other functionality.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Collaborated with a 3 member team to create a energy usage and impact comparison tool in 36 hours&lt;/li>
@@ -107,7 +116,7 @@ Implementation I picked Gatsby for a few reasons.</description><content>&lt;h2 i
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/C4org/C4org.github.io">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.c4org.github.io">Website&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Experience</title><link>https://www.kandasamyc.com/homepage/experience/</link><pubDate>Wed, 05 Jan 2022 11:17:39 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/experience/</guid><description/><content/></item><item><title>CyberPatriot Competition</title><link>https://www.kandasamyc.com/experience/cyberpatriot/</link><pubDate>Wed, 05 Jan 2022 19:11:16 -0500</pubDate><guid>https://www.kandasamyc.com/experience/cyberpatriot/</guid><description>Summary Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms Studied industry standard networking security concepts Applied networking security concepts in a competition environment</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></content></item><item><title>Projects</title><link>https://www.kandasamyc.com/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/projects/</guid><description/><content/></item><item><title>CyberPatriot Competition</title><link>https://www.kandasamyc.com/experience/cyberpatriot/</link><pubDate>Wed, 05 Jan 2022 19:11:16 -0500</pubDate><guid>https://www.kandasamyc.com/experience/cyberpatriot/</guid><description>Summary Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms Studied industry standard networking security concepts Applied networking security concepts in a competition environment</description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms&lt;/li>
 &lt;li>Studied industry standard networking security concepts&lt;/li>
@@ -132,11 +141,14 @@ so I used that to make the CLI. I used the StudentVue library to get grade data.
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/kandasamyc/scholaris">GitHub&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>Skills</title><link>https://www.kandasamyc.com/homepage/skills/</link><pubDate>Wed, 05 Jan 2022 16:57:52 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/skills/</guid><description>In no particular order:
-Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
+Python Java C OCaml Ruby Javascript LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
 &lt;li>Java&lt;/li>
 &lt;li>C&lt;/li>
+&lt;li>OCaml&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Javascript&lt;/li>
 &lt;li>LaTeX&lt;/li>
 &lt;li>Linux&lt;/li>
 &lt;li>ROS&lt;/li>
@@ -145,17 +157,18 @@ Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, Tai
 &lt;li>Engineering and Fabrication&lt;/li>
 &lt;li>3D Rendering&lt;/li>
 &lt;li>Problem Solving&lt;/li>
-&lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.com/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/education/</guid><description>University of Maryland B.S. Computer Science | Aug 2021 &amp;mdash; May 2025
-4.0 GPA President&amp;rsquo;s Scholar in the Honors College Relevant Courses: CMSC216: Introduction to Computer Systems CMSC250: Discrete Structures CMSC132: Object-Oriented Programming II Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
-&lt;p>&lt;em>B.S. Computer Science&lt;/em> | Aug 2021 &amp;mdash; May 2025&lt;/p>
+&lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.com/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/education/</guid><description>University of Maryland B.S. Computer Science and B.S. Applied Mathematics | Aug 2021 &amp;mdash; May 2025
+4.0 GPA President&amp;rsquo;s Scholar in the Honors College Relevant Courses: CMSC330: Organization of Programming Languages CMSC351: Algorithms CMSC216: Introduction to Computer Systems CMSC250: Discrete Structures Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
+&lt;p>&lt;em>B.S. Computer Science&lt;/em> and &lt;em>B.S. Applied Mathematics&lt;/em> | Aug 2021 &amp;mdash; May 2025&lt;/p>
 &lt;ul>
 &lt;li>4.0 GPA&lt;/li>
 &lt;li>President&amp;rsquo;s Scholar in the Honors College&lt;/li>
 &lt;li>Relevant Courses:
 &lt;ul>
+&lt;li>CMSC330: Organization of Programming Languages&lt;/li>
+&lt;li>CMSC351: Algorithms&lt;/li>
 &lt;li>CMSC216: Introduction to Computer Systems&lt;/li>
 &lt;li>CMSC250: Discrete Structures&lt;/li>
-&lt;li>CMSC132: Object-Oriented Programming II&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -190,7 +203,17 @@ Email GitHub LinkedIn</description><content>&lt;p>If you have any comments, ques
 &lt;ul>
 &lt;li>Type is implicitly labeled&lt;/li>
 &lt;li>Associated with value&lt;/li>
-&lt;/ul></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Sep 02 A subset \(S\) of \(\R\) is dense if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)
+&lt;/ul></content></item><item><title>CMSC351</title><link>https://www.kandasamyc.com/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc330/</guid><description>n may be used in place of
+x
+BIG O $\oorall \e &amp;gt; 0, ∃, i dont geto hcoose n but I can pick somet</description><content>&lt;ul>
+&lt;li>
+&lt;p>n may be used in place of&lt;/p>
+&lt;p>x&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="big-o">BIG O&lt;/h2>
+&lt;p>$\oorall \e &amp;gt; 0, ∃,
+i dont geto hcoose n but I can pick somet&lt;/p></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Sep 02 A subset \(S\) of \(\R\) is dense if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)
 Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)
 \(a \lt \frac{m}{n} \lt b\)
 \(na \lt m \lt nb\)
@@ -219,8 +242,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="438152769" type="checkbox" checked />
-&lt;label for="438152769">
+&lt;input id="749365281" type="checkbox" checked />
+&lt;label for="749365281">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -239,8 +262,8 @@ Main Function Returns an int, takes no arguments (so void) c Main Function int m
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="681729354" type="checkbox" checked />
-&lt;label for="681729354">
+&lt;input id="764819532" type="checkbox" checked />
+&lt;label for="764819532">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -439,8 +462,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="294815763" type="checkbox" />
-&lt;label for="294815763">
+&lt;input id="716953248" type="checkbox" />
+&lt;label for="716953248">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -915,8 +938,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="812674539" type="checkbox" checked />
-&lt;label for="812674539">
+&lt;input id="364178952" type="checkbox" checked />
+&lt;label for="364178952">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -936,8 +959,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="214659837" type="checkbox" checked />
-&lt;label for="214659837">
+&lt;input id="217946358" type="checkbox" checked />
+&lt;label for="217946358">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -957,8 +980,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="361298754" type="checkbox" checked />
-&lt;label for="361298754">
+&lt;input id="672183954" type="checkbox" checked />
+&lt;label for="672183954">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -6930,4 +6953,4 @@ Haskell Types</description><content>&lt;p>Haskell is a fully functional language
 programming paradigms.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.kandasamyc.com/wiki/haskell-types/">Haskell Types&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Organizational System</title><link>https://www.kandasamyc.com/wiki/organizational-system/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/organizational-system/</guid><description>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.</description><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item><item><title>Archive</title><link>https://www.kandasamyc.com/archive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/archive/</guid><description/><content/></item></channel></rss>
+&lt;/ul></content></item><item><title>Organizational System</title><link>https://www.kandasamyc.com/wiki/organizational-system/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/organizational-system/</guid><description>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.</description><content>&lt;p>Notes are filed with org-roam. Any fleeting notes get captured and properly assigned lasted on. org-roam will be used for journaling through dailies.&lt;/p></content></item><item><title/><link>https://www.kandasamyc.com/pres/frc/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/pres/frc/notes/</guid><description/><content/></item><item><title>Archive</title><link>https://www.kandasamyc.com/archive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/archive/</guid><description/><content/></item></channel></rss>

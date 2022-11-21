@@ -22,7 +22,15 @@
 &lt;ul>
 &lt;li>Type is implicitly labeled&lt;/li>
 &lt;li>Associated with value&lt;/li>
-&lt;/ul></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Notes from UMD's MATH410 class</description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
+&lt;/ul></content></item><item><title>CMSC351</title><link>https://www.kandasamyc.com/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc330/</guid><description>Notes from UMD's CMSC330 class</description><content>&lt;ul>
+&lt;li>
+&lt;p>n may be used in place of&lt;/p>
+&lt;p>x&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="big-o">BIG O&lt;/h2>
+&lt;p>$\oorall \e &amp;gt; 0, ∃,
+i dont geto hcoose n but I can pick somet&lt;/p></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Notes from UMD's MATH410 class</description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
 &lt;p>A subset \(S\) of \(\R\) is &lt;strong>dense&lt;/strong> if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)&lt;/p>
 &lt;p>Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)&lt;/p>
 &lt;p>\(a \lt \frac{m}{n} \lt b\)&lt;/p>
@@ -43,8 +51,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="438152769" type="checkbox" checked />
-&lt;label for="438152769">
+&lt;input id="749365281" type="checkbox" checked />
+&lt;label for="749365281">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -63,8 +71,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="681729354" type="checkbox" checked />
-&lt;label for="681729354">
+&lt;input id="764819532" type="checkbox" checked />
+&lt;label for="764819532">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -263,8 +271,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="294815763" type="checkbox" />
-&lt;label for="294815763">
+&lt;input id="716953248" type="checkbox" />
+&lt;label for="716953248">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -739,8 +747,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="812674539" type="checkbox" checked />
-&lt;label for="812674539">
+&lt;input id="364178952" type="checkbox" checked />
+&lt;label for="364178952">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -760,8 +768,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="214659837" type="checkbox" checked />
-&lt;label for="214659837">
+&lt;input id="217946358" type="checkbox" checked />
+&lt;label for="217946358">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -781,8 +789,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="361298754" type="checkbox" checked />
-&lt;label for="361298754">
+&lt;input id="672183954" type="checkbox" checked />
+&lt;label for="672183954">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>

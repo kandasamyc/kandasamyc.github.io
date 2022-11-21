@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homepages on Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/homepage/</link><description>Recent content in Homepages on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 16:57:52 -0500</lastBuildDate><atom:link href="https://www.kandasamyc.com/homepage/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://www.kandasamyc.com/homepage/about/</link><pubDate>Wed, 05 Jan 2022 12:51:31 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/about/</guid><description>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.
-In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.</description><content>&lt;p>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and cybersecurity.&lt;/p>
-&lt;p>In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.&lt;/p></content></item><item><title>Projects</title><link>https://www.kandasamyc.com/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/projects/</guid><description/><content/></item><item><title>Experience</title><link>https://www.kandasamyc.com/homepage/experience/</link><pubDate>Wed, 05 Jan 2022 11:17:39 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/experience/</guid><description/><content/></item><item><title>Skills</title><link>https://www.kandasamyc.com/homepage/skills/</link><pubDate>Wed, 05 Jan 2022 16:57:52 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/skills/</guid><description>In no particular order:
-Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homepages on Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/homepage/</link><description>Recent content in Homepages on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Wed, 05 Jan 2022 16:57:52 -0500</lastBuildDate><atom:link href="https://www.kandasamyc.com/homepage/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://www.kandasamyc.com/homepage/about/</link><pubDate>Wed, 05 Jan 2022 12:51:31 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/about/</guid><description>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and programming languages.
+In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.
+You can find my resume here.</description><content>&lt;p>Hi! My name is Kandasamy Chokkalingam. I&amp;rsquo;m currently at UMD doing a Bachelor&amp;rsquo;s of Science in CS and another in Applied Math. I&amp;rsquo;m interested in software development, Linux, and programming languages.&lt;/p>
+&lt;p>In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.&lt;/p>
+&lt;p>You can find my resume &lt;a href="https://www.kandasamyc.com/files/resume.pdf">here&lt;/a>.&lt;/p></content></item><item><title>Experience</title><link>https://www.kandasamyc.com/homepage/experience/</link><pubDate>Wed, 05 Jan 2022 11:17:39 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/experience/</guid><description/><content/></item><item><title>Projects</title><link>https://www.kandasamyc.com/homepage/projects/</link><pubDate>Wed, 05 Jan 2022 11:17:49 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/projects/</guid><description/><content/></item><item><title>Skills</title><link>https://www.kandasamyc.com/homepage/skills/</link><pubDate>Wed, 05 Jan 2022 16:57:52 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/skills/</guid><description>In no particular order:
+Python Java C OCaml Ruby Javascript LaTeX Linux ROS Machine Learning Web Development (Hugo, React, TailwindCSS, Bulma) Engineering and Fabrication 3D Rendering Problem Solving</description><content>&lt;p>In no particular order:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
 &lt;li>Java&lt;/li>
 &lt;li>C&lt;/li>
+&lt;li>OCaml&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Javascript&lt;/li>
 &lt;li>LaTeX&lt;/li>
 &lt;li>Linux&lt;/li>
 &lt;li>ROS&lt;/li>
@@ -14,17 +19,18 @@ Python Java C LaTeX Linux ROS Machine Learning Web Development (Hugo, React, Tai
 &lt;li>Engineering and Fabrication&lt;/li>
 &lt;li>3D Rendering&lt;/li>
 &lt;li>Problem Solving&lt;/li>
-&lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.com/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/education/</guid><description>University of Maryland B.S. Computer Science | Aug 2021 &amp;mdash; May 2025
-4.0 GPA President&amp;rsquo;s Scholar in the Honors College Relevant Courses: CMSC216: Introduction to Computer Systems CMSC250: Discrete Structures CMSC132: Object-Oriented Programming II Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
-&lt;p>&lt;em>B.S. Computer Science&lt;/em> | Aug 2021 &amp;mdash; May 2025&lt;/p>
+&lt;/ul></content></item><item><title>Education</title><link>https://www.kandasamyc.com/homepage/education/</link><pubDate>Wed, 05 Jan 2022 11:17:56 -0500</pubDate><guid>https://www.kandasamyc.com/homepage/education/</guid><description>University of Maryland B.S. Computer Science and B.S. Applied Mathematics | Aug 2021 &amp;mdash; May 2025
+4.0 GPA President&amp;rsquo;s Scholar in the Honors College Relevant Courses: CMSC330: Organization of Programming Languages CMSC351: Algorithms CMSC216: Introduction to Computer Systems CMSC250: Discrete Structures Poolesville High School SMCS Magnet Program | Aug 2017 &amp;mdash; May 2021</description><content>&lt;h2 id="university-of-maryland">University of Maryland&lt;/h2>
+&lt;p>&lt;em>B.S. Computer Science&lt;/em> and &lt;em>B.S. Applied Mathematics&lt;/em> | Aug 2021 &amp;mdash; May 2025&lt;/p>
 &lt;ul>
 &lt;li>4.0 GPA&lt;/li>
 &lt;li>President&amp;rsquo;s Scholar in the Honors College&lt;/li>
 &lt;li>Relevant Courses:
 &lt;ul>
+&lt;li>CMSC330: Organization of Programming Languages&lt;/li>
+&lt;li>CMSC351: Algorithms&lt;/li>
 &lt;li>CMSC216: Introduction to Computer Systems&lt;/li>
 &lt;li>CMSC250: Discrete Structures&lt;/li>
-&lt;li>CMSC132: Object-Oriented Programming II&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
