@@ -75,11 +75,11 @@ paginate = 5
       name = "About"
       url = "/"
       weight = 1
-    [[languages.en.menu.main]]
-      identifier = "posts"
-      name = "Posts"
-      url = "/posts"
-      weight = 2
+    # [[languages.en.menu.main]]
+    #   identifier = "posts"
+    #   name = "Posts"
+    #   url = "/posts"
+    #   weight = 2
     [[languages.en.menu.main]]
       identifier = "wiki"
       name = "Wiki"

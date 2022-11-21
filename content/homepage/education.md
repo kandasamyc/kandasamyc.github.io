@@ -14,14 +14,15 @@ weight = 5
 
 ## University of Maryland
 
-*B.S. Computer Science* | Aug 2021 --- May 2025
+*B.S. Computer Science* and *B.S. Applied Mathematics* | Aug 2021 --- May 2025
 
 - 4.0 GPA
 - President's Scholar in the Honors College
 - Relevant Courses:
+  + CMSC330: Organization of Programming Languages
+  + CMSC351: Algorithms
   + CMSC216: Introduction to Computer Systems
   + CMSC250: Discrete Structures
-  + CMSC132: Object-Oriented Programming II
 
 ## Poolesville High School
 

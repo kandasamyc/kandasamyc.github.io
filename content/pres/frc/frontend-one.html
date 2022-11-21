@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>An Intro to Web Development</title>
+
+    <meta name="description" content="A light intro to graphic design" />
+    <meta name="author" content="Kandasamy Chokkalingam" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts/dist/iosevka/iosevka.min.css"
+    />
+    <link rel="stylesheet" href="/css/pres/frc/reset.css" />
+    <link rel="stylesheet" href="/css/pres/frc/reveal.css" />
+    <link rel="stylesheet" href="/css/pres/frc/ksam.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link
+      rel="stylesheet"
+      href="/js/pres/frc/plugin/highlight/atom-one-dark.css"
+    />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+		<section>
+			<h1>HTML, CSS, and JS</h1>
+			<h3><a href="https://www.youtube.com/watch?v=np0YIaHv6LQ">The Magic Number</a></h3>
+		</section>
+		<section>
+			<h1>Overview</h1>
+			<p>We're going to be building a simple one-page store</p>
+			<p>We'll start with the HTML basics, move on to styling with CSS, and finally adding some functionality</p>
+			<p>You can find a github link here</p>
+			<p>Feel free to follow along or just watch</p>
+		</section>
+		<section data-visibility="uncounted">
+			<p>Made with <3 and Reveal.js</p>
+							<p>By ksam</p>
+		</section>
+      </div>
+    </div>
+
+    <script src="/js/pres/frc/reveal.js"></script>
+    <script src="/js/pres/frc/plugin/notes/notes.js"></script>
+    <script src="/js/pres/frc/plugin/search/search.js"></script>
+    <script src="/js/pres/frc/plugin/highlight/highlight.js"></script>
+
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: false,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealNotes, RevealSearch, RevealHighlight],
+      });
+    </script>
+    <style>
+      .reveal > .slides > section > section {
+        transform-style: flat;
+      }
+    </style>
+  </body>
+</html>

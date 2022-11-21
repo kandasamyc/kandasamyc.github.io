@@ -12,6 +12,8 @@ readingTime = true
 weight = 1
 +++
 
-Hi! My name is Kandasamy Chokkalingam. I'm currently at UMD doing a Bachelor's of Science in CS and another in Applied Math. I'm interested in software development, Linux, and cybersecurity.
+Hi! My name is Kandasamy Chokkalingam. I'm currently at UMD doing a Bachelor's of Science in CS and another in Applied Math. I'm interested in software development, Linux, and programming languages.
 
 In my free time, I enjoy biking and listening to good music. I happen to spend a lot of timing customizing my setup, breaking things and then finding ways to fix them.
+
+You can find my resume [here](/files/resume.pdf).

@@ -17,6 +17,9 @@ In no particular order:
 - Python
 - Java
 - C
+- OCaml
+- Ruby
+- Javascript
 - LaTeX
 - Linux
 - ROS

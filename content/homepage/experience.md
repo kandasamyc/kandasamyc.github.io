@@ -9,6 +9,6 @@ keywords = []
 description = ""
 showFullContent = false
 readingTime = true
-weight = 3
+weight = 2
 showMore = true
 +++
