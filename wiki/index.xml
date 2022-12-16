@@ -1,36 +1,331 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.com/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>CMSC330</title><link>https://www.kandasamyc.com/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc330/</guid><description>Notes from UMD's CMSC330 class</description><content>&lt;h2 id="ruby">Ruby&lt;/h2>
-&lt;h3 id="characteristics">Characteristics&lt;/h3>
-&lt;ul>
-&lt;li>console output is done with the keyword &lt;code>puts&lt;/code>&lt;/li>
-&lt;li>Dynamic and Latent typing&lt;/li>
-&lt;/ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/wiki/</link><description>Recent content on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2022 Kandasamy Chokkalingam</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kandasamyc.com/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>CMSC330</title><link>https://www.kandasamyc.com/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc330/</guid><description>Notes from UMD's CMSC330 class</description><content>&lt;h2 id="language-characteristics">Language Characteristics&lt;/h2>
 &lt;h3 id="typing">Typing&lt;/h3>
 &lt;h4 id="dynamic-typing">Dynamic Typing&lt;/h4>
-&lt;ul>
-&lt;li>Types checked at runtime&lt;/li>
-&lt;/ul>
+&lt;p>Types checked at runtime&lt;/p>
 &lt;h4 id="static-typing">Static Typing&lt;/h4>
-&lt;ul>
-&lt;li>Types checked at compile time&lt;/li>
-&lt;/ul>
+&lt;p>Types checked at compile time&lt;/p>
 &lt;h4 id="manifest-typing">Manifest Typing&lt;/h4>
-&lt;ul>
-&lt;li>Type is explicitly labeled&lt;/li>
-&lt;li>Associated with variable&lt;/li>
-&lt;/ul>
+&lt;p>Type is explicitly labeled and associated with variable&lt;/p>
 &lt;h4 id="latent-typing">Latent Typing&lt;/h4>
 &lt;ul>
-&lt;li>Type is implicitly labeled&lt;/li>
-&lt;li>Associated with value&lt;/li>
-&lt;/ul></content></item><item><title>CMSC351</title><link>https://www.kandasamyc.com/wiki/cmsc330/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc330/</guid><description>Notes from UMD's CMSC330 class</description><content>&lt;ul>
-&lt;li>
-&lt;p>n may be used in place of&lt;/p>
-&lt;p>x&lt;/p>
+&lt;li>Type is implicitly labeled and associated with value&lt;/li>
+&lt;/ul>
+&lt;h3 id="paradigm">Paradigm&lt;/h3>
+&lt;h4 id="object-oriented-programming">Object Oriented Programming&lt;/h4>
+&lt;h4 id="functional-programming">Functional Programming&lt;/h4>
+&lt;h2 id="ruby">Ruby&lt;/h2>
+&lt;h3 id="characteristics">Characteristics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#dynamic-typing">Dynamic Typing&lt;/a> and &lt;a href="#latent-typing">Latent Typing&lt;/a>&lt;/li>
+&lt;li>Object Oriented
+&lt;ul>
+&lt;li>Everything is a class, take a look with the &lt;code>.class&lt;/code> method&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Ruby&amp;rsquo;s null-esque type is &lt;code>nil&lt;/code>
+&lt;ul>
+&lt;li>This is also an object and a few methods can be called on it&lt;/li>
+&lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="big-o">BIG O&lt;/h2>
-&lt;p>$\oorall \e &amp;gt; 0, ∃,
-i dont geto hcoose n but I can pick somet&lt;/p></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Notes from UMD's MATH410 class</description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
+&lt;h3 id="syntax">Syntax&lt;/h3>
+&lt;div class="collapsable-code">
+&lt;input id="618742935" type="checkbox" checked />
+&lt;label for="618742935">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Variables&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>my_int = 3
+my_string = &amp;#34;hello&amp;#34;
+my_bool = true
+my_list = [1,2]
+my_nil = nil
+puts my_int
+puts my_string
+puts my_bool
+puts my_list
+puts my_nil&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="473259168" type="checkbox" checked />
+&lt;label for="473259168">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Control Flow&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>def conditional_add(a,b)
+if a &amp;gt; 0 &amp;amp;&amp;amp; b &amp;gt; 0 then
+a&amp;#43;b
+elsif (a &amp;gt; 0 &amp;amp;&amp;amp; b &amp;lt;= 0) || (a &amp;lt;= 0 &amp;amp;&amp;amp; b &amp;gt; 0)
+0
+else
+(-a)&amp;#43;(-b)
+end
+end
+a = -1
+while a &amp;lt; 2
+for b in 0..2
+puts conditional_add(a,b-1)
+end
+a &amp;#43;= 1
+end
+#prints 2,1,0,1,0,0,0,0,2&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="893164572" type="checkbox" checked />
+&lt;label for="893164572">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Strings, Symbols, and Equality&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>a = &amp;#34;hello&amp;#34;
+&amp;#34;hello&amp;#34; == &amp;#34;hello&amp;#34; #true
+&amp;#34;hello&amp;#34;.equal? &amp;#34;hello&amp;#34; #false
+a == a #true
+a.equal? a #true
+:test == :test #true
+:test.equal? :test #true
+:&amp;#34;2test&amp;#34; == :&amp;#34;2test&amp;#34; #true
+:&amp;#34;2test&amp;#34;.equal? :&amp;#34;2test&amp;#34; #true&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="592386741" type="checkbox" checked />
+&lt;label for="592386741">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Arrays&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>#bracket syntax
+arr = [1,2,3,4]
+arr = []
+#can be heterogenous
+arr = [1,&amp;#34;hello&amp;#34;,3.0]
+#OOP behaviour too
+arr = Array.new
+arr = Array.new(3)
+arr = Array.new(3,&amp;#34;a&amp;#34;)
+#bracket indexing
+arr = [1,2,3,4]
+puts arr[1]
+puts arr[-1]
+#dynamic size
+arr = []
+arr[3] = 3
+arr[5] = 6
+puts arr
+arr.delete_at(1)
+puts arr
+arr.delete(3)
+puts arr
+#multidimensional
+a = []
+a[0] = []
+puts a
+a[][] # error
+a = Array.new(3){Array.new(3)}
+#like sets
+a = [1,2,3,4]
+b = [4,5,6,7]
+puts a&amp;#43;b
+puts a|b
+puts a&amp;amp;b
+puts a-b
+#stack and queue behaviour
+a = [1,2,3]
+a.push(4)
+a.pop
+a.unshift(0)
+a.shift&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="854739261" type="checkbox" checked />
+&lt;label for="854739261">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Hashes&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>#Curly Brace syntax
+h = {}
+h = {&amp;#34;key&amp;#34;=&amp;gt;&amp;#34;value&amp;#34;,}
+#bracket indexing
+puts h[&amp;#34;key&amp;#34;]
+h[:key2] = &amp;#34;value2&amp;#34;
+#defaulting and nil
+puts h[3] # is nil
+h2 = Hash.new(5)
+puts h2[&amp;#39;a&amp;#39;] # is 5
+#multidimensional
+h = {}
+h[0] = {}
+h[0][0] = 1
+puts h&lt;/code>&lt;/pre>
+&lt;/div></content></item><item><title>CMSC351</title><link>https://www.kandasamyc.com/wiki/cmsc351/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/cmsc351/</guid><description>Notes from UMD's CMSC330 class</description><content>&lt;h2 id="asymptotic-theory">Asymptotic Theory&lt;/h2>
+&lt;h3 id="big-notation">Big Notation&lt;/h3>
+&lt;h4 id="big-o">Big-O&lt;/h4>
+&lt;p>We say \(f(x) = \mathcal{O}(g(x))\) if \(\exists x_{0}, C &amp;gt; 0\) such that \(\forall x \ge x_{0}, f(x) \le Cg(x)\)&lt;/p>
+&lt;h4 id="big-omega">Big-Omega&lt;/h4>
+&lt;p>We say \(f(x) = \Omega(g(x))\) if \(\exists x_{0}, D &amp;gt; 0\) such that \(\forall x \ge x_{0}, f(x) \ge Dg(x)\)&lt;/p>
+&lt;h4 id="big-theta">Big-Theta&lt;/h4>
+&lt;p>We say \(f(x) = \Theta(g(x))\) if \(\exists x_{0}, C, D &amp;gt; 0\) such that \(\forall x \ge x_{0}, Bg(x) \le f(x) \le Cg(x)\)&lt;/p>
+&lt;h4 id="caveats">Caveats&lt;/h4>
+&lt;ul>
+&lt;li>\(f(x) = \mathcal{O}(g(x))\) does not imply \(g(x) = \Omega(f(x))\)&lt;/li>
+&lt;li>It may not be intuitive, but there are functions that are not \(\Theta()\) of something, mostly non-polynomials
+&lt;ul>
+&lt;li>\(f(x) = x^{2}sin(x)\) is \(\mathcal{O}(x^{2})\) but not \(\Omega(x^{2})\)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>When doing big notation, we are interested in the most-limiting bounding function, that is basically everything is \(\mathcal{O}(x!)\), but that&amp;rsquo;s not very helpful&lt;/li>
+&lt;/ul>
+&lt;h4 id="orders-of-magnitude">Orders of Magnitude&lt;/h4>
+&lt;ol>
+&lt;li>\(1\)&lt;/li>
+&lt;li>\(\log x\)&lt;/li>
+&lt;li>\(x\)&lt;/li>
+&lt;li>\(x \log x\)&lt;/li>
+&lt;li>\(x^{2}\)&lt;/li>
+&lt;li>\(x^{2}\log x\)&lt;/li>
+&lt;/ol>
+&lt;h3 id="limit-theorem">Limit Theorem&lt;/h3>
+&lt;p>If \(\lim_{n \rightarrow \infty} f(n)\) and \(\lim_{n \rightarrow \infty} g(n)\) exist:&lt;/p>
+&lt;ol>
+&lt;li>If \(\lim_{n \rightarrow \infty}\frac{f(n)}{g(n)} = r\) where \(r\) is some non-zero real number, then \(f(n) = \Theta(g(n))\)&lt;/li>
+&lt;li>If \(\lim_{n \rightarrow \infty}\frac{f(n)}{g(n)} = 0\), then \(f(n) = \mathcal{O}(g(n))\)&lt;/li>
+&lt;li>If \(\lim_{n \rightarrow \infty}\frac{f(n)}{g(n)} = \infty\), then \(f(n) = \Omega(g(n))\)&lt;/li>
+&lt;/ol>
+&lt;h2 id="master-theorem">Master Theorem&lt;/h2>
+&lt;p>Suppose \(T(n)\) satisfies the recurrence relation \(T(n) = aT(\frac{n}{b}) + f(n)\).&lt;/p>
+&lt;ol>
+&lt;li>If \(f(n) = \mathcal{O}(n^{c})\) and \(\log_{b}a &amp;gt; c\), then \(T(n) = \Theta(n^{\log_{b}a})\)&lt;/li>
+&lt;li>If \(f(n) = \Theta(n^{c})\) and \(\log_{b}a = c\), then \(T(n) = \Theta(n^{\log_{b}a}\lg n)\)
+&lt;ol>
+&lt;li>If \(f(n) = \Theta(n^{c}\lg^{k}n)\) and \(\log_{b}a = c\), then \(T(n) = \Theta(n^{\log_{b}a}\lg^{k+1} n)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>If \(f(n) = \Omega(n^{c})\) and \(\log_{b}a &amp;lt; c\), then \(T(n) = \Theta(f(n))\)&lt;/li>
+&lt;/ol>
+&lt;h2 id="time-complexities">Time Complexities&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>Best Case&lt;/th>
+&lt;th>Worst Case&lt;/th>
+&lt;th>Average Case&lt;/th>
+&lt;th>Space&lt;/th>
+&lt;th>Stable?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bubble Sort&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Selection Sort&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Insertion Sort&lt;/td>
+&lt;td>\(\Theta(n)\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Binary Search&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>\(\Theta(\lg n)\)&lt;/td>
+&lt;td>\(\Theta(\lg n)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Merge Sort&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n)\)&lt;/td>
+&lt;td>T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Heap Sort&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Quick Sort&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>F&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Counting Sort&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Radix Sort&lt;/td>
+&lt;td>\(\Theta(df)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(f\)&lt;/td>
+&lt;td>T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shortest Path&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>\(\Theta(V+E)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Dijkstra&amp;rsquo;s&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>\(\Theta(V^{2}+E)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BFT&lt;/td>
+&lt;td>\(\mathcal{O}(V+E)\)&lt;/td>
+&lt;td>\(\mathcal{O}(V+E)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Notes from UMD's MATH410 class</description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
 &lt;p>A subset \(S\) of \(\R\) is &lt;strong>dense&lt;/strong> if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)&lt;/p>
 &lt;p>Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)&lt;/p>
 &lt;p>\(a \lt \frac{m}{n} \lt b\)&lt;/p>
@@ -51,17 +346,17 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="749365281" type="checkbox" checked />
-&lt;label for="749365281">
+&lt;input id="416853792" type="checkbox" checked />
+&lt;label for="416853792">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
 &lt;pre class="language-c line-numbers"
 >&lt;code
->#include &amp;amp;lt;stdio.h&amp;amp;gt;
-#include &amp;amp;lt;stdlib.h&amp;amp;gt;
-#include &amp;amp;lt;string.h&amp;amp;gt;
+>#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
 #define MAX_COLS 20 /* max # of columns to process */
 #define MAX_INPUT 1000&lt;/code>&lt;/pre>
 &lt;/div>
@@ -71,8 +366,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="764819532" type="checkbox" checked />
-&lt;label for="764819532">
+&lt;input id="194852763" type="checkbox" checked />
+&lt;label for="194852763">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -271,8 +566,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="716953248" type="checkbox" />
-&lt;label for="716953248">
+&lt;input id="751892634" type="checkbox" />
+&lt;label for="751892634">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -747,8 +1042,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="364178952" type="checkbox" checked />
-&lt;label for="364178952">
+&lt;input id="129384756" type="checkbox" checked />
+&lt;label for="129384756">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -768,8 +1063,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="217946358" type="checkbox" checked />
-&lt;label for="217946358">
+&lt;input id="527184963" type="checkbox" checked />
+&lt;label for="527184963">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -789,8 +1084,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="672183954" type="checkbox" checked />
-&lt;label for="672183954">
+&lt;input id="591376428" type="checkbox" checked />
+&lt;label for="591376428">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -6725,11 +7020,6 @@ a custom order.&lt;/p>
 &lt;li>Bash&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Courses
-&lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/sans-foundations/">SANS Foundations&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>UMD
@@ -6747,6 +7037,13 @@ a custom order.&lt;/p>
 &lt;li>&lt;a href="https://www.kandasamyc.com/wiki/math246h/">MATH246H&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc250/">CMSC250&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc216/">CMSC216&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Fall 2022
+&lt;ul>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc330/">CMSC330&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc351/">CMSC351&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/math410/">MATH410&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
