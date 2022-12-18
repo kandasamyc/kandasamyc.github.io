@@ -14,6 +14,6 @@ weight = 6
 
 If you have any comments, questions, or just want to send me a message, I'd love to hear from you!
 
-- [Email](mailto:contact@kandasamyc.me)
+- [Email](mailto:contact@kandasamyc.com)
 - [GitHub](https://github.com/kandasamyc)
 - [LinkedIn](https://linkedin.com/in/kandasamyc)
