@@ -30,8 +30,8 @@
 &lt;/ul>
 &lt;h3 id="syntax">Syntax&lt;/h3>
 &lt;div class="collapsable-code">
-&lt;input id="423598167" type="checkbox" checked />
-&lt;label for="423598167">
+&lt;input id="674951328" type="checkbox" checked />
+&lt;label for="674951328">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Variables&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -50,8 +50,8 @@ puts my_list
 puts my_nil&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="169423587" type="checkbox" checked />
-&lt;label for="169423587">
+&lt;input id="896327415" type="checkbox" checked />
+&lt;label for="896327415">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Control Flow&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -77,8 +77,8 @@ end
 #prints 2,1,0,1,0,0,0,0,2&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="136472985" type="checkbox" checked />
-&lt;label for="136472985">
+&lt;input id="657293841" type="checkbox" checked />
+&lt;label for="657293841">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Strings, Symbols, and Equality&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -96,8 +96,8 @@ a.equal? a #true
 :&amp;#34;2test&amp;#34;.equal? :&amp;#34;2test&amp;#34; #true&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="369825471" type="checkbox" checked />
-&lt;label for="369825471">
+&lt;input id="394576821" type="checkbox" checked />
+&lt;label for="394576821">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Arrays&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -147,8 +147,8 @@ a.unshift(0)
 a.shift&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="362871459" type="checkbox" checked />
-&lt;label for="362871459">
+&lt;input id="295478163" type="checkbox" checked />
+&lt;label for="295478163">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Hashes&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -346,8 +346,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="972368154" type="checkbox" checked />
-&lt;label for="972368154">
+&lt;input id="628597431" type="checkbox" checked />
+&lt;label for="628597431">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -366,8 +366,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="238471956" type="checkbox" checked />
-&lt;label for="238471956">
+&lt;input id="851763249" type="checkbox" checked />
+&lt;label for="851763249">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -566,8 +566,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="432869157" type="checkbox" />
-&lt;label for="432869157">
+&lt;input id="294586731" type="checkbox" />
+&lt;label for="294586731">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -1042,8 +1042,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="389427516" type="checkbox" checked />
-&lt;label for="389427516">
+&lt;input id="452176938" type="checkbox" checked />
+&lt;label for="452176938">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1063,8 +1063,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="719436825" type="checkbox" checked />
-&lt;label for="719436825">
+&lt;input id="542163897" type="checkbox" checked />
+&lt;label for="542163897">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1084,8 +1084,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="819745362" type="checkbox" checked />
-&lt;label for="819745362">
+&lt;input id="793516842" type="checkbox" checked />
+&lt;label for="793516842">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
