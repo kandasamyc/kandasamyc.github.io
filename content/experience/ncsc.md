@@ -10,7 +10,7 @@ keywords = []
 description = "A cybersecurity competition I competed and placed in."
 showFullContent = false
 readingTime = true
-weight = 1
+weight = 7
 +++
 
 ## Summary

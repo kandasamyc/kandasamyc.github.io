@@ -10,7 +10,7 @@ keywords = []
 description = "A research internship I did on combinatorics and machine learning."
 showFullContent = false
 readingTime = false
-weight = 2
+weight = 4
 +++
 
 ## Summary

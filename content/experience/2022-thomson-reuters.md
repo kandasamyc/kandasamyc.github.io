@@ -1,16 +1,16 @@
 +++
 title = "SWE Internship @ Thomson Reuters"
 date = "2022-11-20T19:11:27-05:00"
-dateRange = "June 2022 - Present"
+dateRange = "June 2022 - May 2023"
 author = "ksam"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["internship", "java", "javascript", "software-development"]
 keywords = []
-description = "Over the summer of 2022, I worked as a Software Engineering Intern at Thomson Reuters on their tax research product, Checkpoint."
+description = "Over the summer of 2022 and throughout the next school year, I worked as a Software Engineering Intern at Thomson Reuters on their tax research product, Checkpoint."
 showFullContent = false
 readingTime = false
-weight = 1
+weight = 3
 +++
 
 ## Summary

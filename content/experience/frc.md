@@ -10,7 +10,7 @@ keywords = []
 description = "A robotics club I heavily participated in high school."
 showFullContent = false
 readingTime = false
-weight = 3
+weight = 5
 +++
 
 ## Summary

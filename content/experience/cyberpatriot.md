@@ -10,7 +10,7 @@ keywords = ["Cyberpatriot"]
 description = "A Cybersecurity competition"
 showFullContent = false
 readingTime = false
-weight = 4
+weight = 6
 +++
 
 ## Summary
