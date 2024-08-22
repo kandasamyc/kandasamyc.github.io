@@ -1,0 +1,124 @@
+<!doctype html><html lang=en><head><title>:: Kandasamy Chokkalingam</title>
+<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content='<!DOCTYPE html> Intro to Visualizations Intro to Visualizations I am about to ramble for an hour Overview Part 1: Theory Part 2: Data Part 3: Color Part 4: Types Part 5: Examples Part 1: Theory Variables, Conditionals, Loops robot_name = "Kestrel" robot_weight = 120 robot_speed = 5 robot_balance_momentum = 1000 robot_subsystems = ["drivetrain","shooter","intake","feeder","climber"] print(robot_name) if robot_weight > 120: print("Robot is too heavy!") if robot_speed > 5 and robot_weight * robot_speed > robot_balance_momentum: print("'><meta name=keywords content="Kandasamy Chokkalingam"><meta name=robots content="noodp"><link rel=canonical href=https://www.kandasamyc.com/pres/frc/visualizations-one/><link rel=stylesheet href=https://www.kandasamyc.com/assets/style.css><link rel=stylesheet href=https://www.kandasamyc.com/assets/green.css><link rel=apple-touch-icon href=https://www.kandasamyc.com/img/apple-touch-icon-192x192.png><link rel="shortcut icon" href=https://www.kandasamyc.com/img/favicon/green.png><meta name=twitter:card content="summary"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content><meta property="og:description" content='<!DOCTYPE html> Intro to Visualizations Intro to Visualizations I am about to ramble for an hour Overview Part 1: Theory Part 2: Data Part 3: Color Part 4: Types Part 5: Examples Part 1: Theory Variables, Conditionals, Loops robot_name = "Kestrel" robot_weight = 120 robot_speed = 5 robot_balance_momentum = 1000 robot_subsystems = ["drivetrain","shooter","intake","feeder","climber"] print(robot_name) if robot_weight > 120: print("Robot is too heavy!") if robot_speed > 5 and robot_weight * robot_speed > robot_balance_momentum: print("'><meta property="og:url" content="https://www.kandasamyc.com/pres/frc/visualizations-one/"><meta property="og:site_name" content="Kandasamy Chokkalingam"><meta property="og:image" content="https://www.kandasamyc.com/img/favicon/green.png"><meta property="og:image:width" content="2048"><meta property="og:image:height" content="1024"></head><body class=green><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=/><div class=logo>Kandasamy Chokkalingam</div></a></div><div class=menu-trigger>menu</div></div><nav class=menu><ul class="menu__inner menu__inner--desktop"><li><a href=/>About</a></li><li><a href=/#contact>Contact</a></li></ul><ul class="menu__inner menu__inner--mobile"><li><a href=/>About</a></li><li><a href=/#contact>Contact</a></li></ul></nav></header><div class=content><div class=post><h1 class=post-title><a href=https://www.kandasamyc.com/pres/frc/visualizations-one/></a></h1><div class=post-meta></div><div class=post-content><div><!doctype html><html lang=en><head><meta charset=utf-8><title>Intro to Visualizations</title>
+<meta name=description content="A light intro to graphic design"><meta name=author content="Kandasamy Chokkalingam"><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="black-translucent"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=https://rsms.me/inter/inter.css><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts/dist/iosevka/iosevka.min.css><link rel=stylesheet href=/css/pres/frc/reset.css><link rel=stylesheet href=/css/pres/frc/reveal.css><link rel=stylesheet href=/css/pres/frc/ksam.css id=theme><link rel=stylesheet href=/js/pres/frc/plugin/highlight/atom-one-dark.css></head><body><div class=reveal><div class=slides><section><h1>Intro to Visualizations</h1><h3>I am about to ramble for an hour</h3></section><section><h1>Overview</h1><ul><li>Part 1: Theory</li><li>Part 2: Data</li><li>Part 3: Color</li><li>Part 4: Types</li><li>Part 5: Examples</li></ul></section><section><h1>Part 1: Theory</h1></section><section><h2>Variables, Conditionals, Loops</h2><pre>
+				<code class=language-python data-trim data-line-numbers=1-5|8|11|14-15|>
+					robot_name = "Kestrel"
+					robot_weight = 120
+					robot_speed = 5
+					robot_balance_momentum = 1000
+					robot_subsystems = ["drivetrain","shooter","intake","feeder","climber"]
+
+					print(robot_name)
+					if robot_weight > 120:
+						print("Robot is too heavy!")
+					
+					if robot_speed > 5 and robot_weight * robot_speed > robot_balance_momentum:
+						print("Robot may tip!")
+					
+					for subsystem in robot_subsystems:
+						print(f"{robot_name} has subsystem {subsystem}")
+				</code>
+			</pre></section><section><h2>Functions</h2><pre>
+				<code class=language-python data-trim data-line-numbers=7|8-16|>
+					robot_name = "Kestrel"
+					robot_weight = 120
+					robot_speed = 5
+					robot_balance_momentum = 1000
+					robot_subsystems = ["drivetrain","shooter","intake","feeder","climber"]
+
+					def robot_info(name, speed, balance_momentum, subsystems, weight=120):
+						print(name)
+						if weight > 120:
+							print("Robot is too heavy!")
+					
+						if speed > 5 and weight * speed > balance_momentum:
+							print("Robot may tip!")
+					
+						for subsystem in subsystems:
+							print(f"{name} has subsystem {subsystem}")
+					
+					robot_info(robot_name, robot_speed, robot_balance_momentum, robot_subsystems, weight=robot_weight)
+				</code>
+			</pre></section><section><h2>Classes</h2><pre>
+				<code data-trim data-line-numbers=1|3|4-8|10|21|>
+					class Robot:
+						
+						def __init__(self, name, balance_momentum, subsystems, speed=0, weight=120):
+							self.name = name
+							self.balance_momentum = balance_momentum
+							self.subsystems = subsystems
+							self.speed = speed
+							self.weight = weight
+
+						def robot_info(self):
+							print(name)
+							if weight > 120:
+								print("Robot is too heavy!")
+					
+							if speed > 5 and weight * speed > balance_momentum:
+								print("Robot may tip!")
+					
+							for subsystem in subsystems:
+								print(f"{name} has subsystem {subsystem}")
+
+					kestrel = Robot("kestrel", 1000, ["drivetrain","shooter","intake","feeder","climber"])
+				</code>
+			</pre></section><section><h2>Static Methods, List Comprehensions, Slicing</h2><pre>
+				<code data-trim data-line-numbers=4|5|11|13|14|>
+					class Robot:
+						...
+
+						@staticmethod
+						def print_subsystems(subsystems):
+							for idx, subsystem in enumerate(subsystems):
+								print(f"Subsystem {idx}: {subsystem}")
+
+						@staticmethod
+						def format_subsystems(subsystems):
+							return [f"Subsystem {subsystem[:3]}: {subsystem}" for subsystem in subsystems]
+
+					Robot.print_subsystems(["drivetrain","shooter","intake","feeder","climber"])
+					print(Robot.format_subsystems(["drivetrain","shooter","intake","feeder","climber"]))
+				</code>
+			</pre></section><section><h2>Formatting, Docstrings, Multiline Strings</h2><pre>
+				<code data-trim data-line-numbers=2-5|8-13|14|15|34-36|>
+class Robot:
+    """
+    A class that represents a generic FRC robot. This class provides an interface
+    to store data about robot as well compute properties from its base fields
+    """
+
+    def __init__(
+        self,
+        name: str,
+        balance_momentum: int,
+        subsystems: List[str],
+        speed: Optional[int] = 0,
+        weight: Optional[int] = 120,
+    ) -> None:
+        """A constructor"""
+        self.name = name
+        self.balance_momentum = balance_momentum
+        self.subsystems = subsystems
+        self.speed = speed
+        self.weight = weight
+
+    def robot_info(self) -> None:
+        print(name)
+        if weight > 120:
+            print("Robot is too heavy!")
+
+        if speed > 5 and weight * speed > balance_momentum:
+            print("Robot may tip!")
+
+        for subsystem in subsystems:
+            print(f"{name} has subsystem {subsystem}")
+
+
+kestrel = Robot(
+    "kestrel", 1000, ["drivetrain", "shooter", "intake", "feeder", "climber"]
+)
+
+				</code>
+			</pre></section><section><h1>Part 2: Practice</h1></section><section><p>Design a Drivetrain class</p><p>Fields: Number of Wheels, Type of Drivetrain, Max Force, Current Speed, Distance Traveled</p><p>Methods: constructor, add_wheel, race, move, is_valid_drivetrain_type</p><p>Add comments and type hint</p><p>If you still have time, make the code as bad as possible</p></section><section><h2>Method Specifications</h2><p>The constructor should check if the type of drivetrain is valid "swerve" or "tank"</p><p>add_wheel(self)->None, should increment the numbers of wheels</p><p>race(self,other: Drivetrain)->Boolean, whether this drivetrain would beat the other in a race</p><p>is_valid_drivetrain_type(dt_type: str)->Boolean, whether this is valid</p><p>move(self, time:int) -> increment distance traveled by moving at current speed for given amount of time</p></section><section><h1>Fin.</h1></section><section data-visibility=uncounted><p>Made with <3 and Reveal.js</p><p>By ksam</p><p>With help from</p></section></div></div><script src=/js/pres/frc/reveal.js></script><script src=/js/pres/frc/plugin/notes/notes.js></script><script src=/js/pres/frc/plugin/search/search.js></script><script src=/js/pres/frc/plugin/highlight/highlight.js></script><script>Reveal.initialize({controls:!1,progress:!0,center:!0,hash:!0,plugins:[RevealNotes,RevealSearch,RevealHighlight]})</script><style>.reveal>.slides>section>section{transform-style:flat}</style></body></html></div></div></div></div><footer class=footer><div class=footer__inner><div class="copyright copyright--user"><span>©2021-2024 Kandasamy Chokkalingam</span>
+<span>:: Based on <a href=https://twitter.com/panr>panr's</a> Terminal theme</aspan></div></div></footer><script src=https://www.kandasamyc.com/assets/main.js></script><script src=https://www.kandasamyc.com/assets/prism.js></script></div></body></html>

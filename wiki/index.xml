@@ -16,7 +16,7 @@
 &lt;h2 id="ruby">Ruby&lt;/h2>
 &lt;h3 id="characteristics">Characteristics&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#dynamic-typing">Dynamic Typing&lt;/a> and &lt;a href="#latent-typing">Latent Typing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc330/#dynamic-typing">Dynamic Typing&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/cmsc330/#latent-typing">Latent Typing&lt;/a>&lt;/li>
 &lt;li>Object Oriented
 &lt;ul>
 &lt;li>Everything is a class, take a look with the &lt;code>.class&lt;/code> method&lt;/li>
@@ -30,8 +30,8 @@
 &lt;/ul>
 &lt;h3 id="syntax">Syntax&lt;/h3>
 &lt;div class="collapsable-code">
-&lt;input id="752964183" type="checkbox" checked />
-&lt;label for="752964183">
+&lt;input id="659421378" type="checkbox" checked />
+&lt;label for="659421378">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Variables&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -50,8 +50,8 @@ puts my_list
 puts my_nil&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="158327694" type="checkbox" checked />
-&lt;label for="158327694">
+&lt;input id="258146973" type="checkbox" checked />
+&lt;label for="258146973">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Control Flow&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -77,8 +77,8 @@ end
 #prints 2,1,0,1,0,0,0,0,2&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="932168475" type="checkbox" checked />
-&lt;label for="932168475">
+&lt;input id="316945278" type="checkbox" checked />
+&lt;label for="316945278">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Strings, Symbols, and Equality&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -96,8 +96,8 @@ a.equal? a #true
 :&amp;#34;2test&amp;#34;.equal? :&amp;#34;2test&amp;#34; #true&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="713425689" type="checkbox" checked />
-&lt;label for="713425689">
+&lt;input id="694721358" type="checkbox" checked />
+&lt;label for="694721358">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Arrays&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -147,8 +147,8 @@ a.unshift(0)
 a.shift&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="391728465" type="checkbox" checked />
-&lt;label for="391728465">
+&lt;input id="731482659" type="checkbox" checked />
+&lt;label for="731482659">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Hashes&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -346,8 +346,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="497261358" type="checkbox" checked />
-&lt;label for="497261358">
+&lt;input id="694813572" type="checkbox" checked />
+&lt;label for="694813572">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -366,8 +366,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="357214869" type="checkbox" checked />
-&lt;label for="357214869">
+&lt;input id="597423816" type="checkbox" checked />
+&lt;label for="597423816">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -394,7 +394,7 @@ return 0;
 &lt;/ul>
 &lt;h4 id="execution-environment">Execution Environment&lt;/h4>
 &lt;ul>
-&lt;li>The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning &lt;a href="#main-function">main&amp;rsquo;s&lt;/a> error code.&lt;/li>
+&lt;li>The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#main-function">main&amp;rsquo;s&lt;/a> error code.&lt;/li>
 &lt;/ul>
 &lt;h3 id="lexical-rules">Lexical Rules&lt;/h3>
 &lt;h4 id="trigraphs">Trigraphs&lt;/h4>
@@ -566,8 +566,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="794658132" type="checkbox" />
-&lt;label for="794658132">
+&lt;input id="759183642" type="checkbox" />
+&lt;label for="759183642">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -609,7 +609,7 @@ return 0;
 &lt;h4 id="declaration">Declaration&lt;/h4>
 &lt;ul>
 &lt;li>Like declaring any variable, but with square brackets after the name with a capacity value: &lt;code>int values[20]&lt;/code>&lt;/li>
-&lt;li>Array sizes must be constants at compile time, so literals or &lt;a href="#preprocessor-directives">symbolic constants&lt;/a>&lt;/li>
+&lt;li>Array sizes must be constants at compile time, so literals or &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#preprocessor-directives">symbolic constants&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h4 id="initialization">Initialization&lt;/h4>
 &lt;ul>
@@ -624,7 +624,7 @@ return 0;
 &lt;h4 id="behavior">Behavior&lt;/h4>
 &lt;ul>
 &lt;li>Array parameters don&amp;rsquo;t take sizes (at least for one-dimensional arrays)&lt;/li>
-&lt;li>Arrays are passed by value but act like they&amp;rsquo;re passed by reference, because of &lt;a href="#pointers">Pointers&lt;/a>&lt;/li>
+&lt;li>Arrays are passed by value but act like they&amp;rsquo;re passed by reference, because of &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#pointers">Pointers&lt;/a>&lt;/li>
 &lt;li>Arrays don&amp;rsquo;t keep track of their length&lt;/li>
 &lt;li>Accessing an invalid index won&amp;rsquo;t be an error itself but can cause one by accessing or changing memory its not supposed to&lt;/li>
 &lt;/ul>
@@ -633,12 +633,12 @@ return 0;
 &lt;h4 id="block-scope">Block Scope&lt;/h4>
 &lt;ul>
 &lt;li>Exists within the block&lt;/li>
-&lt;li>Have &lt;a href="#no-linkage">No Linkage&lt;/a>&lt;/li>
+&lt;li>Have &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#no-linkage">No Linkage&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h4 id="file-scope">File Scope&lt;/h4>
 &lt;ul>
 &lt;li>Exists within the whole file&lt;/li>
-&lt;li>Have &lt;a href="#external-linkage">External Linkage&lt;/a>&lt;/li>
+&lt;li>Have &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#external-linkage">External Linkage&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h4 id="shadowing">Shadowing&lt;/h4>
 &lt;ul>
@@ -662,13 +662,13 @@ return 0;
 &lt;/ul>
 &lt;h4 id="changing-linkage">Changing Linkage&lt;/h4>
 &lt;ul>
-&lt;li>&lt;code>extern&lt;/code> will change a &lt;a href="#block-scope">Block Scope&lt;/a> variable from no linkage to external&lt;/li>
-&lt;li>&lt;code>static&lt;/code> will change a &lt;a href="#file-scope">File Scope&lt;/a> variable from external linkage to internal&lt;/li>
+&lt;li>&lt;code>extern&lt;/code> will change a &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#block-scope">Block Scope&lt;/a> variable from no linkage to external&lt;/li>
+&lt;li>&lt;code>static&lt;/code> will change a &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#file-scope">File Scope&lt;/a> variable from external linkage to internal&lt;/li>
 &lt;/ul>
 &lt;h3 id="storage">Storage&lt;/h3>
 &lt;ul>
 &lt;li>Determines the lifetime of the memory of the variable while the program is executing&lt;/li>
-&lt;li>It&amp;rsquo;s still accessible only from within its &lt;a href="#scope">Scope&lt;/a>, but controls when the value&amp;rsquo;s memory gets destroyed&lt;/li>
+&lt;li>It&amp;rsquo;s still accessible only from within its &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#scope">Scope&lt;/a>, but controls when the value&amp;rsquo;s memory gets destroyed&lt;/li>
 &lt;/ul>
 &lt;h3 id="const">const&lt;/h3>
 &lt;h3 id="structures">Structures&lt;/h3>
@@ -763,14 +763,14 @@ return 0;
 &lt;h2 id="pointers">Pointers&lt;/h2>
 &lt;ul>
 &lt;li>A pointer is a variable that holds the address of something in memory&lt;/li>
-&lt;li>Pointers can be &lt;a href="#rvalues-and-lvalues">rvalues and lvalues&lt;/a> but addresses can only be rvalues&lt;/li>
+&lt;li>Pointers can be &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#rvalues-and-lvalues">rvalues and lvalues&lt;/a> but addresses can only be rvalues&lt;/li>
 &lt;li>Pointer declarations must be initialized&lt;/li>
 &lt;li>Functions can return a pointer but you must ensure the variable will not be destroyed after the function leaves&lt;/li>
 &lt;/ul>
 &lt;h3 id="null-pointer">NULL Pointer&lt;/h3>
 &lt;ul>
 &lt;li>Special values that pointer can have that doesn&amp;rsquo;t point anywhere&lt;/li>
-&lt;li>Defined in &lt;a href="#stddef">stddef&lt;/a>&lt;/li>
+&lt;li>Defined in &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#stddef">stddef&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="make">Make&lt;/h2>
 &lt;ul>
@@ -1042,8 +1042,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="795642318" type="checkbox" checked />
-&lt;label for="795642318">
+&lt;input id="435718269" type="checkbox" checked />
+&lt;label for="435718269">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1063,8 +1063,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="159268347" type="checkbox" checked />
-&lt;label for="159268347">
+&lt;input id="872391564" type="checkbox" checked />
+&lt;label for="872391564">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1084,8 +1084,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="146298537" type="checkbox" checked />
-&lt;label for="146298537">
+&lt;input id="691872543" type="checkbox" checked />
+&lt;label for="691872543">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1200,7 +1200,7 @@ jr $ra # go back
 &lt;li>The &lt;code>P&lt;/code> operation&lt;/li>
 &lt;li>Blocks if counter is 0&lt;/li>
 &lt;li>Returns if counter is positive&lt;/li>
-&lt;li>&lt;a href="#atomicity">Atomic&lt;/a> operation&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#atomicity">Atomic&lt;/a> operation&lt;/li>
 &lt;li>&lt;code>int sem_wait(sem_t *sem)&lt;/code>
 &lt;ul>
 &lt;li>0 on success, nonzero on error&lt;/li>
@@ -1217,7 +1217,7 @@ jr $ra # go back
 &lt;li>The &lt;code>V&lt;/code> operation&lt;/li>
 &lt;li>Increments the counter&lt;/li>
 &lt;li>Unblocks a random waiting thread if threads are waiting&lt;/li>
-&lt;li>&lt;a href="#atomicity">Atomic&lt;/a> operation&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#atomicity">Atomic&lt;/a> operation&lt;/li>
 &lt;li>&lt;code>int sem_post(sem_t *sem)&lt;/code>
 &lt;ul>
 &lt;li>0 on success, nonzero on error&lt;/li>
@@ -1281,7 +1281,7 @@ jr $ra # go back
 &lt;ul>
 &lt;li>Converse of \(p \to q\) is \(q \to p\)&lt;/li>
 &lt;li>Not equivalent to the implication&lt;/li>
-&lt;li>&lt;a href="#inverse">Inverse&lt;/a> of the &lt;a href="#contrapositive">Contrapositive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#inverse">Inverse&lt;/a> of the &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#contrapositive">Contrapositive&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1302,7 +1302,7 @@ jr $ra # go back
 &lt;ul>
 &lt;li>Contrapositive \(p \to q\) is \(\neg q \to \neg p\)&lt;/li>
 &lt;li>Equivalent to the implication&lt;/li>
-&lt;li>&lt;a href="#inverse">Inverse&lt;/a> of the &lt;a href="#converse">Converse&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#inverse">Inverse&lt;/a> of the &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#converse">Converse&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1313,7 +1313,7 @@ jr $ra # go back
 &lt;ul>
 &lt;li>\(q\) is necessary for \(p\)&lt;/li>
 &lt;li>Without something necessary, the statement is false&lt;/li>
-&lt;li>Equivalent to an &lt;a href="#implication">Implication&lt;/a> through the &lt;a href="#contrapositive">Contrapositive&lt;/a>&lt;/li>
+&lt;li>Equivalent to an &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#implication">Implication&lt;/a> through the &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#contrapositive">Contrapositive&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1324,7 +1324,7 @@ jr $ra # go back
 &lt;ul>
 &lt;li>\(p\) is sufficient for \(q\)&lt;/li>
 &lt;li>If I have something sufficient, the statement is true with no other information&lt;/li>
-&lt;li>Equivalent to an &lt;a href="#implication">Implication&lt;/a>&lt;/li>
+&lt;li>Equivalent to an &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#implication">Implication&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1344,7 +1344,7 @@ jr $ra # go back
 &lt;/ol>
 &lt;h3 id="truth-tables">Truth Tables&lt;/h3>
 &lt;ul>
-&lt;li>Representation of all possible values of a logical &lt;a href="#statements">statement&lt;/a>&lt;/li>
+&lt;li>Representation of all possible values of a logical &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#statements">statement&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;table>
 &lt;thead>
@@ -1700,11 +1700,11 @@ jr $ra # go back
 &lt;ul>
 &lt;li>\(\exists\)&lt;/li>
 &lt;li>Existential, for one value in the set&lt;/li>
-&lt;li>This statement is the same as using &lt;a href="#for-all">For All&lt;/a> with the negated predicate&lt;/li>
+&lt;li>This statement is the same as using &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#for-all">For All&lt;/a> with the negated predicate&lt;/li>
 &lt;/ul>
 &lt;h4 id="negation">Negation&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="#for-all">For All&lt;/a> becomes &lt;a href="#exists">Exists&lt;/a> and vice versa
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#for-all">For All&lt;/a> becomes &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#exists">Exists&lt;/a> and vice versa
 &lt;ul>
 &lt;li>If there are multiple quantifiers, flip all of them&lt;/li>
 &lt;/ul>
@@ -1717,7 +1717,7 @@ jr $ra # go back
 &lt;/ul>
 &lt;h3 id="implications">Implications&lt;/h3>
 &lt;ul>
-&lt;li>When using &lt;a href="#implication">implications&lt;/a> in the predicate with a quantifier, the quantifier doesn&amp;rsquo;t change for the &lt;a href="#contrapositive">Contrapositive&lt;/a>, &lt;a href="#converse">Converse&lt;/a>, or &lt;a href="#inverse">Inverse&lt;/a>&lt;/li>
+&lt;li>When using &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#implication">implications&lt;/a> in the predicate with a quantifier, the quantifier doesn&amp;rsquo;t change for the &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#contrapositive">Contrapositive&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#converse">Converse&lt;/a>, or &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#inverse">Inverse&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="proofs">Proofs&lt;/h2>
 &lt;h3 id="necessary-information">Necessary Information&lt;/h3>
@@ -1830,7 +1830,7 @@ jr $ra # go back
 &lt;/ul>
 &lt;h4 id="bijective">Bijective&lt;/h4>
 &lt;ul>
-&lt;li>Both &lt;a href="#surjective">Surjective&lt;/a> and &lt;a href="#injective">Injective&lt;/a>&lt;/li>
+&lt;li>Both &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#surjective">Surjective&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#injective">Injective&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="countability">Countability&lt;/h3>
 &lt;ul>
@@ -1856,14 +1856,14 @@ jr $ra # go back
 &lt;/ul>
 &lt;h3 id="strong-induction">Strong Induction&lt;/h3>
 &lt;ul>
-&lt;li>Very similar to &lt;a href="#weak-induction">Weak Induction&lt;/a>, but when \(k+1\) depends on more than just \(k\)&lt;/li>
+&lt;li>Very similar to &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#weak-induction">Weak Induction&lt;/a>, but when \(k+1\) depends on more than just \(k\)&lt;/li>
 &lt;li>Start with a base case or multiple&lt;/li>
 &lt;li>Assume that it works for multiple \(k\)&lt;/li>
 &lt;li>Prove that if it works for those \(k\), then it works for \(k+1\) possible by using those cases to show \(k+1\) is true&lt;/li>
 &lt;/ul>
 &lt;h3 id="structural-induction">Structural Induction&lt;/h3>
 &lt;ul>
-&lt;li>Very similar to &lt;a href="#strong-induction">Strong Induction&lt;/a>, but works with non-linear sequences
+&lt;li>Very similar to &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#strong-induction">Strong Induction&lt;/a>, but works with non-linear sequences
 &lt;ul>
 &lt;li>There is more than one direct children from any given element&lt;/li>
 &lt;/ul>
@@ -1884,7 +1884,7 @@ jr $ra # go back
 &lt;ul>
 &lt;li>\(P(n,k)\) is the number of ways to order \(k\) elements from a set of \(n\) elements&lt;/li>
 &lt;li>\(P(n,k) = \frac{n!}{(n-k)!}\)&lt;/li>
-&lt;li>This is different from &lt;a href="#factorials">Factorials&lt;/a> because the set of elements to pick from can be bigger than the number of elements we actually want to pick
+&lt;li>This is different from &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#factorials">Factorials&lt;/a> because the set of elements to pick from can be bigger than the number of elements we actually want to pick
 &lt;ul>
 &lt;li>Note that when \(k=n\), we simply have the factorials formula because the denominator becomes 1&lt;/li>
 &lt;/ul>
@@ -1894,7 +1894,7 @@ jr $ra # go back
 &lt;ul>
 &lt;li>\({n \choose k}\) is the number of way to pick \(k\) elements from a set of \(n\) elements&lt;/li>
 &lt;li>\({n \choose k} = \frac{n!}{k!(n-k)!}\)&lt;/li>
-&lt;li>This is simply the &lt;a href="#permutations">Permutations&lt;/a> formula with an extra \(k!\) term to account for the ways we can order \(k\) elements that are all the same (but are all only one combination)&lt;/li>
+&lt;li>This is simply the &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#permutations">Permutations&lt;/a> formula with an extra \(k!\) term to account for the ways we can order \(k\) elements that are all the same (but are all only one combination)&lt;/li>
 &lt;/ul>
 &lt;h3 id="stars-and-bars">Stars and Bars&lt;/h3>
 &lt;ul>
@@ -1903,7 +1903,7 @@ jr $ra # go back
 &lt;/ul>
 &lt;h3 id="relative-orderings">Relative Orderings&lt;/h3>
 &lt;ul>
-&lt;li>A slight variation on &lt;a href="#combinations">Combinations&lt;/a>, is finding all relative orderings of a given permuation&lt;/li>
+&lt;li>A slight variation on &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#combinations">Combinations&lt;/a>, is finding all relative orderings of a given permuation&lt;/li>
 &lt;li>If the picked list is circular, then I may want to find all possible relative orderings (where the start of a sequence is doesn&amp;rsquo;t matter)&lt;/li>
 &lt;li>To do so, simply divide by the total number of elements in the circular list&lt;/li>
 &lt;/ul>
@@ -1919,7 +1919,7 @@ jr $ra # go back
 &lt;/ul>
 &lt;h4 id="inclusion-exclusion-principle">Inclusion-Exclusion Principle&lt;/h4>
 &lt;ul>
-&lt;li>The &lt;a href="#addition-rule">Addition Rule&lt;/a> requires events be disjoint, but what if they aren&amp;rsquo;t?&lt;/li>
+&lt;li>The &lt;a href="https://www.kandasamyc.com/wiki/cmsc250/#addition-rule">Addition Rule&lt;/a> requires events be disjoint, but what if they aren&amp;rsquo;t?&lt;/li>
 &lt;li>Add the two probability then subtract their intersection to prevent double-counting&lt;/li>
 &lt;li>\(P(A) + P(B) - P(A \cap B)\)&lt;/li>
 &lt;li>This can be extended to more events as the sign of the intersection levels flip as more terms are in the intersection&lt;/li>
@@ -1953,7 +1953,7 @@ jr $ra # go back
 &lt;/ul>
 &lt;h2 id="linear-equations">Linear Equations&lt;/h2>
 &lt;ul>
-&lt;li>DEs that are &lt;a href="#linearity">linear&lt;/a>&lt;/li>
+&lt;li>DEs that are &lt;a href="https://www.kandasamyc.com/wiki/math246h/#linearity">linear&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="linear-normal-form">Linear Normal Form&lt;/h3>
 &lt;p>\[\frac{dy}{dt} + \frac{q(t)}{p(t)}y = \frac{r(t)}{p(t)}\]
@@ -1965,7 +1965,7 @@ By analyzing the equation, we see that this means that \(y\) is equal to its der
 where \(A(t) = \int a(t)dt\).&lt;/p>
 &lt;h4 id="inhomogeneous">Inhomogeneous&lt;/h4>
 &lt;p>\[\frac{dy}{dt} + a(t)y = f(t)\]
-This isn&amp;rsquo;t quite as nice as the &lt;a href="#homogeneous">homogeneous&lt;/a> version, but we can still solve it.&lt;/p>
+This isn&amp;rsquo;t quite as nice as the &lt;a href="https://www.kandasamyc.com/wiki/math246h/#homogeneous">homogeneous&lt;/a> version, but we can still solve it.&lt;/p>
 &lt;!--list-separator-->
 &lt;ul>
 &lt;li>
@@ -2014,10 +2014,10 @@ Assuming that \(G(y)\) has an inverse, \(G^{-1}(y)\),
 &lt;p>Because there is a unique solution to every one, two solutions can never cross. If they do, that point could be used as an initial point and produce non-unique solutions, which is not allowed.&lt;/p>
 &lt;h2 id="graphical-methods">Graphical Methods&lt;/h2>
 &lt;h3 id="phase-portraits-for-autonomous-equations">Phase Portraits for Autonomous Equations&lt;/h3>
-&lt;p>Given some &lt;a href="#autonomous-equations">autonomous equation&lt;/a>, find the points where it is equal to 0. This is where \(g(y)\) is equal to 0. Place these points on a number line from \(-\infty\) to \(\infty\). Compute the signs for each region on this line. For each region, draw arrows pointing in the direction of signs for each region. For example, for a positive region, arrows would point right.&lt;/p>
+&lt;p>Given some &lt;a href="https://www.kandasamyc.com/wiki/math246h/#autonomous-equations">autonomous equation&lt;/a>, find the points where it is equal to 0. This is where \(g(y)\) is equal to 0. Place these points on a number line from \(-\infty\) to \(\infty\). Compute the signs for each region on this line. For each region, draw arrows pointing in the direction of signs for each region. For example, for a positive region, arrows would point right.&lt;/p>
 &lt;p>These arrows represent the asymptotic behavior of a solution in that region as \(t\) approaches \(\infty\). As \(t\) approaches \(-\infty\), the solution will follow the opposite direction of the arrows.&lt;/p>
-&lt;p>The points placed to indicate zeroes are hard boundaries. Because of &lt;a href="#existence-and-uniqueness-theorem">Existence and Uniqueness Theorem&lt;/a>, nothing can cross these boundaries. Zeroes where the arrows on both sides point toward it are &lt;strong>stable&lt;/strong>, while those where the arrows on both sides point away from it are &lt;strong>unstable&lt;/strong>, and those where the arrows on both sides have conflicting directs are &lt;strong>semi-stable&lt;/strong>.&lt;/p>
-&lt;p>With this information, we can draw a graph of many possible solutions. Any solution in a given \(y\) region of zeroes will follow the trends in the phase portrait. Infinitely many lines can be drawn from the given portrait but none of the lines can cross (that would violate the &lt;a href="#existence-and-uniqueness-theorem">Existence and Uniqueness Theorem&lt;/a>).&lt;/p>
+&lt;p>The points placed to indicate zeroes are hard boundaries. Because of &lt;a href="https://www.kandasamyc.com/wiki/math246h/#existence-and-uniqueness-theorem">Existence and Uniqueness Theorem&lt;/a>, nothing can cross these boundaries. Zeroes where the arrows on both sides point toward it are &lt;strong>stable&lt;/strong>, while those where the arrows on both sides point away from it are &lt;strong>unstable&lt;/strong>, and those where the arrows on both sides have conflicting directs are &lt;strong>semi-stable&lt;/strong>.&lt;/p>
+&lt;p>With this information, we can draw a graph of many possible solutions. Any solution in a given \(y\) region of zeroes will follow the trends in the phase portrait. Infinitely many lines can be drawn from the given portrait but none of the lines can cross (that would violate the &lt;a href="https://www.kandasamyc.com/wiki/math246h/#existence-and-uniqueness-theorem">Existence and Uniqueness Theorem&lt;/a>).&lt;/p>
 &lt;h2 id="applications">Applications&lt;/h2>
 &lt;h3 id="tank-problems">Tank Problems&lt;/h3>
 &lt;p>The general rule for these types of problems is:
@@ -2097,7 +2097,7 @@ where \(D = \frac{d}{dt}\). In essence, we factor out a \(y\) to make \(\mathbb{
 \[\mathbb{W} = \det \begin{vmatrix} Y_1(t) &amp;amp; Y_2(t) &amp;amp; &amp;hellip; &amp;amp; Y_n(t) \\ Y^(1)_1(t) &amp;amp; Y^(1)_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^(1)_n(t) \\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ Y^{(n-1)}_1(t) &amp;amp; Y^{(n-1)}_2(t) &amp;amp; &amp;hellip; &amp;amp; Y^{(n-1)}_n(t) \end{vmatrix}\]
 Anywhere \(\mathbb{W}\) is not 0, the solutions are independent.&lt;/p>
 &lt;h2 id="homogenous-higher-order-linear-des">Homogenous Higher-Order Linear DEs&lt;/h2>
-&lt;p>These are &lt;a href="#homogeneous">Homogeneous&lt;/a>, &lt;a href="#linear-equations">Linear Equations&lt;/a>.&lt;/p>
+&lt;p>These are &lt;a href="https://www.kandasamyc.com/wiki/math246h/#homogeneous">Homogeneous&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/math246h/#linear-equations">Linear Equations&lt;/a>.&lt;/p>
 &lt;h3 id="characteristic-polynomial">Characteristic Polynomial&lt;/h3>
 &lt;p>This applies to homogenous, constant coefficient linear differential equations.
 Expressing \(\mathbb{L}\) as a function of \(D\), we have:
@@ -2111,9 +2111,9 @@ The characteristic polynomial is the function \(p(z)\), where \(z\) is some vari
 &lt;p>A root \(r \pm is\) corresponds to the solutions \(e^{rt}cos(st)\) and \(e^{rt}sin(st)\)&lt;/p>
 &lt;p>If it has multiplicity m, then it corresponds to the solutions \(e^{rt}cos(st), te^{rt}cos(st), \dots, t^{m-1}e^{rt}cos(st)\) and \(e^{rt}sin(st), te^{rt}sin(st), \dots, t^{m-1}e^{rt}sin(st)\)&lt;/p>
 &lt;h2 id="nonhomogeneous-higher-order-linear-des">Nonhomogeneous Higher-Order Linear DEs&lt;/h2>
-&lt;p>These are &lt;a href="#homogeneous">Nonhomogeneous&lt;/a>, &lt;a href="#linear-equations">Linear Equations&lt;/a>.&lt;/p>
+&lt;p>These are &lt;a href="https://www.kandasamyc.com/wiki/math246h/#homogeneous">Nonhomogeneous&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/math246h/#linear-equations">Linear Equations&lt;/a>.&lt;/p>
 &lt;h3 id="general-theory">General Theory&lt;/h3>
-&lt;p>Since the &lt;a href="#linear-differential-operator">linear differential operator&lt;/a> is linear, a linear combination of functions applied to it is the same as apply \(\mathbb{L}\) individually. We can exploit this fact to solve nonhomogeneous DEs.&lt;/p>
+&lt;p>Since the &lt;a href="https://www.kandasamyc.com/wiki/math246h/#linear-differential-operator">linear differential operator&lt;/a> is linear, a linear combination of functions applied to it is the same as apply \(\mathbb{L}\) individually. We can exploit this fact to solve nonhomogeneous DEs.&lt;/p>
 &lt;p>If \(Y_P(t)\) is a solution to some nonhomogeneous DE \(\mathbb{L}(t)y = f(t)\) and \(Y_H(t)\) is a solution to the associated homogeneous equation \(\mathbb{L}(t)y = 0\), then \(Y(t) = Y_H(t)+Y_P(t)\) is also a solution of \(\mathbb{L}(t)y = f(t)\). This is because applying \(\mathbb{L}(t)\) individually makes the \(Y_H(t)\) component zero, which the \(Y_P(t)\) component is still \(f(t)\)&lt;/p>
 &lt;p>Note that \(Y(t)\) differs from \(Y_P(t)\) in that it is a general solution to the DE. \(Y_P(t)\) is only a particular one. Therefore, to find a general solution, we need a homogeneous solution (which we know how to calculate) and a particular solution (Finding Particular Solutions).&lt;/p>
 &lt;h3 id="finding-particular-solutions">Finding Particular Solutions&lt;/h3>
@@ -2138,7 +2138,7 @@ where \(d\) is a nonnegative integer, \(\alpha_0 \dots \alpha_d\) and \(\beta_0 
 &lt;ul>
 &lt;li>
 &lt;p>Multiplicity&lt;/p>
-&lt;p>This the multiplicity of the &lt;a href="#characteristic">characteristic&lt;/a> as a root of the associated &lt;a href="#characteristic-polynomial">characteristic polynomial&lt;/a> \(p(z)\). It is 0 if it is not a root.&lt;/p>
+&lt;p>This the multiplicity of the &lt;a href="https://www.kandasamyc.com/wiki/math246h/#characteristic">characteristic&lt;/a> as a root of the associated &lt;a href="https://www.kandasamyc.com/wiki/math246h/#characteristic-polynomial">characteristic polynomial&lt;/a> \(p(z)\). It is 0 if it is not a root.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h4 id="undetermined-coefficients">Undetermined Coefficients&lt;/h4>
@@ -2162,7 +2162,7 @@ where \(d\) is a nonnegative integer, \(\alpha_0 \dots \alpha_d\) and \(\beta_0 
 Generally, the \(n^{th}\) derivative is:
 \[\mathbb{L}(t^ne^{zt}) = p^{(n)}(z)e^{zt} + c_1p^{(n-1)}(z)te^{zt} + \dots + c_{n-1}p^{(1)}(z)t^{n-1}e^{zt} + p(z)t^ne^{zt}\]&lt;/p>
 &lt;h4 id="variation-of-parameters">Variation of Parameters&lt;/h4>
-&lt;p>Both &lt;a href="#undetermined-coefficients">Undetermined Coefficients&lt;/a> and &lt;a href="#key-identities">Key Identities&lt;/a> only work for constant coefficient equations. Variation of Parameters works for equation with variable coefficient equations as well.&lt;/p>
+&lt;p>Both &lt;a href="https://www.kandasamyc.com/wiki/math246h/#undetermined-coefficients">Undetermined Coefficients&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/math246h/#key-identities">Key Identities&lt;/a> only work for constant coefficient equations. Variation of Parameters works for equation with variable coefficient equations as well.&lt;/p>
 &lt;p>First, let&amp;rsquo;s examine the second order case and then generalize.&lt;/p>
 &lt;ol>
 &lt;li>We seek a solution to the equation \(y&amp;rsquo;&amp;rsquo; + a_1(t)y&amp;rsquo; + a_2(t)y = f(t)\) of the form:
@@ -2247,7 +2247,7 @@ Generally, the \(n^{th}\) derivative is:
 &lt;/ul>
 &lt;h3 id="natural-fundamental-matrices">Natural Fundamental Matrices&lt;/h3>
 &lt;ul>
-&lt;li>Using the fact that a &lt;a href="#fundamental-matrices">Fundamental Matrix&lt;/a> is a general solution, the natural fundamental matrix is the solution to the corresponding IVP
+&lt;li>Using the fact that a &lt;a href="https://www.kandasamyc.com/wiki/math246h/#fundamental-matrices">Fundamental Matrix&lt;/a> is a general solution, the natural fundamental matrix is the solution to the corresponding IVP
 \[\Phi(t) = \Psi(t)\Psi(t_I)^-1\]
 \[\Phi&amp;rsquo; = {\bf A}(t)\Phi, \quad \Phi(t_I) = I\]&lt;/li>
 &lt;/ul>
@@ -2518,26 +2518,26 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="x-rays">X-Rays&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in November 1895&lt;/li>
-&lt;li>Discovered by &lt;a href="#wilhelm-r%C3%B6ntgen">Wilhelm Röntgen&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#wilhelm-röntgen">Wilhelm Röntgen&lt;/a>&lt;/li>
 &lt;li>Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been&lt;/li>
 &lt;/ul>
 &lt;h3 id="radioactivity">Radioactivity&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in 1896&lt;/li>
-&lt;li>Discovered by &lt;a href="#antoine-henri-becquerel">Antoine Henri Becquerel&lt;/a>&lt;/li>
-&lt;li>Discovered by researching &lt;a href="#x-rays">X-Rays&lt;/a> and accidentally found radioactivity
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#antoine-henri-becquerel">Antoine Henri Becquerel&lt;/a>&lt;/li>
+&lt;li>Discovered by researching &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#x-rays">X-Rays&lt;/a> and accidentally found radioactivity
 &lt;ul>
 &lt;li>Tried to see if fluorescing materials would produce x-rays and used radioactive materials instead&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#marie-curie">Marie Curie&lt;/a> discovered it was ionizing and based on the amount of elementals uranium/thorium&lt;/li>
-&lt;li>&lt;a href="#pierre-curie">Pierre Curie&lt;/a> showed that it carried energy&lt;/li>
-&lt;li>&lt;a href="#pierre-curie">Pierre Curie&lt;/a> also discovered that there were 3 types: positive, negative, and neutral&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#marie-curie">Marie Curie&lt;/a> discovered it was ionizing and based on the amount of elementals uranium/thorium&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#pierre-curie">Pierre Curie&lt;/a> showed that it carried energy&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#pierre-curie">Pierre Curie&lt;/a> also discovered that there were 3 types: positive, negative, and neutral&lt;/li>
 &lt;/ul>
 &lt;h3 id="the-electron">The Electron&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in 1897&lt;/li>
-&lt;li>Discovered by &lt;a href="#j-dot-j-dot-thompson">J.J. Thompson&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#j-dot-j-dot-thompson">J.J. Thompson&lt;/a>&lt;/li>
 &lt;li>Observed cathode rays and by using formulas found their mass to charge ratio
 &lt;ul>
 &lt;li>They had to come from somewhere&lt;/li>
@@ -2546,24 +2546,24 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="plum-pudding-model">Plum Pudding Model&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#j-dot-j-dot-thompson">J.J. Thompson&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#j-dot-j-dot-thompson">J.J. Thompson&lt;/a>&lt;/li>
 &lt;li>Electrons in diffuse positive plum pudding&lt;/li>
 &lt;/ul>
 &lt;h3 id="quantized-light">Quantized Light&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in 1905&lt;/li>
-&lt;li>Discovered by &lt;a href="#albert-einstein">Albert Einstein&lt;/a>&lt;/li>
-&lt;li>Following &lt;a href="#max-planck">Max Planck&amp;rsquo;s&lt;/a> ideas&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#albert-einstein">Albert Einstein&lt;/a>&lt;/li>
+&lt;li>Following &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#max-planck">Max Planck&amp;rsquo;s&lt;/a> ideas&lt;/li>
 &lt;/ul>
 &lt;h3 id="special-theory-of-relativity">Special Theory of Relativity&lt;/h3>
 &lt;ul>
 &lt;li>Made in 1905&lt;/li>
-&lt;li>Made by &lt;a href="#albert-einstein">Albert Einstein&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#albert-einstein">Albert Einstein&lt;/a>&lt;/li>
 &lt;li>\(E=mc^2\)&lt;/li>
 &lt;/ul>
 &lt;h3 id="rutherford-s-mcgill-radioactivity-discoveries">Rutherford&amp;rsquo;s McGill Radioactivity Discoveries&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#ernest-rutherford">Ernest Rutherford&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-rutherford">Ernest Rutherford&lt;/a>&lt;/li>
 &lt;li>Radioactive things have half-lives&lt;/li>
 &lt;li>\(\alpha\) versus \(\beta\) radiation and named them&lt;/li>
 &lt;li>Showed that \(\gamma\) radiation existed&lt;/li>
@@ -2572,13 +2572,13 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="the-nucleus">The Nucleus&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in 1911&lt;/li>
-&lt;li>Discovered by &lt;a href="#ernest-rutherford">Ernest Rutherford&lt;/a>&lt;/li>
-&lt;li>Based on experiment done by &lt;a href="#hans-geiger">Hans Geiger&lt;/a> and &lt;a href="#ernest-marsden">Ernest Marsden&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-rutherford">Ernest Rutherford&lt;/a>&lt;/li>
+&lt;li>Based on experiment done by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-geiger">Hans Geiger&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-marsden">Ernest Marsden&lt;/a>&lt;/li>
 &lt;li>Figured out that if alpha particles were coming back at extreme angles it had to have been because of some electrically charged center&lt;/li>
 &lt;/ul>
 &lt;h3 id="millikan-oil-drop-experiment">Millikan Oil Drop Experiment&lt;/h3>
 &lt;ul>
-&lt;li>Performed by &lt;a href="#robert-millikan">Robert Millikan&lt;/a>&lt;/li>
+&lt;li>Performed by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-millikan">Robert Millikan&lt;/a>&lt;/li>
 &lt;li>Found the charge of the electron&lt;/li>
 &lt;/ul>
 &lt;h3 id="balmer-rydberg-formula">Balmer-Rydberg Formula&lt;/h3>
@@ -2588,46 +2588,46 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="bohr-s-atom">Bohr&amp;rsquo;s Atom&lt;/h3>
 &lt;ul>
-&lt;li>Discovered by &lt;a href="#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
-&lt;li>Explained the &lt;a href="#balmer-rydberg-formula">Balmer-Rydberg Formula&lt;/a>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
+&lt;li>Explained the &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#balmer-rydberg-formula">Balmer-Rydberg Formula&lt;/a>
 &lt;ul>
 &lt;li>There are certain energy levels and an atom can only jump from one to the other exactly&lt;/li>
-&lt;li>Explained the flaws in &lt;a href="#ernest-rutherford">Ernest Rutherford&amp;rsquo;s&lt;/a> atom as well&lt;/li>
+&lt;li>Explained the flaws in &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-rutherford">Ernest Rutherford&amp;rsquo;s&lt;/a> atom as well&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="particles-can-act-as-waves">Particles can act as waves&lt;/h3>
 &lt;ul>
 &lt;li>Made in 1924&lt;/li>
-&lt;li>Made by &lt;a href="#louis-de-broglie">Louis de Broglie&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#louis-de-broglie">Louis de Broglie&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="forms-of-quantum-mechanics">Forms of Quantum Mechanics&lt;/h3>
 &lt;ul>
 &lt;li>Both made in 1925&lt;/li>
-&lt;li>Made by &lt;a href="#werner-heisenberg">Werner Heisenberg&lt;/a> and &lt;a href="#erwin-schr%C3%B6dinger">Erwin Schrödinger&lt;/a>&lt;/li>
-&lt;li>In 1926, &lt;a href="#paul-dirac">Paul Dirac&lt;/a> showed that they were the same&lt;/li>
-&lt;li>&lt;a href="#erwin-schr%C3%B6dinger">Erwin Schrödinger&lt;/a>&amp;rsquo;s version was based on wave equations&lt;/li>
-&lt;li>&lt;a href="#werner-heisenberg">Werner Heisenberg&lt;/a>&amp;rsquo;s version was based on matrices&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#erwin-schrödinger">Erwin Schrödinger&lt;/a>&lt;/li>
+&lt;li>In 1926, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#paul-dirac">Paul Dirac&lt;/a> showed that they were the same&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#erwin-schrödinger">Erwin Schrödinger&lt;/a>&amp;rsquo;s version was based on wave equations&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a>&amp;rsquo;s version was based on matrices&lt;/li>
 &lt;/ul>
 &lt;h3 id="complmentarity">Complmentarity&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
 &lt;li>Some observables cannot be measured without spoiling the measurement of others&lt;/li>
 &lt;/ul>
 &lt;h3 id="heisenberg-s-uncertainty-principle">Heisenberg&amp;rsquo;s Uncertainty Principle&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#werner-heisenberg">Werner Heisenberg&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a>&lt;/li>
 &lt;li>\(\Delta x \Delta P \geq \frac{h}{4\pi}\)&lt;/li>
 &lt;/ul>
 &lt;h3 id="nuclear-reactions">Nuclear Reactions&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in 1917&lt;/li>
-&lt;li>Discovered by &lt;a href="#ernest-rutherford">Ernest Rutherford&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-rutherford">Ernest Rutherford&lt;/a>&lt;/li>
 &lt;li>Found that bombarding nitrogen with an alpha source produced hydrogen (knocking a proton out of nitrogen)&lt;/li>
 &lt;/ul>
 &lt;h3 id="mass-spectrograph">Mass Spectrograph&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#francis-aston">Francis Aston&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#francis-aston">Francis Aston&lt;/a>&lt;/li>
 &lt;li>Sending charged atoms through a magnetic fields will bend atoms of different masses by different radii
 &lt;ul>
 &lt;li>You can determine the mass to charge ratio and from there find mass&lt;/li>
@@ -2636,8 +2636,8 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="the-neutron">The Neutron&lt;/h3>
 &lt;ul>
-&lt;li>Discovered by &lt;a href="#james-chadwick">James Chadwick&lt;/a>&lt;/li>
-&lt;li>Almost discovered by &lt;a href="#frederic-joliot-curie">Frederic Joliot-Curie&lt;/a> and &lt;a href="#irene-joliot-curie">Irene Joliot-Curie&lt;/a>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-chadwick">James Chadwick&lt;/a>&lt;/li>
+&lt;li>Almost discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#frederic-joliot-curie">Frederic Joliot-Curie&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#irene-joliot-curie">Irene Joliot-Curie&lt;/a>
 &lt;ul>
 &lt;li>They thought that they were seeing gamma rays&lt;/li>
 &lt;li>They didn&amp;rsquo;t think about neutral particles&lt;/li>
@@ -2647,69 +2647,69 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="the-cyclotron">The Cyclotron&lt;/h3>
 &lt;ul>
-&lt;li>Invented by &lt;a href="#ernest-lawrence">Ernest Lawrence&lt;/a>&lt;/li>
+&lt;li>Invented by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-lawrence">Ernest Lawrence&lt;/a>&lt;/li>
 &lt;li>Kick a particle a bunch instead of one massive kick&lt;/li>
 &lt;/ul>
 &lt;h3 id="general-theory-of-relativity">General Theory of Relativity&lt;/h3>
 &lt;ul>
-&lt;li>Discovered by &lt;a href="#albert-einstein">Albert Einstein&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#albert-einstein">Albert Einstein&lt;/a>&lt;/li>
 &lt;li>Made in Berlin&lt;/li>
 &lt;/ul>
 &lt;h3 id="positron">Positron&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in 1932&lt;/li>
-&lt;li>Discovered by &lt;a href="#carl-anderson">Carl Anderson&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#paul-dirac">Paul Dirac&lt;/a> predicted this through his math but didn&amp;rsquo;t believe it&lt;/li>
-&lt;li>&lt;a href="#frederic-joliot-curie">Frederic Joliot-Curie&lt;/a> and &lt;a href="#irene-joliot-curie">Irene Joliot-Curie&lt;/a> realized they saw it and missed it&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#carl-anderson">Carl Anderson&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#paul-dirac">Paul Dirac&lt;/a> predicted this through his math but didn&amp;rsquo;t believe it&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#frederic-joliot-curie">Frederic Joliot-Curie&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#irene-joliot-curie">Irene Joliot-Curie&lt;/a> realized they saw it and missed it&lt;/li>
 &lt;/ul>
 &lt;h3 id="induced-radioactivity">Induced Radioactivity&lt;/h3>
 &lt;ul>
-&lt;li>Discovered by &lt;a href="#irene-joliot-curie">Irene Joliot-Curie&lt;/a> and &lt;a href="#frederic-joliot-curie">Frederic Joliot-Curie&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#irene-joliot-curie">Irene Joliot-Curie&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#frederic-joliot-curie">Frederic Joliot-Curie&lt;/a>&lt;/li>
 &lt;li>Were bombarding nuclei with \(\alpha\) particles, and saw neutron and positrons&lt;/li>
-&lt;li>&lt;a href="#lise-meitner">Lise Meitner&lt;/a> didn&amp;rsquo;t see this and they tried to see why by moving it back&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#lise-meitner">Lise Meitner&lt;/a> didn&amp;rsquo;t see this and they tried to see why by moving it back&lt;/li>
 &lt;li>They realized that the positrons stayed for a bit then faded: they had made a radioactive element&lt;/li>
 &lt;/ul>
 &lt;h3 id="slower-neutrons-have-bigger-cross-sections">Slower neutrons have bigger cross-sections&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#enrico-fermi">Enrico Fermi&lt;/a>&amp;rsquo;s group&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a>&amp;rsquo;s group&lt;/li>
 &lt;li>However, they thought they made transuranics when it was actually fission&lt;/li>
 &lt;/ul>
 &lt;h3 id="liquid-drop-model">Liquid Drop Model&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
 &lt;li>Literally guessed it from intuition and prior evidence&lt;/li>
 &lt;/ul>
 &lt;h3 id="semi-empirical-mass-formula">Semi-Empirical Mass Formula&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#hans-bethe">Hans Bethe&lt;/a> and &lt;a href="#carl-von-weizs%C3%A4cker">Carl von Weizsäcker&lt;/a>&lt;/li>
-&lt;li>Based on &lt;a href="#liquid-drop-model">Liquid Drop Model&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#carl-von-weizsäcker">Carl von Weizsäcker&lt;/a>&lt;/li>
+&lt;li>Based on &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#liquid-drop-model">Liquid Drop Model&lt;/a>&lt;/li>
 &lt;li>This shows that fission is possible (there will be energy released)&lt;/li>
 &lt;/ul>
 &lt;h3 id="fission">Fission&lt;/h3>
 &lt;ul>
-&lt;li>Discovered by &lt;a href="#otto-hahn">Otto Hahn&lt;/a> and &lt;a href="#fritz-strassman">Fritz Strassman&lt;/a>&lt;/li>
-&lt;li>Theory developed by &lt;a href="#lise-meitner">Lise Meitner&lt;/a> and &lt;a href="#otto-frisch">Otto Frisch&lt;/a>&lt;/li>
-&lt;li>Purposefully shown by &lt;a href="#otto-frisch">Otto Frisch&lt;/a>&lt;/li>
-&lt;li>Shown in the US for the first time by &lt;a href="#louis-alvarez">Louis Alvarez&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-hahn">Otto Hahn&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#fritz-strassman">Fritz Strassman&lt;/a>&lt;/li>
+&lt;li>Theory developed by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#lise-meitner">Lise Meitner&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-frisch">Otto Frisch&lt;/a>&lt;/li>
+&lt;li>Purposefully shown by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-frisch">Otto Frisch&lt;/a>&lt;/li>
+&lt;li>Shown in the US for the first time by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#louis-alvarez">Louis Alvarez&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="uranium-slow-neutron-fission">Uranium Slow Neutron Fission&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a>&lt;/li>
 &lt;li>U235 needs less energy to undergo fission because it becomes an even mass&lt;/li>
 &lt;/ul>
 &lt;h3 id="possibility-of-chain-reactions">Possibility of Chain Reactions&lt;/h3>
 &lt;ul>
-&lt;li>Theory recognized first by &lt;a href="#leo-szilard">Leo Szilard&lt;/a>&lt;/li>
-&lt;li>Attempted separately by &lt;a href="#enrico-fermi">Enrico Fermi&lt;/a> and Szilard&lt;/li>
+&lt;li>Theory recognized first by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a>&lt;/li>
+&lt;li>Attempted separately by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a> and Szilard&lt;/li>
 &lt;/ul>
 &lt;h3 id="first-reactor">First Reactor&lt;/h3>
 &lt;ul>
-&lt;li>Led by &lt;a href="#enrico-fermi">Enrico Fermi&lt;/a>&lt;/li>
+&lt;li>Led by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a>&lt;/li>
 &lt;li>Found that there is a chain reaction but not to the level wanted&lt;/li>
 &lt;li>Water absorbed too many neutrons&lt;/li>
 &lt;li>Graphite was found to not have a massive absorption cross section
 &lt;ul>
-&lt;li>&lt;a href="#enrico-fermi">Enrico Fermi&lt;/a> wanted to publish this, but &lt;a href="#leo-szilard">Leo Szilard&lt;/a> and &lt;a href="#george-pegram">George Pegram&lt;/a> convinced him otherwise&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a> wanted to publish this, but &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#george-pegram">George Pegram&lt;/a> convinced him otherwise&lt;/li>
 &lt;li>This stopped the Germans from finding out that graphite would work, because they had found it wouldn&amp;rsquo;t&lt;/li>
 &lt;li>It forced them to use heavy water which we could much more easily control&lt;/li>
 &lt;/ul>
@@ -2720,13 +2720,13 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>No matter what he did with the first reactor, he only got \(k=0.87\)&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#leo-szilard">Leo Szilard&lt;/a>&amp;rsquo;s main contribution was to negotiate for and find hig quality materials&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a>&amp;rsquo;s main contribution was to negotiate for and find hig quality materials&lt;/li>
 &lt;/ul>
 &lt;h3 id="critical-mass">Critical Mass&lt;/h3>
 &lt;ul>
 &lt;li>Smallest mass that will undergo a chain reaction&lt;/li>
 &lt;li>You need a mass such that particles won&amp;rsquo;t escape before they can react to often&lt;/li>
-&lt;li>Therefore you want its size to be around the &lt;a href="#mean-free-path">Mean Free Path&lt;/a>&lt;/li>
+&lt;li>Therefore you want its size to be around the &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#mean-free-path">Mean Free Path&lt;/a>&lt;/li>
 &lt;li>The big issue with U238 bombs is that its size and that its so slow that it&amp;rsquo;ll fizzle&lt;/li>
 &lt;/ul>
 &lt;h3 id="mean-free-path">Mean Free Path&lt;/h3>
@@ -2735,10 +2735,10 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="plutonium">Plutonium&lt;/h3>
 &lt;ul>
-&lt;li>Theorized by &lt;a href="#louis-turner">Louis Turner&lt;/a>&lt;/li>
+&lt;li>Theorized by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#louis-turner">Louis Turner&lt;/a>&lt;/li>
 &lt;li>Say \(U^{238}\) captures a neutron and becomes \(U^{239}\), then it would beata decay into \(N^{239}\), and then beta decay into \(Pu^{239}\), which since it&amp;rsquo;s a more stable odd nucleus would be as fissionable as \(U^{235}\)&lt;/li>
-&lt;li>&lt;a href="#edwin-mcmillan">Edwin McMillan&lt;/a> and &lt;a href="#phil-abelson">Phil Abelson&lt;/a> found indirect evidence but couldn&amp;rsquo;t isolate it&lt;/li>
-&lt;li>In 1949, &lt;a href="#glenn-seaborg">Glenn Seaborg&lt;/a> and &lt;a href="#emilio-segre">Emilio Segre&lt;/a> isolated a &lt;em>tiny&lt;/em> bit&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edwin-mcmillan">Edwin McMillan&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#phil-abelson">Phil Abelson&lt;/a> found indirect evidence but couldn&amp;rsquo;t isolate it&lt;/li>
+&lt;li>In 1949, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#glenn-seaborg">Glenn Seaborg&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#emilio-segre">Emilio Segre&lt;/a> isolated a &lt;em>tiny&lt;/em> bit&lt;/li>
 &lt;li>Plutonium is much easier to separate to make a bomb
 &lt;ul>
 &lt;li>However, it couldn&amp;rsquo;t be used in a gun-type design because it would detonate before the two masses could completely join&lt;/li>
@@ -2748,11 +2748,11 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="frisch-peirels-memoranda">Frisch-Peirels Memoranda&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#otto-frisch">Otto Frisch&lt;/a> and &lt;a href="#rudolf-peirels">Rudolf Peirels&lt;/a> wrote a memo describing just how possible it would be make a bomb and estimate of its power, along with the first estimate of the critical mass&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-frisch">Otto Frisch&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#rudolf-peirels">Rudolf Peirels&lt;/a> wrote a memo describing just how possible it would be make a bomb and estimate of its power, along with the first estimate of the critical mass&lt;/li>
 &lt;/ul>
 &lt;h3 id="isotope-separation">Isotope Separation&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#otto-frisch">Otto Frisch&lt;/a> was one of the earliest thinkers about this
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-frisch">Otto Frisch&lt;/a> was one of the earliest thinkers about this
 &lt;ul>
 &lt;li>He was thinking about thermal diffusion&lt;/li>
 &lt;li>That didn&amp;rsquo;t work, but then he considered barrier diffusion, which ended up being used&lt;/li>
@@ -2783,13 +2783,13 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>The better the moderator, the more the fission cross section can be increased&lt;/li>
 &lt;li>The moderator works by elastically scattering the neutrons
 &lt;ul>
-&lt;li>It can&amp;rsquo;t absorb it, and should have a short &lt;a href="#mean-free-path">Mean Free Path&lt;/a>&lt;/li>
+&lt;li>It can&amp;rsquo;t absorb it, and should have a short &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#mean-free-path">Mean Free Path&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="self-sustaining-reactors">Self-sustaining Reactors&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#enrico-fermi">Enrico Fermi&lt;/a> led reactor work&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a> led reactor work&lt;/li>
 &lt;li>They had reacted \(k=0.995\) before May 1942 and wanted to build a self-sustaining one next&lt;/li>
 &lt;li>They got \(k=1.05\), which is good but not self-sustaining
 &lt;ul>
@@ -2798,7 +2798,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;/li>
 &lt;li>They needed to control the reactors to stop a runaway reactors (which wouldn&amp;rsquo;t explode but release a ton of &lt;em>very&lt;/em> bad material)&lt;/li>
-&lt;li>&lt;a href="#karl-compton">Karl Compton&lt;/a> decided to just send it even if it ran away without other authority (who would&amp;rsquo;ve definely said no)&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#karl-compton">Karl Compton&lt;/a> decided to just send it even if it ran away without other authority (who would&amp;rsquo;ve definely said no)&lt;/li>
 &lt;li>They used control rods to control reactions: stick absorbing rod into material to stop the reaction
 &lt;ul>
 &lt;li>A big thing that kept neutrons under control was that about 1% of neutrons are delayed a bit because they come from beta decay of fission product on the time scale of second, so if \(k\) is just above 1, only these fissions keep growth going at, and because they&amp;rsquo;re slow we can actually control the reaction&lt;/li>
@@ -2820,32 +2820,32 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>But it wouldn&amp;rsquo;t work for plutonium: the gun would need to shoot the bullet very fast, faster than possible then
 &lt;ul>
 &lt;li>In addition, \(Pu^{240}\) had a very high spontaenous fission rate and would cause fizzle&lt;/li>
-&lt;li>This turned much focus for Plutonium bombs to an &lt;a href="#implosion">Implosion&lt;/a> design&lt;/li>
+&lt;li>This turned much focus for Plutonium bombs to an &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#implosion">Implosion&lt;/a> design&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;h4 id="implosion">Implosion&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="#seth-neddermeyer">Seth Neddermeyer&lt;/a> proposed this idea&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#seth-neddermeyer">Seth Neddermeyer&lt;/a> proposed this idea&lt;/li>
 &lt;li>It was hard and people were pessimistic but it was followed and investigated despite being treated like a bit of a joke&lt;/li>
-&lt;li>&lt;a href="#john-von-neumann">John von Neumann&lt;/a> was incredibly useful for this and developed a lot the math along with knowing how to focus on the shock wave for spherical compression
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#john-von-neumann">John von Neumann&lt;/a> was incredibly useful for this and developed a lot the math along with knowing how to focus on the shock wave for spherical compression
 &lt;ul>
-&lt;li>In addition, along with &lt;a href="#edward-teller">Edward Teller&lt;/a>, they realized you could compress a material into a critical mass by increasing its density&lt;/li>
+&lt;li>In addition, along with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a>, they realized you could compress a material into a critical mass by increasing its density&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#george-kistiakowsky">George Kistiakowsky&lt;/a> was brought in to help because Seth was having trouble with spherical compression
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#george-kistiakowsky">George Kistiakowsky&lt;/a> was brought in to help because Seth was having trouble with spherical compression
 &lt;ul>
-&lt;li>&lt;a href="#stanislaw-ulam">Stanislaw Ulam&lt;/a> came to help with theory side of it&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#stanislaw-ulam">Stanislaw Ulam&lt;/a> came to help with theory side of it&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>They needed hydrodynamic but you can&amp;rsquo;t solve the equations directly, they need to repeated mechanical computation, which &lt;a href="#richard-feynman">Richard Feynman&lt;/a> helped with
+&lt;li>They needed hydrodynamic but you can&amp;rsquo;t solve the equations directly, they need to repeated mechanical computation, which &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#richard-feynman">Richard Feynman&lt;/a> helped with
 &lt;ul>
 &lt;li>To help with this, they used shaped charges to direct the shock wave&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#edward-teller">Edward Teller&lt;/a> was not helping and so he was replaced with &lt;a href="#rudolf-peirels">Rudolf Peirels&lt;/a>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a> was not helping and so he was replaced with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#rudolf-peirels">Rudolf Peirels&lt;/a>
 &lt;ul>
-&lt;li>Teller was allowed to work for a super and would meet with &lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> for one hour a week&lt;/li>
+&lt;li>Teller was allowed to work for a super and would meet with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-oppenheimer">Robert Oppenheimer&lt;/a> for one hour a week&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Since the reactor irraddiated materials with a lot of neutrons, there was more Pu240 than expected an so implosion was required&lt;/li>
@@ -2857,20 +2857,20 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="plutonium-production">Plutonium Production&lt;/h3>
 &lt;ul>
-&lt;li>They didn&amp;rsquo;t want to build them in Dogpath where the &lt;a href="#isotope-separation">Isotope Separation&lt;/a> plants were being held, in case something went wrong&lt;/li>
+&lt;li>They didn&amp;rsquo;t want to build them in Dogpath where the &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#isotope-separation">Isotope Separation&lt;/a> plants were being held, in case something went wrong&lt;/li>
 &lt;li>They built them in Hanford&lt;/li>
-&lt;li>Since the reactors had a k a decent bit higher than 1, &lt;a href="#eugene-wigner">Eugene Wigner&lt;/a> realized you could use water for cooling and still have a proper reaction&lt;/li>
-&lt;li>&lt;a href="#eugene-wigner">Eugene Wigner&lt;/a> designed the base reactor
+&lt;li>Since the reactors had a k a decent bit higher than 1, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#eugene-wigner">Eugene Wigner&lt;/a> realized you could use water for cooling and still have a proper reaction&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#eugene-wigner">Eugene Wigner&lt;/a> designed the base reactor
 &lt;ul>
 &lt;li>Uranium is in slugs (tubes) and after being irradiated to become enough Pu, they were pushed into water and could sit until radioactivity decreased to proper level&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#phil-abelson">Phil Abelson&lt;/a> was working with the Navy and realized that he could use thermal diffusion, which isn&amp;rsquo;t efficient, to slightly enrich uranium which then could be used by calutrons to improve their efficiency a lot&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#phil-abelson">Phil Abelson&lt;/a> was working with the Navy and realized that he could use thermal diffusion, which isn&amp;rsquo;t efficient, to slightly enrich uranium which then could be used by calutrons to improve their efficiency a lot&lt;/li>
 &lt;li>The Hanford reactors went online and worked but then strangely died and then came back after a period of time
 &lt;ul>
 &lt;li>This was found to be due to neutron absorbing decacy product that would poison the reaction before it decayed away&lt;/li>
 &lt;li>Fixed by adding more uranium slugs to increase \(k\)&lt;/li>
-&lt;li>Thankfully this was possible due to &lt;a href="#john-wheeler">John Wheeler&lt;/a> who insisted on extra just in case of this exact situation&lt;/li>
+&lt;li>Thankfully this was possible due to &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#john-wheeler">John Wheeler&lt;/a> who insisted on extra just in case of this exact situation&lt;/li>
 &lt;li>Most uranium came from the calutraons in dogpatch&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -2883,7 +2883,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="tickling-the-dragon">Tickling the Dragon&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#otto-frisch">Otto Frisch&lt;/a> assembled nearly critical masses and had to measure the \(k\) for these, it almost ended in disaster&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-frisch">Otto Frisch&lt;/a> assembled nearly critical masses and had to measure the \(k\) for these, it almost ended in disaster&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;h2 id="scientists">Scientists&lt;/h2>
@@ -2921,7 +2921,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="lise-meitner">Lise Meitner&lt;/h3>
 &lt;ul>
 &lt;li>She was a racial Jew but was able to work for as long as she did in Germany because she was Austrian&lt;/li>
-&lt;li>She got help from &lt;a href="#otto-hahn">Otto Hahn&lt;/a>, &lt;a href="#niels-bohr">Niels Bohr&lt;/a>, &lt;a href="#dirk-coster">Dirk Coster&lt;/a>, and &lt;a href="#max-von-laue">Max von Laue&lt;/a> to escape&lt;/li>
+&lt;li>She got help from &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-hahn">Otto Hahn&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#dirk-coster">Dirk Coster&lt;/a>, and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#max-von-laue">Max von Laue&lt;/a> to escape&lt;/li>
 &lt;/ul>
 &lt;h3 id="henry-moseley">Henry Moseley&lt;/h3>
 &lt;h3 id="chaim-weizmann">Chaim Weizmann&lt;/h3>
@@ -2997,7 +2997,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="gregory-breit">Gregory Breit&lt;/h3>
 &lt;h3 id="richard-feynman">Richard Feynman&lt;/h3>
 &lt;ul>
-&lt;li>Played a Big in &lt;a href="#manhattan-project-research">Manhattan Project Research&lt;/a>&amp;rsquo;s Theory Division with &lt;a href="#hans-bethe">Hans Bethe&lt;/a> and organized computing&lt;/li>
+&lt;li>Played a Big in &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#manhattan-project-research">Manhattan Project Research&lt;/a>&amp;rsquo;s Theory Division with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> and organized computing&lt;/li>
 &lt;/ul>
 &lt;h3 id="seth-neddermeyer">Seth Neddermeyer&lt;/h3>
 &lt;h3 id="klaus-fuchs">Klaus Fuchs&lt;/h3>
@@ -3056,7 +3056,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>Germany sent the Zimmerman telegram to stop that, but ended up causing it&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#henry-moseley">Henry Moseley&lt;/a> was killed in the Galli&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#henry-moseley">Henry Moseley&lt;/a> was killed in the Galli&lt;/li>
 &lt;/ul>
 &lt;h3 id="ending-of-wwi">Ending of WWI&lt;/h3>
 &lt;ul>
@@ -3121,15 +3121,15 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="fission-secrecy">Fission Secrecy&lt;/h3>
 &lt;ul>
-&lt;li>People like &lt;a href="#edward-teller">Edward Teller&lt;/a>, &lt;a href="#eugene-wigner">Eugene Wigner&lt;/a>, and &lt;a href="#leo-szilard">Leo Szilard&lt;/a> were advocating for secrecy due to the issue of potential danger&lt;/li>
-&lt;li>&lt;a href="#niels-bohr">Niels Bohr&lt;/a> had the view that secrecy was antithetic to the very idea of science&lt;/li>
+&lt;li>People like &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#eugene-wigner">Eugene Wigner&lt;/a>, and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> were advocating for secrecy due to the issue of potential danger&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a> had the view that secrecy was antithetic to the very idea of science&lt;/li>
 &lt;li>Other countries had not stopped publishing&lt;/li>
 &lt;li>We decided to get the gov involved
 &lt;ul>
-&lt;li>&lt;a href="#leo-szilard">Leo Szilard&lt;/a> got &lt;a href="#eugene-wigner">Eugene Wigner&lt;/a> to drive him to meet &lt;a href="#albert-einstein">Albert Einstein&lt;/a> to write a letter (about german acquisition of uranium ore) to the Queen of England, but it ended up being sent to a belgian cabinet member&lt;/li>
-&lt;li>&lt;a href="#leo-szilard">Leo Szilard&lt;/a> was introduced to &lt;a href="#alexander-sachs">Alexander Sachs&lt;/a> who was able to eventually get an audience with the president
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> got &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#eugene-wigner">Eugene Wigner&lt;/a> to drive him to meet &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#albert-einstein">Albert Einstein&lt;/a> to write a letter (about german acquisition of uranium ore) to the Queen of England, but it ended up being sent to a belgian cabinet member&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> was introduced to &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#alexander-sachs">Alexander Sachs&lt;/a> who was able to eventually get an audience with the president
 &lt;ul>
-&lt;li>&lt;a href="#alexander-sachs">Alexander Sachs&lt;/a> got FDR to establish the Advisory Committee on Uranium led by &lt;a href="#lymann-briggs">Lymann Briggs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#alexander-sachs">Alexander Sachs&lt;/a> got FDR to establish the Advisory Committee on Uranium led by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#lymann-briggs">Lymann Briggs&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -3189,9 +3189,9 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>Strategic bombing was used extensely, especially with incendiary weapons, in Germany and Japan&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>A team called Alsos headed by &lt;a href="#boris-pash">Boris Pash&lt;/a> and &lt;a href="#samuel-goudsmit">Samuel Goudsmit&lt;/a> for science
+&lt;li>A team called Alsos headed by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#boris-pash">Boris Pash&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#samuel-goudsmit">Samuel Goudsmit&lt;/a> for science
 &lt;ul>
-&lt;li>&lt;a href="#samuel-goudsmit">Samuel Goudsmit&lt;/a> was chosen mainly because he knew nothing about the Manhattan Project and couldn&amp;rsquo;t divulge secrets if captured&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#samuel-goudsmit">Samuel Goudsmit&lt;/a> was chosen mainly because he knew nothing about the Manhattan Project and couldn&amp;rsquo;t divulge secrets if captured&lt;/li>
 &lt;li>They got most the uranium, an unfinished reactor, the leading scientists&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -3208,10 +3208,10 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;/li>
 &lt;li>At the Yalta Conference, the US managed to get Russia to agree to enter the war against Japan 30 days after Germany surrended, but this turned out to be more of a curse than anything because they wouldn&amp;rsquo;t leave places they occupied&lt;/li>
-&lt;li>&lt;a href="#henry-stimson">Henry Stimson&lt;/a> and &lt;a href="#leslie-groves">Leslie Groves&lt;/a> briefed &lt;a href="#harry-truman">Harry Truman&lt;/a> in mid 1945 about the bomb
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#henry-stimson">Henry Stimson&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leslie-groves">Leslie Groves&lt;/a> briefed &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#harry-truman">Harry Truman&lt;/a> in mid 1945 about the bomb
 &lt;ul>
 &lt;li>They established the Interim Comittee to talk about the use of the bomb after the war&lt;/li>
-&lt;li>&lt;a href="#james-byrnes">James Byrnes&lt;/a> dominated this comittee and made many decisions&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-byrnes">James Byrnes&lt;/a> dominated this comittee and made many decisions&lt;/li>
 &lt;li>They recommeded directly military use
 &lt;ul>
 &lt;li>Japan wouldn&amp;rsquo;t surrender otherwise&lt;/li>
@@ -3220,7 +3220,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;/li>
 &lt;li>Byrnes also got ther committee to hold off on telling Russia until after a test&lt;/li>
-&lt;li>&lt;a href="#leo-szilard">Leo Szilard&lt;/a> tried to change their decision by talking to &lt;a href="#harry-truman">Harry Truman&lt;/a> through his political connections but was shut down by &lt;a href="#james-byrnes">James Byrnes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> tried to change their decision by talking to &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#harry-truman">Harry Truman&lt;/a> through his political connections but was shut down by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-byrnes">James Byrnes&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>The only other such attempt was the Franck Report
@@ -3239,15 +3239,15 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Implosion tests was to be done at Alamogordo before Potsdam so &lt;a href="#harry-truman">Harry Truman&lt;/a> could slip a vague comment to Stalin
+&lt;li>Implosion tests was to be done at Alamogordo before Potsdam so &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#harry-truman">Harry Truman&lt;/a> could slip a vague comment to Stalin
 &lt;ul>
 &lt;li>We tested .1kT of explosive just for equipment&lt;/li>
 &lt;li>Bomb nearly didn&amp;rsquo;t fit together because of thermal expansion&lt;/li>
 &lt;li>Also a copy meant to test everything else was done and implied the real one wouldn&amp;rsquo;t work
 &lt;ul>
 &lt;li>The shockwave wasn&amp;rsquo;t spherical&lt;/li>
-&lt;li>&lt;a href="#george-kistiakowsky">George Kistiakowsky&lt;/a> was getting absolutely destroyed for this&lt;/li>
-&lt;li>&lt;a href="#hans-bethe">Hans Bethe&lt;/a> proved the results actually meant nothing and that they had no clue what would happen&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#george-kistiakowsky">George Kistiakowsky&lt;/a> was getting absolutely destroyed for this&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> proved the results actually meant nothing and that they had no clue what would happen&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -3260,17 +3260,17 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>UAC slow and not too progressive&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#vannevar-bush">Vannevar Bush&lt;/a> didn&amp;rsquo;t like this and so started the National Defense Research Council
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#vannevar-bush">Vannevar Bush&lt;/a> didn&amp;rsquo;t like this and so started the National Defense Research Council
 &lt;ul>
-&lt;li>The NDRC had &lt;a href="#james-conant">James Conant&lt;/a>, &lt;a href="#karl-compton">Karl Compton&lt;/a>, &lt;a href="#edward-tolman">Edward Tolman&lt;/a>&lt;/li>
+&lt;li>The NDRC had &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-conant">James Conant&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#karl-compton">Karl Compton&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-tolman">Edward Tolman&lt;/a>&lt;/li>
 &lt;li>They had significant influence and power to get things done&lt;/li>
-&lt;li>They had taken over the UAC in terms of importance and were focusing on &lt;a href="#enrico-fermi">Enrico Fermi&lt;/a>&amp;rsquo;s reactors in early 1941&lt;/li>
+&lt;li>They had taken over the UAC in terms of importance and were focusing on &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a>&amp;rsquo;s reactors in early 1941&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#james-conant">James Conant&lt;/a> talked with &lt;a href="#frederick-lindemann">Frederick Lindemann&lt;/a> to start the US and &lt;a href="#british-bomb-effort">British Bomb Effort&lt;/a> collaboration&lt;/li>
-&lt;li>&lt;a href="#ernest-lawrence">Ernest Lawrence&lt;/a> tried to push harder for a bomb through unoffical means, but &lt;a href="#vannevar-bush">Vannevar Bush&lt;/a> asserted his leadership and control
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-conant">James Conant&lt;/a> talked with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#frederick-lindemann">Frederick Lindemann&lt;/a> to start the US and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#british-bomb-effort">British Bomb Effort&lt;/a> collaboration&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-lawrence">Ernest Lawrence&lt;/a> tried to push harder for a bomb through unoffical means, but &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#vannevar-bush">Vannevar Bush&lt;/a> asserted his leadership and control
 &lt;ul>
-&lt;li>He asked the National Academy of Science to form a committee chaired by &lt;a href="#arthur-holly-compton">Arthur Holly Compton&lt;/a>
+&lt;li>He asked the National Academy of Science to form a committee chaired by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#arthur-holly-compton">Arthur Holly Compton&lt;/a>
 &lt;ul>
 &lt;li>They were conservative and said at the earliest, bombs would be available by 1945&lt;/li>
 &lt;/ul>
@@ -3282,22 +3282,22 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>After &lt;a href="#mark-oliphant">Mark Oliphant&lt;/a> pushed &lt;a href="#ernest-lawrence">Ernest Lawrence&lt;/a> who in turn pushed &lt;a href="#james-conant">James Conant&lt;/a> and &lt;a href="#karl-compton">Karl Compton&lt;/a>, Compton called for another NAS study with &lt;a href="#george-kistiakowsky">George Kistiakowsky&lt;/a> and who convinced &lt;a href="#james-conant">James Conant&lt;/a> to push for the bomb
+&lt;li>After &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#mark-oliphant">Mark Oliphant&lt;/a> pushed &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-lawrence">Ernest Lawrence&lt;/a> who in turn pushed &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-conant">James Conant&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#karl-compton">Karl Compton&lt;/a>, Compton called for another NAS study with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#george-kistiakowsky">George Kistiakowsky&lt;/a> and who convinced &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-conant">James Conant&lt;/a> to push for the bomb
 &lt;ul>
-&lt;li>&lt;a href="#vannevar-bush">Vannevar Bush&lt;/a> went directly to FDR before the report was published and briefed him&lt;/li>
-&lt;li>This established the Top Policy Group: &lt;a href="#henry-wallace">Henry Wallace&lt;/a>, &lt;a href="#henry-stimson">Henry Stimson&lt;/a>, &lt;a href="#george-marshall">George Marshall&lt;/a>, &lt;a href="#vannevar-bush">Vannevar Bush&lt;/a>, and &lt;a href="#james-conant">James Conant&lt;/a>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#vannevar-bush">Vannevar Bush&lt;/a> went directly to FDR before the report was published and briefed him&lt;/li>
+&lt;li>This established the Top Policy Group: &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#henry-wallace">Henry Wallace&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#henry-stimson">Henry Stimson&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#george-marshall">George Marshall&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#vannevar-bush">Vannevar Bush&lt;/a>, and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-conant">James Conant&lt;/a>
 &lt;ul>
 &lt;li>They were to determine whether to do this or not&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>A key issue was &lt;a href="#isotope-separation">Isotope Separation&lt;/a>&lt;/li>
+&lt;li>A key issue was &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#isotope-separation">Isotope Separation&lt;/a>&lt;/li>
 &lt;li>The engineers refused to estimate with so little data, so Compton just made up the estimates&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>In Dec 1941, The S-1 Program was setup to deal with nuclear weapons research&lt;/li>
 &lt;li>People were scattered and no one wanted to move, so they argued
 &lt;ul>
-&lt;li>&lt;a href="#karl-compton">Karl Compton&lt;/a> basically ordered everyone to come to Chicago: The Metallurgical lab (Met lab)
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#karl-compton">Karl Compton&lt;/a> basically ordered everyone to come to Chicago: The Metallurgical lab (Met lab)
 &lt;ul>
 &lt;li>The second reactor at Columbia achieved a \(k=0.94\), better than the earlier \(k=0.87\)&lt;/li>
 &lt;li>The Chicago reactor was under the footbal field (in a squash court)&lt;/li>
@@ -3305,21 +3305,21 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>We decided to go the try all methods approach to solve &lt;a href="#isotope-separation">Isotope Separation&lt;/a>
+&lt;li>We decided to go the try all methods approach to solve &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#isotope-separation">Isotope Separation&lt;/a>
 &lt;ul>
-&lt;li>Plutonium was much easier to separate but still not easy, and &lt;a href="#glenn-seaborg">Glenn Seaborg&lt;/a> was picked to lead it
+&lt;li>Plutonium was much easier to separate but still not easy, and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#glenn-seaborg">Glenn Seaborg&lt;/a> was picked to lead it
 &lt;ul>
 &lt;li>The all routes method was used for this too&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#gregory-breit">Gregory Breit&lt;/a> was picked to lead fast neutron studies, but due his difficult personality and his security concerns about &lt;a href="#enrico-fermi">Enrico Fermi&lt;/a>, he resigned, and &lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> was picked instead&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#gregory-breit">Gregory Breit&lt;/a> was picked to lead fast neutron studies, but due his difficult personality and his security concerns about &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a>, he resigned, and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-oppenheimer">Robert Oppenheimer&lt;/a> was picked instead&lt;/li>
 &lt;li>We decided to use He to cool reactors&lt;/li>
-&lt;li>To run things, &lt;a href="#vannevar-bush">Vannevar Bush&lt;/a> proposed to &lt;a href="#fdr">FDR&lt;/a> that the Office for Scientific Research and Development (OSRD) and Army Corps of Engineers split it instead of giving the Army full control&lt;/li>
-&lt;li>&lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> scheduled a summer conference with &lt;a href="#hans-bethe">Hans Bethe&lt;/a>, &lt;a href="#edward-teller">Edward Teller&lt;/a> and others to talk about bomb building physics, although they got distracted with a fusion bomb, primarily due to Teller
+&lt;li>To run things, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#vannevar-bush">Vannevar Bush&lt;/a> proposed to &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#fdr">FDR&lt;/a> that the Office for Scientific Research and Development (OSRD) and Army Corps of Engineers split it instead of giving the Army full control&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-oppenheimer">Robert Oppenheimer&lt;/a> scheduled a summer conference with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a> and others to talk about bomb building physics, although they got distracted with a fusion bomb, primarily due to Teller
 &lt;ul>
-&lt;li>They did get concerned on whether a fission bomb would cause the nitrogen in the atmosphere to go off, which &lt;a href="#hans-bethe">Hans Bethe&lt;/a> proved would not happen&lt;/li>
+&lt;li>They did get concerned on whether a fission bomb would cause the nitrogen in the atmosphere to go off, which &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> proved would not happen&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>The S-1 committee concluded in 1942, that the bomb would be incredibly important to winning the war&lt;/li>
@@ -3334,15 +3334,15 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/li>
 &lt;li>The split of authority was problematic so overall responsiblity went to the army
 &lt;ul>
-&lt;li>Colonel &lt;a href="#leslie-groves">Leslie Groves&lt;/a> was picked to lead it (he wasn&amp;rsquo;t entirely happy because he wanted to fight)&lt;/li>
-&lt;li>His first meeting with the War Production Board basically involved him bullying them into getting first priority for all material (also &lt;a href="#vannevar-bush">Vannevar Bush&lt;/a> and &lt;a href="#henry-stimson">Henry Stimson&lt;/a>&amp;rsquo;s influence pulled it off)&lt;/li>
+&lt;li>Colonel &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leslie-groves">Leslie Groves&lt;/a> was picked to lead it (he wasn&amp;rsquo;t entirely happy because he wanted to fight)&lt;/li>
+&lt;li>His first meeting with the War Production Board basically involved him bullying them into getting first priority for all material (also &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#vannevar-bush">Vannevar Bush&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#henry-stimson">Henry Stimson&lt;/a>&amp;rsquo;s influence pulled it off)&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Chicago needed to be done outside of a city, so &lt;a href="#karl-compton">Karl Compton&lt;/a> decided upon a new lab in the nearby Argonne Forest&lt;/li>
+&lt;li>Chicago needed to be done outside of a city, so &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#karl-compton">Karl Compton&lt;/a> decided upon a new lab in the nearby Argonne Forest&lt;/li>
 &lt;li>Security was becoming more and more stringent and important&lt;/li>
-&lt;li>&lt;a href="#leslie-groves">Leslie Groves&lt;/a> wanted a new site for the project
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leslie-groves">Leslie Groves&lt;/a> wanted a new site for the project
 &lt;ul>
-&lt;li>He met &lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> and wanted to make him its&amp;rsquo; lead&lt;/li>
+&lt;li>He met &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-oppenheimer">Robert Oppenheimer&lt;/a> and wanted to make him its&amp;rsquo; lead&lt;/li>
 &lt;li>He was a good choice in some ways but not really in others: mainly his left-wing ties&lt;/li>
 &lt;li>Also, everyone else who was good was busy or not american&lt;/li>
 &lt;li>In addition, he thought Oppie was a legendary leader&lt;/li>
@@ -3354,12 +3354,12 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>But also in the middle of no where and a desert-type area is not something many were used to&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>He recruited many important people like &lt;a href="#hans-bethe">Hans Bethe&lt;/a> and &lt;a href="#edward-teller">Edward Teller&lt;/a> but not &lt;a href="#i-dot-i-dot-rabi">I.I. Rabi&lt;/a>, who was ethically opposed and focused on radar
+&lt;li>He recruited many important people like &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a> but not &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#i-dot-i-dot-rabi">I.I. Rabi&lt;/a>, who was ethically opposed and focused on radar
 &lt;ul>
 &lt;li>They were initially going to commision them as officers but that was opposed&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#leslie-groves">Leslie Groves&lt;/a> felt that &lt;a href="#leo-szilard">Leo Szilard&lt;/a> was a hindrance and tried to have him booted but &lt;a href="#karl-compton">Karl Compton&lt;/a> talked him out of it and &lt;a href="#leo-szilard">Leo Szilard&lt;/a> used his patents to remain in it&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leslie-groves">Leslie Groves&lt;/a> felt that &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> was a hindrance and tried to have him booted but &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#karl-compton">Karl Compton&lt;/a> talked him out of it and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> used his patents to remain in it&lt;/li>
 &lt;li>Oak Ridges was there uranium separation was to happen near Knoxville
 &lt;ul>
 &lt;li>It was isolated but more non-technical&lt;/li>
@@ -3371,17 +3371,17 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>This was partly because they suspected the Germans were going to do it&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>When the &lt;a href="#british-bomb-effort">British Bomb Effort&lt;/a> merged in, they brought &lt;a href="#niels-bohr">Niels Bohr&lt;/a> who showed a design of a german reactor he had obtained and showed that they were behind, or at least seemed to be so&lt;/li>
-&lt;li>&lt;a href="#niels-bohr">Niels Bohr&lt;/a> was a consultant and helped with some of the technical aspects but most importantly started getting people to think about the meanings of the weapon and Bohr helped them come to accept it morally
+&lt;li>When the &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#british-bomb-effort">British Bomb Effort&lt;/a> merged in, they brought &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a> who showed a design of a german reactor he had obtained and showed that they were behind, or at least seemed to be so&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#niels-bohr">Niels Bohr&lt;/a> was a consultant and helped with some of the technical aspects but most importantly started getting people to think about the meanings of the weapon and Bohr helped them come to accept it morally
 &lt;ul>
 &lt;li>He pushed to get political leaders to consider this&lt;/li>
-&lt;li>He got a meeting with &lt;a href="#felix-frankfurter">Felix Frankfurter&lt;/a>, the supreme court justice
+&lt;li>He got a meeting with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#felix-frankfurter">Felix Frankfurter&lt;/a>, the supreme court justice
 &lt;ul>
 &lt;li>Felix already knew about some project he called &amp;ldquo;X&amp;rdquo;&lt;/li>
-&lt;li>Felix set him up with &lt;a href="#fdr">FDR&lt;/a>&lt;/li>
+&lt;li>Felix set him up with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#fdr">FDR&lt;/a>&lt;/li>
 &lt;li>He then got authorization to talk to the British people about it
 &lt;ul>
-&lt;li>&lt;a href="#winston-churchill">Winston Churchill&lt;/a> didn&amp;rsquo;t want to meet with him&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#winston-churchill">Winston Churchill&lt;/a> didn&amp;rsquo;t want to meet with him&lt;/li>
 &lt;li>He eventually did and absolutely shut Bohr down&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -3390,26 +3390,26 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>He argued that it wasn&amp;rsquo;t a regular situation and secrecy wouldn&amp;rsquo;t work&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#winston-churchill">Winston Churchill&lt;/a> met with &lt;a href="#fdr">FDR&lt;/a> later and talked him out of this entirely and blamed Bohr along with accusing his character&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#winston-churchill">Winston Churchill&lt;/a> met with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#fdr">FDR&lt;/a> later and talked him out of this entirely and blamed Bohr along with accusing his character&lt;/li>
 &lt;li>They were also considering whether and how to tell the USSR&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>The Army was bringing in Special Engineering Detachments (SEDs) who helped technical staff, although this brought in quite a few spies&lt;/li>
-&lt;li>&lt;a href="#hans-bethe">Hans Bethe&lt;/a> was appointed over &lt;a href="#edward-teller">Edward Teller&lt;/a> for head of the theory division
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> was appointed over &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a> for head of the theory division
 &lt;ul>
 &lt;li>Teller really didn&amp;rsquo;t like this and Bethe made sense&lt;/li>
-&lt;li>He did praise &lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> despite having made the decision&lt;/li>
+&lt;li>He did praise &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-oppenheimer">Robert Oppenheimer&lt;/a> despite having made the decision&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#emilio-segre">Emilio Segre&lt;/a> measured the spontaenous fission rate of Pu and found that it was higher in Los Alamos due to its altitude but that could be shielded out&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#emilio-segre">Emilio Segre&lt;/a> measured the spontaenous fission rate of Pu and found that it was higher in Los Alamos due to its altitude but that could be shielded out&lt;/li>
 &lt;/ul>
 &lt;h3 id="british-bomb-effort">British Bomb Effort&lt;/h3>
 &lt;ul>
-&lt;li>Pushing by &lt;a href="#rudolf-peirels">Rudolf Peirels&lt;/a> and &lt;a href="#otto-frisch">Otto Frisch&lt;/a>, who were enemy aliens
+&lt;li>Pushing by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#rudolf-peirels">Rudolf Peirels&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-frisch">Otto Frisch&lt;/a>, who were enemy aliens
 &lt;ul>
-&lt;li>&lt;a href="#james-chadwick">James Chadwick&lt;/a>, &lt;a href="#j-dot-j-dot-thompson">J.J. Thompson&lt;/a>&amp;rsquo;s son and others backed it&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-chadwick">James Chadwick&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#j-dot-j-dot-thompson">J.J. Thompson&lt;/a>&amp;rsquo;s son and others backed it&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>This created the MAUD committee
@@ -3420,15 +3420,15 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;/li>
 &lt;li>Britain still had issues because they wanted to build in Britain despite the bombing risks&lt;/li>
-&lt;li>&lt;a href="#mark-oliphant">Mark Oliphant&lt;/a> went to the US for radar research and heavily pushed multiple people on the bomb&lt;/li>
-&lt;li>Towards the end of 1942, the British project merged with &lt;a href="#manhattan-project-research">Manhattan Project Research&lt;/a> and consequently many scientists were given British citizenship (like &lt;a href="#otto-frisch">Otto Frisch&lt;/a>)&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#mark-oliphant">Mark Oliphant&lt;/a> went to the US for radar research and heavily pushed multiple people on the bomb&lt;/li>
+&lt;li>Towards the end of 1942, the British project merged with &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#manhattan-project-research">Manhattan Project Research&lt;/a> and consequently many scientists were given British citizenship (like &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#otto-frisch">Otto Frisch&lt;/a>)&lt;/li>
 &lt;/ul>
 &lt;h3 id="german-bomb-effort">German Bomb Effort&lt;/h3>
 &lt;ul>
-&lt;li>In 1941, they were still pretty behind because not knowing about &lt;a href="#plutonium">Plutonium&lt;/a>, &lt;a href="#isotope-separation">Isotope Separation&lt;/a>, and &lt;a href="#moderator-importance">Moderator Importance&lt;/a>
+&lt;li>In 1941, they were still pretty behind because not knowing about &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#plutonium">Plutonium&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#isotope-separation">Isotope Separation&lt;/a>, and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#moderator-importance">Moderator Importance&lt;/a>
 &lt;ul>
 &lt;li>This is liekly because they lost scientific talent and the difficulty about chasing something uncertain both for personal safety reasons and ethical reasons (not doing as best as you could)&lt;/li>
-&lt;li>However one person: &lt;a href="#fritz-houterman">Fritz Houterman&lt;/a> sabotaged the project by not talking about plutonium research he did with the other German Scientists&lt;/li>
+&lt;li>However one person: &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#fritz-houterman">Fritz Houterman&lt;/a> sabotaged the project by not talking about plutonium research he did with the other German Scientists&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>After the war some of the top scientists were captured and taken to Farm Hall in Britain where they were isolated and bugged
@@ -3439,12 +3439,12 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/li>
 &lt;li>Late 1941 led the atomic bomb research to be deemphasized if it wasn&amp;rsquo;t going to be directly useful
 &lt;ul>
-&lt;li>Scientists like &lt;a href="#werner-heisenberg">Werner Heisenberg&lt;/a> tried to set up a meeting to avoid this, but a secretary sent out the wrong schedule and no one came&lt;/li>
+&lt;li>Scientists like &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a> tried to set up a meeting to avoid this, but a secretary sent out the wrong schedule and no one came&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>When &lt;a href="#albert-speer">Albert Speer&lt;/a> heard about bomb research in Spring 1942, he thought it was important and schedueld meetings
+&lt;li>When &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#albert-speer">Albert Speer&lt;/a> heard about bomb research in Spring 1942, he thought it was important and schedueld meetings
 &lt;ul>
-&lt;li>&lt;a href="#werner-heisenberg">Werner Heisenberg&lt;/a> gave noncommital answers about time and other excuses&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a> gave noncommital answers about time and other excuses&lt;/li>
 &lt;li>The really issue is when he only requested some hundred thousands of dollars and Speer was uninmpressed&lt;/li>
 &lt;li>Reactor work would not continue but not bombs&lt;/li>
 &lt;/ul>
@@ -3453,7 +3453,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="dropping-the-bombs">Dropping the Bombs&lt;/h3>
 &lt;ul>
 &lt;li>In mid 1945, the uranium bomb was being shipped to Tinian on the USS Indianapolis&lt;/li>
-&lt;li>&lt;a href="#paul-tibbets">Paul Tibbets&lt;/a> would pilot the B-29 himself&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#paul-tibbets">Paul Tibbets&lt;/a> would pilot the B-29 himself&lt;/li>
 &lt;li>The bombs would be triggered by a radar system and a back up barometer&lt;/li>
 &lt;li>First was dropped on Hiroshima
 &lt;ul>
@@ -3503,36 +3503,36 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="espionage">Espionage&lt;/h3>
 &lt;ul>
 &lt;li>Russia did manage to get into the project&lt;/li>
-&lt;li>&lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> was heavily investigated but innocent&lt;/li>
-&lt;li>His friend, &lt;a href="#haakon-chevalier">Haakon Chevalier&lt;/a> tried to get him to report info
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-oppenheimer">Robert Oppenheimer&lt;/a> was heavily investigated but innocent&lt;/li>
+&lt;li>His friend, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#haakon-chevalier">Haakon Chevalier&lt;/a> tried to get him to report info
 &lt;ul>
 &lt;li>He didn&amp;rsquo;t report it until later and tried to cover for him&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Soviets first heard about it from &lt;a href="#klaus-fuchs">Klaus Fuchs&lt;/a> in Britain when he was working with MAUD&lt;/li>
-&lt;li>&lt;a href="#klaus-fuchs">Klaus Fuchs&lt;/a> confessed as soon as he was confronted
+&lt;li>Soviets first heard about it from &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#klaus-fuchs">Klaus Fuchs&lt;/a> in Britain when he was working with MAUD&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#klaus-fuchs">Klaus Fuchs&lt;/a> confessed as soon as he was confronted
 &lt;ul>
 &lt;li>He was sentenced to 14 years (soviets were allies at the time so it was a lighter punishment)&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#david-greenglass">David Greenglass&lt;/a> was a machinist as an SED
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#david-greenglass">David Greenglass&lt;/a> was a machinist as an SED
 &lt;ul>
 &lt;li>His BIL was a soviet spy&lt;/li>
 &lt;li>His BIL got him to spy&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#theodore-hall">Theodore Hall&lt;/a> was a young phyiscist who spied for the same reasons as &lt;a href="#klaus-fuchs">Klaus Fuchs&lt;/a>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#theodore-hall">Theodore Hall&lt;/a> was a young phyiscist who spied for the same reasons as &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#klaus-fuchs">Klaus Fuchs&lt;/a>
 &lt;ul>
 &lt;li>Soviets learned about implosion through Hall&lt;/li>
 &lt;li>He was incriminated though VENONA but never charged&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#oscar-seborer">Oscar Seborer&lt;/a>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#oscar-seborer">Oscar Seborer&lt;/a>
 &lt;ul>
 &lt;li>Not much known but was involved&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#george-koval">George Koval&lt;/a>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#george-koval">George Koval&lt;/a>
 &lt;ul>
 &lt;li>Not much known as well but was bad lucked into Los Alamos&lt;/li>
 &lt;/ul>
@@ -3542,30 +3542,30 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="aftermath">Aftermath&lt;/h3>
 &lt;ul>
 &lt;li>The Atomic Energy Commision was established to oversee the project&amp;rsquo;s continuation and then later absorbed into the DOE&lt;/li>
-&lt;li>&lt;a href="#leo-szilard">Leo Szilard&lt;/a> become involved in warning people about nuclear weapons and the Pugwash conferences
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leo-szilard">Leo Szilard&lt;/a> become involved in warning people about nuclear weapons and the Pugwash conferences
 &lt;ul>
 &lt;li>He switched to bio later in his life&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#robert-oppenheimer">Robert Oppenheimer&lt;/a> become a national hero and was politically active
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#robert-oppenheimer">Robert Oppenheimer&lt;/a> become a national hero and was politically active
 &lt;ul>
 &lt;li>He was accused to un-american activies&lt;/li>
-&lt;li>&lt;a href="#edward-teller">Edward Teller&lt;/a> testified against him, while others like &lt;a href="#leslie-groves">Leslie Groves&lt;/a>, &lt;a href="#enrico-fermi">Enrico Fermi&lt;/a>, &lt;a href="#hans-bethe">Hans Bethe&lt;/a>, &lt;a href="#i-dot-i-dot-rabi">I.I. Rabi&lt;/a>, &lt;a href="#james-conant">James Conant&lt;/a>, and &lt;a href="#vannevar-bush">Vannevar Bush&lt;/a> testified for him&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a> testified against him, while others like &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leslie-groves">Leslie Groves&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#i-dot-i-dot-rabi">I.I. Rabi&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#james-conant">James Conant&lt;/a>, and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#vannevar-bush">Vannevar Bush&lt;/a> testified for him&lt;/li>
 &lt;li>His security clearance was revoked and he lost his political positions&lt;/li>
-&lt;li>It also turned the scientific community against the goverment and also &lt;a href="#edward-teller">Edward Teller&lt;/a>&lt;/li>
+&lt;li>It also turned the scientific community against the goverment and also &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#enrico-fermi">Enrico Fermi&lt;/a> continued to do tons of top-notch research and governmental work&lt;/li>
-&lt;li>&lt;a href="#hans-bethe">Hans Bethe&lt;/a> built up Cornell and more research along with being a prominent governmental figure&lt;/li>
-&lt;li>&lt;a href="#werner-heisenberg">Werner Heisenberg&lt;/a> went back to research and made a few contributions in fields that weren&amp;rsquo;t super important&lt;/li>
-&lt;li>&lt;a href="#glenn-seaborg">Glenn Seaborg&lt;/a> went to Berkely and become an important chemist and public figure&lt;/li>
-&lt;li>&lt;a href="#george-kistiakowsky">George Kistiakowsky&lt;/a> went to Harvard and did more govermental work&lt;/li>
-&lt;li>&lt;a href="#richard-feynman">Richard Feynman&lt;/a> went to Cornell and then Caltech where he did revolutionary physics along with being a public figure&lt;/li>
-&lt;li>&lt;a href="#leslie-groves">Leslie Groves&lt;/a> had much less power after the AEC was formed and soon got phased out&lt;/li>
-&lt;li>&lt;a href="#edward-teller">Edward Teller&lt;/a> was kicked out of the scientific community but made the H-bomb&lt;/li>
-&lt;li>&lt;a href="#ernest-lawrence">Ernest Lawrence&lt;/a> did a lot of big science and lab leading&lt;/li>
-&lt;li>&lt;a href="#john-von-neumann">John von Neumann&lt;/a> did much work on math and other theories with leading contributions&lt;/li>
-&lt;li>&lt;a href="#eugene-wigner">Eugene Wigner&lt;/a> became director of Oak Ridge Natinoal Lab but returned to being a professor&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#enrico-fermi">Enrico Fermi&lt;/a> continued to do tons of top-notch research and governmental work&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> built up Cornell and more research along with being a prominent governmental figure&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a> went back to research and made a few contributions in fields that weren&amp;rsquo;t super important&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#glenn-seaborg">Glenn Seaborg&lt;/a> went to Berkely and become an important chemist and public figure&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#george-kistiakowsky">George Kistiakowsky&lt;/a> went to Harvard and did more govermental work&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#richard-feynman">Richard Feynman&lt;/a> went to Cornell and then Caltech where he did revolutionary physics along with being a public figure&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#leslie-groves">Leslie Groves&lt;/a> had much less power after the AEC was formed and soon got phased out&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#edward-teller">Edward Teller&lt;/a> was kicked out of the scientific community but made the H-bomb&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#ernest-lawrence">Ernest Lawrence&lt;/a> did a lot of big science and lab leading&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#john-von-neumann">John von Neumann&lt;/a> did much work on math and other theories with leading contributions&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#eugene-wigner">Eugene Wigner&lt;/a> became director of Oak Ridge Natinoal Lab but returned to being a professor&lt;/li>
 &lt;/ul>
 &lt;h2 id="equations-and-constants">Equations and Constants&lt;/h2>
 &lt;ul>
@@ -3580,7 +3580,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>\(1 Ci\) is \(3.7 \times 10^{10}\) decays per second&lt;/li>
 &lt;li>\(E=hf\)&lt;/li>
 &lt;li>Planck&amp;rsquo;s Constant: \(h = 6.62 \times 10^{-34} Js\)&lt;/li>
-&lt;li>&lt;a href="#mean-free-path">Mean Free Path&lt;/a>: \(l = \frac{1}{n*\sigma_{fission}}\)&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#mean-free-path">Mean Free Path&lt;/a>: \(l = \frac{1}{n*\sigma_{fission}}\)&lt;/li>
 &lt;li>Critical Mass: \(M_{crit} = \frac{m_U}{n^2\sigma^3_{fission}}\)&lt;/li>
 &lt;li>\(v = \sqrt{\frac{3kT}{m}}\)&lt;/li>
 &lt;li>\(\frac{v_1}{v_2} = \sqrt{\frac{m_2}{m_1}}\)&lt;/li>
@@ -3654,7 +3654,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;li>&lt;code>ref instanceof class&lt;/code> will check if &lt;code>ref&lt;/code> is a &lt;code>class&lt;/code> or any of its children classes&lt;/li>
 &lt;li>&lt;code>ref.getClass() =&lt;/code> class.getClass()= will check if &lt;code>ref&lt;/code> is &lt;code>class&lt;/code> only&lt;/li>
 &lt;li>&lt;code>instanceof&lt;/code> will be fine if &lt;code>ref&lt;/code> is null, but &lt;code>getClass&lt;/code> will not&lt;/li>
-&lt;li>Avoid these, and use &lt;a href="#overriding">Overriding&lt;/a>&lt;/li>
+&lt;li>Avoid these, and use &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#overriding">Overriding&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="visibility">Visibility&lt;/h3>
 &lt;ul>
@@ -3668,7 +3668,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="overriding">Overriding&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#testing-types-of-objects">Testing types of objects&lt;/a> and then &lt;a href="#casting">Casting&lt;/a> is bad style, instead you should override methods and fields to have different behavior&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#testing-types-of-objects">Testing types of objects&lt;/a> and then &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#casting">Casting&lt;/a> is bad style, instead you should override methods and fields to have different behavior&lt;/li>
 &lt;li>Overriding methods have the same name and signature (other than access modifiers) of a superclass method&lt;/li>
 &lt;li>The type of the object (not reference) at runtime determines which method will run
 &lt;ul>
@@ -3836,17 +3836,17 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="generic-classes">Generic Classes&lt;/h3>
 &lt;ul>
-&lt;li>Put a &lt;a href="#type-parameters">Type Parameter&lt;/a> next to the class&lt;/li>
+&lt;li>Put a &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#type-parameters">Type Parameter&lt;/a> next to the class&lt;/li>
 &lt;li>When instantiation, provide a concrete class as an argument for the type parameter&lt;/li>
 &lt;/ul>
 &lt;h3 id="generic-methods">Generic Methods&lt;/h3>
 &lt;ul>
-&lt;li>For methods, simply use the &lt;a href="#type-parameters">Type Parameter&lt;/a> inplace of a regular type&lt;/li>
+&lt;li>For methods, simply use the &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#type-parameters">Type Parameter&lt;/a> inplace of a regular type&lt;/li>
 &lt;li>You should use these when the return type or other variable depend on a method specific type&lt;/li>
 &lt;/ul>
 &lt;h3 id="generic-variables">Generic Variables&lt;/h3>
 &lt;ul>
-&lt;li>Simply use the &lt;a href="#type-parameters">Type Parameter&lt;/a> inplace of a regular type&lt;/li>
+&lt;li>Simply use the &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#type-parameters">Type Parameter&lt;/a> inplace of a regular type&lt;/li>
 &lt;/ul>
 &lt;h3 id="bounded-type-parameters">Bounded Type Parameters&lt;/h3>
 &lt;ul>
@@ -3858,7 +3858,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;ul>
 &lt;li>Issue: &lt;code>Generic&amp;lt;S&amp;gt;&lt;/code> is not a subclass of &lt;code>Generic&amp;lt;T&amp;gt;&lt;/code> even if &lt;code>S&lt;/code> is a subclass of &lt;code>T&lt;/code>&lt;/li>
 &lt;li>&lt;code>?&lt;/code> stands for any type&lt;/li>
-&lt;li>You can combine this with &lt;a href="#bounded-type-parameters">Bounded Type Parameters&lt;/a> to limit to a subclass&lt;/li>
+&lt;li>You can combine this with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#bounded-type-parameters">Bounded Type Parameters&lt;/a> to limit to a subclass&lt;/li>
 &lt;/ul>
 &lt;h3 id="quirks-of-generics">Quirks of Generics&lt;/h3>
 &lt;ul>
@@ -4138,12 +4138,12 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="binary-search-tree">Binary Search Tree&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="#binary-tree">Binary Tree&lt;/a> but where all elements in the left subtree are smaller than the root and sall element in the right subtree are greater than the root&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#binary-tree">Binary Tree&lt;/a> but where all elements in the left subtree are smaller than the root and sall element in the right subtree are greater than the root&lt;/li>
 &lt;li>Searches can then narrow down half the elements at a time by going either left or right&lt;/li>
 &lt;/ul>
 &lt;h4 id="polymorphic-binary-search-tree">Polymorphic Binary Search Tree&lt;/h4>
 &lt;ul>
-&lt;li>Like polymorphic list but &lt;code>EmptyTree&lt;/code> is a &lt;a href="#singleton-design-pattern">singleton&lt;/a>&lt;/li>
+&lt;li>Like polymorphic list but &lt;code>EmptyTree&lt;/code> is a &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#singleton-design-pattern">singleton&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="heaps">Heaps&lt;/h2>
 &lt;ul>
@@ -4172,8 +4172,8 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h2 id="priority-queues">Priority Queues&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="#queues">Queues&lt;/a> where elements are sorted by priority value&lt;/li>
-&lt;li>Implemented by using a max &lt;a href="#heaps">heap&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#queues">Queues&lt;/a> where elements are sorted by priority value&lt;/li>
+&lt;li>Implemented by using a max &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#heaps">heap&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="comparator-interface">Comparator Interface&lt;/h2>
 &lt;ul>
@@ -4255,7 +4255,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="implementations">Implementations&lt;/h3>
 &lt;h4 id="hashing">Hashing&lt;/h4>
-&lt;h4 id="binary-search-tree--orge6c98fc">&lt;a href="#binary-search-tree">Binary Search Tree&lt;/a>&lt;/h4>
+&lt;h4 id="binary-search-tree--orge6c98fc">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#binary-search-tree">Binary Search Tree&lt;/a>&lt;/h4>
 &lt;h4 id="two-parallel-arrays">Two parallel arrays&lt;/h4>
 &lt;h2 id="graphs">Graphs&lt;/h2>
 &lt;ul>
@@ -4431,7 +4431,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;a href="#bubble-sort">Bubble Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#bubble-sort">Bubble Sort&lt;/a>&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>Yes&lt;/td>
@@ -4439,7 +4439,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#selection-sort">Selection Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#selection-sort">Selection Sort&lt;/a>&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>Yes&lt;/td>
@@ -4447,7 +4447,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#insertion-sort">Insertion Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#insertion-sort">Insertion Sort&lt;/a>&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>Yes&lt;/td>
@@ -4455,7 +4455,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#tree-sort">Tree Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#tree-sort">Tree Sort&lt;/a>&lt;/td>
 &lt;td>\(O(nlog(n))\)&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>Yes&lt;/td>
@@ -4463,7 +4463,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#heap-sort">Heap Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#heap-sort">Heap Sort&lt;/a>&lt;/td>
 &lt;td>\(O(nlog(n))\)&lt;/td>
 &lt;td>\(O(nlog(n))\)&lt;/td>
 &lt;td>Yes&lt;/td>
@@ -4471,7 +4471,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#quick-sort">Quick Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#quick-sort">Quick Sort&lt;/a>&lt;/td>
 &lt;td>\(O(nlog(n))\)&lt;/td>
 &lt;td>\(O(n^2)\)&lt;/td>
 &lt;td>Yes&lt;/td>
@@ -4479,7 +4479,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#merge-sort">Merge Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#merge-sort">Merge Sort&lt;/a>&lt;/td>
 &lt;td>\(O(nlog(n))\)&lt;/td>
 &lt;td>\(O(nlog(n))\)&lt;/td>
 &lt;td>Yes&lt;/td>
@@ -4487,7 +4487,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#counting-sort">Counting Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#counting-sort">Counting Sort&lt;/a>&lt;/td>
 &lt;td>\(O(n)\)&lt;/td>
 &lt;td>\(O(n)\)&lt;/td>
 &lt;td>No&lt;/td>
@@ -4495,7 +4495,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="#radix-sort">Radix Sort&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#radix-sort">Radix Sort&lt;/a>&lt;/td>
 &lt;td>\(O(n)\)&lt;/td>
 &lt;td>\(O(n)\)&lt;/td>
 &lt;td>No&lt;/td>
@@ -4544,8 +4544,8 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;th>Balanced BST&lt;/th>
 &lt;th>Degenerate BST&lt;/th>
 &lt;th>Map/Set&lt;/th>
-&lt;th>Graph with &lt;a href="#adjacency-matrix">Adjacency Matrix&lt;/a>&lt;/th>
-&lt;th>Graph with &lt;a href="#adjacency-map-set">Adjacency Map/Set&lt;/a>&lt;/th>
+&lt;th>Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-matrix">Adjacency Matrix&lt;/a>&lt;/th>
+&lt;th>Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-map-set">Adjacency Map/Set&lt;/a>&lt;/th>
 &lt;th>Graph with Adjacency List&lt;/th>
 &lt;/tr>
 &lt;/thead>
@@ -4765,7 +4765,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>SaaS: Software as a Service, least control, easiest to use&lt;/li>
 &lt;li>IaaS: Infrastructure as a Service, most control, least easy to use, usually using some specific tool&lt;/li>
 &lt;li>PaaS: Platform as a Service: more control, less easy to use, more configuration
-&lt;img src="https://www.kandasamyc.com/home/ksam/Downloads/SaaSIaaSPaaS.png" alt="">&lt;/li>
+&lt;img src="https://www.kandasamyc.com/home/ksam/Downloads/SaaSIaaSPaaS.png">&lt;/li>
 &lt;/ul>
 &lt;h3 id="manage">Manage&lt;/h3>
 &lt;h2 id="operating-systems-1">Operating Systems 1&lt;/h2>
@@ -5388,7 +5388,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>Care Ethics
 &lt;ul>
 &lt;li>This is a view of ethics where caring and caretaking of ourselves and others is at the center.&lt;/li>
-&lt;li>Contrary to other theories like &lt;a href="#4-dot-4-kantianism">Kantianism&lt;/a>, &lt;a href="#4-dot-2-consequentialism">Consequentialism&lt;/a>, or &lt;a href="#4-dot-3-virtue-ethics">Virtue Ethics&lt;/a>, Care Ethics understand that there will always be affection, relation and context in human morality and networks.&lt;/li>
+&lt;li>Contrary to other theories like &lt;a href="https://www.kandasamyc.com/wiki/hnuh229t/#4-dot-4-kantianism">Kantianism&lt;/a>, &lt;a href="https://www.kandasamyc.com/wiki/hnuh229t/#4-dot-2-consequentialism">Consequentialism&lt;/a>, or &lt;a href="https://www.kandasamyc.com/wiki/hnuh229t/#4-dot-3-virtue-ethics">Virtue Ethics&lt;/a>, Care Ethics understand that there will always be affection, relation and context in human morality and networks.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -6192,7 +6192,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>Don&amp;rsquo;t insult people
 &lt;ul>
 &lt;li>It&amp;rsquo;s not ok to treat someone like that&lt;/li>
-&lt;li>In addition, it&amp;rsquo;s a logical &lt;a href="#fallacies">fallacy&lt;/a>&lt;/li>
+&lt;li>In addition, it&amp;rsquo;s a logical &lt;a href="https://www.kandasamyc.com/wiki/inag110/#fallacies">fallacy&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -6971,7 +6971,7 @@ declaration or signature.&lt;/li>
 that type.&lt;/li>
 &lt;li>There can be any number of &lt;code>Argument&lt;/code> where each is the name of some actual
 type.&lt;/li>
-&lt;li>New data types can also optionally derive from multiple &lt;a href="#typeclasses">Typeclasses&lt;/a>, separated by commas.&lt;/li>
+&lt;li>New data types can also optionally derive from multiple &lt;a href="https://www.kandasamyc.com/wiki/haskell-types/#typeclasses">Typeclasses&lt;/a>, separated by commas.&lt;/li>
 &lt;/ul>
 &lt;h2 id="algebraic-data-types">Algebraic Data Types&lt;/h2>
 &lt;p>An algebraic data type has more than one value constructor. Each alternative (or
@@ -6981,11 +6981,11 @@ have different numbers of arguments and different arguments altogether.&lt;/p>
 &lt;h2 id="type-synonyms">Type Synonyms&lt;/h2>
 &lt;p>Type synonyms allow for making aliases to other types for specificity. It can
 create a shorter name for a more verbose type. It does not declare a new type
-like &lt;a href="#custom-data-types">Custom Data Types&lt;/a> do.&lt;/p>
+like &lt;a href="https://www.kandasamyc.com/wiki/haskell-types/#custom-data-types">Custom Data Types&lt;/a> do.&lt;/p>
 &lt;h2 id="typeclasses">Typeclasses&lt;/h2>
 &lt;h2 id="record-syntax">Record Syntax&lt;/h2>
 &lt;p>Instead of defining a data type with the &lt;code>data&lt;/code> keyword like when normally
-creating &lt;a href="#custom-data-types">Custom Data Types&lt;/a> and having to write individual accessor methods for
+creating &lt;a href="https://www.kandasamyc.com/wiki/haskell-types/#custom-data-types">Custom Data Types&lt;/a> and having to write individual accessor methods for
 each field, Haskell provides record syntax that will automatically create them
 for you.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> {
