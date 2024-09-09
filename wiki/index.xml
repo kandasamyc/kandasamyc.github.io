@@ -30,8 +30,8 @@
 &lt;/ul>
 &lt;h3 id="syntax">Syntax&lt;/h3>
 &lt;div class="collapsable-code">
-&lt;input id="659421378" type="checkbox" checked />
-&lt;label for="659421378">
+&lt;input id="948751632" type="checkbox" checked />
+&lt;label for="948751632">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Variables&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -50,8 +50,8 @@ puts my_list
 puts my_nil&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="258146973" type="checkbox" checked />
-&lt;label for="258146973">
+&lt;input id="472931658" type="checkbox" checked />
+&lt;label for="472931658">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Control Flow&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -77,8 +77,8 @@ end
 #prints 2,1,0,1,0,0,0,0,2&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="316945278" type="checkbox" checked />
-&lt;label for="316945278">
+&lt;input id="213684957" type="checkbox" checked />
+&lt;label for="213684957">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Strings, Symbols, and Equality&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -96,8 +96,8 @@ a.equal? a #true
 :&amp;#34;2test&amp;#34;.equal? :&amp;#34;2test&amp;#34; #true&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="694721358" type="checkbox" checked />
-&lt;label for="694721358">
+&lt;input id="145789263" type="checkbox" checked />
+&lt;label for="145789263">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Arrays&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -147,8 +147,8 @@ a.unshift(0)
 a.shift&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="731482659" type="checkbox" checked />
-&lt;label for="731482659">
+&lt;input id="624317985" type="checkbox" checked />
+&lt;label for="624317985">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Hashes&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -219,110 +219,110 @@ puts h&lt;/code>&lt;/pre>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>&lt;/th>
-&lt;th>Best Case&lt;/th>
-&lt;th>Worst Case&lt;/th>
-&lt;th>Average Case&lt;/th>
-&lt;th>Space&lt;/th>
-&lt;th>Stable?&lt;/th>
+&lt;th style="text-align: left">&lt;/th>
+&lt;th style="text-align: left">Best Case&lt;/th>
+&lt;th style="text-align: left">Worst Case&lt;/th>
+&lt;th style="text-align: left">Average Case&lt;/th>
+&lt;th style="text-align: left">Space&lt;/th>
+&lt;th style="text-align: left">Stable?&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Bubble Sort&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(1)\)&lt;/td>
-&lt;td>T&lt;/td>
+&lt;td style="text-align: left">Bubble Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
+&lt;td style="text-align: left">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Selection Sort&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(1)\)&lt;/td>
-&lt;td>F&lt;/td>
+&lt;td style="text-align: left">Selection Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
+&lt;td style="text-align: left">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Insertion Sort&lt;/td>
-&lt;td>\(\Theta(n)\)&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(1)\)&lt;/td>
-&lt;td>T&lt;/td>
+&lt;td style="text-align: left">Insertion Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
+&lt;td style="text-align: left">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Binary Search&lt;/td>
-&lt;td>\(\Theta(1)\)&lt;/td>
-&lt;td>\(\Theta(\lg n)\)&lt;/td>
-&lt;td>\(\Theta(\lg n)\)&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>N/A&lt;/td>
+&lt;td style="text-align: left">Binary Search&lt;/td>
+&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(\lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(\lg n)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Merge Sort&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(n)\)&lt;/td>
-&lt;td>T&lt;/td>
+&lt;td style="text-align: left">Merge Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n)\)&lt;/td>
+&lt;td style="text-align: left">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Heap Sort&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(1)\)&lt;/td>
-&lt;td>F&lt;/td>
+&lt;td style="text-align: left">Heap Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
+&lt;td style="text-align: left">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Quick Sort&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(n^{2})\)&lt;/td>
-&lt;td>\(\Theta(n \lg n)\)&lt;/td>
-&lt;td>\(\Theta(1)\)&lt;/td>
-&lt;td>F&lt;/td>
+&lt;td style="text-align: left">Quick Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
+&lt;td style="text-align: left">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Counting Sort&lt;/td>
-&lt;td>\(\Theta(n + k)\)&lt;/td>
-&lt;td>\(\Theta(n + k)\)&lt;/td>
-&lt;td>\(\Theta(n + k)\)&lt;/td>
-&lt;td>\(\Theta(n + k)\)&lt;/td>
-&lt;td>T&lt;/td>
+&lt;td style="text-align: left">Counting Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
+&lt;td style="text-align: left">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Radix Sort&lt;/td>
-&lt;td>\(\Theta(df)\)&lt;/td>
-&lt;td>\(\Theta(n + k)\)&lt;/td>
-&lt;td>\(\Theta(n + k)\)&lt;/td>
-&lt;td>\(f\)&lt;/td>
-&lt;td>T&lt;/td>
+&lt;td style="text-align: left">Radix Sort&lt;/td>
+&lt;td style="text-align: left">\(\Theta(df)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
+&lt;td style="text-align: left">\(f\)&lt;/td>
+&lt;td style="text-align: left">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Shortest Path&lt;/td>
-&lt;td>\(\Theta(V)\)&lt;/td>
-&lt;td>\(\Theta(V+E)\)&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>\(\Theta(V)\)&lt;/td>
-&lt;td>N/A&lt;/td>
+&lt;td style="text-align: left">Shortest Path&lt;/td>
+&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(V+E)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Dijkstra&amp;rsquo;s&lt;/td>
-&lt;td>\(\Theta(V)\)&lt;/td>
-&lt;td>\(\Theta(V^{2}+E)\)&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>\(\Theta(V)\)&lt;/td>
-&lt;td>N/A&lt;/td>
+&lt;td style="text-align: left">Dijkstra&amp;rsquo;s&lt;/td>
+&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
+&lt;td style="text-align: left">\(\Theta(V^{2}+E)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>BFT&lt;/td>
-&lt;td>\(\mathcal{O}(V+E)\)&lt;/td>
-&lt;td>\(\mathcal{O}(V+E)\)&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>\(\Theta(V)\)&lt;/td>
-&lt;td>N/A&lt;/td>
+&lt;td style="text-align: left">BFT&lt;/td>
+&lt;td style="text-align: left">\(\mathcal{O}(V+E)\)&lt;/td>
+&lt;td style="text-align: left">\(\mathcal{O}(V+E)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>Notes from UMD's MATH410 class</description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
@@ -346,8 +346,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="694813572" type="checkbox" checked />
-&lt;label for="694813572">
+&lt;input id="691427853" type="checkbox" checked />
+&lt;label for="691427853">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -366,8 +366,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="597423816" type="checkbox" checked />
-&lt;label for="597423816">
+&lt;input id="346958217" type="checkbox" checked />
+&lt;label for="346958217">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -488,66 +488,66 @@ return 0;
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Type&lt;/th>
-&lt;th>Signedness&lt;/th>
-&lt;th>Max Start&lt;/th>
-&lt;th>Min End&lt;/th>
+&lt;th style="text-align: left">Type&lt;/th>
+&lt;th style="text-align: left">Signedness&lt;/th>
+&lt;th style="text-align: left">Max Start&lt;/th>
+&lt;th style="text-align: left">Min End&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>int&lt;/td>
-&lt;td>signed&lt;/td>
-&lt;td>-32767&lt;/td>
-&lt;td>32767&lt;/td>
+&lt;td style="text-align: left">int&lt;/td>
+&lt;td style="text-align: left">signed&lt;/td>
+&lt;td style="text-align: left">-32767&lt;/td>
+&lt;td style="text-align: left">32767&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>unsigned int&lt;/td>
-&lt;td>unsigned&lt;/td>
-&lt;td>0&lt;/td>
-&lt;td>65535&lt;/td>
+&lt;td style="text-align: left">unsigned int&lt;/td>
+&lt;td style="text-align: left">unsigned&lt;/td>
+&lt;td style="text-align: left">0&lt;/td>
+&lt;td style="text-align: left">65535&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>short int&lt;/td>
-&lt;td>unsigned&lt;/td>
-&lt;td>-32767&lt;/td>
-&lt;td>32767&lt;/td>
+&lt;td style="text-align: left">short int&lt;/td>
+&lt;td style="text-align: left">unsigned&lt;/td>
+&lt;td style="text-align: left">-32767&lt;/td>
+&lt;td style="text-align: left">32767&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>unsigned short int&lt;/td>
-&lt;td>signed&lt;/td>
-&lt;td>0&lt;/td>
-&lt;td>65535&lt;/td>
+&lt;td style="text-align: left">unsigned short int&lt;/td>
+&lt;td style="text-align: left">signed&lt;/td>
+&lt;td style="text-align: left">0&lt;/td>
+&lt;td style="text-align: left">65535&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>long int&lt;/td>
-&lt;td>signed&lt;/td>
-&lt;td>-214783647&lt;/td>
-&lt;td>2147483647&lt;/td>
+&lt;td style="text-align: left">long int&lt;/td>
+&lt;td style="text-align: left">signed&lt;/td>
+&lt;td style="text-align: left">-214783647&lt;/td>
+&lt;td style="text-align: left">2147483647&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>unsigned long int&lt;/td>
-&lt;td>unsigned&lt;/td>
-&lt;td>0&lt;/td>
-&lt;td>4294967295&lt;/td>
+&lt;td style="text-align: left">unsigned long int&lt;/td>
+&lt;td style="text-align: left">unsigned&lt;/td>
+&lt;td style="text-align: left">0&lt;/td>
+&lt;td style="text-align: left">4294967295&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>char&lt;/td>
-&lt;td>NA&lt;/td>
-&lt;td>0&lt;/td>
-&lt;td>127&lt;/td>
+&lt;td style="text-align: left">char&lt;/td>
+&lt;td style="text-align: left">NA&lt;/td>
+&lt;td style="text-align: left">0&lt;/td>
+&lt;td style="text-align: left">127&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>signed char&lt;/td>
-&lt;td>signed&lt;/td>
-&lt;td>-127&lt;/td>
-&lt;td>127&lt;/td>
+&lt;td style="text-align: left">signed char&lt;/td>
+&lt;td style="text-align: left">signed&lt;/td>
+&lt;td style="text-align: left">-127&lt;/td>
+&lt;td style="text-align: left">127&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>unsigned char&lt;/td>
-&lt;td>unsigned&lt;/td>
-&lt;td>0&lt;/td>
-&lt;td>255&lt;/td>
+&lt;td style="text-align: left">unsigned char&lt;/td>
+&lt;td style="text-align: left">unsigned&lt;/td>
+&lt;td style="text-align: left">0&lt;/td>
+&lt;td style="text-align: left">255&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -566,8 +566,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="759183642" type="checkbox" />
-&lt;label for="759183642">
+&lt;input id="543786921" type="checkbox" />
+&lt;label for="543786921">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -1042,8 +1042,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="435718269" type="checkbox" checked />
-&lt;label for="435718269">
+&lt;input id="392586714" type="checkbox" checked />
+&lt;label for="392586714">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1063,8 +1063,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="872391564" type="checkbox" checked />
-&lt;label for="872391564">
+&lt;input id="784916325" type="checkbox" checked />
+&lt;label for="784916325">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1084,8 +1084,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="691872543" type="checkbox" checked />
-&lt;label for="691872543">
+&lt;input id="543968172" type="checkbox" checked />
+&lt;label for="543968172">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1349,78 +1349,78 @@ jr $ra # go back
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">\(p\)&lt;/th>
-&lt;th style="text-align:center">\(q\)&lt;/th>
-&lt;th style="text-align:center">\(r\)&lt;/th>
-&lt;th style="text-align:center">\(p \lor q\)&lt;/th>
-&lt;th style="text-align:center">\(\neg r\)&lt;/th>
-&lt;th style="text-align:center">\((p \lor q) \land ( \neg r )\)&lt;/th>
+&lt;th style="text-align: center">\(p\)&lt;/th>
+&lt;th style="text-align: center">\(q\)&lt;/th>
+&lt;th style="text-align: center">\(r\)&lt;/th>
+&lt;th style="text-align: center">\(p \lor q\)&lt;/th>
+&lt;th style="text-align: center">\(\neg r\)&lt;/th>
+&lt;th style="text-align: center">\((p \lor q) \land ( \neg r )\)&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1440,51 +1440,51 @@ jr $ra # go back
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">\(p\)&lt;/th>
-&lt;th style="text-align:center">\(q\)&lt;/th>
-&lt;th style="text-align:center">\(\neg p\)&lt;/th>
-&lt;th style="text-align:center">\(\neg q\)&lt;/th>
-&lt;th style="text-align:center">\(p \lor q\)&lt;/th>
-&lt;th style="text-align:center">\(\neg p \land \neg q\)&lt;/th>
-&lt;th style="text-align:center">\(\neg(p \lor q)\)&lt;/th>
+&lt;th style="text-align: center">\(p\)&lt;/th>
+&lt;th style="text-align: center">\(q\)&lt;/th>
+&lt;th style="text-align: center">\(\neg p\)&lt;/th>
+&lt;th style="text-align: center">\(\neg q\)&lt;/th>
+&lt;th style="text-align: center">\(p \lor q\)&lt;/th>
+&lt;th style="text-align: center">\(\neg p \land \neg q\)&lt;/th>
+&lt;th style="text-align: center">\(\neg(p \lor q)\)&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">F&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
-&lt;td style="text-align:center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">F&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
+&lt;td style="text-align: center">T&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -4421,86 +4421,86 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>&lt;/th>
-&lt;th>Average Case Complexity&lt;/th>
-&lt;th>Worst Case Complexity&lt;/th>
-&lt;th>Comparison Sort&lt;/th>
-&lt;th>Can be in-place&lt;/th>
-&lt;th>Can be stable&lt;/th>
+&lt;th style="text-align: left">&lt;/th>
+&lt;th style="text-align: left">Average Case Complexity&lt;/th>
+&lt;th style="text-align: left">Worst Case Complexity&lt;/th>
+&lt;th style="text-align: left">Comparison Sort&lt;/th>
+&lt;th style="text-align: left">Can be in-place&lt;/th>
+&lt;th style="text-align: left">Can be stable&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#bubble-sort">Bubble Sort&lt;/a>&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#bubble-sort">Bubble Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#selection-sort">Selection Sort&lt;/a>&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#selection-sort">Selection Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#insertion-sort">Insertion Sort&lt;/a>&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#insertion-sort">Insertion Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#tree-sort">Tree Sort&lt;/a>&lt;/td>
-&lt;td>\(O(nlog(n))\)&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>No&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#tree-sort">Tree Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#heap-sort">Heap Sort&lt;/a>&lt;/td>
-&lt;td>\(O(nlog(n))\)&lt;/td>
-&lt;td>\(O(nlog(n))\)&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>No&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#heap-sort">Heap Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
+&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#quick-sort">Quick Sort&lt;/a>&lt;/td>
-&lt;td>\(O(nlog(n))\)&lt;/td>
-&lt;td>\(O(n^2)\)&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>No&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#quick-sort">Quick Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
+&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#merge-sort">Merge Sort&lt;/a>&lt;/td>
-&lt;td>\(O(nlog(n))\)&lt;/td>
-&lt;td>\(O(nlog(n))\)&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Yes&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#merge-sort">Merge Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
+&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#counting-sort">Counting Sort&lt;/a>&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Yes&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#counting-sort">Counting Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#radix-sort">Radix Sort&lt;/a>&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Yes&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#radix-sort">Radix Sort&lt;/a>&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
+&lt;td style="text-align: left">No&lt;/td>
+&lt;td style="text-align: left">Yes&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -4537,126 +4537,126 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>&lt;/th>
-&lt;th>Unsorted Array&lt;/th>
-&lt;th>Sorted Array&lt;/th>
-&lt;th>Unsorted Linked List&lt;/th>
-&lt;th>Balanced BST&lt;/th>
-&lt;th>Degenerate BST&lt;/th>
-&lt;th>Map/Set&lt;/th>
-&lt;th>Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-matrix">Adjacency Matrix&lt;/a>&lt;/th>
-&lt;th>Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-map-set">Adjacency Map/Set&lt;/a>&lt;/th>
-&lt;th>Graph with Adjacency List&lt;/th>
+&lt;th style="text-align: left">&lt;/th>
+&lt;th style="text-align: left">Unsorted Array&lt;/th>
+&lt;th style="text-align: left">Sorted Array&lt;/th>
+&lt;th style="text-align: left">Unsorted Linked List&lt;/th>
+&lt;th style="text-align: left">Balanced BST&lt;/th>
+&lt;th style="text-align: left">Degenerate BST&lt;/th>
+&lt;th style="text-align: left">Map/Set&lt;/th>
+&lt;th style="text-align: left">Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-matrix">Adjacency Matrix&lt;/a>&lt;/th>
+&lt;th style="text-align: left">Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-map-set">Adjacency Map/Set&lt;/a>&lt;/th>
+&lt;th style="text-align: left">Graph with Adjacency List&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Lookup and Insertion&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(log(n))\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: left">Lookup and Insertion&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(log(n))\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Insertion&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(log(n))\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: left">Insertion&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(log(n))\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Lookup and Deletion&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(log(n))\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: left">Lookup and Deletion&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(log(n))\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Deletion&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: left">Deletion&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Indexing&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: left">Indexing&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Inserting an edge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(m/n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">Inserting an edge&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Deleting an edge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(m/n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">Deleting an edge&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Finding an edge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
-&lt;td>\(O(m/n)\)&lt;/td>
-&lt;td>\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">Finding an edge&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(1)\)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Iterating through neighbors of a vertex&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>\(O(n)\)&lt;/td>
-&lt;td>\(O(m/n)\)&lt;/td>
-&lt;td>\(O(m/n)\)&lt;/td>
+&lt;td style="text-align: left">Iterating through neighbors of a vertex&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">\(O(n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
+&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></content></item><item><title>Links</title><link>https://www.kandasamyc.com/wiki/links/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/links/</guid><description>A file that contains link to come back to at a later time</description><content>&lt;h2 id="links">Links&lt;/h2>

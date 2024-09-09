@@ -1,21 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Experiences on Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/experience/</link><description>Recent content in Experiences on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2021-2024 Kandasamy Chokkalingam</copyright><lastBuildDate>Fri, 01 Dec 2023 12:00:00 -0500</lastBuildDate><atom:link href="https://www.kandasamyc.com/experience/index.xml" rel="self" type="application/rss+xml"/><item><title>Undergraduate Research Assistant @ Software Engineering Lab @ Maryland (SEAM)</title><link>https://www.kandasamyc.com/experience/2023-seam/</link><pubDate>Fri, 01 Dec 2023 12:00:00 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2023-seam/</guid><description>Summary Developing modular decision assistance software with commercial and research applications Researching scalable, effective decision-making using LLMs for facilitation and design thinking strategies Expanding functionality through the addition of various front-end React meeting components</description><content>&lt;h1 id="summary">Summary&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Experiences on Kandasamy Chokkalingam</title><link>https://www.kandasamyc.com/experience/</link><description>Recent content in Experiences on Kandasamy Chokkalingam</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2021-2024 Kandasamy Chokkalingam</copyright><lastBuildDate>Fri, 01 Dec 2023 12:00:00 -0500</lastBuildDate><atom:link href="https://www.kandasamyc.com/experience/index.xml" rel="self" type="application/rss+xml"/><item><title>Undergraduate Research Assistant @ Software Engineering Lab @ Maryland (SEAM)</title><link>https://www.kandasamyc.com/experience/2023-seam/</link><pubDate>Fri, 01 Dec 2023 12:00:00 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2023-seam/</guid><description>&lt;h1 id="summary">Summary&lt;/h1>
 &lt;ul>
 &lt;li>Developing modular decision assistance software with commercial and research applications&lt;/li>
 &lt;li>Researching scalable, effective decision-making using LLMs for facilitation and design thinking strategies&lt;/li>
 &lt;li>Expanding functionality through the addition of various front-end React meeting components&lt;/li>
-&lt;/ul></content></item><item><title>Software Development Intern @ Verisign</title><link>https://www.kandasamyc.com/experience/2023-verisign/</link><pubDate>Fri, 01 Dec 2023 12:00:00 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2023-verisign/</guid><description>Summary Implemented flexible and adaptable performance tests in JS with Grafana k6 Engineered continuous monitoring through a Jenkins CI/CID pipeline with Ansible and Docker Created dynamic visualizations in Grafana through exporting data into InfluxDB</description><content>&lt;h1 id="summary">Summary&lt;/h1>
+&lt;/ul></description><content>&lt;h1 id="summary">Summary&lt;/h1>
+&lt;ul>
+&lt;li>Developing modular decision assistance software with commercial and research applications&lt;/li>
+&lt;li>Researching scalable, effective decision-making using LLMs for facilitation and design thinking strategies&lt;/li>
+&lt;li>Expanding functionality through the addition of various front-end React meeting components&lt;/li>
+&lt;/ul></content></item><item><title>Software Development Intern @ Verisign</title><link>https://www.kandasamyc.com/experience/2023-verisign/</link><pubDate>Fri, 01 Dec 2023 12:00:00 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2023-verisign/</guid><description>&lt;h1 id="summary">Summary&lt;/h1>
 &lt;ul>
 &lt;li>Implemented flexible and adaptable performance tests in JS with Grafana k6&lt;/li>
 &lt;li>Engineered continuous monitoring through a Jenkins CI/CID pipeline with Ansible and Docker&lt;/li>
 &lt;li>Created dynamic visualizations in Grafana through exporting data into InfluxDB&lt;/li>
-&lt;/ul></content></item><item><title>SWE Internship @ Thomson Reuters</title><link>https://www.kandasamyc.com/experience/2022-thomson-reuters/</link><pubDate>Sun, 20 Nov 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2022-thomson-reuters/</guid><description>Summary Worked at Thomson Reuters&amp;rsquo; Minneapolis office over the summer on Checkpoint, mainly with Java and Javascript Debugged a 25+ years old Java codebase to solve a critical CIAM login security issue Researched and independently producing solutions to assigned tasks in large Git/TFVC repositories Implemented custom JS protocol to migrate analytics’ data for 20,000+ users on the fly Continuing on as a part-time intern during the school year</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></description><content>&lt;h1 id="summary">Summary&lt;/h1>
+&lt;ul>
+&lt;li>Implemented flexible and adaptable performance tests in JS with Grafana k6&lt;/li>
+&lt;li>Engineered continuous monitoring through a Jenkins CI/CID pipeline with Ansible and Docker&lt;/li>
+&lt;li>Created dynamic visualizations in Grafana through exporting data into InfluxDB&lt;/li>
+&lt;/ul></content></item><item><title>SWE Internship @ Thomson Reuters</title><link>https://www.kandasamyc.com/experience/2022-thomson-reuters/</link><pubDate>Sun, 20 Nov 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2022-thomson-reuters/</guid><description>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Worked at Thomson Reuters&amp;rsquo; Minneapolis office over the summer on Checkpoint, mainly with Java and Javascript&lt;/li>
 &lt;li>Debugged a 25+ years old Java codebase to solve a critical CIAM login security issue&lt;/li>
 &lt;li>Researched and independently producing solutions to assigned tasks in large Git/TFVC repositories&lt;/li>
 &lt;li>Implemented custom JS protocol to migrate analytics’ data for 20,000+ users on the fly&lt;/li>
 &lt;li>Continuing on as a part-time intern during the school year&lt;/li>
-&lt;/ul></content></item><item><title>UMD Research Internship</title><link>https://www.kandasamyc.com/experience/2020-umd-research/</link><pubDate>Wed, 05 Jan 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2020-umd-research/</guid><description>Summary Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch Developed an implementation of reinforcement learning algorithms in Python with PyTorch Worked with a team to study the use of reinforcement learning in other game variants Research Over the summer of 2020, I interned under Dr. William Gasarch at the University of Maryland. Despite being a high school student, I worked with others in the REU-CAAR program on combinatorics and machine learning.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Worked at Thomson Reuters&amp;rsquo; Minneapolis office over the summer on Checkpoint, mainly with Java and Javascript&lt;/li>
+&lt;li>Debugged a 25+ years old Java codebase to solve a critical CIAM login security issue&lt;/li>
+&lt;li>Researched and independently producing solutions to assigned tasks in large Git/TFVC repositories&lt;/li>
+&lt;li>Implemented custom JS protocol to migrate analytics’ data for 20,000+ users on the fly&lt;/li>
+&lt;li>Continuing on as a part-time intern during the school year&lt;/li>
+&lt;/ul></content></item><item><title>UMD Research Internship</title><link>https://www.kandasamyc.com/experience/2020-umd-research/</link><pubDate>Wed, 05 Jan 2022 19:11:27 -0500</pubDate><guid>https://www.kandasamyc.com/experience/2020-umd-research/</guid><description>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch&lt;/li>
+&lt;li>Developed an implementation of reinforcement learning algorithms in Python with PyTorch&lt;/li>
+&lt;li>Worked with a team to study the use of reinforcement learning in other game variants&lt;/li>
+&lt;/ul>
+&lt;h2 id="research">Research&lt;/h2>
+&lt;p>Over the summer of 2020, I interned under Dr. William Gasarch at the University of Maryland. Despite being a high school student, I worked with others in the REU-CAAR program on combinatorics and machine learning. I focused on Ramsey numbers and games and applying various forms of machine learning to them.&lt;/p></description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Researched the use of reinforcement learning algorithms with Ramsey Games under Dr. William Gasarch&lt;/li>
 &lt;li>Developed an implementation of reinforcement learning algorithms in Python with PyTorch&lt;/li>
@@ -31,7 +55,15 @@
 &lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-paper.pdf">Paper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-presentation.pdf">Presentation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.com/files/umd-research-poster.pdf">Poster&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>FIRST Robotics Club</title><link>https://www.kandasamyc.com/experience/frc/</link><pubDate>Wed, 05 Jan 2022 19:11:09 -0500</pubDate><guid>https://www.kandasamyc.com/experience/frc/</guid><description>Summary Junior Captain (2018-2019), Mechanical Lead (2019-2020), Captain (2020-2021) Led 50+ person team Developed software to control a holonomic drive base and other systems on a robot Developed a scouting data analysis platform to aid in strategy decisions and predictions Background I was a part of my high school&amp;rsquo;s FIRST Robotics Competition team for all 4 years in high school. I loved participating and was on leadership for 3 years working to make the team better.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></content></item><item><title>FIRST Robotics Club</title><link>https://www.kandasamyc.com/experience/frc/</link><pubDate>Wed, 05 Jan 2022 19:11:09 -0500</pubDate><guid>https://www.kandasamyc.com/experience/frc/</guid><description>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Junior Captain (2018-2019), Mechanical Lead (2019-2020), Captain (2020-2021)&lt;/li>
+&lt;li>Led 50+ person team&lt;/li>
+&lt;li>Developed software to control a holonomic drive base and other systems on a robot&lt;/li>
+&lt;li>Developed a scouting data analysis platform to aid in strategy decisions and predictions&lt;/li>
+&lt;/ul>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>I was a part of my high school&amp;rsquo;s FIRST Robotics Competition team for all 4 years in high school. I loved participating and was on leadership for 3 years working to make the team better. In addition, I drove the robot during competitions for 2 years. I participated in a variety of ways and learned so much from other people, projects, and the competition in general.&lt;/p></description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Junior Captain (2018-2019), Mechanical Lead (2019-2020), Captain (2020-2021)&lt;/li>
 &lt;li>Led 50+ person team&lt;/li>
@@ -55,12 +87,23 @@
 &lt;p>
 &lt;img src="https://www.kandasamyc.com/img/frc-merlin.png" alt="Merline, our 2021 robot" class="center" style="border-radius: 8px;" />
 &lt;img src="https://www.kandasamyc.com/img/frc-intake.png" alt="An intake" class="center" style="border-radius: 8px;" />
-&lt;/p></content></item><item><title>CyberPatriot Competition</title><link>https://www.kandasamyc.com/experience/cyberpatriot/</link><pubDate>Wed, 05 Jan 2022 19:11:16 -0500</pubDate><guid>https://www.kandasamyc.com/experience/cyberpatriot/</guid><description>Summary Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms Studied industry standard networking security concepts Applied networking security concepts in a competition environment</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/p></content></item><item><title>CyberPatriot Competition</title><link>https://www.kandasamyc.com/experience/cyberpatriot/</link><pubDate>Wed, 05 Jan 2022 19:11:16 -0500</pubDate><guid>https://www.kandasamyc.com/experience/cyberpatriot/</guid><description>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms&lt;/li>
 &lt;li>Studied industry standard networking security concepts&lt;/li>
 &lt;li>Applied networking security concepts in a competition environment&lt;/li>
-&lt;/ul></content></item><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.com/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.com/experience/ncsc/</guid><description>Summary Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux Learned about various cybersecurity techniques and topics Cyberstart This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual.</description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;/ul></description><content>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Worked with a 6 member team to demonstrate understanding in cybersecurity across different platforms&lt;/li>
+&lt;li>Studied industry standard networking security concepts&lt;/li>
+&lt;li>Applied networking security concepts in a competition environment&lt;/li>
+&lt;/ul></content></item><item><title>National Cyber Scholarship Competition</title><link>https://www.kandasamyc.com/experience/ncsc/</link><pubDate>Wed, 05 Jan 2022 19:11:06 -0500</pubDate><guid>https://www.kandasamyc.com/experience/ncsc/</guid><description>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux&lt;/li>
+&lt;li>Learned about various cybersecurity techniques and topics&lt;/li>
+&lt;/ul>
+&lt;h2 id="cyberstart">Cyberstart&lt;/h2>
+&lt;p>This was the initial part of the competition. It was a simple CTF-esque platform with a very long running time. I solved a majority of these problems and learned a bit from the challenges they gave. One of the things I really appreciated about this platform was the provided Field Manual. It was a great source of information and I still have notes from it.&lt;/p></description><content>&lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>Solved various cybersecurity, web, binary, and cryptography problems using Python, Javascript and Linux&lt;/li>
 &lt;li>Learned about various cybersecurity techniques and topics&lt;/li>
