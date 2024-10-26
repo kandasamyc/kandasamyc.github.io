@@ -280,57 +280,8 @@ so I used that to make the CLI. I used the StudentVue library to get grade data.
 &lt;/ul>
 &lt;h3 id="syntax">Syntax&lt;/h3>
 &lt;div class="collapsable-code">
-&lt;input id="948751632" type="checkbox" checked />
-&lt;label for="948751632">
-&lt;span class="collapsable-code__language">ruby&lt;/span>
-&lt;span class="collapsable-code__title">Variables&lt;/span>
-&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
-&lt;/label>
-&lt;pre class="language-ruby line-numbers"
->&lt;code
->my_int = 3
-my_string = &amp;#34;hello&amp;#34;
-my_bool = true
-my_list = [1,2]
-my_nil = nil
-puts my_int
-puts my_string
-puts my_bool
-puts my_list
-puts my_nil&lt;/code>&lt;/pr</description><content>&lt;h2 id="language-characteristics">Language Characteristics&lt;/h2>
-&lt;h3 id="typing">Typing&lt;/h3>
-&lt;h4 id="dynamic-typing">Dynamic Typing&lt;/h4>
-&lt;p>Types checked at runtime&lt;/p>
-&lt;h4 id="static-typing">Static Typing&lt;/h4>
-&lt;p>Types checked at compile time&lt;/p>
-&lt;h4 id="manifest-typing">Manifest Typing&lt;/h4>
-&lt;p>Type is explicitly labeled and associated with variable&lt;/p>
-&lt;h4 id="latent-typing">Latent Typing&lt;/h4>
-&lt;ul>
-&lt;li>Type is implicitly labeled and associated with value&lt;/li>
-&lt;/ul>
-&lt;h3 id="paradigm">Paradigm&lt;/h3>
-&lt;h4 id="object-oriented-programming">Object Oriented Programming&lt;/h4>
-&lt;h4 id="functional-programming">Functional Programming&lt;/h4>
-&lt;h2 id="ruby">Ruby&lt;/h2>
-&lt;h3 id="characteristics">Characteristics&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc330/#dynamic-typing">Dynamic Typing&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/cmsc330/#latent-typing">Latent Typing&lt;/a>&lt;/li>
-&lt;li>Object Oriented
-&lt;ul>
-&lt;li>Everything is a class, take a look with the &lt;code>.class&lt;/code> method&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Ruby&amp;rsquo;s null-esque type is &lt;code>nil&lt;/code>
-&lt;ul>
-&lt;li>This is also an object and a few methods can be called on it&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="syntax">Syntax&lt;/h3>
-&lt;div class="collapsable-code">
-&lt;input id="948751632" type="checkbox" checked />
-&lt;label for="948751632">
+&lt;input id="418652793" type="checkbox" checked />
+&lt;label for="418652793">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Variables&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -349,8 +300,8 @@ puts my_list
 puts my_nil&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="472931658" type="checkbox" checked />
-&lt;label for="472931658">
+&lt;input id="497286513" type="checkbox" checked />
+&lt;label for="497286513">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Control Flow&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -376,8 +327,8 @@ end
 #prints 2,1,0,1,0,0,0,0,2&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="213684957" type="checkbox" checked />
-&lt;label for="213684957">
+&lt;input id="364952718" type="checkbox" checked />
+&lt;label for="364952718">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Strings, Symbols, and Equality&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -395,8 +346,8 @@ a.equal? a #true
 :&amp;#34;2test&amp;#34;.equal? :&amp;#34;2test&amp;#34; #true&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="145789263" type="checkbox" checked />
-&lt;label for="145789263">
+&lt;input id="754826913" type="checkbox" checked />
+&lt;label for="754826913">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Arrays&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -446,8 +397,180 @@ a.unshift(0)
 a.shift&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="624317985" type="checkbox" checked />
-&lt;label for="624317985">
+&lt;input id="683974215" type="checkbox" checked />
+&lt;label for="683974215">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Hashes&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>#Curly Brace syntax
+h = {}
+h = {&amp;#34;key&amp;#34;=&amp;gt;&amp;#34;value&amp;#34;,}
+#bracket indexing
+puts h[&amp;#34;key&amp;#34;]
+h[:key2] = &amp;#34;value2&amp;#34;
+#defaulting and nil
+puts h[3] # is nil
+h2 = Hash.new(5)
+puts h2[&amp;#39;a&amp;#39;] # is 5
+#multidimensional
+h = {}
+h[0] = {}
+h[0][0] = 1
+puts h&lt;/code>&lt;/pre>
+&lt;/div></description><content>&lt;h2 id="language-characteristics">Language Characteristics&lt;/h2>
+&lt;h3 id="typing">Typing&lt;/h3>
+&lt;h4 id="dynamic-typing">Dynamic Typing&lt;/h4>
+&lt;p>Types checked at runtime&lt;/p>
+&lt;h4 id="static-typing">Static Typing&lt;/h4>
+&lt;p>Types checked at compile time&lt;/p>
+&lt;h4 id="manifest-typing">Manifest Typing&lt;/h4>
+&lt;p>Type is explicitly labeled and associated with variable&lt;/p>
+&lt;h4 id="latent-typing">Latent Typing&lt;/h4>
+&lt;ul>
+&lt;li>Type is implicitly labeled and associated with value&lt;/li>
+&lt;/ul>
+&lt;h3 id="paradigm">Paradigm&lt;/h3>
+&lt;h4 id="object-oriented-programming">Object Oriented Programming&lt;/h4>
+&lt;h4 id="functional-programming">Functional Programming&lt;/h4>
+&lt;h2 id="ruby">Ruby&lt;/h2>
+&lt;h3 id="characteristics">Characteristics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/cmsc330/#dynamic-typing">Dynamic Typing&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/cmsc330/#latent-typing">Latent Typing&lt;/a>&lt;/li>
+&lt;li>Object Oriented
+&lt;ul>
+&lt;li>Everything is a class, take a look with the &lt;code>.class&lt;/code> method&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Ruby&amp;rsquo;s null-esque type is &lt;code>nil&lt;/code>
+&lt;ul>
+&lt;li>This is also an object and a few methods can be called on it&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="syntax">Syntax&lt;/h3>
+&lt;div class="collapsable-code">
+&lt;input id="418652793" type="checkbox" checked />
+&lt;label for="418652793">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Variables&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>my_int = 3
+my_string = &amp;#34;hello&amp;#34;
+my_bool = true
+my_list = [1,2]
+my_nil = nil
+puts my_int
+puts my_string
+puts my_bool
+puts my_list
+puts my_nil&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="497286513" type="checkbox" checked />
+&lt;label for="497286513">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Control Flow&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>def conditional_add(a,b)
+if a &amp;gt; 0 &amp;amp;&amp;amp; b &amp;gt; 0 then
+a&amp;#43;b
+elsif (a &amp;gt; 0 &amp;amp;&amp;amp; b &amp;lt;= 0) || (a &amp;lt;= 0 &amp;amp;&amp;amp; b &amp;gt; 0)
+0
+else
+(-a)&amp;#43;(-b)
+end
+end
+a = -1
+while a &amp;lt; 2
+for b in 0..2
+puts conditional_add(a,b-1)
+end
+a &amp;#43;= 1
+end
+#prints 2,1,0,1,0,0,0,0,2&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="364952718" type="checkbox" checked />
+&lt;label for="364952718">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Strings, Symbols, and Equality&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>a = &amp;#34;hello&amp;#34;
+&amp;#34;hello&amp;#34; == &amp;#34;hello&amp;#34; #true
+&amp;#34;hello&amp;#34;.equal? &amp;#34;hello&amp;#34; #false
+a == a #true
+a.equal? a #true
+:test == :test #true
+:test.equal? :test #true
+:&amp;#34;2test&amp;#34; == :&amp;#34;2test&amp;#34; #true
+:&amp;#34;2test&amp;#34;.equal? :&amp;#34;2test&amp;#34; #true&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="754826913" type="checkbox" checked />
+&lt;label for="754826913">
+&lt;span class="collapsable-code__language">ruby&lt;/span>
+&lt;span class="collapsable-code__title">Arrays&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-ruby line-numbers"
+>&lt;code
+>#bracket syntax
+arr = [1,2,3,4]
+arr = []
+#can be heterogenous
+arr = [1,&amp;#34;hello&amp;#34;,3.0]
+#OOP behaviour too
+arr = Array.new
+arr = Array.new(3)
+arr = Array.new(3,&amp;#34;a&amp;#34;)
+#bracket indexing
+arr = [1,2,3,4]
+puts arr[1]
+puts arr[-1]
+#dynamic size
+arr = []
+arr[3] = 3
+arr[5] = 6
+puts arr
+arr.delete_at(1)
+puts arr
+arr.delete(3)
+puts arr
+#multidimensional
+a = []
+a[0] = []
+puts a
+a[][] # error
+a = Array.new(3){Array.new(3)}
+#like sets
+a = [1,2,3,4]
+b = [4,5,6,7]
+puts a&amp;#43;b
+puts a|b
+puts a&amp;amp;b
+puts a-b
+#stack and queue behaviour
+a = [1,2,3]
+a.push(4)
+a.pop
+a.unshift(0)
+a.shift&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="collapsable-code">
+&lt;input id="683974215" type="checkbox" checked />
+&lt;label for="683974215">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Hashes&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -525,110 +648,110 @@ puts h&lt;/code>&lt;/pre>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align: left">&lt;/th>
-&lt;th style="text-align: left">Best Case&lt;/th>
-&lt;th style="text-align: left">Worst Case&lt;/th>
-&lt;th style="text-align: left">Average Case&lt;/th>
-&lt;th style="text-align: left">Space&lt;/th>
-&lt;th style="text-align: left">Stable?&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>Best Case&lt;/th>
+&lt;th>Worst Case&lt;/th>
+&lt;th>Average Case&lt;/th>
+&lt;th>Space&lt;/th>
+&lt;th>Stable?&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">Bubble Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
-&lt;td style="text-align: left">T&lt;/td>
+&lt;td>Bubble Sort&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Selection Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
-&lt;td style="text-align: left">F&lt;/td>
+&lt;td>Selection Sort&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Insertion Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
-&lt;td style="text-align: left">T&lt;/td>
+&lt;td>Insertion Sort&lt;/td>
+&lt;td>\(\Theta(n)\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Binary Search&lt;/td>
-&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(\lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(\lg n)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td>Binary Search&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>\(\Theta(\lg n)\)&lt;/td>
+&lt;td>\(\Theta(\lg n)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>N/A&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Merge Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n)\)&lt;/td>
-&lt;td style="text-align: left">T&lt;/td>
+&lt;td>Merge Sort&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n)\)&lt;/td>
+&lt;td>T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Heap Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
-&lt;td style="text-align: left">F&lt;/td>
+&lt;td>Heap Sort&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Quick Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n^{2})\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n \lg n)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(1)\)&lt;/td>
-&lt;td style="text-align: left">F&lt;/td>
+&lt;td>Quick Sort&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(n^{2})\)&lt;/td>
+&lt;td>\(\Theta(n \lg n)\)&lt;/td>
+&lt;td>\(\Theta(1)\)&lt;/td>
+&lt;td>F&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Counting Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
-&lt;td style="text-align: left">T&lt;/td>
+&lt;td>Counting Sort&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Radix Sort&lt;/td>
-&lt;td style="text-align: left">\(\Theta(df)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(n + k)\)&lt;/td>
-&lt;td style="text-align: left">\(f\)&lt;/td>
-&lt;td style="text-align: left">T&lt;/td>
+&lt;td>Radix Sort&lt;/td>
+&lt;td>\(\Theta(df)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(\Theta(n + k)\)&lt;/td>
+&lt;td>\(f\)&lt;/td>
+&lt;td>T&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Shortest Path&lt;/td>
-&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(V+E)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
-&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td>Shortest Path&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>\(\Theta(V+E)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>N/A&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Dijkstra&amp;rsquo;s&lt;/td>
-&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
-&lt;td style="text-align: left">\(\Theta(V^{2}+E)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
-&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td>Dijkstra&amp;rsquo;s&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>\(\Theta(V^{2}+E)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>N/A&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">BFT&lt;/td>
-&lt;td style="text-align: left">\(\mathcal{O}(V+E)\)&lt;/td>
-&lt;td style="text-align: left">\(\mathcal{O}(V+E)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
-&lt;td style="text-align: left">\(\Theta(V)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td>BFT&lt;/td>
+&lt;td>\(\mathcal{O}(V+E)\)&lt;/td>
+&lt;td>\(\mathcal{O}(V+E)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>\(\Theta(V)\)&lt;/td>
+&lt;td>N/A&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></content></item><item><title>MATH410</title><link>https://www.kandasamyc.com/wiki/math410/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/math410/</guid><description>&lt;h2 id="sep-02">Sep 02&lt;/h2>
@@ -637,7 +760,8 @@ puts h&lt;/code>&lt;/pre>
 &lt;p>\(a \lt \frac{m}{n} \lt b\)&lt;/p>
 &lt;p>\(na \lt m \lt nb\)&lt;/p>
 &lt;p>\(nb-na \gt 1 \Rightarrow a-b \gt \frac{1}{n}\)&lt;/p>
-&lt;p>By a thm, \(\exists m \in \Z \ni nb-1 \le m \lt nb\)&lt;/p></description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
+&lt;p>By a thm, \(\exists m \in \Z \ni nb-1 \le m \lt nb\)&lt;/p>
+&lt;p>Let a &amp;lt; b be two reals since b-a &amp;gt; 0 by AP ∃ n ∈ \N ∋ 1\m &amp;lt; b-a implies 1 &amp;lt; nb - na ⇒ na &amp;gt; nb-1&lt;/p></description><content>&lt;h2 id="sep-02">Sep 02&lt;/h2>
 &lt;p>A subset \(S\) of \(\R\) is &lt;strong>dense&lt;/strong> if and only if \(\forall a,b \in \R, a \lt b, \exists x \in S \ni a \lt x \lt b\)&lt;/p>
 &lt;p>Theorem 1. \(\mathbb{Q}\) is a dense subset of \(\R\)&lt;/p>
 &lt;p>\(a \lt \frac{m}{n} \lt b\)&lt;/p>
@@ -658,24 +782,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="691427853" type="checkbox" checked />
-&lt;label for="691427853">
-&lt;span class="collapsable-code__language">c&lt;/span>
-&lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
-&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
-&lt;/label>
-&lt;pre class="language-c line-numbers"
->&lt;code
->#include &amp;lt;stdio.h&amp;gt;
-#include &amp;lt;stdlib.h&amp;gt;
-#include &amp;lt;string.h&amp;gt;
-#define MAX_COLS 20 /* max # of columns to process */
-#define MAX_INPUT 1000&lt;/code>&lt;/pr</description><content>&lt;h2 id="c-syntax">C Syntax&lt;/h2>
-&lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
-&lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
-&lt;div class="collapsable-code">
-&lt;input id="691427853" type="checkbox" checked />
-&lt;label for="691427853">
+&lt;input id="685127439" type="checkbox" checked />
+&lt;label for="685127439">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -694,8 +802,150 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="346958217" type="checkbox" checked />
-&lt;label for="346958217">
+&lt;input id="792834651" type="checkbox" checked />
+&lt;label for="792834651">
+&lt;span class="collapsable-code__language">c&lt;/span>
+&lt;span class="collapsable-code__title">Main Function&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-c line-numbers"
+>&lt;code
+>int main(void){
+/* Some code */
+return 0;
+}&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h3 id="prototypes">Prototypes&lt;/h3>
+&lt;ul>
+&lt;li>The first function &amp;ldquo;declaration&amp;rdquo;&lt;/li>
+&lt;li>No body&lt;/li>
+&lt;li>Placed at the top to allow the compiler to do proper type checking&lt;/li>
+&lt;/ul>
+&lt;h2 id="basic-concepts">Basic Concepts&lt;/h2>
+&lt;h3 id="environments">Environments&lt;/h3>
+&lt;h4 id="translation-environment">Translation Environment&lt;/h4>
+&lt;ul>
+&lt;li>Source code get compiled into object code&lt;/li>
+&lt;li>Which then gets linked with other object code by the linker to form a single executable&lt;/li>
+&lt;/ul>
+&lt;h4 id="execution-environment">Execution Environment&lt;/h4>
+&lt;ul>
+&lt;li>The code is then excuted by loading it into memory (an os is not neccessary but usually used), setting it up, running it, and terminating it by returning &lt;a href="https://www.kandasamyc.com/wiki/cmsc216/#main-function">main&amp;rsquo;s&lt;/a> error code.&lt;/li>
+&lt;/ul>
+&lt;h3 id="lexical-rules">Lexical Rules&lt;/h3>
+&lt;h4 id="trigraphs">Trigraphs&lt;/h4>
+&lt;ul>
+&lt;li>A 3-sequence of a characters that may not be easily typeable&lt;/li>
+&lt;/ul>
+&lt;h4 id="comments">Comments&lt;/h4>
+&lt;ul>
+&lt;li>Begin with &lt;code>/*&lt;/code> and end with &lt;code>*/&lt;/code>&lt;/li>
+&lt;li>Can be multiple lines, by not nested
+&lt;ul>
+&lt;li>If they&amp;rsquo;re multiple lines, they get everything on those lines&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="declaration">Declaration&lt;/h3>
+&lt;ul>
+&lt;li>A declaration causes memory to be reserved for the variable&lt;/li>
+&lt;li>There is no extra instantiation&lt;/li>
+&lt;li>If variables are uninitialized they&amp;rsquo;ll just have garbage values&lt;/li>
+&lt;/ul>
+&lt;h3 id="expression-and-assignment">Expression and assignment&lt;/h3>
+&lt;ul>
+&lt;li>Assignment returns the value the variable was assigned&lt;/li>
+&lt;li>An expression can be a simple statement, its just not useful unless it has a side effect&lt;/li>
+&lt;/ul>
+&lt;h4 id="side-effect">Side Effect&lt;/h4>
+&lt;ul>
+&lt;li>A change in program state&lt;/li>
+&lt;/ul>
+&lt;h3 id="booleans-in-c">Booleans in C&lt;/h3>
+&lt;ul>
+&lt;li>There is no boolean type, 0 is false, non-zero is true&lt;/li>
+&lt;/ul>
+&lt;h3 id="arithmetic-conversion">Arithmetic Conversion&lt;/h3>
+&lt;ul>
+&lt;li>Both &lt;code>char&lt;/code> and &lt;code>short&lt;/code> types are promoted to &lt;code>int&lt;/code> types when doing math&lt;/li>
+&lt;li>If arithmetic operations are performed with different &lt;code>int&lt;/code> types, the smaller type is promoted to be the higher type&lt;/li>
+&lt;/ul>
+&lt;h2 id="standard-library">Standard Library&lt;/h2>
+&lt;h3 id="stdio">stdio&lt;/h3>
+&lt;h4 id="printf">printf&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>printf&lt;/code> takes in a character string with 0 or more format specifiers, if any are present, it also takes in that many other values after the string&lt;/li>
+&lt;li>They contain escape sequences, format specifiers, and normal characters&lt;/li>
+&lt;li>Format specifiers include
+&lt;ul>
+&lt;li>%d for integers&lt;/li>
+&lt;li>%f for floats&lt;/li>
+&lt;li>%c for characters&lt;/li>
+&lt;li>%u for unsigned int decimal&lt;/li>
+&lt;li>%x for unsigned int hex&lt;/li>
+&lt;li>%o for unsigned int octal&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Padding can be done by adding the number of spaces to pad by before the specifier (&amp;quot;%4d&amp;quot;)
+&lt;ul>
+&lt;li>You can fill with 0s instead by adding a 0 beforehand (&amp;quot;%04d&amp;quot;)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="scanf">scanf&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>scanf&lt;/code> takes in a character string with 0 or more format specifiers, if any are present, it also takes in that many other variable pointers after the string&lt;/li>
+&lt;li>It takes in format specifiers and reads each one into its corresponding variable&lt;/li>
+&lt;li>If too few variables are put in, scanf will wait&lt;/li>
+&lt;li>It too many variables are put in, they will remain in the input&lt;/li>
+&lt;li>If the last data in the input has been read, scanf returns a special &lt;code>EOF&lt;/code> value&lt;/li>
+&lt;li>Format specifiers include
+&lt;ul>
+&lt;li>%d for integers&lt;/li>
+&lt;li>%f for floats&lt;/li>
+&lt;li>%c for characters&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="feof">feof&lt;/h4>
+&lt;ul>
+&lt;li>&lt;code>feof(stdin)&lt;/code> will be true if the &lt;strong>previous&lt;/strong> try to read didn&amp;rsquo;t work because there was no more data&lt;/li>
+&lt;li>You must try to read something for &lt;code>feof&lt;/code> to work&lt;/li>
+&lt;/ul>
+&lt;h3 id="assert">assert&lt;/h3>
+&lt;ul>
+&lt;li>If &lt;code>assert()&lt;/code> argument is false, it will kill the program&lt;/li>
+&lt;/ul>
+&lt;h3 id="stddef">stddef&lt;/h3>
+&lt;h2 id="data">Data&lt;/h2>
+&lt;h3 id="integers">Integers&lt;/h3>
+&lt;h4 id="values">Values&lt;/h4>
+&lt;p>&lt;code>short&lt;/code> &amp;lt;= &lt;code>int&lt;/code> &amp;lt;= &lt;code>long&lt;/code>&lt;/p></description><content>&lt;h2 id="c-syntax">C Syntax&lt;/h2>
+&lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
+&lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
+&lt;div class="collapsable-code">
+&lt;input id="685127439" type="checkbox" checked />
+&lt;label for="685127439">
+&lt;span class="collapsable-code__language">c&lt;/span>
+&lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
+&lt;/label>
+&lt;pre class="language-c line-numbers"
+>&lt;code
+>#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#define MAX_COLS 20 /* max # of columns to process */
+#define MAX_INPUT 1000&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;p>&lt;code>#define&lt;/code> defines a constant value, &lt;code>#include&lt;/code> includes another file&amp;rsquo;s declarations.&lt;/p>
+&lt;h3 id="main-function">Main Function&lt;/h3>
+&lt;ul>
+&lt;li>Returns an int, takes no arguments (so void)&lt;/li>
+&lt;/ul>
+&lt;div class="collapsable-code">
+&lt;input id="792834651" type="checkbox" checked />
+&lt;label for="792834651">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -816,66 +1066,66 @@ return 0;
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align: left">Type&lt;/th>
-&lt;th style="text-align: left">Signedness&lt;/th>
-&lt;th style="text-align: left">Max Start&lt;/th>
-&lt;th style="text-align: left">Min End&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;th>Signedness&lt;/th>
+&lt;th>Max Start&lt;/th>
+&lt;th>Min End&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">int&lt;/td>
-&lt;td style="text-align: left">signed&lt;/td>
-&lt;td style="text-align: left">-32767&lt;/td>
-&lt;td style="text-align: left">32767&lt;/td>
+&lt;td>int&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>-32767&lt;/td>
+&lt;td>32767&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">unsigned int&lt;/td>
-&lt;td style="text-align: left">unsigned&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">65535&lt;/td>
+&lt;td>unsigned int&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>65535&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">short int&lt;/td>
-&lt;td style="text-align: left">unsigned&lt;/td>
-&lt;td style="text-align: left">-32767&lt;/td>
-&lt;td style="text-align: left">32767&lt;/td>
+&lt;td>short int&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>-32767&lt;/td>
+&lt;td>32767&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">unsigned short int&lt;/td>
-&lt;td style="text-align: left">signed&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">65535&lt;/td>
+&lt;td>unsigned short int&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>65535&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">long int&lt;/td>
-&lt;td style="text-align: left">signed&lt;/td>
-&lt;td style="text-align: left">-214783647&lt;/td>
-&lt;td style="text-align: left">2147483647&lt;/td>
+&lt;td>long int&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>-214783647&lt;/td>
+&lt;td>2147483647&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">unsigned long int&lt;/td>
-&lt;td style="text-align: left">unsigned&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">4294967295&lt;/td>
+&lt;td>unsigned long int&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>4294967295&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">char&lt;/td>
-&lt;td style="text-align: left">NA&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">127&lt;/td>
+&lt;td>char&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>127&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">signed char&lt;/td>
-&lt;td style="text-align: left">signed&lt;/td>
-&lt;td style="text-align: left">-127&lt;/td>
-&lt;td style="text-align: left">127&lt;/td>
+&lt;td>signed char&lt;/td>
+&lt;td>signed&lt;/td>
+&lt;td>-127&lt;/td>
+&lt;td>127&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">unsigned char&lt;/td>
-&lt;td style="text-align: left">unsigned&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">255&lt;/td>
+&lt;td>unsigned char&lt;/td>
+&lt;td>unsigned&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>255&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -894,8 +1144,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="543786921" type="checkbox" />
-&lt;label for="543786921">
+&lt;input id="253798614" type="checkbox" />
+&lt;label for="253798614">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -1370,8 +1620,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="392586714" type="checkbox" checked />
-&lt;label for="392586714">
+&lt;input id="935478216" type="checkbox" checked />
+&lt;label for="935478216">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1391,8 +1641,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="784916325" type="checkbox" checked />
-&lt;label for="784916325">
+&lt;input id="769213854" type="checkbox" checked />
+&lt;label for="769213854">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1412,8 +1662,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="543968172" type="checkbox" checked />
-&lt;label for="543968172">
+&lt;input id="475162839" type="checkbox" checked />
+&lt;label for="475162839">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -6105,86 +6355,86 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align: left">&lt;/th>
-&lt;th style="text-align: left">Average Case Complexity&lt;/th>
-&lt;th style="text-align: left">Worst Case Complexity&lt;/th>
-&lt;th style="text-align: left">Comparison Sort&lt;/th>
-&lt;th style="text-align: left">Can be in-place&lt;/th>
-&lt;th style="text-align: left">Can be stable&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>Average Case Complexity&lt;/th>
+&lt;th>Worst Case Complexity&lt;/th>
+&lt;th>Comparison Sort&lt;/th>
+&lt;th>Can be in-place&lt;/th>
+&lt;th>Can be stable&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#bubble-sort">Bubble Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#bubble-sort">Bubble Sort&lt;/a>&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#selection-sort">Selection Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#selection-sort">Selection Sort&lt;/a>&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#insertion-sort">Insertion Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#insertion-sort">Insertion Sort&lt;/a>&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#tree-sort">Tree Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#tree-sort">Tree Sort&lt;/a>&lt;/td>
+&lt;td>\(O(nlog(n))\)&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#heap-sort">Heap Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
-&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#heap-sort">Heap Sort&lt;/a>&lt;/td>
+&lt;td>\(O(nlog(n))\)&lt;/td>
+&lt;td>\(O(nlog(n))\)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#quick-sort">Quick Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
-&lt;td style="text-align: left">\(O(n^2)\)&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#quick-sort">Quick Sort&lt;/a>&lt;/td>
+&lt;td>\(O(nlog(n))\)&lt;/td>
+&lt;td>\(O(n^2)\)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>No&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#merge-sort">Merge Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
-&lt;td style="text-align: left">\(O(nlog(n))\)&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#merge-sort">Merge Sort&lt;/a>&lt;/td>
+&lt;td>\(O(nlog(n))\)&lt;/td>
+&lt;td>\(O(nlog(n))\)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#counting-sort">Counting Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#counting-sort">Counting Sort&lt;/a>&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#radix-sort">Radix Sort&lt;/a>&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
-&lt;td style="text-align: left">No&lt;/td>
-&lt;td style="text-align: left">Yes&lt;/td>
+&lt;td>&lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#radix-sort">Radix Sort&lt;/a>&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Yes&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -6221,126 +6471,126 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align: left">&lt;/th>
-&lt;th style="text-align: left">Unsorted Array&lt;/th>
-&lt;th style="text-align: left">Sorted Array&lt;/th>
-&lt;th style="text-align: left">Unsorted Linked List&lt;/th>
-&lt;th style="text-align: left">Balanced BST&lt;/th>
-&lt;th style="text-align: left">Degenerate BST&lt;/th>
-&lt;th style="text-align: left">Map/Set&lt;/th>
-&lt;th style="text-align: left">Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-matrix">Adjacency Matrix&lt;/a>&lt;/th>
-&lt;th style="text-align: left">Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-map-set">Adjacency Map/Set&lt;/a>&lt;/th>
-&lt;th style="text-align: left">Graph with Adjacency List&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>Unsorted Array&lt;/th>
+&lt;th>Sorted Array&lt;/th>
+&lt;th>Unsorted Linked List&lt;/th>
+&lt;th>Balanced BST&lt;/th>
+&lt;th>Degenerate BST&lt;/th>
+&lt;th>Map/Set&lt;/th>
+&lt;th>Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-matrix">Adjacency Matrix&lt;/a>&lt;/th>
+&lt;th>Graph with &lt;a href="https://www.kandasamyc.com/wiki/cmsc132/#adjacency-map-set">Adjacency Map/Set&lt;/a>&lt;/th>
+&lt;th>Graph with Adjacency List&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">Lookup and Insertion&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(log(n))\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
+&lt;td>Lookup and Insertion&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(log(n))\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Insertion&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(log(n))\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
+&lt;td>Insertion&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(log(n))\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Lookup and Deletion&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(log(n))\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
+&lt;td>Lookup and Deletion&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(log(n))\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Deletion&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
+&lt;td>Deletion&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Indexing&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
-&lt;td style="text-align: left">N/A&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
+&lt;td>Indexing&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Inserting an edge&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td>Inserting an edge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(m/n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Deleting an edge&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td>Deleting an edge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(m/n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Finding an edge&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
-&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(1)\)&lt;/td>
+&lt;td>Finding an edge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
+&lt;td>\(O(m/n)\)&lt;/td>
+&lt;td>\(O(1)\)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Iterating through neighbors of a vertex&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">\(O(n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
-&lt;td style="text-align: left">\(O(m/n)\)&lt;/td>
+&lt;td>Iterating through neighbors of a vertex&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>\(O(n)\)&lt;/td>
+&lt;td>\(O(m/n)\)&lt;/td>
+&lt;td>\(O(m/n)\)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></content></item><item><title>Links</title><link>https://www.kandasamyc.com/wiki/links/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.kandasamyc.com/wiki/links/</guid><description>&lt;h2 id="links">Links&lt;/h2>
@@ -10210,7 +10460,19 @@ Have someone playing devil&amp;rsquo;s advocate&lt;/li>
 &lt;p>To define a custom data type use the &lt;code>data&lt;/code> keyword.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> &lt;span style="color:#66d9ef">Argument&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">deriving&lt;/span> (&lt;span style="color:#66d9ef">Typeclass&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description><content>&lt;h2 id="custom-data-types">Custom Data Types&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>The &lt;code>TypeConstructor&lt;/code> is the name of the type, and use it when writing a type
+declaration or signature.&lt;/li>
+&lt;li>The &lt;code>ValueConstructor&lt;/code> is the keyword to use when constructing a instance of
+that type.&lt;/li>
+&lt;li>There can be any number of &lt;code>Argument&lt;/code> where each is the name of some actual
+type.&lt;/li>
+&lt;li>New data types can also optionally derive from multiple &lt;a href="https://www.kandasamyc.com/wiki/haskell-types/#typeclasses">Typeclasses&lt;/a>, separated by commas.&lt;/li>
+&lt;/ul>
+&lt;h2 id="algebraic-data-types">Algebraic Data Types&lt;/h2>
+&lt;p>An algebraic data type has more than one value constructor. Each alternative (or
+case) represents a possible value of the type constructor. Each alternative can
+have different numbers of arguments and different arguments altogether.&lt;/p></description><content>&lt;h2 id="custom-data-types">Custom Data Types&lt;/h2>
 &lt;p>Defining custom data types is akin to or C++&amp;rsquo;s or Rust&amp;rsquo;s Structs.&lt;/p>
 &lt;p>To define a custom data type use the &lt;code>data&lt;/code> keyword.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-haskell" data-lang="haskell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">data&lt;/span> &lt;span style="color:#66d9ef">TypeConstructor&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">ValueConstructor&lt;/span> &lt;span style="color:#66d9ef">Argument&lt;/span>
