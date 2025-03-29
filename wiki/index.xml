@@ -30,8 +30,8 @@
 &lt;/ul>
 &lt;h3 id="syntax">Syntax&lt;/h3>
 &lt;div class="collapsable-code">
-&lt;input id="694831275" type="checkbox" checked />
-&lt;label for="694831275">
+&lt;input id="421856739" type="checkbox" checked />
+&lt;label for="421856739">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Variables&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -50,8 +50,8 @@ puts my_list
 puts my_nil&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="973641852" type="checkbox" checked />
-&lt;label for="973641852">
+&lt;input id="956432781" type="checkbox" checked />
+&lt;label for="956432781">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Control Flow&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -77,8 +77,8 @@ end
 #prints 2,1,0,1,0,0,0,0,2&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="753284619" type="checkbox" checked />
-&lt;label for="753284619">
+&lt;input id="231657894" type="checkbox" checked />
+&lt;label for="231657894">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Strings, Symbols, and Equality&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -96,8 +96,8 @@ a.equal? a #true
 :&amp;#34;2test&amp;#34;.equal? :&amp;#34;2test&amp;#34; #true&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="341728965" type="checkbox" checked />
-&lt;label for="341728965">
+&lt;input id="528394716" type="checkbox" checked />
+&lt;label for="528394716">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Arrays&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -147,8 +147,8 @@ a.unshift(0)
 a.shift&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;div class="collapsable-code">
-&lt;input id="196254837" type="checkbox" checked />
-&lt;label for="196254837">
+&lt;input id="241687539" type="checkbox" checked />
+&lt;label for="241687539">
 &lt;span class="collapsable-code__language">ruby&lt;/span>
 &lt;span class="collapsable-code__title">Hashes&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -346,8 +346,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;h3 id="preprocessor-directives">Preprocessor Directives&lt;/h3>
 &lt;p>Code at the beginning of a file that starts with a #. This is run before compilation.&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="652147398" type="checkbox" checked />
-&lt;label for="652147398">
+&lt;input id="478652139" type="checkbox" checked />
+&lt;label for="478652139">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Preprocessor Directives&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -366,8 +366,8 @@ this limit goes to infinity&lt;/p></content></item><item><title>CMSC216</title><
 &lt;li>Returns an int, takes no arguments (so void)&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="268419753" type="checkbox" checked />
-&lt;label for="268419753">
+&lt;input id="576298134" type="checkbox" checked />
+&lt;label for="576298134">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__title">Main Function&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -566,8 +566,8 @@ return 0;
 &lt;li>The numbers after the name are optional&lt;/li>
 &lt;/ul>
 &lt;div class="collapsable-code">
-&lt;input id="168257349" type="checkbox" />
-&lt;label for="168257349">
+&lt;input id="419852367" type="checkbox" />
+&lt;label for="419852367">
 &lt;span class="collapsable-code__language">c&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
 &lt;/label>
@@ -1042,8 +1042,8 @@ return 0;
 &lt;li>
 &lt;p>Prologue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="481365927" type="checkbox" checked />
-&lt;label for="481365927">
+&lt;input id="384751926" type="checkbox" checked />
+&lt;label for="384751926">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Prologue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1063,8 +1063,8 @@ add $fp, $sp, 8
 &lt;li>
 &lt;p>Epilogue&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="579824361" type="checkbox" checked />
-&lt;label for="579824361">
+&lt;input id="182954763" type="checkbox" checked />
+&lt;label for="182954763">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">MIPS Assembly Function Epilogue&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -1084,8 +1084,8 @@ jr $ra
 &lt;li>
 &lt;p>Parameters + Return Value + Local Variables&lt;/p>
 &lt;div class="collapsable-code">
-&lt;input id="257638419" type="checkbox" checked />
-&lt;label for="257638419">
+&lt;input id="532697418" type="checkbox" checked />
+&lt;label for="532697418">
 &lt;span class="collapsable-code__language">nasm&lt;/span>
 &lt;span class="collapsable-code__title">Full MIPS Assembly Function Example&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
@@ -2518,7 +2518,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="x-rays">X-Rays&lt;/h3>
 &lt;ul>
 &lt;li>Discovered in November 1895&lt;/li>
-&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#wilhelm-röntgen">Wilhelm Röntgen&lt;/a>&lt;/li>
+&lt;li>Discovered by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#wilhelm-r%c3%b6ntgen">Wilhelm Röntgen&lt;/a>&lt;/li>
 &lt;li>Discovered by setting up another experiment and noticing a fluorscent material glowing when it shouldn&amp;rsquo;t have been&lt;/li>
 &lt;/ul>
 &lt;h3 id="radioactivity">Radioactivity&lt;/h3>
@@ -2604,9 +2604,9 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;h3 id="forms-of-quantum-mechanics">Forms of Quantum Mechanics&lt;/h3>
 &lt;ul>
 &lt;li>Both made in 1925&lt;/li>
-&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#erwin-schrödinger">Erwin Schrödinger&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#erwin-schr%c3%b6dinger">Erwin Schrödinger&lt;/a>&lt;/li>
 &lt;li>In 1926, &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#paul-dirac">Paul Dirac&lt;/a> showed that they were the same&lt;/li>
-&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#erwin-schrödinger">Erwin Schrödinger&lt;/a>&amp;rsquo;s version was based on wave equations&lt;/li>
+&lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#erwin-schr%c3%b6dinger">Erwin Schrödinger&lt;/a>&amp;rsquo;s version was based on wave equations&lt;/li>
 &lt;li>&lt;a href="https://www.kandasamyc.com/wiki/phys199m/#werner-heisenberg">Werner Heisenberg&lt;/a>&amp;rsquo;s version was based on matrices&lt;/li>
 &lt;/ul>
 &lt;h3 id="complmentarity">Complmentarity&lt;/h3>
@@ -2681,7 +2681,7 @@ This traces out a curve \((x(t),y(t))\) in the \(xy\text{-plane}\)&lt;/p>
 &lt;/ul>
 &lt;h3 id="semi-empirical-mass-formula">Semi-Empirical Mass Formula&lt;/h3>
 &lt;ul>
-&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#carl-von-weizsäcker">Carl von Weizsäcker&lt;/a>&lt;/li>
+&lt;li>Made by &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#hans-bethe">Hans Bethe&lt;/a> and &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#carl-von-weizs%c3%a4cker">Carl von Weizsäcker&lt;/a>&lt;/li>
 &lt;li>Based on &lt;a href="https://www.kandasamyc.com/wiki/phys199m/#liquid-drop-model">Liquid Drop Model&lt;/a>&lt;/li>
 &lt;li>This shows that fission is possible (there will be energy released)&lt;/li>
 &lt;/ul>
@@ -4765,7 +4765,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;li>SaaS: Software as a Service, least control, easiest to use&lt;/li>
 &lt;li>IaaS: Infrastructure as a Service, most control, least easy to use, usually using some specific tool&lt;/li>
 &lt;li>PaaS: Platform as a Service: more control, less easy to use, more configuration
-&lt;img src="https://www.kandasamyc.com/home/ksam/Downloads/SaaSIaaSPaaS.png">&lt;/li>
+&lt;img src="https://www.kandasamyc.com/home/ksam/Downloads/SaaSIaaSPaaS.png" alt="">&lt;/li>
 &lt;/ul>
 &lt;h3 id="manage">Manage&lt;/h3>
 &lt;h2 id="operating-systems-1">Operating Systems 1&lt;/h2>
@@ -5394,8 +5394,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Morality should address issues of caring and empathy and relationships between people rather than only or primarily the rational decisions of solitary moral agents. &lt;br />
-&amp;mdash;Virginia Held&lt;/p>
-&lt;/blockquote>
+&amp;mdash;Virginia Held&lt;/p>&lt;/blockquote>
 &lt;ul>
 &lt;li>Since women have often more experience in caretaking and caring, theorists suggest that women might have more insights here, but it is not by any means limited to just women, it should be everyone&lt;/li>
 &lt;li>Care Ethics provide a perspective on caring for others an nature that other western philosophies may not consider&lt;/li>
@@ -5453,8 +5452,7 @@ USB 3.1 - Transfer Speed: 10 Gbit/s (You can usually tell if a port is USB 3.1 c
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Gilligan’s findings indicated that even among culturally similar (white, American, middle class) subjects, two moral “voices” or paradigms of moral reasoning are evident: one focused on impersonal justice and rule-​following, the other focused on appropriate caretaking and meeting responsibilities within specific relationships&lt;/p>
-&lt;p>&amp;mdash; Whyte and Cuomo&lt;/p>
-&lt;/blockquote>
+&lt;p>&amp;mdash; Whyte and Cuomo&lt;/p>&lt;/blockquote>
 &lt;ul>
 &lt;li>These different views are often insightful and breaking the illusion that there is only can break gender roles and barriers in society&lt;/li>
 &lt;li>Using the knowledge here can build better relationship between people that does not take advantages of caretakers&lt;/li>

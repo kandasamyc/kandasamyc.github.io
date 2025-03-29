@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        
+
+        <link rel="stylesheet" href="assets/reveal-js/dist/reveal.css" />
+
+        
+            <link rel="stylesheet" href="assets/ksam.css" />
+        
+        
+            <link rel="stylesheet" href="assets/monokai.css" />
+        
+
+        
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown
+                
+                >
+                    <textarea data-template>
+                        # Git, Practically
+## Kandasamy Chokkalingam
+---
+# Overview
+
+1. About Version Control
+2. From First Principles
+3. The (Git) Circle of Life
+4. Branches on Branches
+5. Tips & Tricks
+---
+# About Version Control
+---
+# What is Version Control?
+
+Code changes - for better, or worse
+
+>&emsp;A well-used door needs no oil on its hinges.<br>
+>&emsp;A swift-flowing stream does not grow stagnant.<br>
+>&emsp;A deer blends perfectly into the forest colors.<br>
+>&emsp;Software rots if not used.<br>
+>&ensp;These are great mysteries.<br>
+> \- The Tao of Programming, Book 5, Section 1
+
+Version control helps you keep track of those changes
+
+At their core, VCS or (SCM) tools track changes to sets of files
+
+---
+
+# Local Development
+
+- Testing out ideas <!-- .element: class="fragment custom emph" data-fragment-index="0" -->
+  - Software development is a non-linear process <!-- .element: class="fragment custom emph" data-fragment-index="0" -->
+  - Work on multiple tasks <!-- .element: class="fragment custom emph" data-fragment-index="0" -->
+- History <!-- .element: class="fragment custom emph" data-fragment-index="1" -->
+  - Useful to have a log of what you did<!-- .element: class="fragment custom emph" data-fragment-index="1" -->
+  - Revert to previous changes<!-- .element: class="fragment custom emph" data-fragment-index="1" -->
+
+---
+<!-- .slide: data-auto-animate -->
+# Shared Work
+
+- Software development is a collaborative process
+
+It starts locally
+![](images/local_dev.png) <!-- .element: data-id="devimg" -->
+
+---
+<!-- .slide: data-auto-animate -->
+# Shared Work
+
+- Software development is a collaborative process
+Then we have multiple people to one central location
+![](images/central_dev.png) <!-- .element: data-id="devimg" -->
+
+---
+<!-- .slide: data-auto-animate -->
+# Shared Work
+
+- Software development is a collaborative process
+Finally, we distribute the code to multiple people
+![](images/distributed_dev.png) <!-- .element: data-id="devimg" -->
+
+---
+# From First Principles
+
+---
+# The (Git) Circle of Life
+
+Git has 3 parts to the lifecycle
+
+- The Working tree
+  - The actual current changes from the latest snapshot
+- The Stage
+  - What you plan to take a snapshot of
+- The HEAD
+  - The latest snapshot you're working off of
+
+---
+# Branches on Branches
+
+The lifecycle is especially powerful when the latest snapshot you're working off of can *change*
+
+- Branches are named snapshots you can *checkout* to work off of
+- Branches can have *divergent* history, making it neccessary to merge
+- A merge commit is a special snapshot that inherits from two different snapsots
+
+---
+# Tips & Tricks
+
+- Configuring =pull.rebase= to false makes pushing/pulling easier
+- Setting the diff mode can make resolving merge conflicts a lot easier
+  - try zdiff3!
+---
+                    </textarea>
+                </section>
+            </div>
+        </div>
+        <script src="assets/reveal-js/dist/reveal.js"></script>
+        <script src="assets/reveal-js/plugin/markdown/markdown.js"></script>
+        <script src="assets/reveal-js/plugin/highlight/highlight.js"></script>
+        <script src="assets/reveal-js/plugin/zoom/zoom.js"></script>
+        <script src="assets/reveal-js/plugin/notes/notes.js"></script>
+        <script src="assets/reveal-js/plugin/math/math.js"></script>
+
+        
+
+        <script>
+            Reveal.initialize({
+                
+                    
+                        history: true,
+                    
+                        slideNumber: "c/t",
+                    
+                
+                plugins: [
+                    RevealMarkdown,
+                    RevealHighlight,
+                    RevealZoom,
+                    RevealNotes,
+                    RevealMath,
+
+                    
+                ],
+            });
+        </script>
+    </body>
+</html>
